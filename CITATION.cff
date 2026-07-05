@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Awesome Retrieval Systems for LLMs"
+message: "If you use this list in your research, please cite it as below."
+type: software
+authors:
+  - name: "Awesome Retrieval Systems for LLMs Contributors"
+repository-code: "https://github.com/amirrezaalasti/Awesome-Retrieval-Systems-for-LLMs"
+url: "https://github.com/amirrezaalasti/Awesome-Retrieval-Systems-for-LLMs"
+license: MIT
+version: 1.0.0
+date-released: 2026-07-04
+keywords:
+  - retrieval-augmented generation
+  - RAG
+  - GraphRAG
+  - knowledge-augmented generation
+  - large language models
+  - information retrieval
+  - vector databases
+  - agentic retrieval
