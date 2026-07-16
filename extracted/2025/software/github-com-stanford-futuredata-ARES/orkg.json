@@ -1,0 +1,85 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-stanford-futuredata-ARES",
+    "source_url": "https://github.com/stanford-futuredata/ARES"
+  },
+  "fields": {
+    "system_name": {
+      "value": "ARES",
+      "reference": "ARES is a groundbreaking framework for evaluating Retrieval-Augmented Generation (RAG) models. The automated process combines synthetic data generation with fine-tuned classifiers to efficiently assess context relevance, answer faithfulness, and answer relevance, minimizing the need for extensive human annotations.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "ARES is a groundbreaking framework for evaluating Retrieval-Augmented Generation (RAG) models. The automated process combines synthetic data generation with fine-tuned classifiers to efficiently assess context relevance, answer faithfulness, and answer relevance, minimizing the need for extensive human annotations."
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "ARES is a groundbreaking framework for evaluating Retrieval-Augmented Generation (RAG) models. The automated process combines synthetic data generation with fine-tuned classifiers to efficiently assess context relevance, answer faithfulness, and answer relevance, minimizing the need for extensive human annotations.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "ARES is a groundbreaking framework for evaluating Retrieval-Augmented Generation (RAG) models. The automated process combines synthetic data generation with fine-tuned classifiers to efficiently assess context relevance, answer faithfulness, and answer relevance, minimizing the need for extensive human annotations."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "Text Chunks"
+      ],
+      "reference": "A human preference validation set of annotated query, document, and answer triples for the evaluation criteria (e.g. context relevance, answer faithfulness, and/or answer relevance). There should be at least 50 examples but several hundred examples is ideal.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "A human preference validation set of annotated query, document, and answer triples for the evaluation criteria (e.g. context relevance, answer faithfulness, and/or answer relevance). There should be at least 50 examples but several hundred examples is ideal."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "ARES is a groundbreaking framework for evaluating Retrieval-Augmented Generation (RAG) models. The automated process combines synthetic data generation with fine-tuned classifiers to efficiently assess context relevance, answer faithfulness, and answer relevance",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "ARES is a groundbreaking framework for evaluating Retrieval-Augmented Generation (RAG) models. The automated process combines synthetic data generation with fine-tuned classifiers to efficiently assess context relevance, answer faithfulness, and answer relevance"
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents"
+      ],
+      "reference": "Yes, ARES is a model-agnostic tool that enables you to generate synthetic queries and answers from your documents. With ARES, you can evaluate these generated queries and answers from your RAG model.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Yes, ARES is a model-agnostic tool that enables you to generate synthetic queries and answers from your documents. With ARES, you can evaluate these generated queries and answers from your RAG model."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "This includes the 'few_shot_prompt' file for judge scoring and synthetic query generation, as well as both labeled and unlabeled datasets.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This includes the 'few_shot_prompt' file for judge scoring and synthetic query generation, as well as both labeled and unlabeled datasets."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "\"rag_type\": \"question_answering\",",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "\"rag_type\": \"question_answering\","
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 2,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T18:00:29.279654+00:00"
+  }
+}

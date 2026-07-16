@@ -1,0 +1,88 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2020,
+    "type": "software",
+    "slug": "github-com-facebookresearch-DPR",
+    "source_url": "https://github.com/facebookresearch/DPR"
+  },
+  "fields": {
+    "system_name": {
+      "value": "DPR",
+      "reference": "Dense Passage Retrieval (`DPR`) - is a set of tools and models for state-of-the-art open-domain Q&A research.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Dense Passage Retrieval (`DPR`) - is a set of tools and models for state-of-the-art open-domain Q&A research."
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "Dense Passage Retrieval (`DPR`) - is a set of tools and models for state-of-the-art open-domain Q&A research.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Dense Passage Retrieval (`DPR`) - is a set of tools and models for state-of-the-art open-domain Q&A research."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "Generating representation vectors for the static documents dataset is a highly parallelizable process which can take up to a few days if computed on a single GPU.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Generating representation vectors for the static documents dataset is a highly parallelizable process which can take up to a few days if computed on a single GPU."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "Their toolkit also reports higher BM25 and hybrid scores.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Their toolkit also reports higher BM25 and hybrid scores."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "Dense retriever component for inference time logic is based on FAISS index.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Dense retriever component for inference time logic is based on FAISS index."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Dense Passage Retrieval (`DPR`) - is a set of tools and models for state-of-the-art open-domain Q&A research.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Dense Passage Retrieval (`DPR`) - is a set of tools and models for state-of-the-art open-domain Q&A research."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Extractive Q&A reader&ranker joint model inspired by this paper.",
+      "verified": true,
+      "verification_score": 0.8906,
+      "verification_method": "fuzzy",
+      "matched_span": "ures\n1. Dense retriever model is based on bi-encoder architecture.\n2. Extractive Q&A reader&ranker joint"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:14:12.484159+00:00"
+  }
+}

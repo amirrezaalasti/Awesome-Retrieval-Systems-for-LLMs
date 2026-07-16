@@ -1,0 +1,87 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2019,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2004-04906",
+    "source_url": "https://arxiv.org/abs/2004.04906"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Dense Passage Retriever (DPR)",
+      "reference": "Our Dense Passage Retriever (DPR) is exceptionally strong. It not only outperforms BM25 by a large margin (65.2% vs. 42.9% in Top-5 accuracy), but also results in a substantial improvement on the end-to-end QA accuracy compared to ORQA",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Our Dense Passage Retriever (DPR) is exceptionally strong. It not only outperforms BM25 by a large margin (65.2% vs. 42.9% in Top-5 accuracy), but also results in a substantial improvement on the end-to-end QA accuracy compared to ORQA"
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "During inference time, we apply the passage encoder E P to all the passages and index them using FAISS (Johnson et al., 2017) offline. FAISS is an extremely efficient, open-source library for similarity search and clustering of dense vectors, which can easily be applied to billions of vectors.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "During inference time, we apply the passage encoder E P to all the passages and index them using FAISS (Johnson et al., 2017) offline. FAISS is an extremely efficient, open-source library for similarity search and clustering of dense vectors, which can easily be applied to billions of vectors."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks"
+      ],
+      "reference": "We then split each article into multiple, disjoint text blocks of 100 words as passages, serving as our basic retrieval units, following (Wang et al., 2019), which results in 21,015,324 passages in the end.",
+      "verified": true,
+      "verification_score": 0.966,
+      "verification_method": "fuzzy",
+      "matched_span": "as tables, infoboxes, lists, as well as the disambiguation pages. We then split each article into multiple, disjoint text blocks of 100 words as passages , serving as our basic retrieval units, following (Wang et al., 2019), which results in 21,0"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "In addition to DPR, we also present the results of BM25, the traditional retrieval method and BM25+DPR, using a linear combination of their scores as the new ranking function.",
+      "verified": true,
+      "verification_score": 0.9314,
+      "verification_method": "fuzzy",
+      "matched_span": "encoders for up to 40 epochs for large datasets (NQ, TriviaQA, SQuAD) and 100 epochs for small datasets (TREC, WQ), with a learning rate of 10 -5 using Adam, linear scheduling with warm-up and dropout rate 0 . 1 ."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "With the help of FAISS in-memory index for real-valued vectors, DPR can be made incredibly efficient, processing 995.0 questions per second, returning top 100 passages per question. In contrast, BM25/Lucene (implemented in Java, using file index) processes 23.7 questions per second per CPU thread.",
+      "verified": true,
+      "verification_score": 0.9161,
+      "verification_method": "fuzzy",
+      "matched_span": "espectively), while still greatly outperforming the BM25 baseline (55.0/70.9).\n\n## 5.3 Qualitative Analysis\n\nAlthough DPR performs better than BM25 in general, passages retrieved by these two methods differ qualitatively. Term-matching methods like BM25 are sensitive to highly selective keywords and phrases, while DPR captures lexical v"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Open-domain question answering (QA) (Voorhees, 1999) is a task that answers factoid questions using a large collection of documents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Open-domain question answering (QA) (Voorhees, 1999) is a task that answers factoid questions using a large collection of documents."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "a context retriever first selects a small subset of passages where some of them contain the answer to the question, and then (2) a machine reader can thoroughly examine the retrieved contexts and identify the correct answer",
+      "verified": true,
+      "verification_score": 0.9283,
+      "verification_method": "fuzzy",
+      "matched_span": "a much simplified two-stage framework: (1) a context retriever fi rst selects a small subset of passages where some of them contain the answer to the question, and then (2) a machine reader can thoroughly examine the retrieved contexts and identify the correct an"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:45:52.980474+00:00"
+  }
+}

@@ -6,3 +6,8 @@ Thumbs.db
 .idea/
 .vscode/
 *.log
+.env
+orkg_upload_manifest.json
+.venv/
+__pycache__/
+*.pyc

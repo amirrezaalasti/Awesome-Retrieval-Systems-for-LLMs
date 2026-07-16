@@ -1,0 +1,91 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2308-08155",
+    "source_url": "https://arxiv.org/abs/2308.08155"
+  },
+  "fields": {
+    "system_name": {
+      "value": "AutoGen",
+      "reference": "AutoGen is an open-source framework that allows developers to build LLM applications via multiple agents that can converse with each other to accomplish tasks.",
+      "verified": true,
+      "verification_score": 0.956,
+      "verification_method": "fuzzy",
+      "matched_span": "ge -->\n\n## Abstract\n\nAutoGen 2 is an open-source framework that allows developers to build LLM applications via multiple agents that can converse with each other to accomplish tasks. AutoGen agents a"
+    },
+    "system_category": {
+      "value": "Agentic & Reasoning-Centric Retrieval",
+      "reference": "AutoGen agents are customizable, conversable, and can operate in various modes that employ combinations of LLMs, human inputs, and tools.",
+      "verified": true,
+      "verification_score": 0.9708,
+      "verification_method": "fuzzy",
+      "matched_span": "her to accomplish tasks. AutoGen agents are customizable, conversable , and can operate in various modes that employ combinations of LLMs, human inputs, and tools. Using AutoGen"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "The Retrieval-augmented User Proxy includes a vector database (Chroma, 2023) with SentenceTransformers (Reimers & Gurevych, 2019) as the context retriever.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "The Retrieval-augmented User Proxy includes a vector database (Chroma, 2023) with SentenceTransformers (Reimers & Gurevych, 2019) as the context retriever."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Agentic Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "whenever the retrieved context does not contain the information, instead of terminating, the LLM-based assistant would reply ' Sorry, I cannot find any information about... UPDATE CONTEXT. ' which will invoke more retrieval attempts.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "whenever the retrieved context does not contain the information, instead of terminating, the LLM-based assistant would reply ' Sorry, I cannot find any information about... UPDATE CONTEXT. ' which will invoke more retrieval attempts."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database"
+      ],
+      "reference": "The Retrieval-augmented User Proxy includes a vector database (Chroma, 2023) with SentenceTransformers (Reimers & Gurevych, 2019) as the context retriever.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "The Retrieval-augmented User Proxy includes a vector database (Chroma, 2023) with SentenceTransformers (Reimers & Gurevych, 2019) as the context retriever."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "HTML"
+      ],
+      "reference": "Below is the HTML code of the webpage where the agent should solve a task.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Below is the HTML code of the webpage where the agent should solve a task."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Agentic Planning",
+        "Reflection",
+        "Tool Use"
+      ],
+      "reference": "AutoGen agents are customizable, conversable, and can operate in various modes that employ combinations of LLMs, human inputs, and tools.",
+      "verified": true,
+      "verification_score": 0.9708,
+      "verification_method": "fuzzy",
+      "matched_span": "her to accomplish tasks. AutoGen agents are customizable, conversable , and can operate in various modes that employ combinations of LLMs, human inputs, and tools. Using AutoGen"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:06:54.331681+00:00"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2021,
+    "type": "software",
+    "slug": "github-com-stanford-futuredata-ColBERT",
+    "source_url": "https://github.com/stanford-futuredata/ColBERT"
+  },
+  "fields": {
+    "system_name": {
+      "value": "ColBERT",
+      "reference": "ColBERT is a fast and accurate retrieval model, enabling scalable BERT-based search over large text collections in tens of milliseconds.",
+      "verified": true,
+      "verification_score": 0.9485,
+      "verification_method": "fuzzy",
+      "matched_span": "eft\">\n\n# ColBERT (v2)\n\n### ColBERT is a _fast_ and _accurate_ retrieval model, enabling scalable BERT-based search over large text collections in tens of milliseconds.\n\n[<img a"
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "ColBERT relies on fine-grained contextual late interaction: it encodes each passage into a matrix of token-level embeddings (shown above in blue).",
+      "verified": true,
+      "verification_score": 0.9452,
+      "verification_method": "fuzzy",
+      "matched_span": "p>\n\nAs Figure 1 illustrates, ColBERT relies on fine-grained **contextual late interaction**: it encodes each passage into a **matrix** of token-level embeddings (shown above in blue). Th"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks"
+      ],
+      "reference": "At its simplest, ColBERT works with tab-separated (TSV) files: a file (e.g., collection.tsv) will contain all passages and another (e.g., queries.tsv) will contain a set of queries for searching the collection.",
+      "verified": true,
+      "verification_score": 0.981,
+      "verification_method": "fuzzy",
+      "matched_span": "llowing steps.\n\n**Step 0: Preprocess your collection.** At its simplest, ColBERT works with tab-separated (TSV) files: a file (e.g., `collection.tsv`) will contain all passages and another (e.g., `queries.tsv`) will contain a set of queries for searc"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "it embeds every query into another matrix (shown in green) and efficiently finds passages that contextually match the query using scalable vector-similarity (MaxSim) operators.",
+      "verified": true,
+      "verification_score": 0.9375,
+      "verification_method": "fuzzy",
+      "matched_span": "Then at search time, it embeds every query into another matrix (shown in green) and efficiently finds passages that contextually match the query using scalable vector-similarity (`MaxSim`) operators.\n\nThese rich inte"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database"
+      ],
+      "reference": "This step encodes all passages into matrices, stores them on disk, and builds data structures for efficient search.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This step encodes all passages into matrices, stores them on disk, and builds data structures for efficient search."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "ColBERT is a fast and accurate retrieval model, enabling scalable BERT-based search over large text collections in tens of milliseconds.",
+      "verified": true,
+      "verification_score": 0.9485,
+      "verification_method": "fuzzy",
+      "matched_span": "eft\">\n\n# ColBERT (v2)\n\n### ColBERT is a _fast_ and _accurate_ retrieval model, enabling scalable BERT-based search over large text collections in tens of milliseconds.\n\n[<img a"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "you can issue queries over the collection to retrieve the top-k passages for each query.",
+      "verified": true,
+      "verification_score": 0.8889,
+      "verification_method": "fuzzy",
+      "matched_span": "collection with your queries.** Given the model and index, you can [issue queries over the collection](#retrieval) to retrieve the top-k passages for"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:15:22.753644+00:00"
+  }
+}

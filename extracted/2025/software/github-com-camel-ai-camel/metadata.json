@@ -1,0 +1,15 @@
+{
+  "year": 2025,
+  "type": "software",
+  "source_url": "https://github.com/camel-ai/camel",
+  "slug": "github-com-camel-ai-camel",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:41.247550+00:00",
+  "owner": "camel-ai",
+  "repo": "camel",
+  "api_url": "https://api.github.com/repos/camel-ai/camel",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/camel-ai/camel/master/README.md",
+  "source_type": "github",
+  "content_chars": 27737
+}

@@ -1,0 +1,92 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "software",
+    "slug": "github-com-opendatalab-MinerU",
+    "source_url": "https://github.com/opendatalab/MinerU"
+  },
+  "fields": {
+    "system_name": {
+      "value": "MinerU",
+      "reference": "MinerU is a document parsing tool that converts `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs into machine-readable formats such as Markdown and JSON for downstream retrieval, extraction, and processing.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "MinerU is a document parsing tool that converts `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs into machine-readable formats such as Markdown and JSON for downstream retrieval, extraction, and processing."
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "MinerU — High-accuracy document parsing engine for LLM · RAG · Agent workflows",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "MinerU — High-accuracy document parsing engine for LLM · RAG · Agent workflows"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "Tables",
+        "Multimodal Documents"
+      ],
+      "reference": "Converts PDF · DOCX · PPTX · XLSX · Images · Web pages into structured Markdown / JSON · VLM+OCR dual engine · 109 languages",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Converts PDF · DOCX · PPTX · XLSX · Images · Web pages into structured Markdown / JSON · VLM+OCR dual engine · 109 languages"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "MinerU is a document parsing tool that converts `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs into machine-readable formats such as Markdown and JSON for downstream retrieval, extraction, and processing.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "MinerU is a document parsing tool that converts `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs into machine-readable formats such as Markdown and JSON for downstream retrieval, extraction, and processing."
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents",
+        "Multimodal Corpora"
+      ],
+      "reference": "Support `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Support `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Tables",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "Converts PDF · DOCX · PPTX · XLSX · Images · Web pages into structured Markdown / JSON · VLM+OCR dual engine · 109 languages",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Converts PDF · DOCX · PPTX · XLSX · Images · Web pages into structured Markdown / JSON · VLM+OCR dual engine · 109 languages"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "MinerU is a document parsing tool that converts `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs into machine-readable formats such as Markdown and JSON for downstream retrieval, extraction, and processing.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "MinerU is a document parsing tool that converts `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs into machine-readable formats such as Markdown and JSON for downstream retrieval, extraction, and processing."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:10:03.153614+00:00"
+  }
+}

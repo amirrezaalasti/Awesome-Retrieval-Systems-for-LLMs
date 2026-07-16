@@ -1,0 +1,97 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2409-13731",
+    "source_url": "https://arxiv.org/abs/2409.13731"
+  },
+  "fields": {
+    "system_name": {
+      "value": "KAG",
+      "reference": "In this work, we introduce a professional domain knowledge service framework called Knowledge Augmented Generation ( KAG ).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "In this work, we introduce a professional domain knowledge service framework called Knowledge Augmented Generation ( KAG )."
+    },
+    "system_category": {
+      "value": "Knowledge-Augmented Generation (KAG)",
+      "reference": "we introduce a professional domain knowledge service framework called Knowledge Augmented Generation ( KAG ). KAG is designed to address the aforementioned challenges with the motivation of making full use of the advantages of knowledge graph(KG) and vector retrieval",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we introduce a professional domain knowledge service framework called Knowledge Augmented Generation ( KAG ). KAG is designed to address the aforementioned challenges with the motivation of making full use of the advantages of knowledge graph(KG) and vector retrieval"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Knowledge Graphs",
+        "Ontologies"
+      ],
+      "reference": "it includes four core data structures: 1) Shared Schema s are coarse-grained-types pre-defined as SPG Classes at project level, it includes EntityType s, ConceptType s, and EventType s... 3) Text Chunks are special entity node that conforms to the definition of the Chunk EntityType.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "it includes four core data structures: 1) Shared Schema s are coarse-grained-types pre-defined as SPG Classes at project level, it includes EntityType s, ConceptType s, and EventType s... 3) Text Chunks are special entity node that conforms to the definition of the Chunk EntityType."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Hybrid Retrieval",
+        "Graph Retrieval",
+        "KG Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "the GraphRetrieval module performs KG structure retrieval according to the logical form clause to obtain structured graph results. Another key module, HybridRetrieval, combining natural language expressed sub-problems and logical functions for comprehensive retrieval of documents and sub-graph information.",
+      "verified": true,
+      "verification_score": 0.9805,
+      "verification_method": "fuzzy",
+      "matched_span": "o express the question, so that it can express explicit semantic relations. Similar to IRCOT, we decompose complex original problem and plan out various execution actions such as multi-step retrieval, numerical reasoning, logical reasoning, and semantic deduce. Each sub-problem is expressed using logical form functions, and dependencies between"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Knowledge Graph",
+        "Enterprise Documents"
+      ],
+      "reference": "1) KG Store. Store KG data structures in LPG databases, such as TuGraph, Neo4J. 2) Vector Store. Store text and vectors in a vector storage engine, such as ElasticSearch, Milvus, or the vector storage embedded in the LPG engine.",
+      "verified": true,
+      "verification_score": 0.9781,
+      "verification_method": "fuzzy",
+      "matched_span": "o obtain their finegrained semantic types. , and two storage structures: 1) KG Store . Store KG data structures in LPG databases, such as TuGraph, Neo4J. 2) Vector Store . Store text and vectors in a vector storage engine, such as ElasticSearch, Milvus, or the vector"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF"
+      ],
+      "reference": "KAGis applied in two professional Q&A scenarios within Ant Group: E-Government and E-Health. In the E-Government scenario, it answers users' questions about administrative processes based on a given repository of documents.",
+      "verified": true,
+      "verification_score": 0.9148,
+      "verification_method": "fuzzy",
+      "matched_span": "able enhancements.\n\nKAGis applied in two professional Q&amp;A scenarios within Ant Group: E-Government and E-Health. In the E-Government scenario, it answers users' questions about administrative processes based on a given repository of documents. For E-Health, i"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Logical Retrieval",
+        "Symbolic Reasoning",
+        "Reflection",
+        "Tool Use"
+      ],
+      "reference": "we designed a multi-turn solving mechanism based on reflection and global memory, inspired by ReSP. The KAG solving process first decomposes the current question into a list of subquestions represented in logical form, and performs hybrid reasoning to solve them.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "we designed a multi-turn solving mechanism based on reflection and global memory, inspired by ReSP. The KAG solving process first decomposes the current question into a list of subquestions represented in logical form, and performs hybrid reasoning to solve them."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:10:12.813108+00:00"
+  }
+}

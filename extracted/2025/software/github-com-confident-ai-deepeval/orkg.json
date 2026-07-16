@@ -1,0 +1,94 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-confident-ai-deepeval",
+    "source_url": "https://github.com/confident-ai/deepeval"
+  },
+  "fields": {
+    "system_name": {
+      "value": "DeepEval",
+      "reference": "**DeepEval** is a simple-to-use, open-source LLM evaluation framework, for evaluating large-language model systems.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "**DeepEval** is a simple-to-use, open-source LLM evaluation framework, for evaluating large-language model systems."
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "DeepEval incorporates the latest research to run evals via metrics such as G-Eval, task completion, answer relevancy, hallucination, etc., which uses LLM-as-a-judge and other NLP models that run locally on your machine.",
+      "verified": true,
+      "verification_score": 0.9817,
+      "verification_method": "fuzzy",
+      "matched_span": ".readme-i18n.com/confident-ai/deepeval?lang=zh\">中文</a>\n</p>\n\n**DeepEval** is a simple-to-use, open-source LLM evaluation framework, for evaluating large-language model systems. It is similar to Pytest but specialized for unit testing LLM apps. DeepEval incorp"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Multimodal Documents"
+      ],
+      "reference": "measure how well the RAG pipeline's retrieval context aligns with the expected output... evaluate image generation quality based on semantic consistency and perceptual quality",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "measure how well the RAG pipeline's retrieval context aligns with the expected output... evaluate image generation quality based on semantic consistency and perceptual quality"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Agentic Retrieval",
+        "Tool Retrieval"
+      ],
+      "reference": "evaluate whether the RAG pipeline's output factually aligns with the retrieval context... check if the right tools were called with the right arguments",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "evaluate whether the RAG pipeline's output factually aligns with the retrieval context... check if the right tools were called with the right arguments"
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents",
+        "Multimodal Corpora"
+      ],
+      "reference": "Whether you're building AI agents, RAG pipelines, or chatbots, implemented via LangChain or OpenAI, DeepEval has you covered.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Whether you're building AI agents, RAG pipelines, or chatbots, implemented via LangChain or OpenAI, DeepEval has you covered."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "evaluate image generation quality based on semantic consistency and perceptual quality... measure how well images align with their accompanying text",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "evaluate image generation quality based on semantic consistency and perceptual quality... measure how well images align with their accompanying text"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Agentic Planning",
+        "Tool Use",
+        "Reflection"
+      ],
+      "reference": "evaluate whether an agent accomplished its goal... check if the right tools were called with the right arguments... evaluate the quality of the agent's plan",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "evaluate whether an agent accomplished its goal... check if the right tools were called with the right arguments... evaluate the quality of the agent's plan"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:27:45.178174+00:00"
+  }
+}

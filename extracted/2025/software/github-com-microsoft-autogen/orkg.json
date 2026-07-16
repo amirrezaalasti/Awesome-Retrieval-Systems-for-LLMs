@@ -1,0 +1,90 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-microsoft-autogen",
+    "source_url": "https://github.com/microsoft/autogen"
+  },
+  "fields": {
+    "system_name": {
+      "value": "AutoGen",
+      "reference": "**AutoGen** is a framework for creating multi-agent AI applications that can act autonomously or work alongside humans.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "**AutoGen** is a framework for creating multi-agent AI applications that can act autonomously or work alongside humans."
+    },
+    "system_category": {
+      "value": "Agentic & Reasoning-Centric Retrieval",
+      "reference": "**AutoGen** is a framework for creating multi-agent AI applications that can act autonomously or work alongside humans.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "**AutoGen** is a framework for creating multi-agent AI applications that can act autonomously or work alongside humans."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "APIs"
+      ],
+      "reference": "Magentic-One is a state-of-the-art multi-agent team built using AgentChat API and Extensions API that can handle a variety of tasks that require web browsing, code execution, and file handling.",
+      "verified": true,
+      "verification_score": 0.9637,
+      "verification_method": "fuzzy",
+      "matched_span": "dio Screenshot\" width=\"500\">\n</div>\n\n- [AutoGen Studio](./python/packages/autogen-studio/) provides a no-code GUI for building multi-agent applications.\n- [AutoGen Bench](./python/packages/agbench/) provides a benchmarking suite for"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Agentic Retrieval",
+        "Tool Retrieval"
+      ],
+      "reference": "You can use `AgentTool` to create a basic multi-agent orchestration setup.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "You can use `AgentTool` to create a basic multi-agent orchestration setup."
+    },
+    "knowledge_source": {
+      "value": [
+        "Web Search",
+        "Enterprise Documents"
+      ],
+      "reference": "Magentic-One is a state-of-the-art multi-agent team built using AgentChat API and Extensions API that can handle a variety of tasks that require web browsing, code execution, and file handling.",
+      "verified": true,
+      "verification_score": 0.9637,
+      "verification_method": "fuzzy",
+      "matched_span": "dio Screenshot\" width=\"500\">\n</div>\n\n- [AutoGen Studio](./python/packages/autogen-studio/) provides a no-code GUI for building multi-agent applications.\n- [AutoGen Bench](./python/packages/agbench/) provides a benchmarking suite for"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "HTML"
+      ],
+      "reference": "Create a web browsing assistant agent that uses the Playwright MCP server.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Create a web browsing assistant agent that uses the Playwright MCP server."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Agentic Planning",
+        "Tool Use"
+      ],
+      "reference": "agent = AssistantAgent(\"assistant\", system_message=\"You are a general assistant. Use expert tools when needed.\", model_client=model_client, model_client_stream=True, tools=[math_agent_tool, chemistry_agent_tool], max_tool_iterations=10,)",
+      "verified": true,
+      "verification_score": 0.9831,
+      "verification_method": "fuzzy",
+      "matched_span": "istry_agent = AssistantAgent(\n        \"chemistry_expert\",\n        model_client=model_client,\n        system_message=\"You are a chemistry expert.\",\n        description=\"A chemistry expert assistant.\",\n        model_client_stream=True,\n    )\n    chemistry_agent_tool = AgentTool("
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:46:05.600417+00:00"
+  }
+}

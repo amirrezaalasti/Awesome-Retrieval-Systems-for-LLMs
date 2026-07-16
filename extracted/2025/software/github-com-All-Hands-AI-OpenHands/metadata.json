@@ -1,0 +1,15 @@
+{
+  "year": 2025,
+  "type": "software",
+  "source_url": "https://github.com/All-Hands-AI/OpenHands",
+  "slug": "github-com-All-Hands-AI-OpenHands",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:40.679452+00:00",
+  "owner": "All-Hands-AI",
+  "repo": "OpenHands",
+  "api_url": "https://api.github.com/repos/All-Hands-AI/OpenHands",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/All-Hands-AI/OpenHands/main/README.md",
+  "source_type": "github",
+  "content_chars": 7307
+}

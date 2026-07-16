@@ -1,0 +1,86 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-haotian-liu-LLaVA",
+    "source_url": "https://github.com/haotian-liu/LLaVA"
+  },
+  "fields": {
+    "system_name": {
+      "value": "LLaVA",
+      "reference": "🌋 LLaVA: Large Language and Vision Assistant",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "🌋 LLaVA: Large Language and Vision Assistant"
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Visual instruction tuning towards large language and vision models with GPT-4 level capabilities."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Multimodal Documents"
+      ],
+      "reference": "use 150K GPT-generated multimodal instruction-following data, plus around 515K VQA data from academic-oriented tasks, to teach the model to follow multimodal instructions.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "use 150K GPT-generated multimodal instruction-following data, plus around 515K VQA data from academic-oriented tasks, to teach the model to follow multimodal instructions."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Tool Retrieval"
+      ],
+      "reference": "[LLaVA-Plus](https://llava-vl.github.io/llava-plus/) is released: Learning to Use Tools for Creating Multimodal Agents, with LLaVA-Plus (LLaVA that Plug and Learn to Use Skills).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "[LLaVA-Plus](https://llava-vl.github.io/llava-plus/) is released: Learning to Use Tools for Creating Multimodal Agents, with LLaVA-Plus (LLaVA that Plug and Learn to Use Skills)."
+    },
+    "knowledge_source": {
+      "value": [
+        "Multimodal Corpora"
+      ],
+      "reference": "Please download the 558K subset of the LAION-CC-SBU dataset with BLIP captions we use in the paper here.",
+      "verified": true,
+      "verification_score": 0.9231,
+      "verification_method": "fuzzy",
+      "matched_span": "---: | ---: | ---: | ---: | ---: |\n| LLaVA-v1.5-13B | 128 | 2e-5 | 1 | 2048 | 0 |\n\n### Download Vicuna checkpoints (automatically)\n\nOur base mod"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Images",
+        "Video"
+      ],
+      "reference": "🔥 **LLaVA-NeXT** (Video) is released. The image-only-trained LLaVA-NeXT model is surprisingly strong on video tasks with zero-shot modality transfer.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "🔥 **LLaVA-NeXT** (Video) is released. The image-only-trained LLaVA-NeXT model is surprisingly strong on video tasks with zero-shot modality transfer."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Tool Use"
+      ],
+      "reference": "LLaVA-Plus (LLaVA that Plug and Learn to Use Skills). [[Project Page](https://llava-vl.github.io/llava-plus/)] [[Demo](https://llavaplus.ngrok.io/)] [[Code](https://github.com/LLaVA-VL/LLaVA-Plus-Codebase)] [[Paper](https://arxiv.org/abs/2311.05437)]",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LLaVA-Plus (LLaVA that Plug and Learn to Use Skills). [[Project Page](https://llava-vl.github.io/llava-plus/)] [[Demo](https://llavaplus.ngrok.io/)] [[Code](https://github.com/LLaVA-VL/LLaVA-Plus-Codebase)] [[Paper](https://arxiv.org/abs/2311.05437)]"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:35:17.723591+00:00"
+  }
+}

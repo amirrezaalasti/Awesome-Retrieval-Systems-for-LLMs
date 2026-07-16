@@ -1,0 +1,17 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2019,
+    "type": "paper",
+    "slug": "ai-google-com-research-NaturalQuestions",
+    "source_url": "https://ai.google.com/research/NaturalQuestions"
+  },
+  "fields": {},
+  "extraction_metadata": {
+    "status": "insufficient_content",
+    "reason": "placeholder_content",
+    "content_chars": 10,
+    "content_preview": "Loading...",
+    "marked_at": "2026-07-05T15:44:33.222722+00:00"
+  }
+}

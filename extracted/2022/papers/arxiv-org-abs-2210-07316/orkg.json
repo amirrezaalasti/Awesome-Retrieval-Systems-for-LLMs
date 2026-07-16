@@ -1,0 +1,87 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2022,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2210-07316",
+    "source_url": "https://arxiv.org/abs/2210.07316"
+  },
+  "fields": {
+    "system_name": {
+      "value": "MTEB (Massive Text Embedding Benchmark)",
+      "reference": "To solve this problem, we introduce the Massive Text Embedding Benchmark (MTEB). MTEB spans 8 embedding tasks covering a total of 58 datasets and 112 languages.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "To solve this problem, we introduce the Massive Text Embedding Benchmark (MTEB). MTEB spans 8 embedding tasks covering a total of 58 datasets and 112 languages."
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "Through the benchmarking of 33 models on MTEB, we establish the most comprehensive benchmark of text embeddings to date. We find that no particular text embedding method dominates across all tasks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Through the benchmarking of 33 models on MTEB, we establish the most comprehensive benchmark of text embeddings to date. We find that no particular text embedding method dominates across all tasks."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "Sentence-level and paragraph-level datasets are included to contrast performance on short and long texts. (b) Simplicity: MTEB provides a simple API for plugging in any model that given a list of texts can produce a vector for each list item with a consistent shape.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Sentence-level and paragraph-level datasets are included to contrast performance on short and long texts. (b) Simplicity: MTEB provides a simple API for plugging in any model that given a list of texts can produce a vector for each list item with a consistent shape."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval"
+      ],
+      "reference": "The provided model is used to embed all queries and all corpus documents and similarity scores are computed using cosine similarity. After ranking the corpus documents for each query based on the scores, nDCG@k, MRR@k, MAP@k, precision@k and recall@k are computed for several values of k.",
+      "verified": true,
+      "verification_score": 0.9375,
+      "verification_method": "fuzzy",
+      "matched_span": "ant documents from the corpus. The aim is to find these relevant documents. The provided model is used to embed all queries and all corpus documents and similarity scores are computed using cosine similarity. After ranking the corpus documents for each query based on the scores, nDCG@k, MRR@k, MAP@k, precision@k and recall@k a"
+    },
+    "knowledge_source": {
+      "value": [
+        "Search Engine",
+        "Scientific Literature"
+      ],
+      "reference": "MTEB reuses datasets and evaluation from BEIR (Thakur et al., 2021). Meanwhile, the recently released BEIR Benchmark (Thakur et al., 2021) has become the standard for the evaluation of embeddings for zero-shot information retrieval.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "MTEB reuses datasets and evaluation from BEIR (Thakur et al., 2021). Meanwhile, the recently released BEIR Benchmark (Thakur et al., 2021) has become the standard for the evaluation of embeddings for zero-shot information retrieval."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Text embeddings are commonly evaluated on a small set of datasets from a single task not covering their possible applications to other tasks. It is unclear whether state-of-the-art embeddings on semantic textual similarity (STS) can be equally well applied to other tasks like clustering or reranking.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Text embeddings are commonly evaluated on a small set of datasets from a single task not covering their possible applications to other tasks. It is unclear whether state-of-the-art embeddings on semantic textual similarity (STS) can be equally well applied to other tasks like clustering or reranking."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Retrieval Each dataset consists of a corpus, queries and a mapping for each query to relevant documents from the corpus. The aim is to find these relevant documents. The provided model is used to embed all queries and all corpus documents and similarity scores are computed using cosine similarity.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Retrieval Each dataset consists of a corpus, queries and a mapping for each query to relevant documents from the corpus. The aim is to find these relevant documents. The provided model is used to embed all queries and all corpus documents and similarity scores are computed using cosine similarity."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:48:57.522937+00:00"
+  }
+}

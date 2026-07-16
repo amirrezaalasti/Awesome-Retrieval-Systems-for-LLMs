@@ -1,0 +1,91 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2022,
+    "type": "software",
+    "slug": "github-com-qdrant-qdrant",
+    "source_url": "https://github.com/qdrant/qdrant"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Qdrant",
+      "reference": "**Qdrant** (read: _quadrant_) is a vector similarity search engine and vector database.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "**Qdrant** (read: _quadrant_) is a vector similarity search engine and vector database."
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI.",
+      "verified": true,
+      "verification_score": 0.9375,
+      "verification_method": "token_overlap",
+      "matched_span": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Multimodal Documents"
+      ],
+      "reference": "It provides a production-ready service with a convenient API to store, search, and manage points—vectors with an additional payload.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "It provides a production-ready service with a convenient API to store, search, and manage points—vectors with an additional payload."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "Qdrant supports dense vectors for semantic similarity, sparse vectors for full-text search, and multivector search for objects with multiple embeddings or late interaction models like ColBERT.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Qdrant supports dense vectors for semantic similarity, sparse vectors for full-text search, and multivector search for objects with multiple embeddings or late interaction models like ColBERT."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "**Qdrant** (read: _quadrant_) is a vector similarity search engine and vector database.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "**Qdrant** (read: _quadrant_) is a vector similarity search engine and vector database."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "There's more to discovery than text search, especially when it comes to food. People often choose meals based on appearance rather than descriptions and ingredients.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "There's more to discovery than text search, especially when it comes to food. People often choose meals based on appearance rather than descriptions and ingredients."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Qdrant supports dense vectors for semantic similarity, sparse vectors for full-text search, and multivector search for objects with multiple embeddings or late interaction models like ColBERT.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Qdrant supports dense vectors for semantic similarity, sparse vectors for full-text search, and multivector search for objects with multiple embeddings or late interaction models like ColBERT."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:26:02.324352+00:00"
+  }
+}

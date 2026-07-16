@@ -1,0 +1,100 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2409-13731",
+    "source_url": "https://arxiv.org/abs/2409.13731"
+  },
+  "fields": {
+    "system_name": {
+      "value": "KAG",
+      "reference": "In this work, we introduce a professional domain knowledge service framework called Knowledge Augmented Generation ( KAG ).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "In this work, we introduce a professional domain knowledge service framework called Knowledge Augmented Generation ( KAG )."
+    },
+    "system_category": {
+      "value": "Knowledge-Augmented Generation (KAG)",
+      "reference": "we introduce a professional domain knowledge service framework called Knowledge Augmented Generation ( KAG ).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we introduce a professional domain knowledge service framework called Knowledge Augmented Generation ( KAG )."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Knowledge Graphs",
+        "Ontologies"
+      ],
+      "reference": "it incorporates the semantic types and relationships of knowledge graph and the commonly used Logical Forms from KGQA into the retrieval and generation process.",
+      "verified": true,
+      "verification_score": 0.8333,
+      "verification_method": "fuzzy",
+      "matched_span": "knowledge base process, it incorporates the semantic types and relationships of knowledge graph and the commonly used Logical Forms from KGQA (Knowledge Graph Question Answering) into the retrieval and generation process. As shown in Figure"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Hybrid Retrieval",
+        "Graph Retrieval",
+        "KG Retrieval",
+        "Multi-hop Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "Another key module, HybridRetrieval, combining natural language expressed sub-problems and logical functions for comprehensive retrieval of documents and sub-graph information.",
+      "verified": true,
+      "verification_score": 0.9489,
+      "verification_method": "fuzzy",
+      "matched_span": "iginal problem and plan out various execution actions such as multi-step retrieval, numerical reasoning, logical reasoning, and semantic deduce. Each sub-problem is expressed using logical form functions, and depende"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Knowledge Graph",
+        "Enterprise Documents"
+      ],
+      "reference": "KAG is applied in two professional Q&A scenarios within Ant Group: E-Government and E-Health.",
+      "verified": true,
+      "verification_score": 0.9247,
+      "verification_method": "fuzzy",
+      "matched_span": "so showed notable enhancements.\n\nKAGis applied in two professional Q&amp;A scenarios within Ant Group: E-Government and E-Health. In"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "Tables"
+      ],
+      "reference": "structured data tables, etc. has strong consistency, and is more suitable for information extraction with schema-constraint",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "structured data tables, etc. has strong consistency, and is more suitable for information extraction with schema-constraint"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Logical Retrieval",
+        "Symbolic Reasoning",
+        "Agentic Planning",
+        "Reflection",
+        "Tool Use"
+      ],
+      "reference": "we designed a multi-turn solving mechanism based on reflection and global memory, inspired by ReSP",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we designed a multi-turn solving mechanism based on reflection and global memory, inspired by ReSP"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:05:50.658802+00:00"
+  }
+}

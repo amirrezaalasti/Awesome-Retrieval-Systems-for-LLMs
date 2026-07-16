@@ -1,0 +1,21 @@
+{
+  "year": 2020,
+  "type": "software",
+  "source_url": "https://github.com/facebookresearch/FiD",
+  "slug": "github-com-facebookresearch-FiD",
+  "status": "success",
+  "extracted_at": "2026-07-05T11:57:37.868587+00:00",
+  "owner": "facebookresearch",
+  "repo": "FiD",
+  "api_url": "https://api.github.com/repos/facebookresearch/FiD",
+  "name": "FiD",
+  "full_name": "facebookresearch/FiD",
+  "description": "Fusion-in-Decoder",
+  "homepage": null,
+  "stars": 595,
+  "topics": [],
+  "license": "NOASSERTION",
+  "default_branch": "main",
+  "source_type": "github",
+  "content_chars": 9823
+}

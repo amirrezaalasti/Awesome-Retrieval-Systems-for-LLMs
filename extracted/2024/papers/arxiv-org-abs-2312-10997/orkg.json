@@ -1,0 +1,104 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2312-10997",
+    "source_url": "https://arxiv.org/abs/2312.10997"
+  },
+  "fields": {
+    "system_name": {
+      "value": "RAG-Survey",
+      "reference": "This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG."
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Knowledge Graphs",
+        "Multimodal Documents"
+      ],
+      "reference": "Initially, text is s the mainstream source of retrieval. Subsequently, the retrieval source expanded to include semi-structured data (PDF) and structured data (Knowledge Graph, KG) for enhancement.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Initially, text is s the mainstream source of retrieval. Subsequently, the retrieval source expanded to include semi-structured data (PDF) and structured data (Knowledge Graph, KG) for enhancement."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval",
+        "Multi-hop Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "Hybrid retrieval strategies integrate keyword, semantic, and vector searches to cater to diverse queries. Additionally, employing sub-queries and hypothetical document embeddings (HyDE) [11] seeks to improve retrieval relevance",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Hybrid retrieval strategies integrate keyword, semantic, and vector searches to cater to diverse queries. Additionally, employing sub-queries and hypothetical document embeddings (HyDE) [11] seeks to improve retrieval relevance"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine",
+        "Knowledge Graph",
+        "Scientific Literature"
+      ],
+      "reference": "The Search module adapts to specific scenarios, enabling direct searches across various data sources like search engines, databases, and knowledge graphs, using LLM-generated code and query languages",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The Search module adapts to specific scenarios, enabling direct searches across various data sources like search engines, databases, and knowledge graphs, using LLM-generated code and query languages"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Tables",
+        "Images",
+        "Video",
+        "Audio",
+        "Mixed Documents"
+      ],
+      "reference": "Indexing starts with the cleaning and extraction of raw data in diverse formats like PDF, HTML, Word, and Markdown, which is then converted into a uniform plain text format.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Indexing starts with the cleaning and extraction of raw data in diverse formats like PDF, HTML, Word, and Markdown, which is then converted into a uniform plain text format."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Agentic Planning",
+        "Reflection",
+        "Tool Use"
+      ],
+      "reference": "the iterative Retrieve-Read-Retrieve-Read flow of ITERRETGEN [14], showcase the dynamic use of module outputs to bolster another module's functionality, illustrating a sophisticated understanding of enhancing module synergy.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "the iterative Retrieve-Read-Retrieve-Read flow of ITERRETGEN [14], showcase the dynamic use of module outputs to bolster another module's functionality, illustrating a sophisticated understanding of enhancing module synergy."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:02:35.306480+00:00"
+  }
+}

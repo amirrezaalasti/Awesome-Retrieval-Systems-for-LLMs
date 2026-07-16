@@ -1,0 +1,15 @@
+{
+  "year": 2026,
+  "type": "software",
+  "source_url": "https://github.com/getzep/graphiti",
+  "slug": "github-com-getzep-graphiti",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:56.649840+00:00",
+  "owner": "getzep",
+  "repo": "graphiti",
+  "api_url": "https://api.github.com/repos/getzep/graphiti",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/getzep/graphiti/main/README.md",
+  "source_type": "github",
+  "content_chars": 28446
+}

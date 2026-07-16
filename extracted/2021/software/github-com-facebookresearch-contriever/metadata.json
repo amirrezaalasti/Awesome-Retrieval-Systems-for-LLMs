@@ -1,0 +1,21 @@
+{
+  "year": 2021,
+  "type": "software",
+  "source_url": "https://github.com/facebookresearch/contriever",
+  "slug": "github-com-facebookresearch-contriever",
+  "status": "success",
+  "extracted_at": "2026-07-05T11:58:42.541879+00:00",
+  "owner": "facebookresearch",
+  "repo": "contriever",
+  "api_url": "https://api.github.com/repos/facebookresearch/contriever",
+  "name": "contriever",
+  "full_name": "facebookresearch/contriever",
+  "description": "Contriever: Unsupervised Dense Information Retrieval with Contrastive Learning",
+  "homepage": "",
+  "stars": 779,
+  "topics": [],
+  "license": "NOASSERTION",
+  "default_branch": "main",
+  "source_type": "github",
+  "content_chars": 15203
+}

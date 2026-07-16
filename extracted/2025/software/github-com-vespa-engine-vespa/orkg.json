@@ -1,0 +1,90 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-vespa-engine-vespa",
+    "source_url": "https://github.com/vespa-engine/vespa"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Vespa",
+      "reference": "Search, make inferences in and organize vectors, tensors, text and structured data, at serving time and any scale.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Search, make inferences in and organize vectors, tensors, text and structured data, at serving time and any scale."
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "Use cases such as search, recommendation and personalization need to select a subset of data in a large corpus, evaluate machine-learned models over the selected data, organize and aggregate it and return it, typically in less than 100 milliseconds, all while the data corpus is continuously changing.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Use cases such as search, recommendation and personalization need to select a subset of data in a large corpus, evaluate machine-learned models over the selected data, organize and aggregate it and return it, typically in less than 100 milliseconds, all while the data corpus is continuously changing."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Tables"
+      ],
+      "reference": "Search, make inferences in and organize vectors, tensors, text and structured data, at serving time and any scale.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Search, make inferences in and organize vectors, tensors, text and structured data, at serving time and any scale."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "Use cases such as search, recommendation and personalization need to select a subset of data in a large corpus, evaluate machine-learned models over the selected data, organize and aggregate it and return it, typically in less than 100 milliseconds, all while the data corpus is continuously changing.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Use cases such as search, recommendation and personalization need to select a subset of data in a large corpus, evaluate machine-learned models over the selected data, organize and aggregate it and return it, typically in less than 100 milliseconds, all while the data corpus is continuously changing."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "Search, make inferences in and organize vectors, tensors, text and structured data, at serving time and any scale.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Search, make inferences in and organize vectors, tensors, text and structured data, at serving time and any scale."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Tables"
+      ],
+      "reference": "Search, make inferences in and organize vectors, tensors, text and structured data, at serving time and any scale.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Search, make inferences in and organize vectors, tensors, text and structured data, at serving time and any scale."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Tool Use"
+      ],
+      "reference": "Vespa is a platform that performs these operations for you with high availability and performance. It has been in development for many years and is used on several large internet services and apps which serve hundreds of thousands of queries from Vespa per second.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Vespa is a platform that performs these operations for you with high availability and performance. It has been in development for many years and is used on several large internet services and apps which serve hundreds of thousands of queries from Vespa per second."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T18:02:16.906077+00:00"
+  }
+}

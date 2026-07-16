@@ -1,0 +1,90 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2022,
+    "type": "software",
+    "slug": "github-com-milvus-io-milvus",
+    "source_url": "https://github.com/milvus-io/milvus"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Milvus",
+      "reference": "Milvus is a high-performance vector database built for scale. It powers AI applications by efficiently organizing and searching vast amounts of unstructured data, such as text, images, and multi-modal information.",
+      "verified": true,
+      "verification_score": 0.9765,
+      "verification_method": "fuzzy",
+      "matched_span": "## What is Milvus?\n\n🐦 [Milvus](https://milvus.io/) is a high-performance vector database built for scale. It powers AI applications by efficiently organizing and searching vast amounts of unstructured data, such as text, images, and multi-modal informat"
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "Milvus is a high-performance vector database built for scale. It powers AI applications by efficiently organizing and searching vast amounts of unstructured data, such as text, images, and multi-modal information.",
+      "verified": true,
+      "verification_score": 0.9765,
+      "verification_method": "fuzzy",
+      "matched_span": "## What is Milvus?\n\n🐦 [Milvus](https://milvus.io/) is a high-performance vector database built for scale. It powers AI applications by efficiently organizing and searching vast amounts of unstructured data, such as text, images, and multi-modal informat"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Multimodal Documents"
+      ],
+      "reference": "It powers AI applications by efficiently organizing and searching vast amounts of unstructured data, such as text, images, and multi-modal information.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "It powers AI applications by efficiently organizing and searching vast amounts of unstructured data, such as text, images, and multi-modal information."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "In addition to semantic search through dense vector, Milvus also natively supports full text search with BM25 as well as learned sparse embeddings such as SPLADE and BGE-M3. Users can store sparse vectors and dense vectors in the same collection, and define functions to rerank results from multiple search requests.",
+      "verified": true,
+      "verification_score": 0.8889,
+      "verification_method": "fuzzy",
+      "matched_span": "antly reduce costs while maintaining high performance for critical tasks.\n\n**Sparse Vector for Full Text Search and Hybrid Search**\n  * In addition to semantic search through dense vector, Milvus also natively supports [full text search](https://milvus.io/docs/full-text-search.md) with BM25 as well as learned sparse embeddings such as SPLADE and BGE-M3. Users can store sparse vectors and dense vectors in the same collection, and de"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database"
+      ],
+      "reference": "Milvus is a high-performance vector database built for scale. It powers AI applications by efficiently organizing and searching vast amounts of unstructured data, such as text, images, and multi-modal information.",
+      "verified": true,
+      "verification_score": 0.9765,
+      "verification_method": "fuzzy",
+      "matched_span": "## What is Milvus?\n\n🐦 [Milvus](https://milvus.io/) is a high-performance vector database built for scale. It powers AI applications by efficiently organizing and searching vast amounts of unstructured data, such as text, images, and multi-modal informat"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Images",
+        "Video"
+      ],
+      "reference": "Milvus works with both open-source embedding models and embedding services, in text, image and video modalities.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Milvus works with both open-source embedding models and embedding services, in text, image and video modalities."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Users can conduct efficient vector search with metadata filtering or hybrid search.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Users can conduct efficient vector search with metadata filtering or hybrid search."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:25:44.819532+00:00"
+  }
+}

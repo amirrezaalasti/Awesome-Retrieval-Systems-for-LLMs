@@ -1,0 +1,86 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2020,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2007-00808",
+    "source_url": "https://arxiv.org/abs/2007.00808"
+  },
+  "fields": {
+    "system_name": {
+      "value": "ANCE",
+      "reference": "We then propose Approximate nearest neighbor Negative Contrastive Learning (ANCE), a learning mechanism that selects hard training negatives globally from the entire corpus, using an asynchronously updated ANN index.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We then propose Approximate nearest neighbor Negative Contrastive Learning (ANCE), a learning mechanism that selects hard training negatives globally from the entire corpus, using an asynchronously updated ANN index."
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "Dense Retrieval chooses a different path and conducts retrieval purely in the embedding space via ANN search (Lee et al., 2019; Chang et al., 2020; Karpukhin et al., 2020; Luan et al., 2020).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Dense Retrieval chooses a different path and conducts retrieval purely in the embedding space via ANN search (Lee et al., 2019; Chang et al., 2020; Karpukhin et al., 2020; Luan et al., 2020)."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "To fit long documents in BERT-Siamese, ANCE uses the two settings from Dai & Callan (2019b), FirstP which uses the first 512 tokens of the document, and MaxP, where the document is split to 512-token passages (maximum 4) and the passage level scores are max-pooled.",
+      "verified": true,
+      "verification_score": 0.9132,
+      "verification_method": "fuzzy",
+      "matched_span": "NCE using the released DPR checkpoints (Karpukhin et al., 2020).\n\nTo fit long documents in BERT-Siamese, ANCE uses the two settings from Dai &amp; Callan (2019b), FirstP which uses the first 512 tokens of the document, and MaxP, where the document is split to 512-token passages (maximum 4) and the passag"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "Dense Retrieval (DR) aims to overcome the sparse retrieval bottleneck by matching texts in a continuous representation space learned via deep neural networks (Lee et al., 2019; Karpukhin et al., 2020; Luan et al., 2020).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Dense Retrieval (DR) aims to overcome the sparse retrieval bottleneck by matching texts in a continuous representation space learned via deep neural networks (Lee et al., 2019; Karpukhin et al., 2020; Luan et al., 2020)."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "We implement ANCE using an asynchronously updated ANN index of the corpus representation. Similar to Guu et al. (2020), we maintain an Inferencer that parallelly computes the document encodings with a recent checkpoint from the being optimized DR model, and refresh the ANN index used for negative sampling once it finishes, to keep up with the model training.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We implement ANCE using an asynchronously updated ANN index of the corpus representation. Similar to Guu et al. (2020), we maintain an Inferencer that parallelly computes the document encodings with a recent checkpoint from the being optimized DR model, and refresh the ANN index used for negative sampling once it finishes, to keep up with the model training."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Our experiments demonstrate the effectiveness of ANCE on web search, question answering, and in a commercial search environment, showing ANCE dot-product retrieval nearly matches the accuracy of BERT-based cascade IR pipeline, while being 100x more efficient.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Our experiments demonstrate the effectiveness of ANCE on web search, question answering, and in a commercial search environment, showing ANCE dot-product retrieval nearly matches the accuracy of BERT-based cascade IR pipeline, while being 100x more efficient."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Given a query q and a corpus C, the first stage retrieval is to find a set of documents relevant to the query D+ = {d1, ..., di, ..., dn} from C (|D+| ≪ |C|), which then serve as input to later more complex models (Croft et al., 2010).",
+      "verified": true,
+      "verification_score": 0.9167,
+      "verification_method": "token_overlap",
+      "matched_span": "Given a query q and a corpus C, the first stage retrieval is to find a set of documents relevant to the query D+ = {d1, ..., di, ..., dn} from C (|D+| ≪ |C|), which then serve as input to later more complex models (Croft et al., 2010)."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:46:33.560549+00:00"
+  }
+}

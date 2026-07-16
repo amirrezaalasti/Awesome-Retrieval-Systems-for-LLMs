@@ -1,0 +1,87 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-microsoft-graphrag",
+    "source_url": "https://github.com/microsoft/graphrag"
+  },
+  "fields": {
+    "system_name": {
+      "value": "GraphRAG",
+      "reference": "The GraphRAG project is a data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The GraphRAG project is a data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs."
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "This repository presents a methodology for using knowledge graph memory structures to enhance LLM outputs.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This repository presents a methodology for using knowledge graph memory structures to enhance LLM outputs."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Knowledge Graphs"
+      ],
+      "reference": "The GraphRAG project is a data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The GraphRAG project is a data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Graph Retrieval",
+        "KG Retrieval"
+      ],
+      "reference": "This repository presents a methodology for using knowledge graph memory structures to enhance LLM outputs.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This repository presents a methodology for using knowledge graph memory structures to enhance LLM outputs."
+    },
+    "knowledge_source": {
+      "value": [
+        "Knowledge Graph",
+        "Enterprise Documents"
+      ],
+      "reference": "To learn more about GraphRAG and how it can be used to enhance your LLM's ability to reason about your private data, please visit the Microsoft Research Blog Post.",
+      "verified": true,
+      "verification_score": 0.8466,
+      "verification_method": "fuzzy",
+      "matched_span": "ful, structured data from unstructured text using the power of LLMs.\n\nTo learn more about GraphRAG and how it can be used to enhance your LLM's ability to reason about your private data, please visit the"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "The GraphRAG project is a data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The GraphRAG project is a data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval"
+      ],
+      "reference": "To learn more about GraphRAG and how it can be used to enhance your LLM's ability to reason about your private data, please visit the Microsoft Research Blog Post.",
+      "verified": true,
+      "verification_score": 0.8466,
+      "verification_method": "fuzzy",
+      "matched_span": "ful, structured data from unstructured text using the power of LLMs.\n\nTo learn more about GraphRAG and how it can be used to enhance your LLM's ability to reason about your private data, please visit the"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:46:29.526749+00:00"
+  }
+}

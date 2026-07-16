@@ -1,0 +1,88 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2021,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2104-08663",
+    "source_url": "https://arxiv.org/abs/2104.08663"
+  },
+  "fields": {
+    "system_name": {
+      "value": "BEIR",
+      "reference": "we introduce Be nchmarkingIR ( BEIR ), a robust and heterogeneous evaluation benchmark for information retrieval.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we introduce Be nchmarkingIR ( BEIR ), a robust and heterogeneous evaluation benchmark for information retrieval."
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "we introduce Be nchmarkingIR ( BEIR ), a robust and heterogeneous evaluation benchmark for information retrieval.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we introduce Be nchmarkingIR ( BEIR ), a robust and heterogeneous evaluation benchmark for information retrieval."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "we focus on text retrieval and use document as a cover term for text of any length in the given collection and query for the user input, which can be of any length as well.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we focus on text retrieval and use document as a cover term for text of any length in the given collection and query for the user input, which can be of any length as well."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "We use BEIR to evaluate ten diverse retrieval methods from five broad architectures: lexical, sparse, dense, late interaction, and re-ranking.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We use BEIR to evaluate ten diverse retrieval methods from five broad architectures: lexical, sparse, dense, late interaction, and re-ranking."
+    },
+    "knowledge_source": {
+      "value": [
+        "Search Engine",
+        "Scientific Literature"
+      ],
+      "reference": "we include nine different retrieval tasks: Fact checking, citation prediction, duplicate question retrieval, argument retrieval, news retrieval, question answering, tweet retrieval, bio-medical IR, and entity retrieval.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we include nine different retrieval tasks: Fact checking, citation prediction, duplicate question retrieval, argument retrieval, news retrieval, question answering, tweet retrieval, bio-medical IR, and entity retrieval."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "we focus on text retrieval and use document as a cover term for text of any length in the given collection",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we focus on text retrieval and use document as a cover term for text of any length in the given collection"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Information retrieval is the process of searching and returning relevant documents for a query from a collection.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Information retrieval is the process of searching and returning relevant documents for a query from a collection."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:48:25.422564+00:00"
+  }
+}

@@ -1,0 +1,1114 @@
+{
+  "generated_at": "2026-07-05T18:35:49.661197+00:00",
+  "model": "z-ai/glm-5.2",
+  "total": 187,
+  "success": 167,
+  "partial": 0,
+  "skipped": 5,
+  "marked_insufficient": 4,
+  "errors": 11,
+  "items": [
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2019/papers/ai-google-com-research-NaturalQuestions",
+      "status": "marked_insufficient",
+      "reason": "placeholder_content"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2019/papers/arxiv-org-abs-1906-00300",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2019/papers/arxiv-org-abs-1906-00300/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2019/papers/arxiv-org-abs-2002-08909",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2019/papers/arxiv-org-abs-2002-08909/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2019/papers/arxiv-org-abs-2004-04906",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2019/papers/arxiv-org-abs-2004-04906/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2019/papers/nlp-cs-washington-edu-triviaqa",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2019/papers/nlp-cs-washington-edu-triviaqa/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/papers/arxiv-org-abs-2002-08909",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/papers/arxiv-org-abs-2002-08909/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/papers/arxiv-org-abs-2005-11401",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/papers/arxiv-org-abs-2007-00808",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/papers/arxiv-org-abs-2007-00808/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/papers/arxiv-org-abs-2007-01282",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/papers/arxiv-org-abs-2007-01282/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/papers/arxiv-org-abs-2009-02252",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/papers/arxiv-org-abs-2009-02252/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/papers/arxiv-org-abs-2010-08191",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/papers/arxiv-org-abs-2010-08191/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/papers/arxiv-org-abs-2004-12832",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/papers/arxiv-org-abs-2004-12832/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/papers/arxiv-org-abs-2101-00774",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/papers/arxiv-org-abs-2101-00774/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/papers/arxiv-org-abs-2104-08663",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/papers/arxiv-org-abs-2104-08663/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/papers/arxiv-org-abs-2112-09118",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/papers/arxiv-org-abs-2112-09118/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/papers/arxiv-org-abs-2210-07316",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/papers/arxiv-org-abs-2210-07316/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/papers/arxiv-org-abs-2212-10496",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/papers/arxiv-org-abs-2212-10496/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/papers/arxiv-org-abs-2212-14024",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/papers/arxiv-org-abs-2212-14024/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2103-00020",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2103-00020/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2212-03533",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2212-03533/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2212-09741",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2212-09741/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2212-10496",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2212-10496/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2301-12597",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2301-12597/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2302-07842",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2302-07842/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2304-08485",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2304-08485/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2305-14283",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2305-14283/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2308-08155",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2308-08155/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2309-15217",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2309-15217/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2310-03714",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2310-03714/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2310-07554",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2310-07554/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2310-11511",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2310-11511/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2312-10997",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/papers/arxiv-org-abs-2312-10997/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2308-08155",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2308-08155/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2308-13418",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2308-13418/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2309-15217",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2309-15217/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2311-09476",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2311-09476/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2312-10997",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2312-10997/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2401-18059",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2401-18059/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2402-03216",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2402-03216/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2404-16130",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2404-16130/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2405-12035",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2405-12035/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2405-13576",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2405-13576/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2405-14831",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2405-14831/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2407-01449",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2407-01449/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2409-13731",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2409-13731/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2410-05779",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-abs-2410-05779/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-search-query-Graph-Retrieval-Augmented-Generation-searchtype-all",
+      "status": "skipped",
+      "reason": "skipped"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/arxiv-org-search-query-Retrieval-Augmented-Generation-Survey-searchtype-all",
+      "status": "skipped",
+      "reason": "skipped"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/proceedings-neurips-cc-paper-files-paper-2024-hash-efaf1c9726648c8ba363a5c927440529-Abstract-Conference-html",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/papers/proceedings-neurips-cc-paper-files-paper-2024-hash-efaf1c9726648c8ba363a5c927440529-Abstract-Conference-html/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2308-08155",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2308-08155/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2309-15217",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2309-15217/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2310-03714",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2310-03714/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2404-16130",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2404-16130/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2405-14831",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2405-14831/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2406-06643",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2406-06643/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2407-01449",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2407-01449/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2409-13731",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2409-13731/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2410-05779",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2410-05779/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2502-09891",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2502-09891/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2502-11371",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-abs-2502-11371/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-search-query-Agentic-Retrieval-Survey-searchtype-all",
+      "status": "skipped",
+      "reason": "skipped"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/papers/arxiv-org-search-query-Knowledge-Augmented-Generation-Survey-searchtype-all",
+      "status": "skipped",
+      "reason": "skipped"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2026/papers/arxiv-org-abs-2404-16130",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2026/papers/arxiv-org-abs-2404-16130/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2026/papers/arxiv-org-abs-2405-14831",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2026/papers/arxiv-org-abs-2405-14831/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2019/software/github-com-facebookresearch-DPR",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2019/software/github-com-facebookresearch-DPR/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2019/software/github-com-google-research-language",
+      "status": "marked_insufficient",
+      "reason": "too_short"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/software/github-com-PaddlePaddle-RocketQA",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/software/github-com-PaddlePaddle-RocketQA/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/software/github-com-facebookresearch-DPR",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/software/github-com-facebookresearch-DPR/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/software/github-com-facebookresearch-FiD",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/software/github-com-facebookresearch-FiD/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/software/github-com-facebookresearch-KILT",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/software/github-com-facebookresearch-KILT/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/software/github-com-google-research-language",
+      "status": "marked_insufficient",
+      "reason": "too_short"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/software/github-com-microsoft-ANCE",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2020/software/github-com-microsoft-ANCE/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/software/github-com-beir-cellar-beir",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/software/github-com-beir-cellar-beir/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/software/github-com-deepset-ai-haystack",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/software/github-com-deepset-ai-haystack/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/software/github-com-facebookresearch-contriever",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/software/github-com-facebookresearch-contriever/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/software/github-com-stanford-futuredata-ColBERT",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/software/github-com-stanford-futuredata-ColBERT/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/software/haystack-deepset-ai",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/software/haystack-deepset-ai/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/software/opensearch-org",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/software/opensearch-org/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/software/www-elastic-co-elasticsearch",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2021/software/www-elastic-co-elasticsearch/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-Unstructured-IO-unstructured",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-Unstructured-IO-unstructured/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-chroma-core-chroma",
+      "status": "error",
+      "error": "Empty response from model z-ai/glm-5.2"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-embeddings-benchmark-mteb",
+      "status": "error",
+      "error": "Expecting value: line 635 column 1 (char 3487)"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-facebookresearch-faiss",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-facebookresearch-faiss/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-langchain-ai-langchain",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-langchain-ai-langchain/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-milvus-io-milvus",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-milvus-io-milvus/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-qdrant-qdrant",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-qdrant-qdrant/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-run-llama-llama-index",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-run-llama-llama-index/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-stanfordnlp-dsp",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-stanfordnlp-dsp/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-weaviate-weaviate",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/github-com-weaviate-weaviate/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/www-pinecone-io",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2022/software/www-pinecone-io/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/docs-llamaindex-ai",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/docs-llamaindex-ai/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-AkariAsai-self-rag",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-AkariAsai-self-rag/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-FlagOpen-FlagEmbedding",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-FlagOpen-FlagEmbedding/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-FoundationAgents-MetaGPT",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-FoundationAgents-MetaGPT/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-Unstructured-IO-unstructured",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-Unstructured-IO-unstructured/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-apache-tika",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-apache-tika/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-beir-cellar-beir",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-beir-cellar-beir/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-chroma-core-chroma",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-chroma-core-chroma/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-confident-ai-deepeval",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-confident-ai-deepeval/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-crewAIInc-crewAI",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-crewAIInc-crewAI/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-deepset-ai-haystack",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-deepset-ai-haystack/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-embeddings-benchmark-mteb",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-embeddings-benchmark-mteb/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-explodinggradients-ragas",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-explodinggradients-ragas/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-haotian-liu-LLaVA",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-haotian-liu-LLaVA/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-lancedb-lancedb",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-lancedb-lancedb/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-langchain-ai-langchain",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-langchain-ai-langchain/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-microsoft-autogen",
+      "status": "error",
+      "error": "Empty response from model z-ai/glm-5.2"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-milvus-io-milvus",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-milvus-io-milvus/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-openai-CLIP",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-openai-CLIP/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-qdrant-qdrant",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-qdrant-qdrant/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-run-llama-llama-index",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-run-llama-llama-index/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-stanfordnlp-dspy",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-stanfordnlp-dspy/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-truera-trulens",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-truera-trulens/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-weaviate-weaviate",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/github-com-weaviate-weaviate/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/haystack-deepset-ai",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/haystack-deepset-ai/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/python-langchain-com-docs",
+      "status": "error",
+      "error": "Empty response from model z-ai/glm-5.2"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/www-llamaindex-ai-llamaparse",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/www-llamaindex-ai-llamaparse/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/www-pinecone-io",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2023/software/www-pinecone-io/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-DS4SD-docling",
+      "status": "error",
+      "error": "Empty response from model z-ai/glm-5.2"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-FlagOpen-FlagEmbedding",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-FlagOpen-FlagEmbedding/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-HKUDS-LightRAG",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-HKUDS-LightRAG/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-IntelLabs-fastRAG",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-IntelLabs-fastRAG/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-OSU-NLP-Group-HippoRAG",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-OSU-NLP-Group-HippoRAG/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-OpenDevin-OpenDevin",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-OpenDevin-OpenDevin/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-OpenSPG-KAG",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-OpenSPG-KAG/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-RUC-NLPIR-FlashRAG",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-RUC-NLPIR-FlashRAG/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-Unstructured-IO-unstructured",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-Unstructured-IO-unstructured/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-camel-ai-camel",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-camel-ai-camel/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-chroma-core-chroma",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-chroma-core-chroma/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-confident-ai-deepeval",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-confident-ai-deepeval/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-crewAIInc-crewAI",
+      "status": "error",
+      "error": "Empty response from model z-ai/glm-5.2"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-explodinggradients-ragas",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-explodinggradients-ragas/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-facebookresearch-nougat",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-facebookresearch-nougat/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-illuin-tech-colpali",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-illuin-tech-colpali/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-lancedb-lancedb",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-lancedb-lancedb/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-langchain-ai-langgraph",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-langchain-ai-langgraph/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-microsoft-autogen",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-microsoft-autogen/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-microsoft-graphrag",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-microsoft-graphrag/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-milvus-io-milvus",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-milvus-io-milvus/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-nomic-ai-nomic",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-nomic-ai-nomic/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-opendatalab-MinerU",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-opendatalab-MinerU/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-parthsarthi03-raptor",
+      "status": "error",
+      "error": "Empty response from model z-ai/glm-5.2"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-pathwaycom-pathway",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-pathwaycom-pathway/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-qdrant-qdrant",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-qdrant-qdrant/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-stanford-futuredata-ARES",
+      "status": "error",
+      "error": "Empty response from model z-ai/glm-5.2"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-truera-trulens",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-truera-trulens/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-vespa-engine-vespa",
+      "status": "error",
+      "error": "Empty response from model z-ai/glm-5.2"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-weaviate-weaviate",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/github-com-weaviate-weaviate/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/www-llamaindex-ai-llamaparse",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/www-llamaindex-ai-llamaparse/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/www-pinecone-io",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2024/software/www-pinecone-io/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-All-Hands-AI-OpenHands",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-All-Hands-AI-OpenHands/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-DS4SD-docling",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-DS4SD-docling/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-HKUDS-LightRAG",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-HKUDS-LightRAG/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-OSU-NLP-Group-HippoRAG",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-OSU-NLP-Group-HippoRAG/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-OpenSPG-KAG",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-OpenSPG-KAG/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-RUC-NLPIR-FlashRAG",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-RUC-NLPIR-FlashRAG/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-camel-ai-camel",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-camel-ai-camel/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-confident-ai-deepeval",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-confident-ai-deepeval/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-crewAIInc-crewAI",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-crewAIInc-crewAI/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-deepset-ai-haystack",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-deepset-ai-haystack/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-explodinggradients-ragas",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-explodinggradients-ragas/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-getzep-graphiti",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-getzep-graphiti/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-illuin-tech-colpali",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-illuin-tech-colpali/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-lancedb-lancedb",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-lancedb-lancedb/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-langchain-ai-langchain",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-langchain-ai-langchain/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-langchain-ai-langgraph",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-langchain-ai-langgraph/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-microsoft-autogen",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-microsoft-autogen/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-microsoft-graphrag",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-microsoft-graphrag/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-milvus-io-milvus",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-milvus-io-milvus/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-neo4j-neo4j-graphrag-python",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-neo4j-neo4j-graphrag-python/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-opendatalab-MinerU",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-opendatalab-MinerU/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-qdrant-qdrant",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-qdrant-qdrant/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-run-llama-llama-index",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-run-llama-llama-index/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-stanford-futuredata-ARES",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-stanford-futuredata-ARES/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-stanfordnlp-dspy",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-stanfordnlp-dspy/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-truera-trulens",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-truera-trulens/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-vespa-engine-vespa",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-vespa-engine-vespa/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-weaviate-weaviate",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/github-com-weaviate-weaviate/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/memgraph-com",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/memgraph-com/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/openai-com",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/openai-com/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/smith-langchain-com",
+      "status": "marked_insufficient",
+      "reason": "too_short"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/www-llamaindex-ai-llamaparse",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/www-llamaindex-ai-llamaparse/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2025/software/www-pinecone-io",
+      "status": "error",
+      "error": "Empty response from model z-ai/glm-5.2"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2026/software/github-com-OSU-NLP-Group-HippoRAG",
+      "status": "error",
+      "error": "Empty response from model z-ai/glm-5.2"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2026/software/github-com-getzep-graphiti",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2026/software/github-com-getzep-graphiti/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2026/software/github-com-langchain-ai-langgraph",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2026/software/github-com-langchain-ai-langgraph/orkg.json"
+    },
+    {
+      "path": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2026/software/github-com-microsoft-graphrag",
+      "status": "success",
+      "failed_fields": [],
+      "output": "/Users/amirrezaalasti/Desktop/selfprojects/Awesome-Retrieval-Systems-for-LLMs/extracted/2026/software/github-com-microsoft-graphrag/orkg.json"
+    }
+  ]
+}

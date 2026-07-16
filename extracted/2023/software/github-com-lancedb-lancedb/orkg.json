@@ -1,0 +1,95 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-lancedb-lancedb",
+    "source_url": "https://github.com/lancedb/lancedb"
+  },
+  "fields": {
+    "system_name": {
+      "value": "LanceDB",
+      "reference": "LanceDB is designed for fast, scalable, and production-ready vector search. It is built on top of the Lance columnar format.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LanceDB is designed for fast, scalable, and production-ready vector search. It is built on top of the Lance columnar format."
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "LanceDB is designed for fast, scalable, and production-ready vector search. It is built on top of the Lance columnar format. You can store, index, and search over petabytes of multimodal data and vectors with ease.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LanceDB is designed for fast, scalable, and production-ready vector search. It is built on top of the Lance columnar format. You can store, index, and search over petabytes of multimodal data and vectors with ease."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Tables",
+        "Multimodal Documents"
+      ],
+      "reference": "Store, query and filter vectors, metadata and multimodal data (text, images, videos, point clouds, and more).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Store, query and filter vectors, metadata and multimodal data (text, images, videos, point clouds, and more)."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "Support for vector similarity search, full-text search and SQL.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Support for vector similarity search, full-text search and SQL."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "SQL Database"
+      ],
+      "reference": "Comprehensive Search: Support for vector similarity search, full-text search and SQL.",
+      "verified": true,
+      "verification_score": 0.9765,
+      "verification_method": "fuzzy",
+      "matched_span": "econds with state-of-the-art indexing.\n- **Comprehensive Search**: Support for vector similarity search, full-text search and"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Tables",
+        "Images",
+        "Video",
+        "Audio",
+        "Mixed Documents"
+      ],
+      "reference": "Multimodal Support: Store, query and filter vectors, metadata and multimodal data (text, images, videos, point clouds, and more).",
+      "verified": true,
+      "verification_score": 0.938,
+      "verification_method": "fuzzy",
+      "matched_span": "earch, full-text search and SQL.\n- **Multimodal Support**: Store, query and filter vectors, metadata and multimodal data (text, images, videos, point clouds, and more)."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Fast Vector Search: Search billions of vectors in milliseconds with state-of-the-art indexing.",
+      "verified": true,
+      "verification_score": 0.9468,
+      "verification_method": "fuzzy",
+      "matched_span": "/picture>\n</details>\n\n## **Key Features**:\n\n- **Fast Vector Search**: Search billions of vectors in milliseconds with state-of-the-art"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:35:31.257940+00:00"
+  }
+}

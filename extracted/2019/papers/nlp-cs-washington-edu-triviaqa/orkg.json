@@ -1,0 +1,87 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2019,
+    "type": "paper",
+    "slug": "nlp-cs-washington-edu-triviaqa",
+    "source_url": "https://nlp.cs.washington.edu/triviaqa/"
+  },
+  "fields": {
+    "system_name": {
+      "value": "TriviaQA",
+      "reference": "TriviaQA is a reading comprehension dataset containing over 650K question-answer-evidence triples.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "TriviaQA is a reading comprehension dataset containing over 650K question-answer-evidence triples."
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "TriviaQA is a reading comprehension dataset containing over 650K question-answer-evidence triples.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "TriviaQA is a reading comprehension dataset containing over 650K question-answer-evidence triples."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "Text Chunks"
+      ],
+      "reference": "TriviaQA includes 95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents, six per question on average",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "TriviaQA includes 95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents, six per question on average"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Sparse Retrieval"
+      ],
+      "reference": "This makes the unfiltered dataset more appropriate for IR-style QA.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This makes the unfiltered dataset more appropriate for IR-style QA."
+    },
+    "knowledge_source": {
+      "value": [
+        "Search Engine",
+        "Web Search"
+      ],
+      "reference": "The Wikipedia and top 10 search documents can be obtained from the RC version.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The Wikipedia and top 10 search documents can be obtained from the RC version."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "HTML"
+      ],
+      "reference": "The Wikipedia and top 10 search documents can be obtained from the RC version.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The Wikipedia and top 10 search documents can be obtained from the RC version."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "TriviaQA is a reading comprehension dataset containing over 650K question-answer-evidence triples.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "TriviaQA is a reading comprehension dataset containing over 650K question-answer-evidence triples."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:46:10.642635+00:00"
+  }
+}

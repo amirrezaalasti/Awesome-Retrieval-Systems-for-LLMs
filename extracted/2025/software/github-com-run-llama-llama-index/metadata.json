@@ -1,0 +1,15 @@
+{
+  "year": 2025,
+  "type": "software",
+  "source_url": "https://github.com/run-llama/llama_index",
+  "slug": "github-com-run-llama-llama-index",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:46.966047+00:00",
+  "owner": "run-llama",
+  "repo": "llama_index",
+  "api_url": "https://api.github.com/repos/run-llama/llama_index",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/run-llama/llama_index/main/README.md",
+  "source_type": "github",
+  "content_chars": 9863
+}

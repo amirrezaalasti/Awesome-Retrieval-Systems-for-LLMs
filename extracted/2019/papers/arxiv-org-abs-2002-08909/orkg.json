@@ -1,0 +1,85 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2019,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2002-08909",
+    "source_url": "https://arxiv.org/abs/2002.08909"
+  },
+  "fields": {
+    "system_name": {
+      "value": "REALM",
+      "reference": "Retrieval-Augmented Language Model Pre-Training (REALM)",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Retrieval-Augmented Language Model Pre-Training (REALM)"
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "we augment language model pretraining with a latent knowledge retriever, which allows the model to retrieve and attend over documents from a large corpus such as Wikipedia, used during pre-training, fine-tuning and inference.",
+      "verified": true,
+      "verification_score": 0.9556,
+      "verification_method": "fuzzy",
+      "matched_span": "modular and interpretable way, we augment language model pretraining with a latent knowledge retriever , which allows the model to retrieve and attend over documents from a large corpus such as Wikipedia, used during pre-training, fine-tuning and inference. For th"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "We use the term 'document' loosely to refer to a passage from the knowledge corpus, not necessarily a whole article.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We use the term 'document' loosely to refer to a passage from the knowledge corpus, not necessarily a whole article."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "The retriever is defined using a dense inner product model: where Embed input and Embed doc are embedding functions that map x and z respectively to d-dimensional vectors.",
+      "verified": true,
+      "verification_score": 0.8906,
+      "verification_method": "fuzzy",
+      "matched_span": "encoder , which models p ( y | z, x ) .\n\nKnowledge Retriever The retriever is defined using a dense inner product model:\n\n<!-- formula-not-decoded -->\n\nwhere Embed input and Embed doc are embedding functions that map x and z respectively to d -dimension"
+    },
+    "knowledge_source": {
+      "value": [
+        "Search Engine"
+      ],
+      "reference": "we must pre-compute Embed doc(z) for every z ∈ Z and construct an efficient search index over these embeddings.",
+      "verified": true,
+      "verification_score": 0.955,
+      "verification_method": "fuzzy",
+      "matched_span": "Shrivastava &amp; Li, 2014; Shen et al., 2015).\n\nTo employ MIPS, we must pre-compute Embed doc ( z ) for every z ∈ Z and construct an efficient search"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "we augment language model pretraining with a latent knowledge retriever, which allows the model to retrieve and attend over documents from a large corpus such as Wikipedia",
+      "verified": true,
+      "verification_score": 0.9181,
+      "verification_method": "fuzzy",
+      "matched_span": "ble way, we augment language model pretraining with a latent knowledge retriever , which allows the model to retrieve and attend over documents from a large corpus such as Wikipedia, used during pre-training, fi"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "REALM decomposes p(y|x) into two steps: retrieve, then predict. Given an input x, we first retrieve possibly helpful documents z from a knowledge corpus Z.",
+      "verified": true,
+      "verification_score": 0.9226,
+      "verification_method": "fuzzy",
+      "matched_span": "s Open-QA: x is a question, and y is the answer.\n\nREALM decomposes p ( y | x ) into two steps: retrieve , then predict . Given an input x , we first retrieve possibly helpful documents z from a k"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:45:38.371959+00:00"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2405-14831",
+    "source_url": "https://arxiv.org/abs/2405.14831"
+  },
+  "fields": {
+    "system_name": {
+      "value": "HippoRAG",
+      "reference": "In this work, we introduce HippoRAG, a novel retrieval framework inspired by the hippocampal indexing theory of human long-term memory to enable deeper and more efficient knowledge integration over new experiences.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "In this work, we introduce HippoRAG, a novel retrieval framework inspired by the hippocampal indexing theory of human long-term memory to enable deeper and more efficient knowledge integration over new experiences."
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "HippoRAG synergistically orchestrates LLMs, knowledge graphs, and the Personalized PageRank algorithm to mimic the different roles of neocortex and hippocampus in human memory.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "HippoRAG synergistically orchestrates LLMs, knowledge graphs, and the Personalized PageRank algorithm to mimic the different roles of neocortex and hippocampus in human memory."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Knowledge Graphs",
+        "Text Chunks"
+      ],
+      "reference": "Our novel design first models the neocortex's ability to process perceptual input by using an LLM to transform a corpus into a schemaless knowledge graph (KG) as our artificial hippocampal index.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Our novel design first models the neocortex's ability to process perceptual input by using an LLM to transform a corpus into a schemaless knowledge graph (KG) as our artificial hippocampal index."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Graph Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "Given a new query, HippoRAG identifies the key concepts in the query and runs the Personalized PageRank (PPR) algorithm [30] on the KG, using the query concepts as the seeds, to integrate information across passages for retrieval.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Given a new query, HippoRAG identifies the key concepts in the query and runs the Personalized PageRank (PPR) algorithm [30] on the KG, using the query concepts as the seeds, to integrate information across passages for retrieval."
+    },
+    "knowledge_source": {
+      "value": [
+        "Knowledge Graph",
+        "Vector Database"
+      ],
+      "reference": "These retrieval encoders provide additional edges between similar but not identical noun phrases within this KG to aid in downstream pattern completion.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "These retrieval encoders provide additional edges between similar but not identical noun phrases within this KG to aid in downstream pattern completion."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "We evaluate our method's retrieval capabilities primarily on two challenging multi-hop QA benchmarks, MuSiQue (answerable) [77] and 2WikiMultiHopQA [33].",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We evaluate our method's retrieval capabilities primarily on two challenging multi-hop QA benchmarks, MuSiQue (answerable) [77] and 2WikiMultiHopQA [33]."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Single-hop Retrieval"
+      ],
+      "reference": "PPR enables HippoRAG to explore KG paths and identify relevant subgraphs, essentially performing multi-hop reasoning in a single retrieval step.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "PPR enables HippoRAG to explore KG paths and identify relevant subgraphs, essentially performing multi-hop reasoning in a single retrieval step."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:04:42.010979+00:00"
+  }
+}

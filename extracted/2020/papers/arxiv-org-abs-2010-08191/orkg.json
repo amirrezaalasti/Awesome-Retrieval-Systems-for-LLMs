@@ -1,0 +1,86 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2020,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2010-08191",
+    "source_url": "https://arxiv.org/abs/2010.08191"
+  },
+  "fields": {
+    "system_name": {
+      "value": "RocketQA",
+      "reference": "we propose an optimized training approach, called RocketQA , to improving dense passage retrieval.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we propose an optimized training approach, called RocketQA , to improving dense passage retrieval."
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "In our implementation, we use FAISS (Johnson et al., 2019) to index the dense representations of all passages. Specifically, we use IndexFlatIP for indexing and the exact maximum inner product search for querying.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "In our implementation, we use FAISS (Johnson et al., 2019) to index the dense representations of all passages. Specifically, we use IndexFlatIP for indexing and the exact maximum inner product search for querying."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "We split the N documents into M passages, denoted by p 1 , p 2 , ..., p M , where each passage p i can be viewed as an l -length sequence of tokens",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We split the N documents into M passages, denoted by p 1 , p 2 , ..., p M , where each passage p i can be viewed as an l -length sequence of tokens"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "the dual-encoder architecture has been widely explored to learn dense representations of questions and passages in an end-to-end manner, which provides better representations for semantic matching.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "the dual-encoder architecture has been widely explored to learn dense representations of questions and passages in an end-to-end manner, which provides better representations for semantic matching."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "The questions were sampled from Bing search logs. Based on the questions and passages in MSMARCO Question Answering, a dataset for passage ranking was created",
+      "verified": true,
+      "verification_score": 0.962,
+      "verification_method": "fuzzy",
+      "matched_span": "2016) and Natural Questions (NQ) (Kwiatkowski et al., 2019). The statistics of the datasets are listed in Table 1.\n\nMSMARCOPassage Ranking MSMARCO is originally designed for multiple passage MRC, a"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Given a natural language question, a system is required to answer it based on a large collection of documents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Given a natural language question, a system is required to answer it based on a large collection of documents."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Given a question q , the task is to find a passage p i among the M candidates, and extract a span p ( s ) i , p ( s +1) i , ..., p ( e ) i from p i that can answer the question.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Given a question q , the task is to find a passage p i among the M candidates, and extract a span p ( s ) i , p ( s +1) i , ..., p ( e ) i from p i that can answer the question."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:47:37.110110+00:00"
+  }
+}

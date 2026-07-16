@@ -1,0 +1,95 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2302-07842",
+    "source_url": "https://arxiv.org/abs/2302.07842"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Augmented Language Models (ALMs)",
+      "reference": "We therefore refer to them as Augmented Language Models (ALMs). The missing token objective allows ALMs to learn to reason, use tools, and even act, while still performing standard natural language tasks and even outperforming most regular LMs on several benchmarks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We therefore refer to them as Augmented Language Models (ALMs). The missing token objective allows ALMs to learn to reason, use tools, and even act, while still performing standard natural language tasks and even outperforming most regular LMs on several benchmarks."
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "This survey reviews works in which language models (LMs) are augmented with reasoning skills and the ability to use tools. The former is defined as decomposing a potentially complex task into simpler subtasks while the latter consists in calling external modules such as a code interpreter.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This survey reviews works in which language models (LMs) are augmented with reasoning skills and the ability to use tools. The former is defined as decomposing a potentially complex task into simpler subtasks while the latter consists in calling external modules such as a code interpreter."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "a line of work circumvents the limited context size of LLMs by increasing its relevance: this is done by adding information extracted from relevant external documents. Through equipping LMs with a module that retrieves such documents from a database given a context, it is possible to match certain capabilities of some of the largest LMs while having less parameters",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "a line of work circumvents the limited context size of LLMs by increasing its relevance: this is done by adding information extracted from relevant external documents. Through equipping LMs with a module that retrieves such documents from a database given a context, it is possible to match certain capabilities of some of the largest LMs while having less parameters"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Multi-hop Retrieval",
+        "Tool Retrieval"
+      ],
+      "reference": "Press et al. (2022) focus on 2-hop questions, i.e., questions for which the model only needs to compose two facts to obtain the answer. Interestingly, Self-ask can easily be augmented with a search engine (see Section 3). ReAct (Yao et al., 2022b) is another few-shot prompting approach eliciting reasoning that can query three tools throughout the reasoning steps: search and lookup in Wikipedia, and finish to return the answer.",
+      "verified": true,
+      "verification_score": 0.9837,
+      "verification_method": "fuzzy",
+      "matched_span": "al. (2022) showed similar ability in a zero-shot setting. We discuss them in detail in the following paragraphs.\n\nQuestion: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?\n\nAnswer: Roger started with 5 balls. 2 cans of 3 tennis balls each is 6 tennis balls. 5 + 6 = 11. The answer is 11.\n\nQuestion: The cafeteria had 23 apples. If they used 20 to make lunch and bought 6 more, how many"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine",
+        "Web Search"
+      ],
+      "reference": "Through equipping LMs with a module that retrieves such documents from a database given a context, it is possible to match certain capabilities of some of the largest LMs while having less parameters (Borgeaud et al., 2022; Izacard et al., 2022).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Through equipping LMs with a module that retrieves such documents from a database given a context, it is possible to match certain capabilities of some of the largest LMs while having less parameters (Borgeaud et al., 2022; Izacard et al., 2022)."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Images"
+      ],
+      "reference": "Prompts under the form of text may not contain enough context to correctly perform a given task. For example, a question does not call for the same answer if it is asked with a serious or ironic tone. Including various modalities into the context would probably be useful for LMs such as chatbots.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Prompts under the form of text may not contain enough context to correctly perform a given task. For example, a question does not call for the same answer if it is asked with a serious or ironic tone. Including various modalities into the context would probably be useful for LMs such as chatbots."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval",
+        "Agentic Planning",
+        "Tool Use",
+        "Reflection"
+      ],
+      "reference": "reasoning is decomposing a potentially complex task into simpler subtasks the LM can solve more easily by itself or using tools. There exist various ways to decompose into subtasks, such as recursion or iteration. In that sense, reasoning is akin to planning as defined for example in LeCun (2022).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "reasoning is decomposing a potentially complex task into simpler subtasks the LM can solve more easily by itself or using tools. There exist various ways to decompose into subtasks, such as recursion or iteration. In that sense, reasoning is akin to planning as defined for example in LeCun (2022)."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:55:40.040249+00:00"
+  }
+}

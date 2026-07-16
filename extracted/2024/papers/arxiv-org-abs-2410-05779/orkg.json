@@ -1,0 +1,91 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2410-05779",
+    "source_url": "https://arxiv.org/abs/2410.05779"
+  },
+  "fields": {
+    "system_name": {
+      "value": "LightRAG",
+      "reference": "we propose LightRAG, which incorporates graph structures into text indexing and retrieval processes.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we propose LightRAG, which incorporates graph structures into text indexing and retrieval processes."
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "we propose incorporating graph structures into text indexing and relevant information retrieval. Graphs are particularly effective at representing the interdependencies among different entities",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we propose incorporating graph structures into text indexing and relevant information retrieval. Graphs are particularly effective at representing the interdependencies among different entities"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Knowledge Graphs"
+      ],
+      "reference": "Our LightRAG enhances the retrieval system by segmenting documents into smaller, more manageable pieces. This strategy allows for quick identification and access to relevant information without analyzing entire documents. Next, we leverage LLMs to identify and extract various entities (e.g., names, dates, locations, and events) along with the relationships between them.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Our LightRAG enhances the retrieval system by segmenting documents into smaller, more manageable pieces. This strategy allows for quick identification and access to relevant information without analyzing entire documents. Next, we leverage LLMs to identify and extract various entities (e.g., names, dates, locations, and events) along with the relationships between them."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Graph Retrieval",
+        "Multi-hop Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "The algorithm uses an efficient vector database to match local query keywords with candidate entities and global query keywords with relations linked to global keys. To enhance the query with higher-order relatedness, LightRAG further gathers neighboring nodes within the local subgraphs of the retrieved graph elements.",
+      "verified": true,
+      "verification_score": 0.8806,
+      "verification_method": "fuzzy",
+      "matched_span": "lobal query keywords k ( g ) .\n- (ii) Keyword Matching . The algorithm uses an efficient vector database to match local query keywords with candidate entities and global query keywords with relations linked to global keys.\n\n- (iii) Incorporating High-Order Relatedness . To enhance the query with higher-order relatedness, LightRAGfurther gathers neighboring nodes within the local subgraphs of the retrieved graph elements. This process in"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Knowledge Graph"
+      ],
+      "reference": "The algorithm uses an efficient vector database to match local query keywords with candidate entities and global query keywords with relations linked to global keys.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The algorithm uses an efficient vector database to match local query keywords with candidate entities and global query keywords with relations linked to global keys."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF"
+      ],
+      "reference": "The UltraDomain data is sourced from 428 college textbooks and encompasses 18 distinct domains, including agriculture, social sciences, and humanities.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The UltraDomain data is sourced from 428 college textbooks and encompasses 18 distinct domains, including agriculture, social sciences, and humanities."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "The constructed graph structures enable the extraction of global information from multi-hop subgraphs, greatly enhancing LightRAG's ability to handle complex queries that span multiple document chunks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The constructed graph structures enable the extraction of global information from multi-hop subgraphs, greatly enhancing LightRAG's ability to handle complex queries that span multiple document chunks."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:06:09.496495+00:00"
+  }
+}

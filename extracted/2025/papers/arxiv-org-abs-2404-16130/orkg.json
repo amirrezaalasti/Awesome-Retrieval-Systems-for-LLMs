@@ -1,0 +1,92 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2404-16130",
+    "source_url": "https://arxiv.org/abs/2404.16130"
+  },
+  "fields": {
+    "system_name": {
+      "value": "GraphRAG",
+      "reference": "To combine the strengths of these contrasting methods, we propose GraphRAG, a graph-based approach to question answering over private text corpora that scales with both the generality of user questions and the quantity of source text.",
+      "verified": true,
+      "verification_score": 0.8897,
+      "verification_method": "fuzzy",
+      "matched_span": "le to the quantities of text indexed by typical RAG systems. To combine the strengths of these contrasting methods, we propose GraphRAG , a graph-based approach to question answering over private text corpora that scales with both the generality of user questions and the quantity of source text. Our approach uses an LLM to build a"
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "GraphRAG first uses an LLM to construct a knowledge graph, where nodes correspond to key entities in the corpus and edges represent relationships between those entities. Next, it partitions the graph into a hierarchy of communities of closely related entities, before using an LLM to generate community-level summaries.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "GraphRAG first uses an LLM to construct a knowledge graph, where nodes correspond to key entities in the corpus and edges represent relationships between those entities. Next, it partitions the graph into a hierarchy of communities of closely related entities, before using an LLM to generate community-level summaries."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Knowledge Graphs"
+      ],
+      "reference": "To start, the documents in the corpus are split into text chunks. The LLM extracts information from each chunk for downstream processing. Selecting the size of the chunk is a fundamental design decision; longer text chunks require fewer LLM calls for such extraction (which reduces cost) but suffer from degraded recall of information that appears early in the chunk.",
+      "verified": true,
+      "verification_score": 0.921,
+      "verification_method": "fuzzy",
+      "matched_span": "ques, and implementation details for each step.\n\n## 3.1.1 Source Documents → Text Chunks\n\nTo start, the documents in the corpus are split into text chunks. The LLM extracts information from each chunk for downstream processing. Selecting the size of the chunk is a fundamental design decision; longer text chunks require fewer LLM calls for such extraction (which reduces cost) but suffer from degraded reca"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Graph Retrieval",
+        "KG Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "GraphRAG answers queries through map-reduce processing of community summaries; in the map step, the summaries are used to provide partial answers to the query independently and in parallel, then in the reduce step, the partial answers are combined and used to generate a final global answer.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "GraphRAG answers queries through map-reduce processing of community summaries; in the map step, the summaries are used to provide partial answers to the query independently and in parallel, then in the reduce step, the partial answers are combined and used to generate a final global answer."
+    },
+    "knowledge_source": {
+      "value": [
+        "Knowledge Graph",
+        "Enterprise Documents"
+      ],
+      "reference": "Our approach uses an LLM to build a graph index in two stages: first, to derive an entity knowledge graph from the source documents, then to pregenerate community summaries for all groups of closely related entities.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Our approach uses an LLM to build a graph index in two stages: first, to derive an entity knowledge graph from the source documents, then to pregenerate community summaries for all groups of closely related entities."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF"
+      ],
+      "reference": "We selected two datasets in the one million token range, each representative of corpora that users may encounter in their real-world activities: Podcast transcripts. Public transcripts of Behind the Tech with Kevin Scott, a podcast featuring conversations between Microsoft CTO Kevin Scott and various thought leaders in science and technology (Scott, 2024).",
+      "verified": true,
+      "verification_score": 0.9777,
+      "verification_method": "fuzzy",
+      "matched_span": "ia.\n\nIn our evaluations, the LLM is provided with the question, the generated answers from two competing systems, and prompted to compare the two answers according to the criterion before giving a final judgment of which answer is preferred. The LLM either indicates a winner; or, it returns a tie if they are fundamentally similar. To account for the inherent stochasticity of LLM generation, we r"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Agentic Planning",
+        "Reflection"
+      ],
+      "reference": "GraphRAG leverages summaries over large sections of the data source as a form of 'self-memory' (described in Cheng et al. 2024), which are later used to answer queries as in Mao et al. 2020). These summaries are generated in parallel and iteratively aggregated into global summaries, similar to prior techniques.",
+      "verified": true,
+      "verification_score": 0.9936,
+      "verification_method": "fuzzy",
+      "matched_span": "ilds upon prior work on advanced RAG strategies. GraphRAG leverages summaries over large sections of the data source as a form of 'self-memory' (described in Cheng et al. 2024), which are later used to answer queries as in Mao et al. 2020). These summaries are generated in parallel and iteratively aggregated into global summaries, similar to prior te"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:08:04.343544+00:00"
+  }
+}

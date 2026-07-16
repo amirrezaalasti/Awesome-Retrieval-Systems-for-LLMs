@@ -1,0 +1,15 @@
+{
+  "year": 2025,
+  "type": "software",
+  "source_url": "https://github.com/HKUDS/LightRAG",
+  "slug": "github-com-HKUDS-LightRAG",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:42.259073+00:00",
+  "owner": "HKUDS",
+  "repo": "LightRAG",
+  "api_url": "https://api.github.com/repos/HKUDS/LightRAG",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/HKUDS/LightRAG/main/README.md",
+  "source_type": "github",
+  "content_chars": 30629
+}

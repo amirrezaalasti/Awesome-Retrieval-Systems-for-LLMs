@@ -1,0 +1,84 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-qdrant-qdrant",
+    "source_url": "https://github.com/qdrant/qdrant"
+  },
+  "fields": {
+    "system_name": {
+      "value": "React Template",
+      "reference": "⚡️ A minimal React Vite starter template.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "⚡️ A minimal React Vite starter template."
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "⚡️ A minimal React Vite starter template.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "⚡️ A minimal React Vite starter template."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks"
+      ],
+      "reference": "⚡️ A minimal React Vite starter template.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "⚡️ A minimal React Vite starter template."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "⚡️ A minimal React Vite starter template.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "⚡️ A minimal React Vite starter template."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database"
+      ],
+      "reference": "⚡️ A minimal React Vite starter template.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "⚡️ A minimal React Vite starter template."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "⚡️ A minimal React Vite starter template.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "⚡️ A minimal React Vite starter template."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "⚡️ A minimal React Vite starter template.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "⚡️ A minimal React Vite starter template."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 2,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:37:27.861548+00:00"
+  }
+}

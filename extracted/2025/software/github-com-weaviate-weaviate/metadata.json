@@ -1,0 +1,15 @@
+{
+  "year": 2025,
+  "type": "software",
+  "source_url": "https://github.com/weaviate/weaviate",
+  "slug": "github-com-weaviate-weaviate",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:52.940940+00:00",
+  "owner": "weaviate",
+  "repo": "weaviate",
+  "api_url": "https://api.github.com/repos/weaviate/weaviate",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/weaviate/weaviate/main/README.md",
+  "source_type": "github",
+  "content_chars": 12559
+}

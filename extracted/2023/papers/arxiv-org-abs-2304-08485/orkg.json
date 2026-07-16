@@ -1,0 +1,87 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2304-08485",
+    "source_url": "https://arxiv.org/abs/2304.08485"
+  },
+  "fields": {
+    "system_name": {
+      "value": "LLaVA",
+      "reference": "we introduce LLaVA: Large Language and Vision Assistant, an end-to-end trained large multimodal model that connects a vision encoder and an LLM for generalpurpose visual and language understanding.",
+      "verified": true,
+      "verification_score": 0.9746,
+      "verification_method": "fuzzy",
+      "matched_span": "g on such generated data, we introduce LLaVA: L arge L anguage a nd V ision A ssistant, an end-to-end trained large multimodal model that connects a vision encoder and an LLM for generalpurpose visual and language understanding. To facil"
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "we introduce LLaVA: Large Language and Vision Assistant, an end-to-end trained large multimodal model that connects a vision encoder and an LLM for generalpurpose visual and language understanding.",
+      "verified": true,
+      "verification_score": 0.9746,
+      "verification_method": "fuzzy",
+      "matched_span": "g on such generated data, we introduce LLaVA: L arge L anguage a nd V ision A ssistant, an end-to-end trained large multimodal model that connects a vision encoder and an LLM for generalpurpose visual and language understanding. To facil"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Multimodal Documents",
+        "Text Chunks"
+      ],
+      "reference": "We present the first attempt to use language-only GPT-4 to generate multimodal language-image instruction-following data. By instruction tuning on such generated data, we introduce LLaVA",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We present the first attempt to use language-only GPT-4 to generate multimodal language-image instruction-following data. By instruction tuning on such generated data, we introduce LLaVA"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "we consider the pre-trained CLIP visual encoder ViT-L/14, which provides the visual feature Z v = g ( X v ) . The grid features before and after the last Transformer layer are considered in our experiments. We consider a simple linear layer to connect image features into the word embedding space.",
+      "verified": true,
+      "verification_score": 0.9798,
+      "verification_method": "fuzzy",
+      "matched_span": "ture.\n\n<!-- image -->\n\nFor an input image X v , we consider the pre-trained CLIP visual encoder ViT-L/14 [40], which provides the visual feature Z v = g ( X v ) . The grid features before and after the last Transformer layer are considered in our experiments. We consider a simple linear layer to connect image features into the word emb"
+    },
+    "knowledge_source": {
+      "value": [
+        "Multimodal Corpora"
+      ],
+      "reference": "We collect 158K unique language-image instruction-following samples in total, including 58K in conversations, 23K in detailed description, and 77k in complex reasoning, respectively.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We collect 158K unique language-image instruction-following samples in total, including 58K in conversations, 23K in detailed description, and 77k in complex reasoning, respectively."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Images"
+      ],
+      "reference": "an end-to-end trained large multimodal model that connects a vision encoder and an LLM for generalpurpose visual and language understanding. To facilitate future research on visual instruction following, we construct two evaluation benchmarks with diverse and challenging application-oriented tasks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "an end-to-end trained large multimodal model that connects a vision encoder and an LLM for generalpurpose visual and language understanding. To facilitate future research on visual instruction following, we construct two evaluation benchmarks with diverse and challenging application-oriented tasks."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Logical Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "The above two types focus on the visual content itself, based on which we further create in-depth reasoning questions. The answers typically require a step-by-step reasoning process by following rigorous logic.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The above two types focus on the visual content itself, based on which we further create in-depth reasoning questions. The answers typically require a step-by-step reasoning process by following rigorous logic."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 3,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:56:30.577821+00:00"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "year": 2023,
+  "type": "software",
+  "source_url": "https://github.com/chroma-core/chroma",
+  "slug": "github-com-chroma-core-chroma",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:14.333672+00:00",
+  "owner": "chroma-core",
+  "repo": "chroma",
+  "api_url": "https://api.github.com/repos/chroma-core/chroma",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/chroma-core/chroma/main/README.md",
+  "source_type": "github",
+  "content_chars": 2691
+}

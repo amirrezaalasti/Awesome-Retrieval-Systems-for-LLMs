@@ -1,0 +1,28 @@
+{
+  "year": 2022,
+  "type": "software",
+  "source_url": "https://github.com/chroma-core/chroma",
+  "slug": "github-com-chroma-core-chroma",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:00:03.862751+00:00",
+  "owner": "chroma-core",
+  "repo": "chroma",
+  "api_url": "https://api.github.com/repos/chroma-core/chroma",
+  "name": "chroma",
+  "full_name": "chroma-core/chroma",
+  "description": "Search infrastructure for AI",
+  "homepage": "https://www.trychroma.com/",
+  "stars": 28691,
+  "topics": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "database",
+    "rust",
+    "rust-lang"
+  ],
+  "license": "Apache-2.0",
+  "default_branch": "main",
+  "source_type": "github",
+  "content_chars": 2691
+}

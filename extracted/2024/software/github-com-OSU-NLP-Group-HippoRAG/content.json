@@ -1,0 +1,3016 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "OSU-NLP-Group-HippoRAG",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 7014051066931937760,
+    "filename": "OSU-NLP-Group-HippoRAG.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        }
+      ],
+      "content_layer": "body",
+      "name": "header-2",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/8"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/texts/12"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/texts/28"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/texts/28"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "name": "ordered list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/texts/32"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/texts/28"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "ordered list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/texts/37"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/texts/48"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/texts/55"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/texts/59"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/texts/82"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/83"
+        }
+      ],
+      "content_layer": "body",
+      "name": "ordered list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/texts/83"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/texts/82"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/88"
+        }
+      ],
+      "content_layer": "body",
+      "name": "ordered list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "$ref": "#/texts/90"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/19",
+      "parent": {
+        "$ref": "#/texts/90"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/94"
+        }
+      ],
+      "content_layer": "body",
+      "name": "ordered list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/20",
+      "parent": {
+        "$ref": "#/texts/90"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/96"
+        }
+      ],
+      "content_layer": "body",
+      "name": "ordered list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/21",
+      "parent": {
+        "$ref": "#/texts/96"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/22",
+      "parent": {
+        "$ref": "#/texts/100"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/112"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/23",
+      "parent": {
+        "$ref": "#/texts/101"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/24",
+      "parent": {
+        "$ref": "#/texts/104"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        },
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/25",
+      "parent": {
+        "$ref": "#/texts/114"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/117"
+        },
+        {
+          "$ref": "#/texts/118"
+        },
+        {
+          "$ref": "#/texts/119"
+        },
+        {
+          "$ref": "#/texts/120"
+        },
+        {
+          "$ref": "#/texts/121"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/26",
+      "parent": {
+        "$ref": "#/texts/131"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        },
+        {
+          "$ref": "#/texts/135"
+        },
+        {
+          "$ref": "#/texts/136"
+        },
+        {
+          "$ref": "#/texts/137"
+        },
+        {
+          "$ref": "#/texts/138"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/27",
+      "parent": {
+        "$ref": "#/texts/145"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/146"
+        },
+        {
+          "$ref": "#/texts/147"
+        },
+        {
+          "$ref": "#/texts/148"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/pictures/0"
+        },
+        {
+          "$ref": "#/groups/0"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/131"
+        },
+        {
+          "$ref": "#/texts/139"
+        },
+        {
+          "$ref": "#/texts/145"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "HippoRAG 2: From RAG to Memory",
+      "text": "HippoRAG 2: From RAG to Memory"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/pictures/1"
+        },
+        {
+          "$ref": "#/groups/1"
+        },
+        {
+          "$ref": "#/pictures/2"
+        },
+        {
+          "$ref": "#/groups/2"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "HippoRAG 2 is a powerful memory framework for LLMs that enhances their ability to recognize and utilize connections in new knowledge—mirroring a key function of human long-term memory.",
+      "text": "HippoRAG 2 is a powerful memory framework for LLMs that enhances their ability to recognize and utilize connections in new knowledge-mirroring a key function of human long-term memory.",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Our experiments show that HippoRAG 2 improves associativity (multi-hop retrieval) and sense-making (the process of integrating large and complex contexts) in even the most advanced RAG systems, without sacrificing their performance on simpler tasks.",
+      "text": "Our experiments show that HippoRAG 2 improves associativity (multi-hop retrieval) and sense-making (the process of integrating large and complex contexts) in even the most advanced RAG systems, without sacrificing their performance on simpler tasks."
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Like its predecessor, HippoRAG 2 remains cost and latency efficient in online processes, while using significantly fewer resources for offline indexing compared to other graph-based solutions such as GraphRAG, RAPTOR, and LightRAG.",
+      "text": "Like its predecessor, HippoRAG 2 remains cost and latency efficient in online processes, while using significantly fewer resources for offline indexing compared to other graph-based solutions such as GraphRAG, RAPTOR, and LightRAG."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Figure 1:",
+      "text": "Figure 1:",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Evaluation of continual learning capabilities across three key dimensions: factual memory (NaturalQuestions, PopQA), sense-making (NarrativeQA), and associativity (MuSiQue, 2Wiki, HotpotQA, and LV-Eval). HippoRAG 2 surpasses other methods across all categories, bringing it one step closer to true long-term memory.",
+      "text": "Evaluation of continual learning capabilities across three key dimensions: factual memory (NaturalQuestions, PopQA), sense-making (NarrativeQA), and associativity (MuSiQue, 2Wiki, HotpotQA, and LV-Eval). HippoRAG 2 surpasses other methods across all categories, bringing it one step closer to true long-term memory."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Figure 2:",
+      "text": "Figure 2:",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "HippoRAG 2 methodology.",
+      "text": "HippoRAG 2 methodology."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Check out our papers to learn more:",
+      "text": "Check out our papers to learn more:",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+      "text": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": "https://arxiv.org/abs/2405.14831"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "[NeurIPS '24].",
+      "text": "[NeurIPS '24]."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/5"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "From RAG to Memory: Non-Parametric Continual Learning for Large Language Models",
+      "text": "From RAG to Memory: Non-Parametric Continual Learning for Large Language Models",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": "https://arxiv.org/abs/2502.14802"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "[ICML '25].",
+      "text": "[ICML '25]."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Installation",
+      "text": "Installation",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/texts/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "conda create -n hipporag python=3.10\nconda activate hipporag\npip install hipporag",
+      "text": "conda create -n hipporag python=3.10\nconda activate hipporag\npip install hipporag",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/texts/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Initialize the environmental variables and activate the environment:",
+      "text": "Initialize the environmental variables and activate the environment:"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/texts/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "export CUDA_VISIBLE_DEVICES=0,1,2,3\nexport HF_HOME= export OPENAI_API_KEY= # if you want to use OpenAI model\n\nconda activate hipporag",
+      "text": "export CUDA_VISIBLE_DEVICES=0,1,2,3\nexport HF_HOME= export OPENAI_API_KEY= # if you want to use OpenAI model\n\nconda activate hipporag",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Quick Start",
+      "text": "Quick Start",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/6"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "OpenAI Models",
+      "text": "OpenAI Models",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "This simple example will illustrate how to use",
+      "text": "This simple example will illustrate how to use"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "hipporag",
+      "text": "hipporag",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "with any OpenAI model:",
+      "text": "with any OpenAI model:"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "from hipporag import HippoRAG\n\n# Prepare datasets and evaluation\ndocs = [\n    \"Oliver Badman is a politician.\",\n    \"George Rankin is a politician.\",\n    \"Thomas Marwick is a politician.\",\n    \"Cinderella attended the royal ball.\",\n    \"The prince used the lost glass slipper to search the kingdom.\",\n    \"When the slipper fit perfectly, Cinderella was reunited with the prince.\",\n    \"Erik Hort's birthplace is Montebello.\",\n    \"Marina is bom in Minsk.\",\n    \"Montebello is a part of Rockland County.\"\n]\n\nsave_dir = 'outputs'# Define save directory for HippoRAG objects (each LLM/Embedding model combination will create a new subdirectory)\nllm_model_name = 'gpt-4o-mini' # Any OpenAI model name\nembedding_model_name = 'nvidia/NV-Embed-v2'# Embedding model name (NV-Embed, GritLM or Contriever for now)\n\n#Startup a HippoRAG instance\nhipporag = HippoRAG(save_dir=save_dir, \n                    llm_model_name=llm_model_name,\n                    embedding_model_name=embedding_model_name) \n\n#Run indexing\nhipporag.index(docs=docs)\n\n#Separate Retrieval & QA\nqueries = [\n    \"What is George Rankin's occupation?\",\n    \"How did Cinderella reach her happy ending?\",\n    \"What county is Erik Hort's birthplace a part of?\"\n]\n\nretrieval_results = hipporag.retrieve(queries=queries, num_to_retrieve=2)\nqa_results = hipporag.rag_qa(retrieval_results)\n\n#Combined Retrieval & QA\nrag_results = hipporag.rag_qa(queries=queries)\n\n#For Evaluation\nanswers = [\n    [\"Politician\"],\n    [\"By going to the ball.\"],\n    [\"Rockland County\"]\n]\n\ngold_docs = [\n    [\"George Rankin is a politician.\"],\n    [\"Cinderella attended the royal ball.\",\n    \"The prince used the lost glass slipper to search the kingdom.\",\n    \"When the slipper fit perfectly, Cinderella was reunited with the prince.\"],\n    [\"Erik Hort's birthplace is Montebello.\",\n    \"Montebello is a part of Rockland County.\"]\n]\n\nrag_results = hipporag.rag_qa(queries=queries, \n                              gold_docs=gold_docs,\n                              gold_answers=answers)",
+      "text": "from hipporag import HippoRAG\n\n# Prepare datasets and evaluation\ndocs = [\n    \"Oliver Badman is a politician.\",\n    \"George Rankin is a politician.\",\n    \"Thomas Marwick is a politician.\",\n    \"Cinderella attended the royal ball.\",\n    \"The prince used the lost glass slipper to search the kingdom.\",\n    \"When the slipper fit perfectly, Cinderella was reunited with the prince.\",\n    \"Erik Hort's birthplace is Montebello.\",\n    \"Marina is bom in Minsk.\",\n    \"Montebello is a part of Rockland County.\"\n]\n\nsave_dir = 'outputs'# Define save directory for HippoRAG objects (each LLM/Embedding model combination will create a new subdirectory)\nllm_model_name = 'gpt-4o-mini' # Any OpenAI model name\nembedding_model_name = 'nvidia/NV-Embed-v2'# Embedding model name (NV-Embed, GritLM or Contriever for now)\n\n#Startup a HippoRAG instance\nhipporag = HippoRAG(save_dir=save_dir, \n                    llm_model_name=llm_model_name,\n                    embedding_model_name=embedding_model_name) \n\n#Run indexing\nhipporag.index(docs=docs)\n\n#Separate Retrieval & QA\nqueries = [\n    \"What is George Rankin's occupation?\",\n    \"How did Cinderella reach her happy ending?\",\n    \"What county is Erik Hort's birthplace a part of?\"\n]\n\nretrieval_results = hipporag.retrieve(queries=queries, num_to_retrieve=2)\nqa_results = hipporag.rag_qa(retrieval_results)\n\n#Combined Retrieval & QA\nrag_results = hipporag.rag_qa(queries=queries)\n\n#For Evaluation\nanswers = [\n    [\"Politician\"],\n    [\"By going to the ball.\"],\n    [\"Rockland County\"]\n]\n\ngold_docs = [\n    [\"George Rankin is a politician.\"],\n    [\"Cinderella attended the royal ball.\",\n    \"The prince used the lost glass slipper to search the kingdom.\",\n    \"When the slipper fit perfectly, Cinderella was reunited with the prince.\"],\n    [\"Erik Hort's birthplace is Montebello.\",\n    \"Montebello is a part of Rockland County.\"]\n]\n\nrag_results = hipporag.rag_qa(queries=queries, \n                              gold_docs=gold_docs,\n                              gold_answers=answers)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Example (OpenAI Compatible Embeddings)",
+      "text": "Example (OpenAI Compatible Embeddings)",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/texts/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If you want to use LLMs and Embeddings Compatible to OpenAI, please use the following methods.",
+      "text": "If you want to use LLMs and Embeddings Compatible to OpenAI, please use the following methods."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/texts/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "hipporag = HippoRAG(save_dir=save_dir, \n    llm_model_name='Your LLM Model name',\n    llm_base_url='Your LLM Model url',\n    embedding_model_name='Your Embedding model name',  \n    embedding_base_url='Your Embedding model url')",
+      "text": "hipporag = HippoRAG(save_dir=save_dir, \n    llm_model_name='Your LLM Model name',\n    llm_base_url='Your LLM Model url',\n    embedding_model_name='Your Embedding model name',  \n    embedding_base_url='Your Embedding model url')",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/7"
+        },
+        {
+          "$ref": "#/groups/8"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/groups/10"
+        },
+        {
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Local Deployment (vLLM)",
+      "text": "Local Deployment (vLLM)",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "This simple example will illustrate how to use",
+      "text": "This simple example will illustrate how to use"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "hipporag",
+      "text": "hipporag",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "with any vLLM-compatible locally deployed LLM.",
+      "text": "with any vLLM-compatible locally deployed LLM."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/9"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": true,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Run a local",
+      "text": "Run a local"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "OpenAI-compatible vLLM server",
+      "text": "OpenAI-compatible vLLM server",
+      "hyperlink": "https://docs.vllm.ai/en/latest/getting_started/quickstart.html#quickstart-online"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "with specified GPUs (make sure you leave enough memory for your embedding model).",
+      "text": "with specified GPUs (make sure you leave enough memory for your embedding model)."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/texts/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "export CUDA_VISIBLE_DEVICES=0,1\nexport VLLM_WORKER_MULTIPROC_METHOD=spawn\nexport HF_HOME= conda activate hipporag  # vllm should be in this environment\n\n# Tune gpu-memory-utilization or max_model_len to fit your GPU memory, if OOM occurs\nvllm serve meta-llama/Llama-3.3-70B-Instruct --tensor-parallel-size 2 --max_model_len 4096 --gpu-memory-utilization 0.95",
+      "text": "export CUDA_VISIBLE_DEVICES=0,1\nexport VLLM_WORKER_MULTIPROC_METHOD=spawn\nexport HF_HOME= conda activate hipporag  # vllm should be in this environment\n\n# Tune gpu-memory-utilization or max_model_len to fit your GPU memory, if OOM occurs\nvllm serve meta-llama/Llama-3.3-70B-Instruct --tensor-parallel-size 2 --max_model_len 4096 --gpu-memory-utilization 0.95",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/11"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": true,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Now you can use very similar code to the one above to use",
+      "text": "Now you can use very similar code to the one above to use"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "hipporag",
+      "text": "hipporag",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ":",
+      "text": ":"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/texts/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "save_dir = 'outputs'# Define save directory for HippoRAG objects (each LLM/Embedding model combination will create a new subdirectory)\nllm_model_name = # Any OpenAI model name\nembedding_model_name = # Embedding model name (NV-Embed, GritLM or Contriever for now)\nllm_base_url= # Base url for your deployed LLM (i.e. http://localhost:8000/v1)\n\nhipporag = HippoRAG(save_dir=save_dir,\n                    llm_model_name=llm_model,\n                    embedding_model_name=embedding_model_name,\n                    llm_base_url=llm_base_url)\n\n# Same Indexing, Retrieval and QA as running OpenAI models above",
+      "text": "save_dir = 'outputs'# Define save directory for HippoRAG objects (each LLM/Embedding model combination will create a new subdirectory)\nllm_model_name = # Any OpenAI model name\nembedding_model_name = # Embedding model name (NV-Embed, GritLM or Contriever for now)\nllm_base_url= # Base url for your deployed LLM (i.e. http://localhost:8000/v1)\n\nhipporag = HippoRAG(save_dir=save_dir,\n                    llm_model_name=llm_model,\n                    embedding_model_name=embedding_model_name,\n                    llm_base_url=llm_base_url)\n\n# Same Indexing, Retrieval and QA as running OpenAI models above",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Testing",
+      "text": "Testing",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/texts/42"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "When making a contribution to HippoRAG, please run the scripts below to ensure that your changes do not result in unexpected behavior from our core modules.",
+      "text": "When making a contribution to HippoRAG, please run the scripts below to ensure that your changes do not result in unexpected behavior from our core modules."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/texts/42"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "These scripts test for indexing, graph loading, document deletion and incremental updates to a HippoRAG object.",
+      "text": "These scripts test for indexing, graph loading, document deletion and incremental updates to a HippoRAG object."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/texts/42"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "OpenAI Test",
+      "text": "OpenAI Test",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/texts/45"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "To test HippoRAG with an OpenAI LLM and embedding model, simply run the following. The cost of this test will be negligible.",
+      "text": "To test HippoRAG with an OpenAI LLM and embedding model, simply run the following. The cost of this test will be negligible."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/texts/45"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "export OPENAI_API_KEY= conda activate hipporag\n\npython tests_openai.py",
+      "text": "export OPENAI_API_KEY= conda activate hipporag\n\npython tests_openai.py",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/texts/42"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/12"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Local Test",
+      "text": "Local Test",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "To test locally, you must deploy a vLLM instance. We choose to deploy a smaller 8B model",
+      "text": "To test locally, you must deploy a vLLM instance. We choose to deploy a smaller 8B model"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Llama-3.1-8B-Instruct",
+      "text": "Llama-3.1-8B-Instruct",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "for cheaper testing.",
+      "text": "for cheaper testing."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/texts/48"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "export CUDA_VISIBLE_DEVICES=0\nexport VLLM_WORKER_MULTIPROC_METHOD=spawn\nexport HF_HOME= conda activate hipporag  # vllm should be in this environment\n\n# Tune gpu-memory-utilization or max_model_len to fit your GPU memory, if OOM occurs\nvllm serve meta-llama/Llama-3.1-8B-Instruct --tensor-parallel-size 2 --max_model_len 4096 --gpu-memory-utilization 0.95 --port 6578",
+      "text": "export CUDA_VISIBLE_DEVICES=0\nexport VLLM_WORKER_MULTIPROC_METHOD=spawn\nexport HF_HOME= conda activate hipporag  # vllm should be in this environment\n\n# Tune gpu-memory-utilization or max_model_len to fit your GPU memory, if OOM occurs\nvllm serve meta-llama/Llama-3.1-8B-Instruct --tensor-parallel-size 2 --max_model_len 4096 --gpu-memory-utilization 0.95 --port 6578",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/texts/48"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Then, we run the following test script:",
+      "text": "Then, we run the following test script:"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/texts/48"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "CUDA_VISIBLE=1 python tests_local.py",
+      "text": "CUDA_VISIBLE=1 python tests_local.py",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/13"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/82"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Reproducing our Experiments",
+      "text": "Reproducing our Experiments",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "To use our code to run experiments we recommend you clone this repository and follow the structure of the",
+      "text": "To use our code to run experiments we recommend you clone this repository and follow the structure of the"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "main.py",
+      "text": "main.py",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "script.",
+      "text": "script."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/texts/55"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/14"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Data for Reproducibility",
+      "text": "Data for Reproducibility",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "We evaluated several sampled datasets in our paper, some of which are already included in the",
+      "text": "We evaluated several sampled datasets in our paper, some of which are already included in the"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "reproduce/dataset",
+      "text": "reproduce/dataset",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "directory of this repo. For the complete set of datasets, please visit our",
+      "text": "directory of this repo. For the complete set of datasets, please visit our"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "HuggingFace dataset",
+      "text": "HuggingFace dataset",
+      "hyperlink": "https://huggingface.co/datasets/osunlp/HippoRAG_v2"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "and place them under",
+      "text": "and place them under"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "reproduce/dataset",
+      "text": "reproduce/dataset",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". We also provide the OpenIE results for both",
+      "text": ". We also provide the OpenIE results for both"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "gpt-4o-mini",
+      "text": "gpt-4o-mini",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "and",
+      "text": "and"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Llama-3.3-70B-Instruct",
+      "text": "Llama-3.3-70B-Instruct",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "for our",
+      "text": "for our"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "musique",
+      "text": "musique",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "sample under",
+      "text": "sample under"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "outputs/musique",
+      "text": "outputs/musique",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". To test your environment is properly set up, you can use the small dataset",
+      "text": ". To test your environment is properly set up, you can use the small dataset"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "reproduce/dataset/sample.json",
+      "text": "reproduce/dataset/sample.json",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "for debugging as shown below.",
+      "text": "for debugging as shown below."
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/texts/55"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Running Indexing & QA",
+      "text": "Running Indexing & QA",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/texts/77"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Initialize the environmental variables and activate the environment:",
+      "text": "Initialize the environmental variables and activate the environment:"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/texts/77"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "export CUDA_VISIBLE_DEVICES=0,1,2,3\nexport HF_HOME= export OPENAI_API_KEY= # if you want to use OpenAI model\n\nconda activate hipporag",
+      "text": "export CUDA_VISIBLE_DEVICES=0,1,2,3\nexport HF_HOME= export OPENAI_API_KEY= # if you want to use OpenAI model\n\nconda activate hipporag",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/texts/55"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/81"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Run with OpenAI Model",
+      "text": "Run with OpenAI Model",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/texts/80"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "dataset=sample  # or any other dataset under `reproduce/dataset`\n\n# Run OpenAI model\npython main.py --dataset $dataset --llm_base_url https://api.openai.com/v1 --llm_name gpt-4o-mini --embedding_name nvidia/NV-Embed-v2",
+      "text": "dataset=sample  # or any other dataset under `reproduce/dataset`\n\n# Run OpenAI model\npython main.py --dataset $dataset --llm_base_url https://api.openai.com/v1 --llm_name gpt-4o-mini --embedding_name nvidia/NV-Embed-v2",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/texts/55"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/15"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/groups/17"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Run with vLLM (Llama)",
+      "text": "Run with vLLM (Llama)",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/16"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": true,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "As above, run a local",
+      "text": "As above, run a local"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "OpenAI-compatible vLLM server",
+      "text": "OpenAI-compatible vLLM server",
+      "hyperlink": "https://docs.vllm.ai/en/latest/getting_started/quickstart.html#quickstart-online"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "with specified GPU.",
+      "text": "with specified GPU."
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/texts/82"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "export CUDA_VISIBLE_DEVICES=0,1\nexport VLLM_WORKER_MULTIPROC_METHOD=spawn\nexport HF_HOME= conda activate hipporag  # vllm should be in this environment\n\n# Tune gpu-memory-utilization or max_model_len to fit your GPU memory, if OOM occurs\nvllm serve meta-llama/Llama-3.3-70B-Instruct --tensor-parallel-size 2 --max_model_len 4096 --gpu-memory-utilization 0.95",
+      "text": "export CUDA_VISIBLE_DEVICES=0,1\nexport VLLM_WORKER_MULTIPROC_METHOD=spawn\nexport HF_HOME= conda activate hipporag  # vllm should be in this environment\n\n# Tune gpu-memory-utilization or max_model_len to fit your GPU memory, if OOM occurs\nvllm serve meta-llama/Llama-3.3-70B-Instruct --tensor-parallel-size 2 --max_model_len 4096 --gpu-memory-utilization 0.95",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Use another GPUs to run the main program in another terminal.",
+      "text": "Use another GPUs to run the main program in another terminal.",
+      "enumerated": true,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/texts/82"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "export CUDA_VISIBLE_DEVICES=2,3  # set another GPUs while vLLM server is running\nexport HF_HOME= dataset=sample\n\npython main.py --dataset $dataset --llm_base_url http://localhost:8000/v1 --llm_name meta-llama/Llama-3.3-70B-Instruct --embedding_name nvidia/NV-Embed-v2",
+      "text": "export CUDA_VISIBLE_DEVICES=2,3  # set another GPUs while vLLM server is running\nexport HF_HOME= dataset=sample\n\npython main.py --dataset $dataset --llm_base_url http://localhost:8000/v1 --llm_name meta-llama/Llama-3.3-70B-Instruct --embedding_name nvidia/NV-Embed-v2",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/texts/82"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/18"
+        },
+        {
+          "$ref": "#/groups/19"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/groups/20"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Advanced: Run with vLLM offline batch",
+      "text": "Advanced: Run with vLLM offline batch",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "vLLM offers an",
+      "text": "vLLM offers an"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "offline batch mode",
+      "text": "offline batch mode",
+      "hyperlink": "https://docs.vllm.ai/en/latest/getting_started/quickstart.html#offline-batched-inference"
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "for faster inference, which could bring us more than 3x faster indexing compared to vLLM online server.",
+      "text": "for faster inference, which could bring us more than 3x faster indexing compared to vLLM online server."
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Use the following command to run the main program with vLLM offline batch mode.",
+      "text": "Use the following command to run the main program with vLLM offline batch mode.",
+      "enumerated": true,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/texts/90"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "export CUDA_VISIBLE_DEVICES=0,1,2,3 # use all GPUs for faster offline indexing\nexport VLLM_WORKER_MULTIPROC_METHOD=spawn\nexport HF_HOME= export OPENAI_API_KEY=''\ndataset=sample\n\npython main.py --dataset $dataset --llm_name meta-llama/Llama-3.3-70B-Instruct --openie_mode offline --skip_graph",
+      "text": "export CUDA_VISIBLE_DEVICES=0,1,2,3 # use all GPUs for faster offline indexing\nexport VLLM_WORKER_MULTIPROC_METHOD=spawn\nexport HF_HOME= export OPENAI_API_KEY=''\ndataset=sample\n\npython main.py --dataset $dataset --llm_name meta-llama/Llama-3.3-70B-Instruct --openie_mode offline --skip_graph",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/21"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": true,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "After the first step, OpenIE result is saved to file. Go back to run vLLM online server and main program as described in the",
+      "text": "After the first step, OpenIE result is saved to file. Go back to run vLLM online server and main program as described in the"
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "Run with vLLM (Llama)",
+      "text": "Run with vLLM (Llama)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "main section.",
+      "text": "main section."
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/22"
+        },
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Debugging Note",
+      "text": "Debugging Note",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/23"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "/reproduce/dataset/sample.json",
+      "text": "/reproduce/dataset/sample.json",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "is a small dataset specifically for debugging.",
+      "text": "is a small dataset specifically for debugging."
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/24"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "When debugging vLLM offline mode, set",
+      "text": "When debugging vLLM offline mode, set"
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "tensor_parallel_size",
+      "text": "tensor_parallel_size",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "as",
+      "text": "as"
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "1",
+      "text": "1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "in",
+      "text": "in"
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "hipporag/llm/vllm_offline.py",
+      "text": "hipporag/llm/vllm_offline.py",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "If you want to rerun a particular experiment, remember to clear the saved files, including OpenIE results and knowledge graph, e.g.,",
+      "text": "If you want to rerun a particular experiment, remember to clear the saved files, including OpenIE results and knowledge graph, e.g.,",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/texts/100"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "rm reproduce/dataset/openie_results/openie_sample_results_ner_meta-llama_Llama-3.3-70B-Instruct_3.json\nrm -rf outputs/sample/sample_meta-llama_Llama-3.3-70B-Instruct_nvidia_NV-Embed-v2",
+      "text": "rm reproduce/dataset/openie_results/openie_sample_results_ner_meta-llama_Llama-3.3-70B-Instruct_3.json\nrm -rf outputs/sample/sample_meta-llama_Llama-3.3-70B-Instruct_nvidia_NV-Embed-v2",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/texts/100"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/25"
+        },
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/125"
+        },
+        {
+          "$ref": "#/texts/127"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Custom Datasets",
+      "text": "Custom Datasets",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "To setup your own custom dataset for evaluation, follow the format and naming convention shown in",
+      "text": "To setup your own custom dataset for evaluation, follow the format and naming convention shown in"
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "reproduce/dataset/sample_corpus.json",
+      "text": "reproduce/dataset/sample_corpus.json",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "(your dataset's name should be followed by",
+      "text": "(your dataset's name should be followed by"
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "_corpus.json",
+      "text": "_corpus.json",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "). If running an experiment with pre-defined questions, organize your query corpus according to the query file",
+      "text": "). If running an experiment with pre-defined questions, organize your query corpus according to the query file"
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "reproduce/dataset/sample.json",
+      "text": "reproduce/dataset/sample.json",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", be sure to also follow our naming convention.",
+      "text": ", be sure to also follow our naming convention."
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/texts/114"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The corpus and optional query JSON files should have the following format:",
+      "text": "The corpus and optional query JSON files should have the following format:"
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/texts/114"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/124"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Retrieval Corpus JSON",
+      "text": "Retrieval Corpus JSON",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/texts/123"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[\n  {\n    \"title\": \"FIRST PASSAGE TITLE\",\n    \"text\": \"FIRST PASSAGE TEXT\",\n    \"idx\": 0\n  },\n  {\n    \"title\": \"SECOND PASSAGE TITLE\",\n    \"text\": \"SECOND PASSAGE TEXT\",\n    \"idx\": 1\n  }\n]",
+      "text": "[\n  {\n    \"title\": \"FIRST PASSAGE TITLE\",\n    \"text\": \"FIRST PASSAGE TEXT\",\n    \"idx\": 0\n  },\n  {\n    \"title\": \"SECOND PASSAGE TITLE\",\n    \"text\": \"SECOND PASSAGE TEXT\",\n    \"idx\": 1\n  }\n]",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "JSON"
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/texts/114"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/126"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "(Optional) Query JSON",
+      "text": "(Optional) Query JSON",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/texts/125"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "[\n  {\n    \"id\": \"sample/question_1.json\",\n    \"question\": \"QUESTION\",\n    \"answer\": [\n      \"ANSWER\"\n    ],\n    \"answerable\": true,\n    \"paragraphs\": [\n      {\n        \"title\": \"{FIRST SUPPORTING PASSAGE TITLE}\",\n        \"text\": \"{FIRST SUPPORTING PASSAGE TEXT}\",\n        \"is_supporting\": true,\n        \"idx\": 0\n      },\n      {\n        \"title\": \"{SECOND SUPPORTING PASSAGE TITLE}\",\n        \"text\": \"{SECOND SUPPORTING PASSAGE TEXT}\",\n        \"is_supporting\": true,\n        \"idx\": 1\n      }\n    ]\n  }\n]",
+      "text": "[\n  {\n    \"id\": \"sample/question_1.json\",\n    \"question\": \"QUESTION\",\n    \"answer\": [\n      \"ANSWER\"\n    ],\n    \"answerable\": true,\n    \"paragraphs\": [\n      {\n        \"title\": \"{FIRST SUPPORTING PASSAGE TITLE}\",\n        \"text\": \"{FIRST SUPPORTING PASSAGE TEXT}\",\n        \"is_supporting\": true,\n        \"idx\": 0\n      },\n      {\n        \"title\": \"{SECOND SUPPORTING PASSAGE TITLE}\",\n        \"text\": \"{SECOND SUPPORTING PASSAGE TEXT}\",\n        \"is_supporting\": true,\n        \"idx\": 1\n      }\n    ]\n  }\n]",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "JSON"
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/texts/114"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/128"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "(Optional) Chunking Corpus",
+      "text": "(Optional) Chunking Corpus",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/texts/127"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "When preparing your data, you may need to chunk each passage, as longer passage may be too complex for the OpenIE process.",
+      "text": "When preparing your data, you may need to chunk each passage, as longer passage may be too complex for the OpenIE process."
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/130"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Code Structure",
+      "text": "Code Structure",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/texts/129"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "📦 .\n│-- 📂 src/hipporag\n│   ├── 📂 embedding_model          # Implementation of all embedding models\n│   │   ├── __init__.py             # Getter function for get specific embedding model classes\n|   |   ├── base.py                 # Base embedding model class `BaseEmbeddingModel` to inherit and `EmbeddingConfig`\n|   |   ├── NVEmbedV2.py            # Implementation of NV-Embed-v2 model\n|   |   ├── ...\n│   ├── 📂 evaluation               # Implementation of all evaluation metrics\n│   │   ├── __init__.py\n|   |   ├── base.py                 # Base evaluation metric class `BaseMetric` to inherit\n│   │   ├── qa_eval.py              # Eval metrics for QA\n│   │   ├── retrieval_eval.py       # Eval metrics for retrieval\n│   ├── 📂 information_extraction  # Implementation of all information extraction models\n│   │   ├── __init__.py\n|   |   ├── openie_openai_gpt.py    # Model for OpenIE with OpenAI GPT\n|   |   ├── openie_vllm_offline.py  # Model for OpenIE with LLMs deployed offline with vLLM\n│   ├── 📂 llm                      # Classes for inference with large language models\n│   │   ├── __init__.py             # Getter function\n|   |   ├── base.py                 # Config class for LLM inference and base LLM inference class to inherit\n|   |   ├── openai_gpt.py           # Class for inference with OpenAI GPT\n|   |   ├── vllm_llama.py           # Class for inference using a local vLLM server\n|   |   ├── vllm_offline.py         # Class for inference using the vLLM API directly\n│   ├── 📂 prompts                  # Prompt templates and prompt template manager class\n|   │   ├── 📂 dspy_prompts         # Prompts for filtering\n|   │   │   ├── ...\n|   │   ├── 📂 templates            # All prompt templates for template manager to load\n|   │   │   ├── README.md           # Documentations of usage of prompte template manager and prompt template files\n|   │   │   ├── __init__.py\n|   │   │   ├── triple_extraction.py\n|   │   │   ├── ...\n│   │   ├── __init__.py\n|   |   ├── linking.py              # Instruction for linking\n|   |   ├── prompt_template_manager.py  # Implementation of prompt template manager\n│   ├── 📂 utils                    # All utility functions used across this repo (the file name indicates its relevant usage)\n│   │   ├── config_utils.py         # We use only one config across all modules and its setup is specified here\n|   |   ├── ...\n│   ├── __init__.py\n│   ├── HippoRAG.py          # Highest level class for initiating retrieval, question answering, and evaluations\n│   ├── embedding_store.py   # Storage database to load, manage and save embeddings for passages, entities and facts.\n│   ├── rerank.py            # Reranking and filtering methods\n│-- 📂 examples\n│   ├── ...\n│   ├── ...\n│-- 📜 README.md\n│-- 📜 requirements.txt   # Dependencies list\n│-- 📜 .gitignore         # Files to exclude from Git",
+      "text": "📦 .\n│-- 📂 src/hipporag\n│   ├── 📂 embedding_model          # Implementation of all embedding models\n│   │   ├── __init__.py             # Getter function for get specific embedding model classes\n|   |   ├── base.py                 # Base embedding model class `BaseEmbeddingModel` to inherit and `EmbeddingConfig`\n|   |   ├── NVEmbedV2.py            # Implementation of NV-Embed-v2 model\n|   |   ├── ...\n│   ├── 📂 evaluation               # Implementation of all evaluation metrics\n│   │   ├── __init__.py\n|   |   ├── base.py                 # Base evaluation metric class `BaseMetric` to inherit\n│   │   ├── qa_eval.py              # Eval metrics for QA\n│   │   ├── retrieval_eval.py       # Eval metrics for retrieval\n│   ├── 📂 information_extraction  # Implementation of all information extraction models\n│   │   ├── __init__.py\n|   |   ├── openie_openai_gpt.py    # Model for OpenIE with OpenAI GPT\n|   |   ├── openie_vllm_offline.py  # Model for OpenIE with LLMs deployed offline with vLLM\n│   ├── 📂 llm                      # Classes for inference with large language models\n│   │   ├── __init__.py             # Getter function\n|   |   ├── base.py                 # Config class for LLM inference and base LLM inference class to inherit\n|   |   ├── openai_gpt.py           # Class for inference with OpenAI GPT\n|   |   ├── vllm_llama.py           # Class for inference using a local vLLM server\n|   |   ├── vllm_offline.py         # Class for inference using the vLLM API directly\n│   ├── 📂 prompts                  # Prompt templates and prompt template manager class\n|   │   ├── 📂 dspy_prompts         # Prompts for filtering\n|   │   │   ├── ...\n|   │   ├── 📂 templates            # All prompt templates for template manager to load\n|   │   │   ├── README.md           # Documentations of usage of prompte template manager and prompt template files\n|   │   │   ├── __init__.py\n|   │   │   ├── triple_extraction.py\n|   │   │   ├── ...\n│   │   ├── __init__.py\n|   |   ├── linking.py              # Instruction for linking\n|   |   ├── prompt_template_manager.py  # Implementation of prompt template manager\n│   ├── 📂 utils                    # All utility functions used across this repo (the file name indicates its relevant usage)\n│   │   ├── config_utils.py         # We use only one config across all modules and its setup is specified here\n|   |   ├── ...\n│   ├── __init__.py\n│   ├── HippoRAG.py          # Highest level class for initiating retrieval, question answering, and evaluations\n│   ├── embedding_store.py   # Storage database to load, manage and save embeddings for passages, entities and facts.\n│   ├── rerank.py            # Reranking and filtering methods\n│-- 📂 examples\n│   ├── ...\n│   ├── ...\n│-- 📜 README.md\n│-- 📜 requirements.txt   # Dependencies list\n│-- 📜 .gitignore         # Files to exclude from Git",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/26"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Contact",
+      "text": "Contact",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Questions or issues? File an issue or contact",
+      "text": "Questions or issues? File an issue or contact"
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Bernal Jiménez Gutiérrez",
+      "text": "Bernal Jiménez Gutiérrez",
+      "hyperlink": "mailto:jimenezgutierrez.1@osu.edu"
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ",",
+      "text": ","
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Yiheng Shu",
+      "text": "Yiheng Shu",
+      "hyperlink": "mailto:shu.251@osu.edu"
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ",",
+      "text": ","
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Yu Su",
+      "text": "Yu Su",
+      "hyperlink": "mailto:su.809@osu.edu"
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", The Ohio State University",
+      "text": ", The Ohio State University"
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/140"
+        },
+        {
+          "$ref": "#/texts/141"
+        },
+        {
+          "$ref": "#/texts/143"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Citation",
+      "text": "Citation",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/texts/139"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "If you find this work useful, please consider citing our papers:",
+      "text": "If you find this work useful, please consider citing our papers:"
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "$ref": "#/texts/139"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/142"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "HippoRAG 2",
+      "text": "HippoRAG 2",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "$ref": "#/texts/141"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "@misc{gutiérrez2025ragmemorynonparametriccontinual,\n      title={From RAG to Memory: Non-Parametric Continual Learning for Large Language Models}, \n      author={Bernal Jiménez Gutiérrez and Yiheng Shu and Weijian Qi and Sizhe Zhou and Yu Su},\n      year={2025},\n      eprint={2502.14802},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2502.14802}, \n}",
+      "text": "@misc{gutiérrez2025ragmemorynonparametriccontinual,\n      title={From RAG to Memory: Non-Parametric Continual Learning for Large Language Models}, \n      author={Bernal Jiménez Gutiérrez and Yiheng Shu and Weijian Qi and Sizhe Zhou and Yu Su},\n      year={2025},\n      eprint={2502.14802},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2502.14802}, \n}",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/143",
+      "parent": {
+        "$ref": "#/texts/139"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/144"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "HippoRAG",
+      "text": "HippoRAG",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/144",
+      "parent": {
+        "$ref": "#/texts/143"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "@inproceedings{gutiérrez2024hipporag,\n      title={HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models}, \n      author={Bernal Jiménez Gutiérrez and Yiheng Shu and Yu Gu and Michihiro Yasunaga and Yu Su},\n      booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},\n      year={2024},\n      url={https://openreview.net/forum?id=hkujvAPVsg}",
+      "text": "@inproceedings{gutiérrez2024hipporag,\n      title={HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models}, \n      author={Bernal Jiménez Gutiérrez and Yiheng Shu and Yu Gu and Michihiro Yasunaga and Yu Su},\n      booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},\n      year={2024},\n      url={https://openreview.net/forum?id=hkujvAPVsg}",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/145",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/27"
+        },
+        {
+          "$ref": "#/texts/149"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "TODO:",
+      "text": "TODO:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/146",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[x] Add support for more embedding models",
+      "text": "[x] Add support for more embedding models",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/147",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[x] Add support for embedding endpoints",
+      "text": "[x] Add support for embedding endpoints",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/148",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[ ] Add support for vector database integration",
+      "text": "[ ] Add support for vector database integration",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/149",
+      "parent": {
+        "$ref": "#/texts/145"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Please feel free to open an issue or PR if you have any questions or suggestions.",
+      "text": "Please feel free to open an issue or PR if you have any questions or suggestions."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

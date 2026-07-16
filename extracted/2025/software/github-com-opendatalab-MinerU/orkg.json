@@ -1,0 +1,92 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-opendatalab-MinerU",
+    "source_url": "https://github.com/opendatalab/MinerU"
+  },
+  "fields": {
+    "system_name": {
+      "value": "MinerU",
+      "reference": "MinerU is a document parsing tool that converts `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs into machine-readable formats such as Markdown and JSON for downstream retrieval, extraction, and processing.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "MinerU is a document parsing tool that converts `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs into machine-readable formats such as Markdown and JSON for downstream retrieval, extraction, and processing."
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "MinerU — High-accuracy document parsing engine for LLM · RAG · Agent workflows",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "MinerU — High-accuracy document parsing engine for LLM · RAG · Agent workflows"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "Tables",
+        "Multimodal Documents"
+      ],
+      "reference": "Converts PDF · DOCX · PPTX · XLSX · Images · Web pages into structured Markdown / JSON · VLM+OCR dual engine · 109 languages",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Converts PDF · DOCX · PPTX · XLSX · Images · Web pages into structured Markdown / JSON · VLM+OCR dual engine · 109 languages"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Tool Retrieval"
+      ],
+      "reference": "MinerU is a document parsing tool that converts `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs into machine-readable formats such as Markdown and JSON for downstream retrieval, extraction, and processing.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "MinerU is a document parsing tool that converts `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs into machine-readable formats such as Markdown and JSON for downstream retrieval, extraction, and processing."
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents",
+        "Multimodal Corpora"
+      ],
+      "reference": "MinerU is a document parsing tool that converts `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs into machine-readable formats such as Markdown and JSON for downstream retrieval, extraction, and processing.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "MinerU is a document parsing tool that converts `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs into machine-readable formats such as Markdown and JSON for downstream retrieval, extraction, and processing."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Tables",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "Support `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs. Remove headers, footers, footnotes, page numbers, etc., to ensure semantic coherence. Output text in human-readable order, suitable for single-column, multi-column, and complex layouts. Preserve the structure of the original document, including headings, paragraphs, lists, etc. Extract images, image descriptions, tables, table titles, and footnotes. Automatically recognize and convert formulas in the document to LaTeX format. Automatically recognize and convert tables in the document to HTML format.",
+      "verified": true,
+      "verification_score": 0.9234,
+      "verification_method": "fuzzy",
+      "matched_span": "sults are not as expected, please submit an issue on [issue](https://github.com/opendatalab/MinerU/issues) and **attach the relevant document or sample file**.\n\nhttps://github.com/user-attachments/assets/4bea02c9-6d54-4cd6-97ed-dff14340982c\n\n## Key Features\n\n- Support `PDF`, image, `DOCX`, `PPTX`, and `XLSX` inputs.\n- Remove headers, footers, footnotes, page numbers, etc., to ensure semantic coherence.\n- Output text in human-readable order, suitable for single-column, multi-column, and complex layouts.\n- Preserve the structure of the original document, including headings, paragraphs, lists, etc"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Tool Use"
+      ],
+      "reference": "Converts PDF · DOCX · PPTX · XLSX · Images · Web pages into structured Markdown / JSON · VLM+OCR dual engine · 109 languages",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Converts PDF · DOCX · PPTX · XLSX · Images · Web pages into structured Markdown / JSON · VLM+OCR dual engine · 109 languages"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 2,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:48:04.095820+00:00"
+  }
+}

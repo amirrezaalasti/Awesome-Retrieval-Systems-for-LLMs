@@ -1,0 +1,85 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2309-15217",
+    "source_url": "https://arxiv.org/abs/2309.15217"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Ragas",
+      "reference": "We introduce Ragas (Retrieval Augmented Generation Assessment), a framework for reference-free evaluation of Retrieval Augmented Generation (RAG) pipelines.",
+      "verified": true,
+      "verification_score": 0.9615,
+      "verification_method": "fuzzy",
+      "matched_span": "1}@cardiff.ac.uk\n\n## Abstract\n\nWe introduce Ragas ( R etrieval A ugmented G eneration As sessment), a framework for reference-free evaluation of Retrieval Augmented Generation (RAG) pipelines. RAG"
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "We introduce Ragas (Retrieval Augmented Generation Assessment), a framework for reference-free evaluation of Retrieval Augmented Generation (RAG) pipelines.",
+      "verified": true,
+      "verification_score": 0.9615,
+      "verification_method": "fuzzy",
+      "matched_span": "1}@cardiff.ac.uk\n\n## Abstract\n\nWe introduce Ragas ( R etrieval A ugmented G eneration As sessment), a framework for reference-free evaluation of Retrieval Augmented Generation (RAG) pipelines. RAG"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "RAG systems are composed of a retrieval and an LLM based generation module, and provide LLMs with knowledge from a reference textual database, which enables them to act as a natural language layer between a user and textual databases, reducing the risk of hallucinations.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "RAG systems are composed of a retrieval and an LLM based generation module, and provide LLMs with knowledge from a reference textual database, which enables them to act as a natural language layer between a user and textual databases, reducing the risk of hallucinations."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "Answering a question then essentially involves retrieving relevant passages from a corpus and feeding these passages, along with the original question, to the LM.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Answering a question then essentially involves retrieving relevant passages from a corpus and feeding these passages, along with the original question, to the LM."
+    },
+    "knowledge_source": {
+      "value": [
+        "Scientific Literature"
+      ],
+      "reference": "To construct the dataset, we first selected 50 Wikipedia pages covering events that have happened since the start of 2022.",
+      "verified": true,
+      "verification_score": 0.9426,
+      "verification_method": "fuzzy",
+      "matched_span": ", we created a new dataset, which we refer to as WikiEval 4 . To construct the dataset, we first selected 50 Wikipedia pages covering events that have happened si"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "RAG systems are composed of a retrieval and an LLM based generation module, and provide LLMs with knowledge from a reference textual database, which enables them to act as a natural language layer between a user and textual databases, reducing the risk of hallucinations.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "RAG systems are composed of a retrieval and an LLM based generation module, and provide LLMs with knowledge from a reference textual database, which enables them to act as a natural language layer between a user and textual databases, reducing the risk of hallucinations."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "We consider a standard RAG setting, where given a question q, the system first retrieves some context c(q) and then uses the retrieved context to generate an answer as(q).",
+      "verified": true,
+      "verification_score": 0.9591,
+      "verification_method": "fuzzy",
+      "matched_span": "d answer).\n\n## 3 Evaluation Strategies\n\nWe consider a standard RAG setting, where given a question q , the system first retrieves some context c ( q ) and then uses the retrieved context to generate an answer a"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:01:33.405300+00:00"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "year": 2026,
+  "type": "software",
+  "source_url": "https://github.com/langchain-ai/langgraph",
+  "slug": "github-com-langchain-ai-langgraph",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:57.311600+00:00",
+  "owner": "langchain-ai",
+  "repo": "langgraph",
+  "api_url": "https://api.github.com/repos/langchain-ai/langgraph",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/langchain-ai/langgraph/main/README.md",
+  "source_type": "github",
+  "content_chars": 5404
+}

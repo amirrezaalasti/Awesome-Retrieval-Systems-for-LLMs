@@ -1,0 +1,91 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2502-11371",
+    "source_url": "https://arxiv.org/abs/2502.11371"
+  },
+  "fields": {
+    "system_name": {
+      "value": "RAG vs. GraphRAG Benchmark",
+      "reference": "we present a comprehensive benchmark study comparing RAG and GraphRAG on established text-based tasks, including question answering and query-based summarization.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we present a comprehensive benchmark study comparing RAG and GraphRAG on established text-based tasks, including question answering and query-based summarization."
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "We present a controlled benchmark comparing RAG and multiple GraphRAG variants across QA and query-based summarization under a unified evaluation protocol",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We present a controlled benchmark comparing RAG and multiple GraphRAG variants across QA and query-based summarization under a unified evaluation protocol"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Knowledge Graphs"
+      ],
+      "reference": "Most RAG systems process text corpora by splitting documents into chunks. Given a query, relevant chunks can be retrieved via lexical search or semantic similarity search.",
+      "verified": true,
+      "verification_score": 0.9474,
+      "verification_method": "fuzzy",
+      "matched_span": "proving factuality, and mitigating hallucinations [7, 9]. Most RAG systems process text corpora by splitting documents into chunks [8]. Given a query, relevant chunks can be retrieved via lexical search [30] or"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Graph Retrieval",
+        "KG Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "We adopt a standard dense-retrieval RAG pipeline. Given a corpus, we segment documents into textual chunks and build an index by embedding each chunk into a shared vector space.",
+      "verified": true,
+      "verification_score": 0.9209,
+      "verification_method": "fuzzy",
+      "matched_span": "e outputs conditioned on the saved retrieval results.\n\n## 3.1 RAG Pipeline\n\nWe adopt a standard dense-retrieval RAG pipeline [17]. Given a corpus, we segment documents into textual chunks and build an index by embeddi"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Knowledge Graph"
+      ],
+      "reference": "retrieval traverses multi-hop neighborhoods to collect relational triplets (head, relation, tail) as evidence. We consider two variants: (1) KGGraphRAG (Triplets), which retrieves only triplets",
+      "verified": true,
+      "verification_score": 0.9948,
+      "verification_method": "fuzzy",
+      "matched_span": "relevant entities are identified and aligned to nodes in the KG, and retrieval traverses multi-hop neighborhoods to collect relational triplets (head, relation, tail) as evidence. We consider two variants: (1) KGGraphRAG (Triplets) ,"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Retrieval-Augmented Generation (RAG) improves large language models (LLMs) by retrieving relevant information from external sources and has been widely adopted for text-based tasks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Retrieval-Augmented Generation (RAG) improves large language models (LLMs) by retrieving relevant information from external sources and has been widely adopted for text-based tasks."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "For QA, we evaluate both single-hop and multi-hop settings; for summarization, we consider both single-document and multi-document scenarios.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "For QA, we evaluate both single-hop and multi-hop settings; for summarization, we consider both single-document and multi-document scenarios."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:11:08.886976+00:00"
+  }
+}

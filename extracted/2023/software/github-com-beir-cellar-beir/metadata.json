@@ -1,0 +1,15 @@
+{
+  "year": 2023,
+  "type": "software",
+  "source_url": "https://github.com/beir-cellar/beir",
+  "slug": "github-com-beir-cellar-beir",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:17.474510+00:00",
+  "owner": "beir-cellar",
+  "repo": "beir",
+  "api_url": "https://api.github.com/repos/beir-cellar/beir",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/beir-cellar/beir/main/README.md",
+  "source_type": "github",
+  "content_chars": 22200
+}

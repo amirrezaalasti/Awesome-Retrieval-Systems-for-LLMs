@@ -1,0 +1,88 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2405-14831",
+    "source_url": "https://arxiv.org/abs/2405.14831"
+  },
+  "fields": {
+    "system_name": {
+      "value": "HippoRAG",
+      "reference": "In this work, we introduce HippoRAG, a novel retrieval framework inspired by the hippocampal indexing theory of human long-term memory to enable deeper and more efficient knowledge integration over new experiences.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "In this work, we introduce HippoRAG, a novel retrieval framework inspired by the hippocampal indexing theory of human long-term memory to enable deeper and more efficient knowledge integration over new experiences."
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "Our novel design first models the neocortex's ability to process perceptual input by using an LLM to transform a corpus into a schemaless knowledge graph (KG) as our artificial hippocampal index.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Our novel design first models the neocortex's ability to process perceptual input by using an LLM to transform a corpus into a schemaless knowledge graph (KG) as our artificial hippocampal index."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Knowledge Graphs",
+        "Text Chunks"
+      ],
+      "reference": "we first use L to extract a set of noun phrase nodes N and relation edges E from each passage in P via OpenIE. This process is done via 1-shot prompting of the LLM with the prompts shown in Appendix I.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we first use L to extract a set of noun phrase nodes N and relation edges E from each passage in P via OpenIE. This process is done via 1-shot prompting of the LLM with the prompts shown in Appendix I."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Graph Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "we use off-the-shelf dense encoders fine-tuned for retrieval (retrieval encoders). These retrieval encoders provide additional edges between similar but not identical noun phrases within this KG to aid in downstream pattern completion.",
+      "verified": true,
+      "verification_score": 0.822,
+      "verification_method": "fuzzy",
+      "matched_span": ". Finally, to connect both components as is done by the parahippocampal regions, we use off-the-shelf dense encoders fine-tuned for retrieval ( retrieval encoders ). These retrieval encoders provide additional edges between similar but not identical noun phrases within this KG to aid in downstream pattern completion.\n\nOnline Retrie"
+    },
+    "knowledge_source": {
+      "value": [
+        "Knowledge Graph"
+      ],
+      "reference": "we leverage the Personalized PageRank (PPR) algorithm [30], a version of PageRank that distributes probability across a graph only through a set of user-defined source nodes.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we leverage the Personalized PageRank (PPR) algorithm [30], a version of PageRank that distributes probability across a graph only through a set of user-defined source nodes."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "we evaluate our method's retrieval capabilities primarily on two challenging multi-hop QA benchmarks, MuSiQue (answerable) [77] and 2WikiMultiHopQA [33].",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "we evaluate our method's retrieval capabilities primarily on two challenging multi-hop QA benchmarks, MuSiQue (answerable) [77] and 2WikiMultiHopQA [33]."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Single-hop Retrieval"
+      ],
+      "reference": "PPR enables HippoRAG to explore KG paths and identify relevant subgraphs, essentially performing multi-hop reasoning in a single retrieval step.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "PPR enables HippoRAG to explore KG paths and identify relevant subgraphs, essentially performing multi-hop reasoning in a single retrieval step."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:08:23.420510+00:00"
+  }
+}

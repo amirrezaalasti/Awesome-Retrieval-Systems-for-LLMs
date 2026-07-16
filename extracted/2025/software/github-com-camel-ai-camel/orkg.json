@@ -1,0 +1,101 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-camel-ai-camel",
+    "source_url": "https://github.com/camel-ai/camel"
+  },
+  "fields": {
+    "system_name": {
+      "value": "CAMEL",
+      "reference": "🐫 CAMEL is an open-source community dedicated to finding the scaling laws of agents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "🐫 CAMEL is an open-source community dedicated to finding the scaling laws of agents."
+    },
+    "system_category": {
+      "value": "Agentic & Reasoning-Centric Retrieval",
+      "reference": "Learn how to build a robust customer service bot for Discord using Agentic RAG.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Learn how to build a robust customer service bot for Discord using Agentic RAG."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Knowledge Graphs",
+        "APIs",
+        "Multimodal Documents"
+      ],
+      "reference": "Builds dynamic, temporally-aware knowledge graphs for financial applications using a multi-agent system. It processes financial reports, news articles, and research papers to help traders analyze data, identify relationships, and uncover market insights.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Builds dynamic, temporally-aware knowledge graphs for financial applications using a multi-agent system. It processes financial reports, news articles, and research papers to help traders analyze data, identify relationships, and uncover market insights."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Graph Retrieval",
+        "Agentic Retrieval",
+        "Tool Retrieval"
+      ],
+      "reference": "**[RAG Cookbook](https://docs.camel-ai.org/cookbooks/advanced_features/agents_with_rag)** | Recipes for Retrieval-Augmented Generation. | **[Graph RAG Cookbook](https://docs.camel-ai.org/cookbooks/advanced_features/agents_with_graph_rag)** | Leveraging knowledge graphs with RAG.",
+      "verified": true,
+      "verification_score": 0.9355,
+      "verification_method": "fuzzy",
+      "matched_span": "|\n|------------------|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|\n| **AI Society**   | ["
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Knowledge Graph",
+        "Web Search"
+      ],
+      "reference": "search_tool = SearchToolkit().search_duckduckgo agent = ChatAgent(model=model, tools=[search_tool])",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "search_tool = SearchToolkit().search_duckduckgo agent = ChatAgent(model=model, tools=[search_tool])"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Video",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "Learn how to create AI agents that work with your PDFs using Chunkr and Mistral AI. **[Video Analysis](https://docs.camel-ai.org/cookbooks/data_processing/video_analysis)** | Techniques for agents in video data analysis.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "Learn how to create AI agents that work with your PDFs using Chunkr and Mistral AI. **[Video Analysis](https://docs.camel-ai.org/cookbooks/data_processing/video_analysis)** | Techniques for agents in video data analysis."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Agentic Planning",
+        "Reflection",
+        "Tool Use"
+      ],
+      "reference": "Agents maintain stateful memory, enabling them to perform multi-step interactions with environments and efficiently tackle sophisticated tasks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Agents maintain stateful memory, enabling them to perform multi-step interactions with environments and efficiently tackle sophisticated tasks."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:26:42.325546+00:00"
+  }
+}

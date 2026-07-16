@@ -1,0 +1,15 @@
+{
+  "year": 2025,
+  "type": "software",
+  "source_url": "https://github.com/microsoft/graphrag",
+  "slug": "github-com-microsoft-graphrag",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:41.860820+00:00",
+  "owner": "microsoft",
+  "repo": "graphrag",
+  "api_url": "https://api.github.com/repos/microsoft/graphrag",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/microsoft/graphrag/main/README.md",
+  "source_type": "github",
+  "content_chars": 3922
+}

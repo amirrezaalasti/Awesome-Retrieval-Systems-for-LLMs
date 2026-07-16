@@ -1,0 +1,103 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "docs-llamaindex-ai",
+    "source_url": "https://docs.llamaindex.ai/"
+  },
+  "fields": {
+    "system_name": {
+      "value": "LlamaIndex",
+      "reference": "LlamaIndex is the leading framework for building LLM-powered agents over your data with LLMs and workflows.",
+      "verified": true,
+      "verification_score": 0.8598,
+      "verification_method": "fuzzy",
+      "matched_span": "# Welcome to LlamaIndex 🦙 !\n\nLlamaIndex is the leading framework for building LLM-powered agents over your data with [LLMs](https://en.wikipedia"
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "The most popular example of context-augmentation is Retrieval-Augmented Generation or RAG, which combines context with LLMs at inference time.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "The most popular example of context-augmentation is Retrieval-Augmented Generation or RAG, which combines context with LLMs at inference time."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Tables",
+        "SQL Databases",
+        "APIs",
+        "Multimodal Documents"
+      ],
+      "reference": "Data connectors ingest your existing data from their native source and format. These could be APIs, PDFs, SQL, and (much) more. Data indexes structure your data in intermediate representations that are easy and performant for LLMs to consume.",
+      "verified": true,
+      "verification_score": 0.8512,
+      "verification_method": "fuzzy",
+      "matched_span": "makes using them easier. We provide tools like:\n\n- **Data connectors** ingest your existing data from their native source and format. These could be APIs, PDFs, SQL, and (much) more.\n- **Data indexes** structure your data in intermediate representations that are easy and performant"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Agentic Retrieval",
+        "Tool Retrieval"
+      ],
+      "reference": "Query engines are powerful interfaces for question-answering (e.g. a RAG flow). Chat engines are conversational interfaces for multi-message, back and forth interactions with your data. Agents are LLM-powered knowledge workers augmented by tools, from simple helper functions to API integrations and more.",
+      "verified": true,
+      "verification_score": 0.8717,
+      "verification_method": "fuzzy",
+      "matched_span": "gines** provide natural language access to your data. For example:\n    - Query engines are powerful interfaces for question-answering (e.g. a RAG flow).\n    - Chat engines are conversational interfaces for multi-message, \"back and forth\" interactions with your data.\n- **Agents** are LLM-powered knowledge workers augmented by tools, from simple helper functions to API integrations and more.\n- **Observability/Evaluation"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine",
+        "SQL Database",
+        "Enterprise Documents"
+      ],
+      "reference": "Connect your data source (e.g. Sharepoint, Google Drive, S3), your vector DB data sink, and we automatically handle the document processing and syncing.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Connect your data source (e.g. Sharepoint, Google Drive, S3), your vector DB data sink, and we automatically handle the document processing and syncing."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Tables",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "Multi-modal applications that combine text, images, and other data types. LlamaParse is the best-in-class document parsing solution. It's powered by VLMs and perfect for even the most complex documents (nested tables, embedded charts/images, and more).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "Multi-modal applications that combine text, images, and other data types. LlamaParse is the best-in-class document parsing solution. It's powered by VLMs and perfect for even the most complex documents (nested tables, embedded charts/images, and more)."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Agentic Planning",
+        "Reflection",
+        "Tool Use"
+      ],
+      "reference": "They are event-driven software that allows you to combine RAG data sources and multiple agents to create a complex application that can perform a wide variety of tasks with reflection, error-correction, and other hallmarks of advanced LLM applications.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "They are event-driven software that allows you to combine RAG data sources and multiple agents to create a complex application that can perform a wide variety of tasks with reflection, error-correction, and other hallmarks of advanced LLM applications."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:27:41.106615+00:00"
+  }
+}

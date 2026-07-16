@@ -1,0 +1,15 @@
+{
+  "year": 2024,
+  "type": "software",
+  "source_url": "https://github.com/OpenDevin/OpenDevin",
+  "slug": "github-com-OpenDevin-OpenDevin",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:30.487528+00:00",
+  "owner": "OpenDevin",
+  "repo": "OpenDevin",
+  "api_url": "https://api.github.com/repos/OpenDevin/OpenDevin",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/OpenDevin/OpenDevin/main/README.md",
+  "source_type": "github",
+  "content_chars": 7307
+}

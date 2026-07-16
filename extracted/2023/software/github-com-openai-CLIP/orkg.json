@@ -1,0 +1,86 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-openai-CLIP",
+    "source_url": "https://github.com/openai/CLIP"
+  },
+  "fields": {
+    "system_name": {
+      "value": "CLIP",
+      "reference": "CLIP (Contrastive Language-Image Pre-Training) is a neural network trained on a variety of (image, text) pairs.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "CLIP (Contrastive Language-Image Pre-Training) is a neural network trained on a variety of (image, text) pairs."
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "CLIP (Contrastive Language-Image Pre-Training) is a neural network trained on a variety of (image, text) pairs. It can be instructed in natural language to predict the most relevant text snippet, given an image",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "CLIP (Contrastive Language-Image Pre-Training) is a neural network trained on a variety of (image, text) pairs. It can be instructed in natural language to predict the most relevant text snippet, given an image"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Multimodal Documents"
+      ],
+      "reference": "CLIP (Contrastive Language-Image Pre-Training) is a neural network trained on a variety of (image, text) pairs. It can be instructed in natural language to predict the most relevant text snippet, given an image",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "CLIP (Contrastive Language-Image Pre-Training) is a neural network trained on a variety of (image, text) pairs. It can be instructed in natural language to predict the most relevant text snippet, given an image"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "The values are cosine similarities between the corresponding image and text features, times 100.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The values are cosine similarities between the corresponding image and text features, times 100."
+    },
+    "knowledge_source": {
+      "value": [
+        "Multimodal Corpora"
+      ],
+      "reference": "CLIP (Contrastive Language-Image Pre-Training) is a neural network trained on a variety of (image, text) pairs.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "CLIP (Contrastive Language-Image Pre-Training) is a neural network trained on a variety of (image, text) pairs."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Images"
+      ],
+      "reference": "Given a batch of images and a batch of text tokens, returns two Tensors, containing the logit scores corresponding to each image and text input.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Given a batch of images and a batch of text tokens, returns two Tensors, containing the logit scores corresponding to each image and text input."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "This example takes an image from the CIFAR-100 dataset, and predicts the most likely labels among the 100 textual labels from the dataset.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "This example takes an image from the CIFAR-100 dataset, and predicts the most likely labels among the 100 textual labels from the dataset."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:36:34.009677+00:00"
+  }
+}

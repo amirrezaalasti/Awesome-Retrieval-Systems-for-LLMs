@@ -1,0 +1,88 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2022,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2212-14024",
+    "source_url": "https://arxiv.org/abs/2212.14024"
+  },
+  "fields": {
+    "system_name": {
+      "value": "DEMONSTRATE-SEARCH-PREDICT (DSP)",
+      "reference": "we propose DEMONSTRATE-SEARCH-PREDICT (DSP), a framework that relies on passing natural language texts in sophisticated pipelines between an LM and an RM.",
+      "verified": true,
+      "verification_score": 0.9156,
+      "verification_method": "fuzzy",
+      "matched_span": "the potential of frozen LMs and RMs, we propose DEMONSTRATESEARCH-PREDICT (DSP), a framework that relies on passing natural language texts in sophisticated pipelines between an LM and an RM. DSP"
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "we propose DEMONSTRATE-SEARCH-PREDICT (DSP), a framework that relies on passing natural language texts in sophisticated pipelines between an LM and an RM.",
+      "verified": true,
+      "verification_score": 0.9156,
+      "verification_method": "fuzzy",
+      "matched_span": "the potential of frozen LMs and RMs, we propose DEMONSTRATESEARCH-PREDICT (DSP), a framework that relies on passing natural language texts in sophisticated pipelines between an LM and an RM. DSP"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks"
+      ],
+      "reference": "We assume a large knowledge corpus-e.g., a snippet of Web, Wikipedia, or arXiv-that is divided into text passages.",
+      "verified": true,
+      "verification_score": 0.9211,
+      "verification_method": "fuzzy",
+      "matched_span": "H\n\nThe SEARCH stage gathers passages to support transformations conducted by the LM . We assume a large knowledge corpus-e.g., a snippet of Web, Wikipedia"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Multi-hop Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "the SEARCH stage decomposes the complex input question and retrieves supporting information over two retrieval hops.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "the SEARCH stage decomposes the complex input question and retrieves supporting information over two retrieval hops."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "DSP programs also invoke a frozen retrieval model RM to retrieve the topk most 'relevant' text sequences for a given query. The RM can index a massive set of pre-defined passages for scalable search",
+      "verified": true,
+      "verification_score": 0.9848,
+      "verification_method": "fuzzy",
+      "matched_span": "s a hallmark of DSP programs.\n\nRetrieval Model DSP programs also invoke a frozen retrieval model RM to retrieve the topk most 'relevant' text sequences for a given query . The RM can index a massive set of pre-defined passages for scalabl"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "DSP can express high-level programs that bootstrap pipeline-aware demonstrations, search for relevant passages, and generate grounded predictions, systematically breaking down problems into small transformations that the LM and RM can handle more reliably.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "DSP can express high-level programs that bootstrap pipeline-aware demonstrations, search for relevant passages, and generate grounded predictions, systematically breaking down problems into small transformations that the LM and RM can handle more reliably."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Tool Use"
+      ],
+      "reference": "the program's SEARCH stage uses the LM to generate a query 'Which castle did David Gregory inherit?' The RM retrieves a passage saying Gregory inherited the Kinnairdy Castle. After a second search 'hop' finds the castle's number of storeys, the PREDICT stage queries the LM with these passages to answer the original question.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "the program's SEARCH stage uses the LM to generate a query 'Which castle did David Gregory inherit?' The RM retrieves a passage saying Gregory inherited the Kinnairdy Castle. After a second search 'hop' finds the castle's number of storeys, the PREDICT stage queries the LM with these passages to answer the original question."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 2,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:49:51.299299+00:00"
+  }
+}

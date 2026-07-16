@@ -1,0 +1,97 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "software",
+    "slug": "github-com-pathwaycom-pathway",
+    "source_url": "https://github.com/pathwaycom/pathway"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Pathway Live Data Framework",
+      "reference": "Pathway Live Data Framework is a Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+      "verified": true,
+      "verification_score": 0.8824,
+      "verification_method": "fuzzy",
+      "matched_span": "Started</a> |\n    <a href=\"#deployment\">Deployment</a> |\n    <a href=\"#resources\">Documentation and Support</a> |\n    <a href=\"https://pathway.com/blog/\">Blog</a> |\n    <a href=\"#license\">Li"
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "Pathway Live Data Framework provides dedicated LLM tooling to build live LLM and RAG pipelines. Wrappers for most common LLM services and utilities are included, making working with LLMs and RAGs pipelines incredibly easy.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Pathway Live Data Framework provides dedicated LLM tooling to build live LLM and RAG pipelines. Wrappers for most common LLM services and utilities are included, making working with LLMs and RAGs pipelines incredibly easy."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Tables",
+        "SQL Databases",
+        "APIs",
+        "Multimodal Documents"
+      ],
+      "reference": "Pathway Live Data Framework provides an LLM extension with all the utilities to integrate LLMs with your data pipelines (LLM wrappers, parsers, embedders, splitters), including an in-memory real-time Vector Index, and integrations with LLamaIndex and LangChain.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Pathway Live Data Framework provides an LLM extension with all the utilities to integrate LLMs with your data pipelines (LLM wrappers, parsers, embedders, splitters), including an in-memory real-time Vector Index, and integrations with LLamaIndex and LangChain."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "Pathway Live Data Framework provides an LLM extension with all the utilities to integrate LLMs with your data pipelines (LLM wrappers, parsers, embedders, splitters), including an in-memory real-time Vector Index, and integrations with LLamaIndex and LangChain.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Pathway Live Data Framework provides an LLM extension with all the utilities to integrate LLMs with your data pipelines (LLM wrappers, parsers, embedders, splitters), including an in-memory real-time Vector Index, and integrations with LLamaIndex and LangChain."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "SQL Database",
+        "Enterprise Documents"
+      ],
+      "reference": "Pathway Live Data Framework comes with connectors that connect to external data sources such as Kafka, GDrive, PostgreSQL, or SharePoint. Its Airbyte connector allows you to connect to more than 300 different data sources.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Pathway Live Data Framework comes with connectors that connect to external data sources such as Kafka, GDrive, PostgreSQL, or SharePoint. Its Airbyte connector allows you to connect to more than 300 different data sources."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Tables",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "PaddleOCR is an industry-leading, production-ready OCR and document AI engine, offering end-to-end solutions from text extraction to intelligent document understanding.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "PaddleOCR is an industry-leading, production-ready OCR and document AI engine, offering end-to-end solutions from text extraction to intelligent document understanding."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Tool Use",
+        "Agentic Planning"
+      ],
+      "reference": "LangChain is the platform for agent engineering. | LlamaIndex | The developer-trusted framework for building context-aware AI agents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "LangChain is the platform for agent engineering. | LlamaIndex | The developer-trusted framework for building context-aware AI agents."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:10:41.681769+00:00"
+  }
+}

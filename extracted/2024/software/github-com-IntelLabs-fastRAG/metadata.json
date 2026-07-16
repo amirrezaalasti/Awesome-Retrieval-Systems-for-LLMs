@@ -1,0 +1,15 @@
+{
+  "year": 2024,
+  "type": "software",
+  "source_url": "https://github.com/IntelLabs/fastRAG",
+  "slug": "github-com-IntelLabs-fastRAG",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:22.416885+00:00",
+  "owner": "IntelLabs",
+  "repo": "fastRAG",
+  "api_url": "https://api.github.com/repos/IntelLabs/fastRAG",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/IntelLabs/fastRAG/main/README.md",
+  "source_type": "github",
+  "content_chars": 6127
+}

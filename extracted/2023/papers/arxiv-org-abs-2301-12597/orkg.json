@@ -1,0 +1,89 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2301-12597",
+    "source_url": "https://arxiv.org/abs/2301.12597"
+  },
+  "fields": {
+    "system_name": {
+      "value": "BLIP-2",
+      "reference": "We name our VLP framework as BLIP-2: Bootstrapping Language-Image Pre-training with frozen unimodal models.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We name our VLP framework as BLIP-2: Bootstrapping Language-Image Pre-training with frozen unimodal models."
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "BLIP-2 achieves state-of-the-art performance on various vision-language tasks including visual question answering, image captioning, and image-text retrieval.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "BLIP-2 achieves state-of-the-art performance on various vision-language tasks including visual question answering, image captioning, and image-text retrieval."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Multimodal Documents",
+        "Text Chunks"
+      ],
+      "reference": "We use the same pre-training dataset as BLIP with 129M images in total, including COCO, Visual Genome, CC3M, CC12M, SBU, and 115M images from the LAION400M dataset. We adopt the CapFilt method to create synthetic captions for the web images.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "We use the same pre-training dataset as BLIP with 129M images in total, including COCO, Visual Genome, CC3M, CC12M, SBU, and 115M images from the LAION400M dataset. We adopt the CapFilt method to create synthetic captions for the web images."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "Q-Former is a lightweight transformer which employs a set of learnable query vectors to extract visual features from the frozen image encoder. It acts as an information bottleneck between the frozen image encoder and the frozen LLM, where it feeds the most useful visual feature for the LLM to output the desired text.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Q-Former is a lightweight transformer which employs a set of learnable query vectors to extract visual features from the frozen image encoder. It acts as an information bottleneck between the frozen image encoder and the frozen LLM, where it feeds the most useful visual feature for the LLM to output the desired text."
+    },
+    "knowledge_source": {
+      "value": [
+        "Multimodal Corpora"
+      ],
+      "reference": "We use the same pre-training dataset as BLIP with 129M images in total, including COCO, Visual Genome, CC3M, CC12M, SBU, and 115M images from the LAION400M dataset.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "We use the same pre-training dataset as BLIP with 129M images in total, including COCO, Visual Genome, CC3M, CC12M, SBU, and 115M images from the LAION400M dataset."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "BLIP-2 achieves state-of-the-art performance on various vision-language tasks including visual question answering, image captioning, and image-text retrieval.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "BLIP-2 achieves state-of-the-art performance on various vision-language tasks including visual question answering, image captioning, and image-text retrieval."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Tool Use"
+      ],
+      "reference": "In the generative pre-training stage, we connect Q-Former (with the frozen image encoder attached) to a frozen LLM to harvest the LLM's generative language capability. The projected query embeddings are then prepended to the input text embeddings. They function as soft visual prompts that condition the LLM on visual representation extracted by the Q-Former.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "In the generative pre-training stage, we connect Q-Former (with the frozen image encoder attached) to a frozen LLM to harvest the LLM's generative language capability. The projected query embeddings are then prepended to the input text embeddings. They function as soft visual prompts that condition the LLM on visual representation extracted by the Q-Former."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:55:12.399779+00:00"
+  }
+}

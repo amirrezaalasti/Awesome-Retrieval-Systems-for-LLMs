@@ -1,0 +1,90 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-stanfordnlp-dspy",
+    "source_url": "https://github.com/stanfordnlp/dspy"
+  },
+  "fields": {
+    "system_name": {
+      "value": "DSPy",
+      "reference": "DSPy is the framework for _programming—rather than prompting—language models_. It allows you to iterate fast on building modular AI systems and offers algorithms for optimizing their prompts and weights, whether you're building simple classifiers, sophisticated RAG pipelines, or Agent loops.",
+      "verified": true,
+      "verification_score": 0.8459,
+      "verification_method": "fuzzy",
+      "matched_span": "tps://pepy.tech/projects/dspy)\n\n\n----\n\nDSPy is the framework for _programming—rather than prompting—language models_. It allows you to iterate fast on **building modular AI systems** and offers algorithms for **optimizing their prompts and weights**, whether you're building simple classifiers, sophisticated RAG pipelines, or Agent"
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "It allows you to iterate fast on building modular AI systems and offers algorithms for optimizing their prompts and weights, whether you're building simple classifiers, sophisticated RAG pipelines, or Agent loops.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "It allows you to iterate fast on building modular AI systems and offers algorithms for optimizing their prompts and weights, whether you're building simple classifiers, sophisticated RAG pipelines, or Agent loops."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "Demonstrate-Search-Predict: Composing Retrieval & Language Models for Knowledge-Intensive NLP",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Demonstrate-Search-Predict: Composing Retrieval & Language Models for Knowledge-Intensive NLP"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Agentic Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "It allows you to iterate fast on building modular AI systems and offers algorithms for optimizing their prompts and weights, whether you're building simple classifiers, sophisticated RAG pipelines, or Agent loops.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "It allows you to iterate fast on building modular AI systems and offers algorithms for optimizing their prompts and weights, whether you're building simple classifiers, sophisticated RAG pipelines, or Agent loops."
+    },
+    "knowledge_source": {
+      "value": [
+        "Search Engine"
+      ],
+      "reference": "Demonstrate-Search-Predict: Composing Retrieval & Language Models for Knowledge-Intensive NLP",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Demonstrate-Search-Predict: Composing Retrieval & Language Models for Knowledge-Intensive NLP"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Agentic Planning",
+        "Reflection",
+        "Tool Use"
+      ],
+      "reference": "DSPy stands for Declarative Self-improving Python. Instead of brittle prompts, you write compositional Python code and use DSPy to teach your LM to deliver high-quality outputs.",
+      "verified": true,
+      "verification_score": 0.9266,
+      "verification_method": "fuzzy",
+      "matched_span": "icated RAG pipelines, or Agent loops.\n\nDSPy stands for Declarative Self-improving Python. Instead of brittle prompts, you write compositional _Python code_ and use DSPy to **teach your LM to deliver high-quality outpu"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T18:00:57.970663+00:00"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "year": 2025,
+  "type": "software",
+  "source_url": "https://github.com/OSU-NLP-Group/HippoRAG",
+  "slug": "github-com-OSU-NLP-Group-HippoRAG",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:42.755793+00:00",
+  "owner": "OSU-NLP-Group",
+  "repo": "HippoRAG",
+  "api_url": "https://api.github.com/repos/OSU-NLP-Group/HippoRAG",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/OSU-NLP-Group/HippoRAG/main/README.md",
+  "source_type": "github",
+  "content_chars": 15979
+}

@@ -1,0 +1,21 @@
+{
+  "year": 2023,
+  "type": "software",
+  "source_url": "https://github.com/stanfordnlp/dspy",
+  "slug": "github-com-stanfordnlp-dspy",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:06:17.569701+00:00",
+  "owner": "stanfordnlp",
+  "repo": "dspy",
+  "api_url": "https://api.github.com/repos/stanfordnlp/dspy",
+  "name": "dspy",
+  "full_name": "stanfordnlp/dspy",
+  "description": "DSPy: The framework for programming—not prompting—language models",
+  "homepage": "https://dspy.ai",
+  "stars": 35840,
+  "topics": [],
+  "license": "MIT",
+  "default_branch": "main",
+  "source_type": "github",
+  "content_chars": 4545
+}

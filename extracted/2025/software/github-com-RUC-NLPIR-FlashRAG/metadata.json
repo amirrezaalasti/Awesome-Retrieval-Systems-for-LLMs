@@ -1,0 +1,15 @@
+{
+  "year": 2025,
+  "type": "software",
+  "source_url": "https://github.com/RUC-NLPIR/FlashRAG",
+  "slug": "github-com-RUC-NLPIR-FlashRAG",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:49.494942+00:00",
+  "owner": "RUC-NLPIR",
+  "repo": "FlashRAG",
+  "api_url": "https://api.github.com/repos/RUC-NLPIR/FlashRAG",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/RUC-NLPIR/FlashRAG/main/README.md",
+  "source_type": "github",
+  "content_chars": 39723
+}

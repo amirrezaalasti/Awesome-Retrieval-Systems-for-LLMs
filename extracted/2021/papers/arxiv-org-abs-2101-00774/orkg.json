@@ -1,0 +1,92 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2021,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2101-00774",
+    "source_url": "https://arxiv.org/abs/2101.00774"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Retriever-Reader",
+      "reference": "We then introduce modern OpenQA architecture named 'Retriever-Reader' and analyze the various systems that follow this architecture as well as the specific techniques adopted in each of the components.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We then introduce modern OpenQA architecture named 'Retriever-Reader' and analyze the various systems that follow this architecture as well as the specific techniques adopted in each of the components."
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "In this work, we review the latest research trends in OpenQA, with particular attention to systems that incorporate neural MRC techniques.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "In this work, we review the latest research trends in OpenQA, with particular attention to systems that incorporate neural MRC techniques."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "Open-domain Question Answering (OpenQA) is an important task in Natural Language Processing (NLP), which aims to answer a question in the form of natural language based on large-scale unstructured documents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Open-domain Question Answering (OpenQA) is an important task in Natural Language Processing (NLP), which aims to answer a question in the form of natural language based on large-scale unstructured documents."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval",
+        "Multi-hop Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "Broadly, current approaches to Retriever can be classified into three categories, i.e. Sparse Retriever, Dense Retriever, and Iterative Retriever, which will be detailed in the following.",
+      "verified": true,
+      "verification_score": 0.9251,
+      "verification_method": "fuzzy",
+      "matched_span": "estion as well as ranking them in a descending order according to their relevancy. Broadly, current approaches to Retriever can be classified into three categories, i.e. Sparse Retriever , Dense Retriever , and Iterative Retrie"
+    },
+    "knowledge_source": {
+      "value": [
+        "Search Engine",
+        "Enterprise Documents",
+        "Scientific Literature"
+      ],
+      "reference": "It usually requires the system to first search for the relevant documents as the context w.r.t. a given question from either a local document repository or the World Wide Web (WWW), and then generate the answer",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "It usually requires the system to first search for the relevant documents as the context w.r.t. a given question from either a local document repository or the World Wide Web (WWW), and then generate the answer"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Textual QA mines answers from unstructured text documents while KB-QA from a predefined structured KB that is often manually constructed.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Textual QA mines answers from unstructured text documents while KB-QA from a predefined structured KB that is often manually constructed."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "Iterative Retriever aims to search for the relevant documents from a large collection in multiple steps given a question, which is also called Multi-step Retriever.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Iterative Retriever aims to search for the relevant documents from a large collection in multiple steps given a question, which is also called Multi-step Retriever."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:48:20.744912+00:00"
+  }
+}

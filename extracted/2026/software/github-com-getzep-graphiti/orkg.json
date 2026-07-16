@@ -1,0 +1,91 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2026,
+    "type": "software",
+    "slug": "github-com-getzep-graphiti",
+    "source_url": "https://github.com/getzep/graphiti"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Graphiti",
+      "reference": "Graphiti is a framework for building and querying temporal context graphs for AI agents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Graphiti is a framework for building and querying temporal context graphs for AI agents."
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "Graphiti is a framework for building and querying temporal context graphs for AI agents. Unlike static knowledge graphs, Graphiti's context graphs track how facts change over time",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Graphiti is a framework for building and querying temporal context graphs for AI agents. Unlike static knowledge graphs, Graphiti's context graphs track how facts change over time"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Knowledge Graphs",
+        "Ontologies",
+        "Text Chunks"
+      ],
+      "reference": "A context graph contains: Entities (nodes), Facts / Relationships (edges), Episodes (provenance), Custom Types (ontology) — Developer-defined entity and edge types via Pydantic models",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "A context graph contains: Entities (nodes), Facts / Relationships (edges), Episodes (provenance), Custom Types (ontology) — Developer-defined entity and edge types via Pydantic models"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Hybrid Retrieval",
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Graph Retrieval"
+      ],
+      "reference": "Query across time, meaning, and relationships with hybrid retrieval (semantic + keyword + graph traversal).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Query across time, meaning, and relationships with hybrid retrieval (semantic + keyword + graph traversal)."
+    },
+    "knowledge_source": {
+      "value": [
+        "Knowledge Graph",
+        "Enterprise Documents"
+      ],
+      "reference": "Graphiti continuously integrates user interactions, structured and unstructured enterprise data, and external information into a coherent, queryable graph.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Graphiti continuously integrates user interactions, structured and unstructured enterprise data, and external information into a coherent, queryable graph."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Adding episodes to the graph (both text and structured JSON)",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Adding episodes to the graph (both text and structured JSON)"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Agentic Planning"
+      ],
+      "reference": "Build context graphs that evolve with every interaction — tracking what's true now and what was true before. Give agents rich, structured context instead of flat document chunks or raw chat history.",
+      "verified": true,
+      "verification_score": 0.9495,
+      "verification_method": "fuzzy",
+      "matched_span": "ontext-aware AI applications.\n\nUse Graphiti to:\n\n- Build context graphs that evolve with every interaction — tracking what's true now and what was true before.\n- Give agents rich, structured context instead of flat document chunks or raw"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T18:35:26.401056+00:00"
+  }
+}

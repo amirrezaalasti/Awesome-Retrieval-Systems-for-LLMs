@@ -1,0 +1,91 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2308-13418",
+    "source_url": "https://arxiv.org/abs/2308.13418"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Nougat",
+      "reference": "We propose Nougat ( Neural Optical Understanding for Academic Documents ), a Visual Transformer model that performs an Optical Character Recognition (OCR) task for processing scientific documents into a markup language",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "We propose Nougat ( Neural Optical Understanding for Academic Documents ), a Visual Transformer model that performs an Optical Character Recognition (OCR) task for processing scientific documents into a markup language"
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "a Visual Transformer model that performs an Optical Character Recognition (OCR) task for processing scientific documents into a markup language",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "a Visual Transformer model that performs an Optical Character Recognition (OCR) task for processing scientific documents into a markup language"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "Multimodal Documents"
+      ],
+      "reference": "a Visual Transformer model that performs an Optical Character Recognition (OCR) task for processing scientific documents into a markup language",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "a Visual Transformer model that performs an Optical Character Recognition (OCR) task for processing scientific documents into a markup language"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "The architecture is a encoder-decoder transformer [21] architecture, that allows for an end-to-end training procedure. We build on the Donut [28] architecture.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The architecture is a encoder-decoder transformer [21] architecture, that allows for an end-to-end training procedure. We build on the Donut [28] architecture."
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents",
+        "Scientific Literature"
+      ],
+      "reference": "The majority of scientific knowledge is stored in books or published in scientific journals, most commonly in the Portable Document Format (PDF).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The majority of scientific knowledge is stored in books or published in scientific journals, most commonly in the Portable Document Format (PDF)."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Tables",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "The model focuses only on the important content relevant features of the page. The box around the equations is skipped.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The model focuses only on the important content relevant features of the page. The box around the equations is skipped."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "The model does not require any OCR related inputs or modules. The text is recognized implicitly by the network.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The model does not require any OCR related inputs or modules. The text is recognized implicitly by the network."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:01:05.097605+00:00"
+  }
+}

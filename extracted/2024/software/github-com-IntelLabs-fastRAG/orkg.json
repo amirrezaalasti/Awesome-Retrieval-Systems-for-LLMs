@@ -1,0 +1,92 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "software",
+    "slug": "github-com-IntelLabs-fastRAG",
+    "source_url": "https://github.com/IntelLabs/fastRAG"
+  },
+  "fields": {
+    "system_name": {
+      "value": "fastRAG",
+      "reference": "fast**RAG** is a research framework for ***efficient*** and ***optimized*** retrieval augmented generative pipelines, incorporating state-of-the-art LLMs and Information Retrieval.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "fast**RAG** is a research framework for ***efficient*** and ***optimized*** retrieval augmented generative pipelines, incorporating state-of-the-art LLMs and Information Retrieval."
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "fast**RAG** is a research framework for ***efficient*** and ***optimized*** retrieval augmented generative pipelines, incorporating state-of-the-art LLMs and Information Retrieval.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "fast**RAG** is a research framework for ***efficient*** and ***optimized*** retrieval augmented generative pipelines, incorporating state-of-the-art LLMs and Information Retrieval."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "fastRAG is designed to empower researchers and developers with a comprehensive tool-set for advancing retrieval augmented generation.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "fastRAG is designed to empower researchers and developers with a comprehensive tool-set for advancing retrieval augmented generation."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "Optimized int8 bi-encoders",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Optimized int8 bi-encoders"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "pip install fastrag[elastic]             # Support for ElasticSearch store\npip install fastrag[qdrant]              # Support for Qdrant store",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "pip install fastrag[elastic]             # Support for ElasticSearch store\npip install fastrag[qdrant]              # Support for Qdrant store"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Tables"
+      ],
+      "reference": "fastRAG is designed to empower researchers and developers with a comprehensive tool-set for advancing retrieval augmented generation.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "fastRAG is designed to empower researchers and developers with a comprehensive tool-set for advancing retrieval augmented generation."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "fastRAG is designed to empower researchers and developers with a comprehensive tool-set for advancing retrieval augmented generation.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "fastRAG is designed to empower researchers and developers with a comprehensive tool-set for advancing retrieval augmented generation."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:58:38.175464+00:00"
+  }
+}

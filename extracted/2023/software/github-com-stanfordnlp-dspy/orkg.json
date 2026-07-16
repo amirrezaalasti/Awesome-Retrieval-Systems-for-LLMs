@@ -1,0 +1,92 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-stanfordnlp-dspy",
+    "source_url": "https://github.com/stanfordnlp/dspy"
+  },
+  "fields": {
+    "system_name": {
+      "value": "DSPy",
+      "reference": "DSPy is the framework for _programming—rather than prompting—language models_. It allows you to iterate fast on **building modular AI systems** and offers algorithms for **optimizing their prompts and weights**",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "DSPy is the framework for _programming—rather than prompting—language models_. It allows you to iterate fast on **building modular AI systems** and offers algorithms for **optimizing their prompts and weights**"
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "It allows you to iterate fast on **building modular AI systems** and offers algorithms for **optimizing their prompts and weights**, whether you're building simple classifiers, sophisticated RAG pipelines, or Agent loops.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "It allows you to iterate fast on **building modular AI systems** and offers algorithms for **optimizing their prompts and weights**, whether you're building simple classifiers, sophisticated RAG pipelines, or Agent loops."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "whether you're building simple classifiers, sophisticated RAG pipelines, or Agent loops.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "whether you're building simple classifiers, sophisticated RAG pipelines, or Agent loops."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Agentic Retrieval",
+        "Query Rewriting",
+        "Tool Retrieval"
+      ],
+      "reference": "Demonstrate-Search-Predict: Composing Retrieval & Language Models for Knowledge-Intensive NLP",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Demonstrate-Search-Predict: Composing Retrieval & Language Models for Knowledge-Intensive NLP"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "Demonstrate-Search-Predict: Composing Retrieval & Language Models for Knowledge-Intensive NLP",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Demonstrate-Search-Predict: Composing Retrieval & Language Models for Knowledge-Intensive NLP"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "DSPy stands for Declarative Self-improving Python. Instead of brittle prompts, you write compositional _Python code_ and use DSPy to **teach your LM to deliver high-quality outputs**.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "DSPy stands for Declarative Self-improving Python. Instead of brittle prompts, you write compositional _Python code_ and use DSPy to **teach your LM to deliver high-quality outputs**."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Agentic Planning",
+        "Reflection",
+        "Tool Use"
+      ],
+      "reference": "whether you're building simple classifiers, sophisticated RAG pipelines, or Agent loops.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "whether you're building simple classifiers, sophisticated RAG pipelines, or Agent loops."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:38:04.086373+00:00"
+  }
+}

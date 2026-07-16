@@ -1,0 +1,94 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-neo4j-neo4j-graphrag-python",
+    "source_url": "https://github.com/neo4j/neo4j-graphrag-python"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Neo4j GraphRAG Package for Python",
+      "reference": "The official Neo4j GraphRAG package for Python enables developers to build graph retrieval augmented generation (GraphRAG) applications using the power of Neo4j and Python.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "The official Neo4j GraphRAG package for Python enables developers to build graph retrieval augmented generation (GraphRAG) applications using the power of Neo4j and Python."
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "The official Neo4j GraphRAG package for Python enables developers to build graph retrieval augmented generation (GraphRAG) applications using the power of Neo4j and Python.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "The official Neo4j GraphRAG package for Python enables developers to build graph retrieval augmented generation (GraphRAG) applications using the power of Neo4j and Python."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Knowledge Graphs",
+        "Multimodal Documents"
+      ],
+      "reference": "Both classes support working directly with text and PDFs. The Pipeline class provides extensive customization options, making it ideal for advanced use cases.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "Both classes support working directly with text and PDFs. The Pipeline class provides extensive customization options, making it ideal for advanced use cases."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Hybrid Retrieval",
+        "Graph Retrieval",
+        "KG Retrieval"
+      ],
+      "reference": "Hybrid Retrieval for GraphRAG Applications Using the GraphRAG Python Package. Enhancing Hybrid Retrieval With Graph Traversal Using the GraphRAG Python Package.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "Hybrid Retrieval for GraphRAG Applications Using the GraphRAG Python Package. Enhancing Hybrid Retrieval With Graph Traversal Using the GraphRAG Python Package."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Knowledge Graph"
+      ],
+      "reference": "Vector database (to use External Retrievers): weaviate: store vectors in Weaviate, pinecone: store vectors in Pinecone, qdrant: store vectors in Qdrant",
+      "verified": true,
+      "verification_score": 0.8791,
+      "verification_method": "fuzzy",
+      "matched_span": "LLMs from Amazon Bedrock\n- **sentence-transformers** : to use embeddings from the `sentence-transformers` Python package\n- Vector database (to use :ref:`External Retrievers`):\n    - **weaviate**: store vectors in Weaviate\n    -"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF"
+      ],
+      "reference": "Both classes support working directly with text and PDFs.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Both classes support working directly with text and PDFs."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval",
+        "Tool Use"
+      ],
+      "reference": "Enriching Vector Search With Graph Traversal Using the GraphRAG Python Package. Effortless RAG With Text2CypherRetriever.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "Enriching Vector Search With Graph Traversal Using the GraphRAG Python Package. Effortless RAG With Text2CypherRetriever."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:47:16.815026+00:00"
+  }
+}

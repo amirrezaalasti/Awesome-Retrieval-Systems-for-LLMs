@@ -1,0 +1,86 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-embeddings-benchmark-mteb",
+    "source_url": "https://github.com/embeddings-benchmark/mteb"
+  },
+  "fields": {
+    "system_name": {
+      "value": "MTEB",
+      "reference": "MTEB was introduced in \"MTEB: Massive Text Embedding Benchmark\"",
+      "verified": true,
+      "verification_score": 0.9206,
+      "verification_method": "fuzzy",
+      "matched_span": "ribute to MTEB and set it up for development                              |\n\n[Get Started]: https://emb"
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "Multimodal toolbox for evaluating embeddings and retrieval systems",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Multimodal toolbox for evaluating embeddings and retrieval systems"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "MTEB was introduced in \"MTEB: Massive Text Embedding Benchmark\", and heavily expanded in \"MMTEB: Massive Multilingual Text Embedding Benchmark\"",
+      "verified": true,
+      "verification_score": 0.866,
+      "verification_method": "fuzzy",
+      "matched_span": "to MTEB and set it up for development                              |\n\n[Get Started]: https://embeddings-benchmark.github.io/mteb/\n[Defining Models]: https://embeddings-benchmark.github.io/mteb/get_started/usage/definin"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval"
+      ],
+      "reference": "Multimodal toolbox for evaluating embeddings and retrieval systems",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Multimodal toolbox for evaluating embeddings and retrieval systems"
+    },
+    "knowledge_source": {
+      "value": [
+        "Scientific Literature"
+      ],
+      "reference": "How to add a new task/dataset to MTEB",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "How to add a new task/dataset to MTEB"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "MTEB was introduced in \"MTEB: Massive Text Embedding Benchmark\", and heavily expanded in \"MMTEB: Massive Multilingual Text Embedding Benchmark\"",
+      "verified": true,
+      "verification_score": 0.866,
+      "verification_method": "fuzzy",
+      "matched_span": "to MTEB and set it up for development                              |\n\n[Get Started]: https://embeddings-benchmark.github.io/mteb/\n[Defining Models]: https://embeddings-benchmark.github.io/mteb/get_started/usage/definin"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Multimodal toolbox for evaluating embeddings and retrieval systems",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Multimodal toolbox for evaluating embeddings and retrieval systems"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 2,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:33:21.416898+00:00"
+  }
+}

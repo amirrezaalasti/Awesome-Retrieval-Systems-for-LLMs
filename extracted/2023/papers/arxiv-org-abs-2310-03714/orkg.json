@@ -1,0 +1,92 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2310-03714",
+    "source_url": "https://arxiv.org/abs/2310.03714"
+  },
+  "fields": {
+    "system_name": {
+      "value": "DSPy",
+      "reference": "we introduce DSPy, a programming model that abstracts LM pipelines as text transformation graphs, i.e. imperative computation graphs where LMs are invoked through declarative modules.",
+      "verified": true,
+      "verification_score": 0.9836,
+      "verification_method": "fuzzy",
+      "matched_span": "g and optimizing LM pipelines, we introduce DSPy, a programming model that abstracts LM pipelines as text transformation graphs , i.e. imperative computation graphs where LMs are invoked through declarative modules. DSPy mo"
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "we offer the following simple but complete retrieval-augmented generation (RAG) system.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we offer the following simple but complete retrieval-augmented generation (RAG) system."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "DSPy has built-in support for ColBERTv2, Pyserini, and Pinecone retrievers, and we have explored experimental dspy.SQL for executing SQL queries",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "DSPy has built-in support for ColBERTv2, Pyserini, and Pinecone retrievers, and we have explored experimental dspy.SQL for executing SQL queries"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Multi-hop Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "DSPy has built-in support for ColBERTv2, Pyserini, and Pinecone retrievers, and we have explored experimental dspy.SQL for executing SQL queries",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "DSPy has built-in support for ColBERTv2, Pyserini, and Pinecone retrievers, and we have explored experimental dspy.SQL for executing SQL queries"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "DSPy has built-in support for ColBERTv2, Pyserini, and Pinecone retrievers, and we have explored experimental dspy.SQL for executing SQL queries",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "DSPy has built-in support for ColBERTv2, Pyserini, and Pinecone retrievers, and we have explored experimental dspy.SQL for executing SQL queries"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "DSPy, which treats LMs as abstract devices for text generation, and optimizes their usage in arbitrary computational graphs.",
+      "verified": true,
+      "verification_score": 0.9274,
+      "verification_method": "fuzzy",
+      "matched_span": "straction.\n\n## 3 THE DSPY PROGRAMMING MODEL\n\nWe present DSPy, which treats LMs as abstract devices for text generation, 3 and optimizes their usage in arbitrary com"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval",
+        "Reflection",
+        "Tool Use"
+      ],
+      "reference": "we report on two expansive case studies: math word problems (GMS8K; Cobbe et al. 2021) and multi-hop question answering (HotPotQA; Yang et al. 2018) with explorations of chain of thought, multi-chain reflection, multi-hop retrieval, retrieval-augmented question answering, and agent loops.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "we report on two expansive case studies: math word problems (GMS8K; Cobbe et al. 2021) and multi-hop question answering (HotPotQA; Yang et al. 2018) with explorations of chain of thought, multi-chain reflection, multi-hop retrieval, retrieval-augmented question answering, and agent loops."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:58:36.580443+00:00"
+  }
+}

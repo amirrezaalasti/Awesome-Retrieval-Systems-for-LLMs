@@ -1,0 +1,93 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "memgraph-com",
+    "source_url": "https://memgraph.com"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Memgraph",
+      "reference": "Memgraph is the agent's real-time reasoning engine.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Memgraph is the agent's real-time reasoning engine."
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "Standard RAG retrieves text chunks by similarity. GraphRAG traverses a knowledge graph to follow multi-hop relationships across entities, connecting information that similarity matching can't reach.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Standard RAG retrieves text chunks by similarity. GraphRAG traverses a knowledge graph to follow multi-hop relationships across entities, connecting information that similarity matching can't reach."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Knowledge Graphs",
+        "SQL Databases",
+        "Tables",
+        "Documents"
+      ],
+      "reference": "Documents & Data Sources PDF XLSX CSV SQL Memgraph ✓ Graph updated",
+      "verified": true,
+      "verification_score": 0.8939,
+      "verification_method": "fuzzy",
+      "matched_span": "- image -->\n\nAI Workloads\n\n## Connected context across your data.\n\nDocuments &amp; Data Sources\n\nPDF\n\nXLSX"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Graph Retrieval",
+        "Multi-hop Retrieval",
+        "Agentic Retrieval"
+      ],
+      "reference": "GraphRAG traverses a knowledge graph to follow multi-hop relationships across entities, connecting information that similarity matching can't reach.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "GraphRAG traverses a knowledge graph to follow multi-hop relationships across entities, connecting information that similarity matching can't reach."
+    },
+    "knowledge_source": {
+      "value": [
+        "Knowledge Graph",
+        "SQL Database"
+      ],
+      "reference": "Unify siloed data into a queryable graph of entities and relationships that any team can traverse.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Unify siloed data into a queryable graph of entities and relationships that any team can traverse."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "Tables"
+      ],
+      "reference": "Documents & Data Sources PDF XLSX CSV SQL Memgraph ✓ Graph updated",
+      "verified": true,
+      "verification_score": 0.8939,
+      "verification_method": "fuzzy",
+      "matched_span": "- image -->\n\nAI Workloads\n\n## Connected context across your data.\n\nDocuments &amp; Data Sources\n\nPDF\n\nXLSX"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Agentic Planning"
+      ],
+      "reference": "A reasoning graph makes the answer explicit, an action space where graph algorithms find the highest-scoring path from current state to goal. Memgraph is the agent's real-time reasoning engine.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "A reasoning graph makes the answer explicit, an action space where graph algorithms find the highest-scoring path from current state to goal. Memgraph is the agent's real-time reasoning engine."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T18:03:03.881273+00:00"
+  }
+}

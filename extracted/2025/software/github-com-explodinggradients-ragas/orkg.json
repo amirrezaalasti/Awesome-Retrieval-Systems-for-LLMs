@@ -1,0 +1,85 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-explodinggradients-ragas",
+    "source_url": "https://github.com/explodinggradients/ragas"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Ragas",
+      "reference": "Ragas is your ultimate toolkit for evaluating and optimizing Large Language Model (LLM) applications.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Ragas is your ultimate toolkit for evaluating and optimizing Large Language Model (LLM) applications."
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "Objective metrics, intelligent test generation, and data-driven insights for LLM apps",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Objective metrics, intelligent test generation, and data-driven insights for LLM apps"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "ragas quickstart rag_eval - Create a RAG evaluation project. Available templates: - rag_eval - Evaluate RAG systems",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "ragas quickstart rag_eval - Create a RAG evaluation project. Available templates: - rag_eval - Evaluate RAG systems"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "Available templates:\n- `rag_eval` - Evaluate RAG systems\n\nComing Soon:\n- `agent_evals` - Evaluate AI agents\n- `benchmark_llm` - Benchmark and compare LLMs\n- `prompt_evals` - Evaluate prompt variations\n- `workflow_eval` - Evaluate complex workflows",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Available templates:\n- `rag_eval` - Evaluate RAG systems\n\nComing Soon:\n- `agent_evals` - Evaluate AI agents\n- `benchmark_llm` - Benchmark and compare LLMs\n- `prompt_evals` - Evaluate prompt variations\n- `workflow_eval` - Evaluate complex workflows"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database"
+      ],
+      "reference": "Available templates:\n- `rag_eval` - Evaluate RAG systems\n\nComing Soon:\n- `agent_evals` - Evaluate AI agents\n- `benchmark_llm` - Benchmark and compare LLMs\n- `prompt_evals` - Evaluate prompt variations\n- `workflow_eval` - Evaluate complex workflows",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Available templates:\n- `rag_eval` - Evaluate RAG systems\n\nComing Soon:\n- `agent_evals` - Evaluate AI agents\n- `benchmark_llm` - Benchmark and compare LLMs\n- `prompt_evals` - Evaluate prompt variations\n- `workflow_eval` - Evaluate complex workflows"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Evaluate your LLM App. ragas comes with pre-built metrics for common evaluation tasks. For example, Aspect Critique evaluates any aspect of your output using DiscreteMetric",
+      "verified": true,
+      "verification_score": 0.936,
+      "verification_method": "fuzzy",
+      "matched_span": "- Evaluate RAG systems\n\nComing Soon:\n- `agent_evals` - Evaluate AI agents\n- `benchmark_llm` - Benchmark and compare LLMs\n- `prompt_evals` - Evaluate prompt variations\n- `workflow_eval` - Evaluate complex workflo"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Available templates:\n- `rag_eval` - Evaluate RAG systems\n\nComing Soon:\n- `agent_evals` - Evaluate AI agents\n- `benchmark_llm` - Benchmark and compare LLMs\n- `prompt_evals` - Evaluate prompt variations\n- `workflow_eval` - Evaluate complex workflows",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Available templates:\n- `rag_eval` - Evaluate RAG systems\n\nComing Soon:\n- `agent_evals` - Evaluate AI agents\n- `benchmark_llm` - Benchmark and compare LLMs\n- `prompt_evals` - Evaluate prompt variations\n- `workflow_eval` - Evaluate complex workflows"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 2,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:29:30.945511+00:00"
+  }
+}

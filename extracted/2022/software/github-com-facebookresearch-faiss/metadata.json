@@ -1,0 +1,21 @@
+{
+  "year": 2022,
+  "type": "software",
+  "source_url": "https://github.com/facebookresearch/faiss",
+  "slug": "github-com-facebookresearch-faiss",
+  "status": "success",
+  "extracted_at": "2026-07-05T11:59:58.638318+00:00",
+  "owner": "facebookresearch",
+  "repo": "faiss",
+  "api_url": "https://api.github.com/repos/facebookresearch/faiss",
+  "name": "faiss",
+  "full_name": "facebookresearch/faiss",
+  "description": "A library for efficient similarity search and clustering of dense vectors.",
+  "homepage": "https://faiss.ai",
+  "stars": 40455,
+  "topics": [],
+  "license": "MIT",
+  "default_branch": "main",
+  "source_type": "github",
+  "content_chars": 6377
+}

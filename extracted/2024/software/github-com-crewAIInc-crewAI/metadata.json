@@ -1,0 +1,15 @@
+{
+  "year": 2024,
+  "type": "software",
+  "source_url": "https://github.com/crewAIInc/crewAI",
+  "slug": "github-com-crewAIInc-crewAI",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:29.327238+00:00",
+  "owner": "crewAIInc",
+  "repo": "crewAI",
+  "api_url": "https://api.github.com/repos/crewAIInc/crewAI",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/crewAIInc/crewAI/main/README.md",
+  "source_type": "github",
+  "content_chars": 31837
+}

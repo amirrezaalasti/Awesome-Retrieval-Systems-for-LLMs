@@ -1,0 +1,21 @@
+{
+  "year": 2020,
+  "type": "software",
+  "source_url": "https://github.com/facebookresearch/KILT",
+  "slug": "github-com-facebookresearch-KILT",
+  "status": "success",
+  "extracted_at": "2026-07-05T11:57:38.937013+00:00",
+  "owner": "facebookresearch",
+  "repo": "KILT",
+  "api_url": "https://api.github.com/repos/facebookresearch/KILT",
+  "name": "KILT",
+  "full_name": "facebookresearch/KILT",
+  "description": "Library for Knowledge Intensive Language Tasks",
+  "homepage": null,
+  "stars": 977,
+  "topics": [],
+  "license": "MIT",
+  "default_branch": "main",
+  "source_type": "github",
+  "content_chars": 8977
+}

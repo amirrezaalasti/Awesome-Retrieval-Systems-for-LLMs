@@ -1,0 +1,91 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2405-12035",
+    "source_url": "https://arxiv.org/abs/2405.12035"
+  },
+  "fields": {
+    "system_name": {
+      "value": "KG-RAG",
+      "reference": "This paper introduces a KG-RAG (Knowledge Graph-Retrieval Augmented Generation) pipeline, a novel framework designed to enhance the knowledge capabilities of LMAs by integrating structured Knowledge Graphs (KGs) with the functionalities of LLMs",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This paper introduces a KG-RAG (Knowledge Graph-Retrieval Augmented Generation) pipeline, a novel framework designed to enhance the knowledge capabilities of LMAs by integrating structured Knowledge Graphs (KGs) with the functionalities of LLMs"
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "The KG-RAG pipeline constructs a KG from unstructured text and then performs information retrieval over the newly created graph to perform KGQA (Knowledge Graph Question Answering).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The KG-RAG pipeline constructs a KG from unstructured text and then performs information retrieval over the newly created graph to perform KGQA (Knowledge Graph Question Answering)."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Knowledge Graphs",
+        "Text Chunks"
+      ],
+      "reference": "The first stage involves transforming unstructured text data into a structured KG that can be queried later. This process fundamentally relies on the extraction of triples formatted as (entity) -[relationship] → (entity).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The first stage involves transforming unstructured text data into a structured KG that can be queried later. This process fundamentally relies on the extraction of triples formatted as (entity) -[relationship] → (entity)."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Graph Retrieval",
+        "Multi-hop Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "KG lookups are executed using a combination of vector similarity search and cipher queries to identify relevant nodes or relationships. The evaluation phase checks the current state of the traversal against the initial query, deciding whether to continue exploring, refine the exploration strategy, or synthesize an answer based on the gathered context.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "KG lookups are executed using a combination of vector similarity search and cipher queries to identify relevant nodes or relationships. The evaluation phase checks the current state of the traversal against the initial query, deciding whether to continue exploring, refine the exploration strategy, or synthesize an answer based on the gathered context."
+    },
+    "knowledge_source": {
+      "value": [
+        "Knowledge Graph",
+        "Vector Database"
+      ],
+      "reference": "We utilize NebulaGraph as our distributed knowledge graph database since it is open-sourced and supports rapid query execution for large-scale graphs. For vector similarity search, we use a SentenceTransformer model, specifically the multi-qa-mpnet-base-dot-v1, for computing high-quality sentence embeddings and store them in a local RedisDB instance.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "We utilize NebulaGraph as our distributed knowledge graph database since it is open-sourced and supports rapid query execution for large-scale graphs. For vector similarity search, we use a SentenceTransformer model, specifically the multi-qa-mpnet-base-dot-v1, for computing high-quality sentence embeddings and store them in a local RedisDB instance."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "The storage process involves converting unstructured text data into a structured KG. This is achieved by the extraction of triples from the text using a language model (LM).",
+      "verified": true,
+      "verification_score": 0.9595,
+      "verification_method": "fuzzy",
+      "matched_span": "riving at the answer a given the paths w z .\n\n## 3.1 Storage\n\nThe storage process involves converting unstructured text data into a structured KG. This is achieved by the extraction of triples from the text using"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Agentic Planning",
+        "Reflection"
+      ],
+      "reference": "The algorithm consists of three main components: planning, KG lookups, and evaluation. The planning phase involves devising a sequence of steps that guide the exploration through the KG. KG lookups are executed using a combination of vector similarity search and cipher queries to identify relevant nodes or relationships. The evaluation phase checks the current state of the traversal against the initial query, deciding whether to continue exploring, refine the exploration strategy, or synthesize an answer based on the gathered context.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The algorithm consists of three main components: planning, KG lookups, and evaluation. The planning phase involves devising a sequence of steps that guide the exploration through the KG. KG lookups are executed using a combination of vector similarity search and cipher queries to identify relevant nodes or relationships. The evaluation phase checks the current state of the traversal against the initial query, deciding whether to continue exploring, refine the exploration strategy, or synthesize an answer based on the gathered context."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:04:22.286124+00:00"
+  }
+}

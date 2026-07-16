@@ -1,0 +1,86 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2020,
+    "type": "software",
+    "slug": "github-com-facebookresearch-FiD",
+    "source_url": "https://github.com/facebookresearch/FiD"
+  },
+  "fields": {
+    "system_name": {
+      "value": "FiD",
+      "reference": "This repository contains code for:\n- Fusion-in-Decoder models\n- Distilling Knowledge from Reader to Retriever",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This repository contains code for:\n- Fusion-in-Decoder models\n- Distilling Knowledge from Reader to Retriever"
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "Fusion-in-Decoder models can be trained using [`train_reader.py`](train_reader.py) and evaluated with [`test_reader.py`](test_reader.py).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Fusion-in-Decoder models can be trained using [`train_reader.py`](train_reader.py) and evaluated with [`test_reader.py`](test_reader.py)."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "`ctxs`: a list of passages where each item is a dictionary containing\n        - `title`: article title\n        - `text`: passage text",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "`ctxs`: a list of passages where each item is a dictionary containing\n        - `title`: article title\n        - `text`: passage text"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval"
+      ],
+      "reference": "To retrieve the initial set of passages for each question, different options can be considered, such as DPR or BM25.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "To retrieve the initial set of passages for each question, different options can be considered, such as DPR or BM25."
+    },
+    "knowledge_source": {
+      "value": [
+        "Search Engine"
+      ],
+      "reference": "Then the trained retriever is used to index a knowldege source, Wikipedia in our case.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Then the trained retriever is used to index a knowldege source, Wikipedia in our case."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "`question`: question text\n- `target`: answer used for model training, if not given, the target is randomly sampled from the 'answers' list",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "`question`: question text\n- `target`: answer used for model training, if not given, the target is randomly sampled from the 'answers' list"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:14:17.015664+00:00"
+  }
+}

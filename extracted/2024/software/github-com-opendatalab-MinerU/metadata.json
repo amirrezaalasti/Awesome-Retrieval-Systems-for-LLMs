@@ -1,0 +1,15 @@
+{
+  "year": 2024,
+  "type": "software",
+  "source_url": "https://github.com/opendatalab/MinerU",
+  "slug": "github-com-opendatalab-MinerU",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:25.640479+00:00",
+  "owner": "opendatalab",
+  "repo": "MinerU",
+  "api_url": "https://api.github.com/repos/opendatalab/MinerU",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/opendatalab/MinerU/master/README.md",
+  "source_type": "github",
+  "content_chars": 26152
+}

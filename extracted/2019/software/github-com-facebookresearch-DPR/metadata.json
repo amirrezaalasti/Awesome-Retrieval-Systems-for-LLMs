@@ -1,0 +1,21 @@
+{
+  "year": 2019,
+  "type": "software",
+  "source_url": "https://github.com/facebookresearch/DPR",
+  "slug": "github-com-facebookresearch-DPR",
+  "status": "success",
+  "extracted_at": "2026-07-05T11:56:07.205208+00:00",
+  "owner": "facebookresearch",
+  "repo": "DPR",
+  "api_url": "https://api.github.com/repos/facebookresearch/DPR",
+  "name": "DPR",
+  "full_name": "facebookresearch/DPR",
+  "description": "Dense Passage Retriever - is a set of tools and models for open domain Q&A task.",
+  "homepage": null,
+  "stars": 1867,
+  "topics": [],
+  "license": "NOASSERTION",
+  "default_branch": "main",
+  "source_type": "github",
+  "content_chars": 18936
+}

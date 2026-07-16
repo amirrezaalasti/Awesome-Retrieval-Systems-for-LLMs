@@ -1,0 +1,107 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-run-llama-llama-index",
+    "source_url": "https://github.com/run-llama/llama_index"
+  },
+  "fields": {
+    "system_name": {
+      "value": "LlamaIndex",
+      "reference": "LlamaIndex OSS (by [LlamaIndex](https://llamaindex.ai?utm_medium=li_github&utm_source=github&utm_campaign=2026--)) is an open-source framework to build agentic applications.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LlamaIndex OSS (by [LlamaIndex](https://llamaindex.ai?utm_medium=li_github&utm_source=github&utm_campaign=2026--)) is an open-source framework to build agentic applications."
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "LlamaIndex is a \"data framework\" to help you build LLM apps. It provides the following tools:",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LlamaIndex is a \"data framework\" to help you build LLM apps. It provides the following tools:"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Knowledge Graphs",
+        "SQL Databases",
+        "APIs",
+        "Multimodal Documents"
+      ],
+      "reference": "Offers **data connectors** to ingest your existing data sources and data formats (APIs, PDFs, docs, SQL, etc.). Provides ways to **structure your data** (indices, graphs) so that this data can be easily used with LLMs.",
+      "verified": true,
+      "verification_score": 0.9862,
+      "verification_method": "fuzzy",
+      "matched_span": "help you build LLM apps. It provides the following tools:\n\n- Offers **data connectors** to ingest your existing data sources and data formats (APIs, PDFs, docs, SQL, etc.).\n- Provides ways to **structure your data** (indices, graphs) so that this data can b"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Hybrid Retrieval",
+        "Graph Retrieval",
+        "Agentic Retrieval",
+        "Query Rewriting",
+        "Tool Retrieval"
+      ],
+      "reference": "Provides an **advanced retrieval/query interface over your data**: Feed in any LLM input prompt, get back retrieved context and knowledge-augmented output.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Provides an **advanced retrieval/query interface over your data**: Feed in any LLM input prompt, get back retrieved context and knowledge-augmented output."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine",
+        "Knowledge Graph",
+        "SQL Database",
+        "Enterprise Documents",
+        "Multimodal Corpora"
+      ],
+      "reference": "Offers **data connectors** to ingest your existing data sources and data formats (APIs, PDFs, docs, SQL, etc.).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Offers **data connectors** to ingest your existing data sources and data formats (APIs, PDFs, docs, SQL, etc.)."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Tables",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "Parse — Agentic OCR and document parsing (130+ formats). [Docs](https://developers.llamaindex.ai/python/cloud/llamaparse/?utm_medium=li_github&utm_source=github&utm_campaign=2026--)",
+      "verified": true,
+      "verification_score": 0.9282,
+      "verification_method": "fuzzy",
+      "matched_span": "n=2026--)** — Create an account and get your API key.\n- **Parse** — Agentic OCR and document parsing (130+ formats). [Docs](https://developers.llamaindex.ai/python/cloud/llamaparse/?utm_medium=li_github&utm_source=github&"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval",
+        "Agentic Planning",
+        "Tool Use"
+      ],
+      "reference": "Agents — Build end-to-end document agents with `Workflows` and Agent Builder. [Docs](https://developers.llamaindex.ai/python/llamaagents/overview/?utm_medium=li_github&utm_source=github&utm_campaign=2026--)",
+      "verified": true,
+      "verification_score": 0.9709,
+      "verification_method": "fuzzy",
+      "matched_span": "b&utm_source=github&utm_campaign=2026--)\n- **Agents** — Build end-to-end document agents with `Workflows` and Agent Builder. [Docs](https://developers.llamaindex.ai/python/llamaagents/overview/?utm_medium=li_github&utm_source=github&utm_campaign="
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:37:36.723385+00:00"
+  }
+}

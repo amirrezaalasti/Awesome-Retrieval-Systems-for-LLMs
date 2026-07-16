@@ -1,0 +1,90 @@
+template_name: "Retrieval_Systems_LLMs_ORKG"
+description: "Structure for classifying and comparing modern retrieval-centric systems."
+fields:
+  - name: "system_name"
+    type: "string"
+    description: "The specific name of the retrieval model or toolkit."
+    required: true
+
+  - name: "system_category"
+    type: "enum"
+    description: "The primary classification of the tool."
+    required: true
+    options:
+      - "RAG Frameworks"
+      - "GraphRAG / Knowledge Graph Systems"
+      - "Knowledge-Augmented Generation (KAG)"
+      - "Multimodal & Document Analysis RAG"
+      - "Agentic & Reasoning-Centric Retrieval"
+      - "Vector Databases & Retrieval Infrastructure"
+      - "Evaluation & Benchmarks"
+
+  - name: "knowledge_representation"
+    type: "multiselect"
+    description: "How the underlying data is structured before retrieval."
+    required: true
+    options:
+      - "Text Chunks"
+      - "Documents"
+      - "Tables"
+      - "Knowledge Graphs"
+      - "Ontologies"
+      - "SQL Databases"
+      - "APIs"
+      - "Multimodal Documents"
+
+  - name: "retrieval_mechanism"
+    type: "multiselect"
+    description: "The technical approach used to fetch data."
+    required: true
+    options:
+      - "Dense Retrieval"
+      - "Sparse Retrieval"
+      - "Hybrid Retrieval"
+      - "Graph Retrieval"
+      - "KG Retrieval"
+      - "Multi-hop Retrieval"
+      - "Agentic Retrieval"
+      - "Query Rewriting"
+      - "Tool Retrieval"
+
+  - name: "knowledge_source"
+    type: "multiselect"
+    description: "The infrastructure or medium queried by the system."
+    required: true
+    options:
+      - "Vector Database"
+      - "Search Engine"
+      - "Knowledge Graph"
+      - "SQL Database"
+      - "Web Search"
+      - "Enterprise Documents"
+      - "Scientific Literature"
+      - "Multimodal Corpora"
+
+  - name: "supported_modality"
+    type: "multiselect"
+    description: "The data types the system is designed to handle."
+    required: true
+    options:
+      - "Text"
+      - "PDF"
+      - "HTML"
+      - "Tables"
+      - "Images"
+      - "Video"
+      - "Audio"
+      - "Mixed Documents"
+
+  - name: "reasoning_strategy"
+    type: "multiselect"
+    description: "The logic the system applies to formulate an answer from the retrieved context."
+    required: true
+    options:
+      - "Single-hop Retrieval"
+      - "Multi-hop Retrieval"
+      - "Logical Retrieval"
+      - "Symbolic Reasoning"
+      - "Agentic Planning"
+      - "Reflection"
+      - "Tool Use"

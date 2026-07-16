@@ -1,0 +1,15 @@
+{
+  "year": 2025,
+  "type": "software",
+  "source_url": "https://github.com/milvus-io/milvus",
+  "slug": "github-com-milvus-io-milvus",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:53.382467+00:00",
+  "owner": "milvus-io",
+  "repo": "milvus",
+  "api_url": "https://api.github.com/repos/milvus-io/milvus",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/milvus-io/milvus/master/README.md",
+  "source_type": "github",
+  "content_chars": 15634
+}

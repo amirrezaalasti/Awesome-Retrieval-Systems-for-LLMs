@@ -1,0 +1,15 @@
+{
+  "year": 2025,
+  "type": "software",
+  "source_url": "https://github.com/explodinggradients/ragas",
+  "slug": "github-com-explodinggradients-ragas",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:50.162992+00:00",
+  "owner": "explodinggradients",
+  "repo": "ragas",
+  "api_url": "https://api.github.com/repos/explodinggradients/ragas",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/explodinggradients/ragas/main/README.md",
+  "source_type": "github",
+  "content_chars": 5604
+}

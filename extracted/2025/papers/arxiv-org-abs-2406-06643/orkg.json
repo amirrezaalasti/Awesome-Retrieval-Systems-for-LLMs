@@ -1,0 +1,84 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2406-06643",
+    "source_url": "https://arxiv.org/abs/2406.06643"
+  },
+  "fields": {
+    "system_name": {
+      "value": "MEHTC",
+      "reference": "HYBRID PARALLEL CROSS ATTENTION (PCAT) TRANSFORMER-CNN (MEHTC)",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "HYBRID PARALLEL CROSS ATTENTION (PCAT) TRANSFORMER-CNN (MEHTC)"
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "We proposed a 2D and 3D two-stage self-supervised deep learning segmentation hybrid transformer and CNN-based architectures for 4CH whole heart segmentation.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "We proposed a 2D and 3D two-stage self-supervised deep learning segmentation hybrid transformer and CNN-based architectures for 4CH whole heart segmentation."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Multimodal Documents"
+      ],
+      "reference": "We proposed a 2D and 3D two-stage self-supervised deep learning segmentation hybrid transformer and CNN-based architectures for 4CH whole heart segmentation.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "We proposed a 2D and 3D two-stage self-supervised deep learning segmentation hybrid transformer and CNN-based architectures for 4CH whole heart segmentation."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "In the initial step, we trained the model using a large unlabeled dataset through self-supervised learning. Subsequently, in the second stage, we utilized a pretrained encoder and fine-tuned the model with a labeled 2D segmentation model.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "In the initial step, we trained the model using a large unlabeled dataset through self-supervised learning. Subsequently, in the second stage, we utilized a pretrained encoder and fine-tuned the model with a labeled 2D segmentation model."
+    },
+    "knowledge_source": {
+      "value": [
+        "Multimodal Corpora"
+      ],
+      "reference": "For model training, two datasets containing Cine-MRI Long-Axis (LAX) 2-chamber and 4-chamber images were utilized, comprising 668 and 1007 examinations, respectively.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "For model training, two datasets containing Cine-MRI Long-Axis (LAX) 2-chamber and 4-chamber images were utilized, comprising 668 and 1007 examinations, respectively."
+    },
+    "supported_modality": {
+      "value": [
+        "Images"
+      ],
+      "reference": "Automated segmentation of Cardiac Magnetic Resonance (CMR) plays a pivotal role in efficiently assessing cardiac function, offering rapid clinical evaluations that benefit both healthcare practitioners and patients.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Automated segmentation of Cardiac Magnetic Resonance (CMR) plays a pivotal role in efficiently assessing cardiac function, offering rapid clinical evaluations that benefit both healthcare practitioners and patients."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Our proposed model comprised two stages. In the initial step, we trained the model using a large unlabeled dataset through self-supervised learning. Subsequently, in the second stage, we utilized a pretrained encoder and fine-tuned the model with a labeled 2D segmentation model.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Our proposed model comprised two stages. In the initial step, we trained the model using a large unlabeled dataset through self-supervised learning. Subsequently, in the second stage, we utilized a pretrained encoder and fine-tuned the model with a labeled 2D segmentation model."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 2,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:09:02.693381+00:00"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-Unstructured-IO-unstructured",
+    "source_url": "https://github.com/Unstructured-IO/unstructured"
+  },
+  "fields": {
+    "system_name": {
+      "value": "unstructured",
+      "reference": "The `unstructured` library provides open-source components for ingesting and pre-processing images and text documents, such as PDFs, HTML, Word docs, and many more.",
+      "verified": true,
+      "verification_score": 0.9695,
+      "verification_method": "fuzzy",
+      "matched_span": "\"center\">\n  <p>Open-Source Pre-Processing Tools for Unstructured Data</p>\n</h2>\n\nThe `unstructured` library provides open-source components for ingesting and pre-processing images and text documents, such"
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "The `unstructured` library provides open-source components for ingesting and pre-processing images and text documents, such as PDFs, HTML, Word docs, and many more.",
+      "verified": true,
+      "verification_score": 0.9695,
+      "verification_method": "fuzzy",
+      "matched_span": "\"center\">\n  <p>Open-Source Pre-Processing Tools for Unstructured Data</p>\n</h2>\n\nThe `unstructured` library provides open-source components for ingesting and pre-processing images and text documents, such"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "Text Chunks",
+        "Tables",
+        "Multimodal Documents"
+      ],
+      "reference": "The `unstructured` library provides open-source components for ingesting and pre-processing images and text documents, such as PDFs, HTML, Word docs, and many more.",
+      "verified": true,
+      "verification_score": 0.9695,
+      "verification_method": "fuzzy",
+      "matched_span": "\"center\">\n  <p>Open-Source Pre-Processing Tools for Unstructured Data</p>\n</h2>\n\nThe `unstructured` library provides open-source components for ingesting and pre-processing images and text documents, such"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "The use cases of `unstructured` revolve around streamlining and optimizing the data processing workflow for LLMs.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The use cases of `unstructured` revolve around streamlining and optimizing the data processing workflow for LLMs."
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents",
+        "Multimodal Corpora"
+      ],
+      "reference": "The `unstructured` library provides open-source components for ingesting and pre-processing images and text documents, such as PDFs, HTML, Word docs, and many more.",
+      "verified": true,
+      "verification_score": 0.9695,
+      "verification_method": "fuzzy",
+      "matched_span": "\"center\">\n  <p>Open-Source Pre-Processing Tools for Unstructured Data</p>\n</h2>\n\nThe `unstructured` library provides open-source components for ingesting and pre-processing images and text documents, such"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Tables",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "The `unstructured` library provides open-source components for ingesting and pre-processing images and text documents, such as PDFs, HTML, Word docs, and many more.",
+      "verified": true,
+      "verification_score": 0.9695,
+      "verification_method": "fuzzy",
+      "matched_span": "\"center\">\n  <p>Open-Source Pre-Processing Tools for Unstructured Data</p>\n</h2>\n\nThe `unstructured` library provides open-source components for ingesting and pre-processing images and text documents, such"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "The use cases of `unstructured` revolve around streamlining and optimizing the data processing workflow for LLMs.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The use cases of `unstructured` revolve around streamlining and optimizing the data processing workflow for LLMs."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:29:06.071356+00:00"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2310-11511",
+    "source_url": "https://arxiv.org/abs/2310.11511"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Self-RAG",
+      "reference": "We introduce a new framework called Self-Reflective Retrieval-Augmented Generation (SELF-RAG) that enhances an LM's quality and factuality through retrieval and self-reflection.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We introduce a new framework called Self-Reflective Retrieval-Augmented Generation (SELF-RAG) that enhances an LM's quality and factuality through retrieval and self-reflection."
+    },
+    "system_category": {
+      "value": "Agentic & Reasoning-Centric Retrieval",
+      "reference": "SELF-RAG first determines if augmenting the continued generation with retrieved passages would be helpful. If so, it outputs a retrieval token that calls a retriever model on demand",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "SELF-RAG first determines if augmenting the continued generation with retrieved passages would be helpful. If so, it outputs a retrieval token that calls a retriever model on demand"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks"
+      ],
+      "reference": "During training, we mask out the retrieved text chunks (surrounded by <p> and </p> in Figure 2) for loss calculation and expand the original vocabulary V with a set of reflection tokens",
+      "verified": true,
+      "verification_score": 0.9081,
+      "verification_method": "fuzzy",
+      "matched_span": "t pair is added to D gen . See the example training data in Figure 2.\n\nGenerator learning. We train the generator model M by training on the curated corpus augmented with reflection tokens D gen using the standard next token"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "For the retriever model R, we use off-the-shelf Contriever-MS MARCO (Izacard et al., 2022a) by default and retrieve up to ten documents for each input.",
+      "verified": true,
+      "verification_score": 0.9801,
+      "verification_method": "fuzzy",
+      "matched_span": "instruction-following input-output pairs. In particular, we sample instances from Open-Instruct processed data (Wang et al., 2023) and knowledge-intensive datasets (Petroni et al., 2021; Stel"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Web Search"
+      ],
+      "reference": "for biographies and open-domain QA, we use additional top five documents retrieved by a web search engine, following Luo et al. (2023)",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "for biographies and open-domain QA, we use additional top five documents retrieved by a web search engine, following Luo et al. (2023)"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "We train our generator LM on a diverse collection of text interleaved with reflection tokens and retrieved passages.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We train our generator LM on a diverse collection of text interleaved with reflection tokens and retrieved passages."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Reflection",
+        "Tool Use"
+      ],
+      "reference": "Reflection tokens are categorized into retrieval and critique tokens to indicate the need for retrieval and its generation quality respectively",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Reflection tokens are categorized into retrieval and critique tokens to indicate the need for retrieval and its generation quality respectively"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:59:31.926045+00:00"
+  }
+}

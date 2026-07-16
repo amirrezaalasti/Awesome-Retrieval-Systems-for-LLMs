@@ -1,0 +1,15 @@
+{
+  "year": 2025,
+  "type": "software",
+  "source_url": "https://github.com/truera/trulens",
+  "slug": "github-com-truera-trulens",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:51.117831+00:00",
+  "owner": "truera",
+  "repo": "trulens",
+  "api_url": "https://api.github.com/repos/truera/trulens",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/truera/trulens/main/README.md",
+  "source_type": "github",
+  "content_chars": 6983
+}

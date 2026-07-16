@@ -1,0 +1,88 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2026,
+    "type": "software",
+    "slug": "github-com-langchain-ai-langgraph",
+    "source_url": "https://github.com/langchain-ai/langgraph"
+  },
+  "fields": {
+    "system_name": {
+      "value": "LangGraph",
+      "reference": "LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents."
+    },
+    "system_category": {
+      "value": "Agentic & Reasoning-Centric Retrieval",
+      "reference": "LangGraph provides low-level supporting infrastructure for *any* long-running, stateful workflow or agent",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LangGraph provides low-level supporting infrastructure for *any* long-running, stateful workflow or agent"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "APIs"
+      ],
+      "reference": "Build agents that can plan, use subagents, and leverage file systems for complex tasks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Build agents that can plan, use subagents, and leverage file systems for complex tasks."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Agentic Retrieval",
+        "Tool Retrieval"
+      ],
+      "reference": "Low-level orchestration framework for building stateful agents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Low-level orchestration framework for building stateful agents."
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents"
+      ],
+      "reference": "Create truly stateful agents with both short-term working memory for ongoing reasoning and long-term persistent memory across sessions.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Create truly stateful agents with both short-term working memory for ongoing reasoning and long-term persistent memory across sessions."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "For developing, debugging, and deploying AI agents and LLM applications, see LangSmith",
+      "verified": true,
+      "verification_score": 0.9535,
+      "verification_method": "fuzzy",
+      "matched_span": "unique challenges of stateful, long-running workflows.\n\n> [!TIP]\n> For developing, debugging, and deploying AI agents and LLM"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Agentic Planning",
+        "Reflection",
+        "Tool Use"
+      ],
+      "reference": "Build agents that can plan, use subagents, and leverage file systems for complex tasks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Build agents that can plan, use subagents, and leverage file systems for complex tasks."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T18:35:34.466382+00:00"
+  }
+}

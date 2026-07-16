@@ -1,0 +1,95 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2021,
+    "type": "software",
+    "slug": "haystack-deepset-ai",
+    "source_url": "https://haystack.deepset.ai/"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Haystack",
+      "reference": "Open Source AI framework for building production-ready, LLM-powered agents and applications, on your own or with Community support.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Open Source AI framework for building production-ready, LLM-powered agents and applications, on your own or with Community support."
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "Advanced RAG Build highly performant RAG pipelines with a multitude of retrieval and generation strategies. From hybrid retrieval to self-correction loops, Haystack has got you covered.",
+      "verified": true,
+      "verification_score": 0.9784,
+      "verification_method": "fuzzy",
+      "matched_span": "ttps://www.deepset.ai/deepset-studio)\n\n## Haystack Use Cases\n\n- Advanced  RAG Build highly performant RAG pipelines with a multitude of retrieval and generation strategies. From hybrid retrieval to self-correction loops, Hay"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Multimodal Documents"
+      ],
+      "reference": "Architect a next generation AI app around all modalities, not just text. Haystack can do tasks like image processing and audio transcription too.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Architect a next generation AI app around all modalities, not just text. Haystack can do tasks like image processing and audio transcription too."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "Build highly performant RAG pipelines with a multitude of retrieval and generation strategies. From hybrid retrieval to self-correction loops, Haystack has got you covered.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Build highly performant RAG pipelines with a multitude of retrieval and generation strategies. From hybrid retrieval to self-correction loops, Haystack has got you covered."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine",
+        "Enterprise Documents"
+      ],
+      "reference": "Connect to OpenAI, Anthropic, Mistral, Hugging Face, Weaviate, Pinecone, Elasticsearch, and more with no vendor lock-in.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Connect to OpenAI, Anthropic, Mistral, Hugging Face, Weaviate, Pinecone, Elasticsearch, and more with no vendor lock-in."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Images",
+        "Audio"
+      ],
+      "reference": "Architect a next generation AI app around all modalities, not just text. Haystack can do tasks like image processing and audio transcription too.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Architect a next generation AI app around all modalities, not just text. Haystack can do tasks like image processing and audio transcription too."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Agentic Planning",
+        "Tool Use",
+        "Reflection"
+      ],
+      "reference": "Design production-ready AI agents with standardized tool calling and scalable context engineering. Branching and looping pipelines give you full control over complex, multi-step decision flows.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Design production-ready AI agents with standardized tool calling and scalable context engineering. Branching and looping pipelines give you full control over complex, multi-step decision flows."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:15:33.734010+00:00"
+  }
+}

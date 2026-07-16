@@ -1,0 +1,89 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-All-Hands-AI-OpenHands",
+    "source_url": "https://github.com/All-Hands-AI/OpenHands"
+  },
+  "fields": {
+    "system_name": {
+      "value": "OpenHands Agent Canvas",
+      "reference": "OpenHands Agent Canvas turns your coding agents into a self-hosted, always-on engineering team. It's a developer control center for starting conversations and automating everyday tasks",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "OpenHands Agent Canvas turns your coding agents into a self-hosted, always-on engineering team. It's a developer control center for starting conversations and automating everyday tasks"
+    },
+    "system_category": {
+      "value": "Agentic & Reasoning-Centric Retrieval",
+      "reference": "Run OpenHands, Claude Code, Codex, Gemini, or any ACP-compatible agent across local, remote, and cloud backends.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Run OpenHands, Claude Code, Codex, Gemini, or any ACP-compatible agent across local, remote, and cloud backends."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "APIs"
+      ],
+      "reference": "Create automations and workflows that integrate with Slack, GitHub, Linear, and more. Run on a schedule or in response to webhook events",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Create automations and workflows that integrate with Slack, GitHub, Linear, and more. Run on a schedule or in response to webhook events"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Agentic Retrieval",
+        "Tool Retrieval"
+      ],
+      "reference": "Agent Canvas runs the open source OpenHands agent out-of-the-box, but can use any third-party agent like Claude Code and Codex.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Agent Canvas runs the open source OpenHands agent out-of-the-box, but can use any third-party agent like Claude Code and Codex."
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents",
+        "Web Search"
+      ],
+      "reference": "Connect your automations with third-party services like Slack, GitHub, Notion, and more to automate workflows",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Connect your automations with third-party services like Slack, GitHub, Notion, and more to automate workflows"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Mixed Documents"
+      ],
+      "reference": "generating reports that publish to Slack or automatically decomposing GitHub issues into tasks",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "generating reports that publish to Slack or automatically decomposing GitHub issues into tasks"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Agentic Planning",
+        "Tool Use"
+      ],
+      "reference": "It's a developer control center for starting conversations and automating everyday tasks — like generating reports that publish to Slack or automatically decomposing GitHub issues into tasks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "It's a developer control center for starting conversations and automating everyday tasks — like generating reports that publish to Slack or automatically decomposing GitHub issues into tasks."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:23:10.854819+00:00"
+  }
+}

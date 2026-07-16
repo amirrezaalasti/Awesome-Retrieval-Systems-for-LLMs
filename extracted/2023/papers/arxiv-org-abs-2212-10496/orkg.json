@@ -1,0 +1,87 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2212-10496",
+    "source_url": "https://arxiv.org/abs/2212.10496"
+  },
+  "fields": {
+    "system_name": {
+      "value": "HyDE",
+      "reference": "we propose to pivot through Hypothetical Document Embeddings ( HyDE ). Given a query, HyDE first zero-shot instructs an instruction-following language model (e.g. InstructGPT ) to generate a hypothetical document.",
+      "verified": true,
+      "verification_score": 0.9906,
+      "verification_method": "fuzzy",
+      "matched_span": "ng relevance. Instead, we propose to pivot through Hypothetical Document Embeddings ( HyDE ). Given a query, HyDE fi rst zero-shot instructs an instruction-following language model (e.g. InstructGPT ) to generate a hypothetical document. The document ca"
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "In this paper, we aim to build effective fully zero-shot dense retrieval systems that require no relevance supervision, work out-of-box and generalize across tasks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "In this paper, we aim to build effective fully zero-shot dense retrieval systems that require no relevance supervision, work out-of-box and generalize across tasks."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "Dense retrieval (Lee et al., 2019; Karpukhin et al., 2020), the method of retrieving documents using semantic embedding similarities, has been shown successful across tasks like web search, question answering, and fact verification.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Dense retrieval (Lee et al., 2019; Karpukhin et al., 2020), the method of retrieving documents using semantic embedding similarities, has been shown successful across tasks like web search, question answering, and fact verification."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "HyDE circumvents the aforementioned learning problem by performing search in document-only embedding space that captures document-document similarity. This can be easily learned using unsupervised contrastive learning",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "HyDE circumvents the aforementioned learning problem by performing search in document-only embedding space that captures document-document similarity. This can be easily learned using unsupervised contrastive learning"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "We use this vector to search against the corpus embeddings. The most similar real documents are retrieved and returned. The retrieval leverages document-document similarity encoded in the inner-product during contrastive training.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We use this vector to search against the corpus embeddings. The most similar real documents are retrieved and returned. The retrieval leverages document-document similarity encoded in the inner-product during contrastive training."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "We consider web search query sets TREC DL19 (Craswell et al., 2020a) and DL20 (Craswell et al., 2020b); they are based on the MS-MARCO dataset (Bajaj et al., 2016).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We consider web search query sets TREC DL19 (Craswell et al., 2020a) and DL20 (Craswell et al., 2020b); they are based on the MS-MARCO dataset (Bajaj et al., 2016)."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "We are excited to see how this can be generalized further to more sophisticated tasks like multi-hop retrieval/QA and conversational search.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We are excited to see how this can be generalized further to more sophisticated tasks like multi-hop retrieval/QA and conversational search."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:54:52.449047+00:00"
+  }
+}

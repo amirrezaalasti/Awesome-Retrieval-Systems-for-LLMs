@@ -1,0 +1,15 @@
+{
+  "year": 2023,
+  "type": "software",
+  "source_url": "https://github.com/FoundationAgents/MetaGPT",
+  "slug": "github-com-FoundationAgents-MetaGPT",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:11.697830+00:00",
+  "owner": "FoundationAgents",
+  "repo": "MetaGPT",
+  "api_url": "https://api.github.com/repos/FoundationAgents/MetaGPT",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/FoundationAgents/MetaGPT/main/README.md",
+  "source_type": "github",
+  "content_chars": 7549
+}

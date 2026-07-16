@@ -1,0 +1,86 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2021,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2112-09118",
+    "source_url": "https://arxiv.org/abs/2112.09118"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Contriever",
+      "reference": "we empirically evaluate our best retriever trained with contrastive learning, called Contriever (contrastive retriever), which uses MoCo with random cropping.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we empirically evaluate our best retriever trained with contrastive learning, called Contriever (contrastive retriever), which uses MoCo with random cropping."
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "we follow standard approaches in information retrieval and use a bi-encoder architecture where documents and queries are encoded independently.",
+      "verified": true,
+      "verification_score": 0.8252,
+      "verification_method": "fuzzy",
+      "matched_span": "tandard approaches (Huang et al., 2013; Karpukhin et al., 2020) in information retrieval and use a bi-encoder architecture where documents and queries are encoded independently. The r"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "The objective of a retriever is to find relevant documents in a large collection for a given query. Thus, the retriever takes as input the set of documents and the query and outputs a relevance score for each document.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The objective of a retriever is to find relevant documents in a large collection for a given query. Thus, the retriever takes as input the set of documents and the query and outputs a relevance score for each document."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "we explore the limits of contrastive learning as a way to train unsupervised dense retrievers and show that it leads to strong performance in various retrieval settings.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we explore the limits of contrastive learning as a way to train unsupervised dense retrievers and show that it leads to strong performance in various retrieval settings."
+    },
+    "knowledge_source": {
+      "value": [
+        "Search Engine",
+        "Scientific Literature"
+      ],
+      "reference": "we use the BEIR benchmark, introduced by Thakur et al. (2021), which contains 18 retrieval datasets, corresponding to nine tasks, such as fact checking or citation prediction, and covering different domains, such as Wikipedia or scientific publications.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we use the BEIR benchmark, introduced by Thakur et al. (2021), which contains 18 retrieval datasets, corresponding to nine tasks, such as fact checking or citation prediction, and covering different domains, such as Wikipedia or scientific publications."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "In practice, we use a transformer network for f θ to embed both queries and documents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "In practice, we use a transformer network for f θ to embed both queries and documents."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "The objective of a retriever is to find relevant documents in a large collection for a given query.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The objective of a retriever is to find relevant documents in a large collection for a given query."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:48:32.054539+00:00"
+  }
+}

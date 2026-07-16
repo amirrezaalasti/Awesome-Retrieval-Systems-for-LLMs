@@ -1,0 +1,100 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "software",
+    "slug": "github-com-RUC-NLPIR-FlashRAG",
+    "source_url": "https://github.com/RUC-NLPIR/FlashRAG"
+  },
+  "fields": {
+    "system_name": {
+      "value": "FlashRAG",
+      "reference": "FlashRAG is a Python toolkit for the reproduction and development of Retrieval Augmented Generation (RAG) research.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "FlashRAG is a Python toolkit for the reproduction and development of Retrieval Augmented Generation (RAG) research."
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "FlashRAG is a Python toolkit for the reproduction and development of Retrieval Augmented Generation (RAG) research.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "FlashRAG is a Python toolkit for the reproduction and development of Retrieval Augmented Generation (RAG) research."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Knowledge Graphs"
+      ],
+      "reference": "Our toolkit supports jsonl format for retrieval document collections, with the following structure: {\"id\":\"0\", \"contents\": \"...\"} The `contents` key is essential for building the index. For documents that include both text and title, we recommend setting the value of `contents` to `{title}\\n{text}`.",
+      "verified": true,
+      "verification_score": 0.8889,
+      "verification_method": "fuzzy",
+      "matched_span": "archer](https://arxiv.org/pdf/2503.05592) | Reasoning | 36.9 | 61.6 | 42.0 | 49.0 | 49.1 | 24.7 | 57.7 | Qwen-2.5-7B-base-RAG-RL |\n| [O2-Searcher](https://arxiv.org/pdf/2505.16582) | Reasoning | 41.4 | 51.4 | 46.8 | 43.4 | 48.6 | 19.0 | 47.6 | O2-Searcher-Qwen2.5-3B-GRPO |\n| [AutoRefine](https://www.arxiv.org/pdf/2505.11277) | Reasoning | 43.8 | 59.8 | 32.4 | 54.0 | 50.3 | 23.6 | 46.6 | AutoRefine-Qwen2.5-3B-Bas"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval",
+        "Multi-hop Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "For **dense retrieval methods**, especially popular embedding models, we use `faiss` to build the index. * For **sparse retrieval methods (BM25)**, we use `Pyserini` or `bm25s` to build the corpus into a Lucene inverted index.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "For **dense retrieval methods**, especially popular embedding models, we use `faiss` to build the index. * For **sparse retrieval methods (BM25)**, we use `Pyserini` or `bm25s` to build the corpus into a Lucene inverted index."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine",
+        "Web Search"
+      ],
+      "reference": "We have integrated a Web Search Engine-based Retriever, which seamlessly integrates with existing methods and can be enabled quickly with just a Serper API key! This enhancement significantly expands retrieval coverage and real-time capability, supporting dynamic information access and external knowledge augmentation.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We have integrated a Web Search Engine-based Retriever, which seamlessly integrates with existing methods and can be enabled quickly with just a Serper API key! This enhancement significantly expands retrieval coverage and real-time capability, supporting dynamic information access and external knowledge augmentation."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "We have added support for **multimodal RAG**, including [**MLLMs like Llava, Qwen, InternVL**], and various [**multimodal retrievers with Clip architecture**]. More information can be found in our new version of arxiv article and our documentation.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "We have added support for **multimodal RAG**, including [**MLLMs like Llava, Qwen, InternVL**], and various [**multimodal retrievers with Clip architecture**]. More information can be found in our new version of arxiv article and our documentation."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval",
+        "Agentic Planning",
+        "Reflection",
+        "Tool Use"
+      ],
+      "reference": "We now support **7 reasoning-based methods** that combine reasoning ability with retrieval, achieving superior performance on complex multi-hop tasks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We now support **7 reasoning-based methods** that combine reasoning ability with retrieval, achieving superior performance on complex multi-hop tasks."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:59:55.219135+00:00"
+  }
+}

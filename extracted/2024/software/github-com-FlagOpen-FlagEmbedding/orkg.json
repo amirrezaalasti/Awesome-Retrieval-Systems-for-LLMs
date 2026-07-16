@@ -1,0 +1,91 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "software",
+    "slug": "github-com-FlagOpen-FlagEmbedding",
+    "source_url": "https://github.com/FlagOpen/FlagEmbedding"
+  },
+  "fields": {
+    "system_name": {
+      "value": "BGE (FlagEmbedding)",
+      "reference": "⚡️BGE: One-Stop Retrieval Toolkit For Search and RAG",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "⚡️BGE: One-Stop Retrieval Toolkit For Search and RAG"
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "BGE (BAAI General Embedding) focuses on retrieval-augmented LLMs, consisting of the following projects currently:",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "BGE (BAAI General Embedding) focuses on retrieval-augmented LLMs, consisting of the following projects currently:"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Multimodal Documents"
+      ],
+      "reference": "Visualized-BGE can be utilized to generate embeddings for hybrid image-text data.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Visualized-BGE can be utilized to generate embeddings for hybrid image-text data."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "Multi-Functionality(dense retrieval, sparse retrieval, multi-vector(colbert)), Multi-Linguality, and Multi-Granularity(8192 tokens)",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Multi-Functionality(dense retrieval, sparse retrieval, multi-vector(colbert)), Multi-Linguality, and Multi-Granularity(8192 tokens)"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "Embedding Model which map text into vector",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Embedding Model which map text into vector"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "Introduce **BGE-VL**, State-Of-The-Art multimodal embedding models to support Any visual search applications (everything, including text-to-image, image-to-text, image&prompt-to-image, text-to-image&text, and more)!",
+      "verified": true,
+      "verification_score": 0.907,
+      "verification_method": "fuzzy",
+      "matched_span": "ub.com/FlagOpen/FlagEmbedding/blob/master/README_zh.md)\n\n\n\n## News\n\n- 3/6/2025: :fire::fire: Introduce **BGE-VL** ([HF repo](https://huggingface.co/collections/BAAI/megapairs-67c6bbe49c15a9e7a7c69d92)), State-Of-The-Art multimodal embedding models to supp"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "We recommend to use/fine-tune them to re-rank top-k documents returned by embedding models.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We recommend to use/fine-tune them to re-rank top-k documents returned by embedding models."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:58:12.364073+00:00"
+  }
+}

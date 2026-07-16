@@ -1,0 +1,84 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2019,
+    "type": "software",
+    "slug": "github-com-facebookresearch-DPR",
+    "source_url": "https://github.com/facebookresearch/DPR"
+  },
+  "fields": {
+    "system_name": {
+      "value": "DPR",
+      "reference": "Dense Passage Retrieval (`DPR`) - is a set of tools and models for state-of-the-art open-domain Q&A research.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Dense Passage Retrieval (`DPR`) - is a set of tools and models for state-of-the-art open-domain Q&A research."
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "Dense retriever component for inference time logic is based on FAISS index.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Dense retriever component for inference time logic is based on FAISS index."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks"
+      ],
+      "reference": "It contains pools of 2 types of negative passages per question, as well as positive passages and some additional information.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "It contains pools of 2 types of negative passages per question, as well as positive passages and some additional information."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "Dense retriever model is based on bi-encoder architecture.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Dense retriever model is based on bi-encoder architecture."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database"
+      ],
+      "reference": "Dense retriever component for inference time logic is based on FAISS index.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Dense retriever component for inference time logic is based on FAISS index."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "positive_ctxs: [{ title: \"...\", text: \"....\" }]",
+      "verified": true,
+      "verification_score": 0.8936,
+      "verification_method": "fuzzy",
+      "matched_span": "er question, as well as positive passages and some additional information.\n\n```\n[\n  {"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Extractive Q&A reader&ranker joint model inspired by this paper.",
+      "verified": true,
+      "verification_score": 0.8906,
+      "verification_method": "fuzzy",
+      "matched_span": "ures\n1. Dense retriever model is based on bi-encoder architecture.\n2. Extractive Q&A reader&ranker joint"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:12:00.200176+00:00"
+  }
+}

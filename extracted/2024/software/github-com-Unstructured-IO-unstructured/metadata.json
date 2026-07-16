@@ -1,0 +1,15 @@
+{
+  "year": 2024,
+  "type": "software",
+  "source_url": "https://github.com/Unstructured-IO/unstructured",
+  "slug": "github-com-Unstructured-IO-unstructured",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:28.330243+00:00",
+  "owner": "Unstructured-IO",
+  "repo": "unstructured",
+  "api_url": "https://api.github.com/repos/Unstructured-IO/unstructured",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/Unstructured-IO/unstructured/main/README.md",
+  "source_type": "github",
+  "content_chars": 13779
+}

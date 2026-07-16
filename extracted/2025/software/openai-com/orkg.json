@@ -1,0 +1,93 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "openai-com",
+    "source_url": "https://openai.com"
+  },
+  "fields": {
+    "system_name": {
+      "value": "ChatGPT",
+      "reference": "Get started with ChatGPT",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Get started with ChatGPT"
+    },
+    "system_category": {
+      "value": "Agentic & Reasoning-Centric Retrieval",
+      "reference": "How agents are transforming work",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "How agents are transforming work"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "APIs"
+      ],
+      "reference": "Choco automates food distribution with AI agents",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Choco automates food distribution with AI agents"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Agentic Retrieval",
+        "Tool Retrieval"
+      ],
+      "reference": "How agents are transforming work",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "How agents are transforming work"
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents",
+        "Web Search"
+      ],
+      "reference": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "CyberAgent moves faster with ChatGPT Enterprise and Codex"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Advancing content provenance for a safer, more transparent AI ecosystem"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Agentic Planning",
+        "Tool Use",
+        "Reflection"
+      ],
+      "reference": "How we monitor internal coding agents for misalignment",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "How we monitor internal coding agents for misalignment"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T18:03:09.471746+00:00"
+  }
+}

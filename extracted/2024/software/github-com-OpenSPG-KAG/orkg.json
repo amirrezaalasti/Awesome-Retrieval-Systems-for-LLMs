@@ -1,0 +1,101 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "software",
+    "slug": "github-com-OpenSPG-KAG",
+    "source_url": "https://github.com/OpenSPG/KAG"
+  },
+  "fields": {
+    "system_name": {
+      "value": "KAG",
+      "reference": "KAG is a logical reasoning and Q&A framework based on the OpenSPG engine and large language models, which is used to build logical reasoning and Q&A solutions for vertical domain knowledge bases.",
+      "verified": true,
+      "verification_score": 0.8584,
+      "verification_method": "fuzzy",
+      "matched_span": "709958236?style=for-the-badge&logo=discord&label=Discord\" alt=\"Discord\">\n   </a>\n</p>\n\n# 1. What is KAG?\n\nKAG is a logical reasoning and Q&A framework based on the [OpenSPG](https://github.com/OpenSPG/openspg) engine and large language models, which is used to build logical reasonin"
+    },
+    "system_category": {
+      "value": "Knowledge-Augmented Generation (KAG)",
+      "reference": "KAG: Boosting LLMs in Professional Domains via Knowledge Augmented Generation",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "KAG: Boosting LLMs in Professional Domains via Knowledge Augmented Generation"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Knowledge Graphs",
+        "Ontologies",
+        "Text Chunks",
+        "Tables",
+        "Documents"
+      ],
+      "reference": "KAG employs techniques such as layout analysis, knowledge extraction, property normalization, and semantic alignment to integrate raw business data and expert rules into a unified business knowledge graph.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "KAG employs techniques such as layout analysis, knowledge extraction, property normalization, and semantic alignment to integrate raw business data and expert rules into a unified business knowledge graph."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Hybrid Retrieval",
+        "KG Retrieval",
+        "Multi-hop Retrieval",
+        "Dense Retrieval",
+        "Sparse Retrieval"
+      ],
+      "reference": "each step can use different operators, such as exact match retrieval, text retrieval, numerical calculation or semantic reasoning, so as to realize the integration of four different problem solving processes: Retrieval, Knowledge Graph reasoning, language reasoning and numerical calculation.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "each step can use different operators, such as exact match retrieval, text retrieval, numerical calculation or semantic reasoning, so as to realize the integration of four different problem solving processes: Retrieval, Knowledge Graph reasoning, language reasoning and numerical calculation."
+    },
+    "knowledge_source": {
+      "value": [
+        "Knowledge Graph",
+        "Vector Database",
+        "Enterprise Documents"
+      ],
+      "reference": "KAG can effectively overcome the ambiguity of traditional RAG vector similarity calculation and the noise problem of GraphRAG introduced by OpenIE. KAG supports logical reasoning and multi-hop fact Q&A",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "KAG can effectively overcome the ambiguity of traditional RAG vector similarity calculation and the noise problem of GraphRAG introduced by OpenIE. KAG supports logical reasoning and multi-hop fact Q&A"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Tables"
+      ],
+      "reference": "For unstructured data such as news, events, logs, and books, as well as structured data like transactions, statistics, and approvals, along with business experience and domain knowledge rules",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "For unstructured data such as news, events, logs, and books, as well as structured data like transactions, statistics, and approvals, along with business experience and domain knowledge rules"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Logical Retrieval",
+        "Symbolic Reasoning",
+        "Agentic Planning",
+        "Reflection"
+      ],
+      "reference": "KAG proposes a logically formal guided hybrid solution and inference engine. The engine includes three types of operators: planning, reasoning, and retrieval, which transform natural language problems into problem solving processes that combine language and notation.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "KAG proposes a logically formal guided hybrid solution and inference engine. The engine includes three types of operators: planning, reasoning, and retrieval, which transform natural language problems into problem solving processes that combine language and notation."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:59:23.630634+00:00"
+  }
+}

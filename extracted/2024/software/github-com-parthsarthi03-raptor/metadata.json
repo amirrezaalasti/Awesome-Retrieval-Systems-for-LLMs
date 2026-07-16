@@ -1,0 +1,15 @@
+{
+  "year": 2024,
+  "type": "software",
+  "source_url": "https://github.com/parthsarthi03/raptor",
+  "slug": "github-com-parthsarthi03-raptor",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:20.755715+00:00",
+  "owner": "parthsarthi03",
+  "repo": "raptor",
+  "api_url": "https://api.github.com/repos/parthsarthi03/raptor",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/parthsarthi03/raptor/master/README.md",
+  "source_type": "github",
+  "content_chars": 5986
+}

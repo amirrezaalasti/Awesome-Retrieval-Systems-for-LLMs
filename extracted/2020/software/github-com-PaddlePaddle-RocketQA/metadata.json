@@ -1,0 +1,26 @@
+{
+  "year": 2020,
+  "type": "software",
+  "source_url": "https://github.com/PaddlePaddle/RocketQA",
+  "slug": "github-com-PaddlePaddle-RocketQA",
+  "status": "success",
+  "extracted_at": "2026-07-05T11:57:36.706137+00:00",
+  "owner": "PaddlePaddle",
+  "repo": "RocketQA",
+  "api_url": "https://api.github.com/repos/PaddlePaddle/RocketQA",
+  "name": "RocketQA",
+  "full_name": "PaddlePaddle/RocketQA",
+  "description": "🚀 RocketQA, dense retrieval for information retrieval and question answering, including both Chinese and English state-of-the-art models. ",
+  "homepage": "",
+  "stars": 785,
+  "topics": [
+    "dense-retrieval",
+    "information-retrieval",
+    "nlp",
+    "question-answering"
+  ],
+  "license": "Apache-2.0",
+  "default_branch": "main",
+  "source_type": "github",
+  "content_chars": 13818
+}

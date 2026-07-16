@@ -1,0 +1,93 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-HKUDS-LightRAG",
+    "source_url": "https://github.com/HKUDS/LightRAG"
+  },
+  "fields": {
+    "system_name": {
+      "value": "LightRAG",
+      "reference": "🚀 LightRAG: Simple and Fast Retrieval-Augmented Generation",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "🚀 LightRAG: Simple and Fast Retrieval-Augmented Generation"
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "LightRAG is a lightweight knowledge-graph RAG framework and an efficient alternative to Microsoft GraphRAG. It adopts a dual-layer architecture to manage both knowledge graphs (KGs) and vector embeddings, effectively bridging the gap between traditional vector-based RAG and graph-based RAG approaches.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LightRAG is a lightweight knowledge-graph RAG framework and an efficient alternative to Microsoft GraphRAG. It adopts a dual-layer architecture to manage both knowledge graphs (KGs) and vector embeddings, effectively bridging the gap between traditional vector-based RAG and graph-based RAG approaches."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Knowledge Graphs"
+      ],
+      "reference": "It adopts a dual-layer architecture to manage both knowledge graphs (KGs) and vector embeddings, effectively bridging the gap between traditional vector-based RAG and graph-based RAG approaches.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "It adopts a dual-layer architecture to manage both knowledge graphs (KGs) and vector embeddings, effectively bridging the gap between traditional vector-based RAG and graph-based RAG approaches."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Hybrid Retrieval",
+        "Graph Retrieval",
+        "KG Retrieval"
+      ],
+      "reference": "LightRAG's dual-level retrieval mechanism allows it to integrate detailed facts and abstract concepts concurrently. This enables the system to achieve remarkable performance in query result comprehensiveness and diversity, making it highly effective at handling complex, cross-document queries.",
+      "verified": true,
+      "verification_score": 0.9252,
+      "verification_method": "fuzzy",
+      "matched_span": "entities, overcoming the fragmented context limitations typical of traditional chunk-based retrieval methods. Its generation quality and context awareness are particularly outstanding in vertical domains (e.g., legal, financial) that require global comprehension or logical reasoning.\n- **Exceptional Comprehensiveness & Diversity:**"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Knowledge Graph"
+      ],
+      "reference": "LightRAG requires four types of backend storage:\n\n- **KV_STORAGE**: Used to save LLM response caches, text chunking results, entity-relation extraction results, etc.\n- **VECTOR_STORAGE**: Used to store vector information for text chunks, entities, and relationships.\n- **GRAPH_STORAGE**: Used to save the knowledge graph.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LightRAG requires four types of backend storage:\n\n- **KV_STORAGE**: Used to save LLM response caches, text chunking results, entity-relation extraction results, etc.\n- **VECTOR_STORAGE**: Used to store vector information for text chunks, entities, and relationships.\n- **GRAPH_STORAGE**: Used to save the knowledge graph."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "Tables",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "LightRAG now supports comprehensive multimodal data handling through [RAG-Anything](https://github.com/HKUDS/RAG-Anything) integration, enabling seamless document parsing and RAG capabilities across diverse formats including PDFs, images, Office documents, tables, and formulas.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LightRAG now supports comprehensive multimodal data handling through [RAG-Anything](https://github.com/HKUDS/RAG-Anything) integration, enabling seamless document parsing and RAG capabilities across diverse formats including PDFs, images, Office documents, tables, and formulas."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval"
+      ],
+      "reference": "**global**: Focuses on macro themes, cross-document reasoning, and deep relationships between entities. It retrieves relationship chains covering broad themes and concepts. This mode is suitable for queries that require summarization across multiple contexts, trend analysis, or understanding complex semantic dependencies.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "**global**: Focuses on macro themes, cross-document reasoning, and deep relationships between entities. It retrieves relationship chains covering broad themes and concepts. This mode is suitable for queries that require summarization across multiple contexts, trend analysis, or understanding complex semantic dependencies."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:24:36.377114+00:00"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2020,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2002-08909",
+    "source_url": "https://arxiv.org/abs/2002.08909"
+  },
+  "fields": {
+    "system_name": {
+      "value": "REALM",
+      "reference": "We demonstrate the effectiveness of Retrieval-Augmented Language Model pre-training (REALM) by fine-tuning on the challenging task of Open-domain Question Answering (Open-QA).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We demonstrate the effectiveness of Retrieval-Augmented Language Model pre-training (REALM) by fine-tuning on the challenging task of Open-domain Question Answering (Open-QA)."
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "we augment language model pretraining with a latent knowledge retriever, which allows the model to retrieve and attend over documents from a large corpus such as Wikipedia, used during pre-training, fine-tuning and inference.",
+      "verified": true,
+      "verification_score": 0.9556,
+      "verification_method": "fuzzy",
+      "matched_span": "modular and interpretable way, we augment language model pretraining with a latent knowledge retriever , which allows the model to retrieve and attend over documents from a large corpus such as Wikipedia, used during pre-training, fine-tuning and inference. For th"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "Text Chunks"
+      ],
+      "reference": "Documents are greedily split into chunks of up to 288 BERT wordpieces, resulting in just over 13 million retrieval candidates.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Documents are greedily split into chunks of up to 288 BERT wordpieces, resulting in just over 13 million retrieval candidates."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "The retriever is defined using a dense inner product model: where Embed input and Embed doc are embedding functions that map x and z respectively to d-dimensional vectors.",
+      "verified": true,
+      "verification_score": 0.8906,
+      "verification_method": "fuzzy",
+      "matched_span": "encoder , which models p ( y | z, x ) .\n\nKnowledge Retriever The retriever is defined using a dense inner product model:\n\n<!-- formula-not-decoded -->\n\nwhere Embed input and Embed doc are embedding functions that map x and z respectively to d -dimension"
+    },
+    "knowledge_source": {
+      "value": [
+        "Search Engine"
+      ],
+      "reference": "we can employ Maximum Inner Product Search (MIPS) algorithms to find the approximate top k documents, using running time and storage space that scale sub-linearly with the number of documents",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we can employ Maximum Inner Product Search (MIPS) algorithms to find the approximate top k documents, using running time and storage space that scale sub-linearly with the number of documents"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "REALM augments language model pre-training with a neural knowledge retriever that retrieves knowledge from a textual knowledge corpus, Z (e.g., all of Wikipedia).",
+      "verified": true,
+      "verification_score": 0.9321,
+      "verification_method": "fuzzy",
+      "matched_span": "t; .\n\nFigure 1. REALM augments language model pre-training with a neural knowledge retriever that retrieves knowledge from a textual knowledge corpus , Z (e.g., all of Wikipedia). Signal from the langua"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "REALM decomposes p ( y | x ) into two steps: retrieve, then predict. Given an input x, we first retrieve possibly helpful documents z from a knowledge corpus Z.",
+      "verified": true,
+      "verification_score": 0.95,
+      "verification_method": "fuzzy",
+      "matched_span": "is a question, and y is the answer.\n\nREALM decomposes p ( y | x ) into two steps: retrieve , then predict . Given an input x , we first retrieve possibly helpful documents z from a knowledge corpus Z"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:46:25.741694+00:00"
+  }
+}

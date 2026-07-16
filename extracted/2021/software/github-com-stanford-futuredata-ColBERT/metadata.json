@@ -1,0 +1,21 @@
+{
+  "year": 2021,
+  "type": "software",
+  "source_url": "https://github.com/stanford-futuredata/ColBERT",
+  "slug": "github-com-stanford-futuredata-ColBERT",
+  "status": "success",
+  "extracted_at": "2026-07-05T11:58:41.534435+00:00",
+  "owner": "stanford-futuredata",
+  "repo": "ColBERT",
+  "api_url": "https://api.github.com/repos/stanford-futuredata/ColBERT",
+  "name": "ColBERT",
+  "full_name": "stanford-futuredata/ColBERT",
+  "description": "ColBERT: state-of-the-art neural search (SIGIR'20, TACL'21, NeurIPS'21, NAACL'22, CIKM'22, ACL'23, EMNLP'23)",
+  "homepage": "",
+  "stars": 3895,
+  "topics": [],
+  "license": "MIT",
+  "default_branch": "main",
+  "source_type": "github",
+  "content_chars": 11596
+}

@@ -1,0 +1,90 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2401-18059",
+    "source_url": "https://arxiv.org/abs/2401.18059"
+  },
+  "fields": {
+    "system_name": {
+      "value": "RAPTOR",
+      "reference": "We introduce the novel approach of recursively embedding, clustering, and summarizing chunks of text, constructing a tree with differing levels of summarization from the bottom up. At inference time, our RAPTOR model retrieves from this tree",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We introduce the novel approach of recursively embedding, clustering, and summarizing chunks of text, constructing a tree with differing levels of summarization from the bottom up. At inference time, our RAPTOR model retrieves from this tree"
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "Retrieval-augmented language models can better adapt to changes in world state and incorporate long-tail knowledge. However, most existing methods retrieve only short contiguous chunks from a retrieval corpus, limiting holistic understanding of the overall document context.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Retrieval-augmented language models can better adapt to changes in world state and incorporate long-tail knowledge. However, most existing methods retrieve only short contiguous chunks from a retrieval corpus, limiting holistic understanding of the overall document context."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "Construction of the RAPTOR tree begins with segmenting the retrieval corpus into short, contiguous texts of length 100, similar to traditional retrieval augmentation techniques. If a sentence exceeds the 100-token limit, we move the entire sentence to the next chunk",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Construction of the RAPTOR tree begins with segmenting the retrieval corpus into short, contiguous texts of length 100, similar to traditional retrieval augmentation techniques. If a sentence exceeds the 100-token limit, we move the entire sentence to the next chunk"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "These texts are then embedded using SBERT, a BERT-based encoder ( multi-qa-mpnet-base-cos-v1 ) (Reimers & Gurevych, 2019). The chunks and their corresponding SBERT embeddings form the leaf nodes of our tree structure.",
+      "verified": true,
+      "verification_score": 0.9677,
+      "verification_method": "fuzzy",
+      "matched_span": "of the text within each chunk. These texts are then embedded using SBERT, a BERT-based encoder ( multi-qa-mpnet-base-cos-v1 ) (Reimers &amp; Gurevych, 2019). The chunks and their corresponding SBERT embeddings form the leaf nodes of our tree structure.\n\nTo"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Enterprise Documents",
+        "Scientific Literature"
+      ],
+      "reference": "However, this can be made more efficient with fast k -nearest neighbor libraries such as FAISS (Johnson et al., 2019).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "However, this can be made more efficient with fast k -nearest neighbor libraries such as FAISS (Johnson et al., 2019)."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF"
+      ],
+      "reference": "NarrativeQA is a dataset that comprises question-answer pairs based on the full texts of books and movie transcripts, totaling 1,572 documents (Koˇ cisk` y et al., 2018; Wu et al., 2021).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "NarrativeQA is a dataset that comprises question-answer pairs based on the full texts of books and movie transcripts, totaling 1,572 documents (Koˇ cisk` y et al., 2018; Wu et al., 2021)."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Single-hop Retrieval"
+      ],
+      "reference": "On question-answering tasks that involve complex, multi-step reasoning, we show state-of-the-art results; for example, by coupling RAPTOR retrieval with the use of GPT-4, we can improve the best performance on the QuALITY benchmark by 20% in absolute accuracy.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "On question-answering tasks that involve complex, multi-step reasoning, we show state-of-the-art results; for example, by coupling RAPTOR retrieval with the use of GPT-4, we can improve the best performance on the QuALITY benchmark by 20% in absolute accuracy."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:02:49.423738+00:00"
+  }
+}

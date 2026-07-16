@@ -1,0 +1,245 @@
+[
+  {
+    "year": 2019,
+    "paper": [
+      "https://arxiv.org/abs/2004.04906",
+      "https://arxiv.org/abs/1906.00300",
+      "https://arxiv.org/abs/2002.08909",
+      "https://ai.google.com/research/NaturalQuestions",
+      "https://nlp.cs.washington.edu/triviaqa/"
+    ],
+    "software": [
+      "https://github.com/facebookresearch/DPR",
+      "https://github.com/google-research/language"
+    ]
+  },
+  {
+    "year": 2020,
+    "paper": [
+      "https://arxiv.org/abs/2005.11401",
+      "https://arxiv.org/abs/2002.08909",
+      "https://arxiv.org/abs/2007.00808",
+      "https://arxiv.org/abs/2010.08191",
+      "https://arxiv.org/abs/2007.01282",
+      "https://arxiv.org/abs/2009.02252"
+    ],
+    "software": [
+      "https://github.com/facebookresearch/DPR",
+      "https://github.com/google-research/language",
+      "https://github.com/microsoft/ANCE",
+      "https://github.com/PaddlePaddle/RocketQA",
+      "https://github.com/facebookresearch/FiD",
+      "https://github.com/facebookresearch/KILT"
+    ]
+  },
+  {
+    "year": 2021,
+    "paper": [
+      "https://arxiv.org/abs/2101.00774",
+      "https://arxiv.org/abs/2004.12832",
+      "https://arxiv.org/abs/2112.09118",
+      "https://arxiv.org/abs/2104.08663"
+    ],
+    "software": [
+      "https://haystack.deepset.ai/",
+      "https://github.com/deepset-ai/haystack",
+      "https://github.com/stanford-futuredata/ColBERT",
+      "https://github.com/facebookresearch/contriever",
+      "https://www.elastic.co/elasticsearch/",
+      "https://opensearch.org/",
+      "https://github.com/beir-cellar/beir"
+    ]
+  },
+  {
+    "year": 2022,
+    "paper": [
+      "https://arxiv.org/abs/2212.14024",
+      "https://arxiv.org/abs/2212.10496",
+      "https://arxiv.org/abs/2210.07316"
+    ],
+    "software": [
+      "https://github.com/langchain-ai/langchain",
+      "https://github.com/run-llama/llama_index",
+      "https://github.com/stanfordnlp/dsp",
+      "https://github.com/facebookresearch/faiss",
+      "https://github.com/milvus-io/milvus",
+      "https://github.com/weaviate/weaviate",
+      "https://github.com/qdrant/qdrant",
+      "https://www.pinecone.io/",
+      "https://github.com/chroma-core/chroma",
+      "https://github.com/Unstructured-IO/unstructured",
+      "https://github.com/embeddings-benchmark/mteb"
+    ]
+  },
+  {
+    "year": 2023,
+    "paper": [
+      "https://arxiv.org/abs/2312.10997",
+      "https://arxiv.org/abs/2302.07842",
+      "https://arxiv.org/abs/2310.03714",
+      "https://arxiv.org/abs/2310.11511",
+      "https://arxiv.org/abs/2305.14283",
+      "https://arxiv.org/abs/2212.10496",
+      "https://arxiv.org/abs/2103.00020",
+      "https://arxiv.org/abs/2301.12597",
+      "https://arxiv.org/abs/2304.08485",
+      "https://arxiv.org/abs/2308.08155",
+      "https://arxiv.org/abs/2309.15217",
+      "https://arxiv.org/abs/2310.07554",
+      "https://arxiv.org/abs/2212.03533",
+      "https://arxiv.org/abs/2212.09741"
+    ],
+    "software": [
+      "https://python.langchain.com/docs/",
+      "https://github.com/langchain-ai/langchain",
+      "https://docs.llamaindex.ai/",
+      "https://github.com/run-llama/llama_index",
+      "https://haystack.deepset.ai/",
+      "https://github.com/deepset-ai/haystack",
+      "https://github.com/stanfordnlp/dspy",
+      "https://github.com/AkariAsai/self-rag",
+      "https://github.com/Unstructured-IO/unstructured",
+      "https://www.llamaindex.ai/llamaparse",
+      "https://github.com/apache/tika",
+      "https://github.com/openai/CLIP",
+      "https://github.com/haotian-liu/LLaVA",
+      "https://github.com/microsoft/autogen",
+      "https://github.com/crewAIInc/crewAI",
+      "https://github.com/FoundationAgents/MetaGPT",
+      "https://github.com/milvus-io/milvus",
+      "https://github.com/weaviate/weaviate",
+      "https://github.com/qdrant/qdrant",
+      "https://www.pinecone.io/",
+      "https://github.com/chroma-core/chroma",
+      "https://github.com/lancedb/lancedb",
+      "https://github.com/explodinggradients/ragas",
+      "https://github.com/truera/trulens",
+      "https://github.com/confident-ai/deepeval",
+      "https://github.com/beir-cellar/beir",
+      "https://github.com/embeddings-benchmark/mteb",
+      "https://github.com/FlagOpen/FlagEmbedding"
+    ]
+  },
+  {
+    "year": 2024,
+    "paper": [
+      "https://arxiv.org/abs/2312.10997",
+      "https://arxiv.org/search/?query=Graph+Retrieval-Augmented+Generation&searchtype=all",
+      "https://arxiv.org/search/?query=Retrieval-Augmented+Generation+Survey&searchtype=all",
+      "https://arxiv.org/abs/2404.16130",
+      "https://arxiv.org/abs/2410.05779",
+      "https://arxiv.org/abs/2401.18059",
+      "https://arxiv.org/abs/2405.13576",
+      "https://arxiv.org/abs/2409.13731",
+      "https://arxiv.org/abs/2405.14831",
+      "https://arxiv.org/abs/2405.12035",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/hash/efaf1c9726648c8ba363a5c927440529-Abstract-Conference.html",
+      "https://arxiv.org/abs/2407.01449",
+      "https://arxiv.org/abs/2308.13418",
+      "https://arxiv.org/abs/2308.08155",
+      "https://arxiv.org/abs/2309.15217",
+      "https://arxiv.org/abs/2311.09476",
+      "https://arxiv.org/abs/2402.03216"
+    ],
+    "software": [
+      "https://github.com/microsoft/graphrag",
+      "https://github.com/HKUDS/LightRAG",
+      "https://github.com/parthsarthi03/raptor",
+      "https://github.com/RUC-NLPIR/FlashRAG",
+      "https://github.com/IntelLabs/fastRAG",
+      "https://github.com/pathwaycom/pathway",
+      "https://github.com/OpenSPG/KAG",
+      "https://github.com/OSU-NLP-Group/HippoRAG",
+      "https://github.com/DS4SD/docling",
+      "https://github.com/opendatalab/MinerU",
+      "https://github.com/illuin-tech/colpali",
+      "https://github.com/facebookresearch/nougat",
+      "https://www.llamaindex.ai/llamaparse",
+      "https://github.com/Unstructured-IO/unstructured",
+      "https://github.com/microsoft/autogen",
+      "https://github.com/crewAIInc/crewAI",
+      "https://github.com/langchain-ai/langgraph",
+      "https://github.com/OpenDevin/OpenDevin",
+      "https://github.com/camel-ai/camel",
+      "https://github.com/milvus-io/milvus",
+      "https://github.com/weaviate/weaviate",
+      "https://github.com/qdrant/qdrant",
+      "https://www.pinecone.io/",
+      "https://github.com/lancedb/lancedb",
+      "https://github.com/chroma-core/chroma",
+      "https://github.com/vespa-engine/vespa",
+      "https://github.com/explodinggradients/ragas",
+      "https://github.com/truera/trulens",
+      "https://github.com/confident-ai/deepeval",
+      "https://github.com/stanford-futuredata/ARES",
+      "https://github.com/FlagOpen/FlagEmbedding",
+      "https://github.com/nomic-ai/nomic"
+    ]
+  },
+  {
+    "year": 2025,
+    "paper": [
+      "https://arxiv.org/abs/2502.11371",
+      "https://arxiv.org/search/?query=Agentic+Retrieval+Survey&searchtype=all",
+      "https://arxiv.org/search/?query=Knowledge+Augmented+Generation+Survey&searchtype=all",
+      "https://arxiv.org/abs/2308.08155",
+      "https://arxiv.org/abs/2404.16130",
+      "https://arxiv.org/abs/2410.05779",
+      "https://arxiv.org/abs/2405.14831",
+      "https://arxiv.org/abs/2502.09891",
+      "https://arxiv.org/abs/2409.13731",
+      "https://arxiv.org/abs/2407.01449",
+      "https://arxiv.org/abs/2310.03714",
+      "https://arxiv.org/abs/2309.15217",
+      "https://arxiv.org/abs/2406.06643"
+    ],
+    "software": [
+      "https://openai.com",
+      "https://github.com/microsoft/autogen",
+      "https://github.com/crewAIInc/crewAI",
+      "https://github.com/langchain-ai/langgraph",
+      "https://github.com/All-Hands-AI/OpenHands",
+      "https://github.com/camel-ai/camel",
+      "https://github.com/microsoft/graphrag",
+      "https://github.com/HKUDS/LightRAG",
+      "https://github.com/OSU-NLP-Group/HippoRAG",
+      "https://github.com/getzep/graphiti",
+      "https://github.com/OpenSPG/KAG",
+      "https://github.com/neo4j/neo4j-graphrag-python",
+      "https://memgraph.com",
+      "https://github.com/DS4SD/docling",
+      "https://github.com/opendatalab/MinerU",
+      "https://github.com/illuin-tech/colpali",
+      "https://www.llamaindex.ai/llamaparse",
+      "https://github.com/run-llama/llama_index",
+      "https://github.com/langchain-ai/langchain",
+      "https://github.com/deepset-ai/haystack",
+      "https://github.com/stanfordnlp/dspy",
+      "https://github.com/RUC-NLPIR/FlashRAG",
+      "https://github.com/explodinggradients/ragas",
+      "https://github.com/stanford-futuredata/ARES",
+      "https://github.com/truera/trulens",
+      "https://github.com/confident-ai/deepeval",
+      "https://smith.langchain.com",
+      "https://github.com/qdrant/qdrant",
+      "https://github.com/weaviate/weaviate",
+      "https://github.com/milvus-io/milvus",
+      "https://www.pinecone.io",
+      "https://github.com/lancedb/lancedb",
+      "https://github.com/vespa-engine/vespa"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": [
+      "https://arxiv.org/abs/2404.16130",
+      "https://arxiv.org/abs/2405.14831"
+    ],
+    "software": [
+      "https://github.com/microsoft/graphrag",
+      "https://github.com/OSU-NLP-Group/HippoRAG",
+      "https://github.com/getzep/graphiti",
+      "https://github.com/langchain-ai/langgraph"
+    ]
+  }
+]

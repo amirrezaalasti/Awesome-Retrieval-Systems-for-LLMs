@@ -1,0 +1,15 @@
+{
+  "year": 2025,
+  "type": "software",
+  "source_url": "https://github.com/OpenSPG/KAG",
+  "slug": "github-com-OpenSPG-KAG",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:43.764161+00:00",
+  "owner": "OpenSPG",
+  "repo": "KAG",
+  "api_url": "https://api.github.com/repos/OpenSPG/KAG",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/OpenSPG/KAG/master/README.md",
+  "source_type": "github",
+  "content_chars": 11500
+}

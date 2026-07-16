@@ -1,0 +1,89 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-AkariAsai-self-rag",
+    "source_url": "https://github.com/AkariAsai/self-rag"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Self-RAG",
+      "reference": "SELF-RAG: Learning to Retrieve, Generate and Critique through Self-reflection",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "SELF-RAG: Learning to Retrieve, Generate and Critique through Self-reflection"
+    },
+    "system_category": {
+      "value": "Agentic & Reasoning-Centric Retrieval",
+      "reference": "Self-RAG retrieves on demand (e.g., can retrieve multiple times or completely skip retrieval) given diverse queries, and criticize its own generation from multiple fine-grained aspects by predicting reflection tokens as an integral part of generation.",
+      "verified": true,
+      "verification_score": 0.8901,
+      "verification_method": "fuzzy",
+      "matched_span": "opted Retrieval-Augmented Generation (RAG; Figure left) approach, **Self-RAG** retrieves on demand (e.g., can retrieve multiple times or completely skip retrieval) given diverse queries, and criticize its own generation from multiple fine-grained aspects by predicting **reflection tokens** as an integral part of generation.\nWe conduct a segment-wise b"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "we created a subset of Wikipedia, including intro paragraphs of Wikipedia articles only for demo purposes.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we created a subset of Wikipedia, including intro paragraphs of Wikipedia articles only for demo purposes."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Agentic Retrieval"
+      ],
+      "reference": "By default, we use Contriever as our retrieval component. ... Self-RAG retrieves on demand (e.g., can retrieve multiple times or completely skip retrieval) given diverse queries",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "By default, we use Contriever as our retrieval component. ... Self-RAG retrieves on demand (e.g., can retrieve multiple times or completely skip retrieval) given diverse queries"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "First, please download the corpus and embeddings (9GB in total). ... retriever.setup_retriever_demo(\"facebook/contriever-msmarco\", \"enwiki_2020_intro_only/enwiki_2020_dec_intro_only.l\", \"enwiki_2020_intro_only/enwiki_dec_2020_contriever_intro/*\",  n_docs=5, save_or_load_index=False)",
+      "verified": true,
+      "verification_score": 0.9667,
+      "verification_method": "token_overlap",
+      "matched_span": "First, please download the corpus and embeddings (9GB in total). ... retriever.setup_retriever_demo(\"facebook/contriever-msmarco\", \"enwiki_2020_intro_only/enwiki_2020_dec_intro_only.l\", \"enwiki_2020_intro_only/enwiki_dec_2020_contriever_intro/*\",  n_docs=5, save_or_load_index=False)"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Self-RAG can retrieve and insert paragraphs anytime while generating, and recognizes them as long as they are surrounded by context markup special tokens",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Self-RAG can retrieve and insert paragraphs anytime while generating, and recognizes them as long as they are surrounded by context markup special tokens"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Reflection",
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "criticize its own generation from multiple fine-grained aspects by predicting reflection tokens as an integral part of generation. We conduct a segment-wise beam search to select the output that maximizes the utility for diverse preferences.",
+      "verified": true,
+      "verification_score": 0.9668,
+      "verification_method": "fuzzy",
+      "matched_span": "se queries, and criticize its own generation from multiple fine-grained aspects by predicting **reflection tokens** as an integral part of generation.\nWe conduct a segment-wise beam search to select the output that maximizes the utility for diverse preferences.\n\n\n![](images/teaser"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:27:56.778067+00:00"
+  }
+}

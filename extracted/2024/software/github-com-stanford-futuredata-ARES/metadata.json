@@ -1,0 +1,15 @@
+{
+  "year": 2024,
+  "type": "software",
+  "source_url": "https://github.com/stanford-futuredata/ARES",
+  "slug": "github-com-stanford-futuredata-ARES",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:36.907815+00:00",
+  "owner": "stanford-futuredata",
+  "repo": "ARES",
+  "api_url": "https://api.github.com/repos/stanford-futuredata/ARES",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/stanford-futuredata/ARES/main/README.md",
+  "source_type": "github",
+  "content_chars": 11413
+}

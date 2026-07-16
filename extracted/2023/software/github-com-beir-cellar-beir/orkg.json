@@ -1,0 +1,89 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-beir-cellar-beir",
+    "source_url": "https://github.com/beir-cellar/beir"
+  },
+  "fields": {
+    "system_name": {
+      "value": "BEIR",
+      "reference": "**BEIR** is a **heterogeneous benchmark** containing diverse IR tasks. It also provides a **common and easy framework** for evaluation of your NLP-based retrieval models within the benchmark.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "**BEIR** is a **heterogeneous benchmark** containing diverse IR tasks. It also provides a **common and easy framework** for evaluation of your NLP-based retrieval models within the benchmark."
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "**BEIR** is a **heterogeneous benchmark** containing diverse IR tasks. It also provides a **common and easy framework** for evaluation of your NLP-based retrieval models within the benchmark.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "**BEIR** is a **heterogeneous benchmark** containing diverse IR tasks. It also provides a **common and easy framework** for evaluation of your NLP-based retrieval models within the benchmark."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "Preprocess your own IR dataset or use one of the already-preprocessed 17 benchmark datasets",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Preprocess your own IR dataset or use one of the already-preprocessed 17 benchmark datasets"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "Evaluates well-known retrieval architectures (lexical, dense, sparse and reranking-based)",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Evaluates well-known retrieval architectures (lexical, dense, sparse and reranking-based)"
+    },
+    "knowledge_source": {
+      "value": [
+        "Search Engine",
+        "Scientific Literature"
+      ],
+      "reference": "Wide settings included, covers diverse benchmarks useful for both academia and industry",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Wide settings included, covers diverse benchmarks useful for both academia and industry"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "It also provides a **common and easy framework** for evaluation of your NLP-based retrieval models within the benchmark.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "It also provides a **common and easy framework** for evaluation of your NLP-based retrieval models within the benchmark."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "HotpotQA   | [Homepage](https://hotpotqa.github.io) | ``hotpotqa``| ✅ |``train``<br>``dev``<br>``test``|  7,405   |  5.23M  |  2.0",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "HotpotQA   | [Homepage](https://hotpotqa.github.io) | ``hotpotqa``| ✅ |``train``<br>``dev``<br>``test``|  7,405   |  5.23M  |  2.0"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:29:57.766368+00:00"
+  }
+}

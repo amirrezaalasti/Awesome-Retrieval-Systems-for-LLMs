@@ -1,0 +1,88 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2402-03216",
+    "source_url": "https://arxiv.org/abs/2402.03216"
+  },
+  "fields": {
+    "system_name": {
+      "value": "M3-Embedding",
+      "reference": "In this paper, we introduce a new embedding model called M3-Embedding, which is distinguished for its versatility in Multi-Linguality, Multi-Functionality, and Multi-Granularity.",
+      "verified": true,
+      "verification_score": 0.9157,
+      "verification_method": "fuzzy",
+      "matched_span": "ulti-Functionality\n\nMulti-Granularity\n\nIn this paper, we introduce a new embedding model called M3-Embedding , which is distinguished for its versatility in Multi-Linguality , Multi-Functionality , and Multi-Granularit"
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "It can simultaneously accomplish the three common retrieval functionalities: dense retrieval, multi-vector retrieval, and sparse retrieval.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "It can simultaneously accomplish the three common retrieval functionalities: dense retrieval, multi-vector retrieval, and sparse retrieval."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "M3-Embedding is learned to process different input granularities, spanning from short inputs like sentences and passages, to long documents of up to 8,192 input tokens.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "M3-Embedding is learned to process different input granularities, spanning from short inputs like sentences and passages, to long documents of up to 8,192 input tokens."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "It can simultaneously accomplish the three common retrieval functionalities: dense retrieval, multi-vector retrieval, and sparse retrieval. Besides, it is also capable of processing inputs of different granularities",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "It can simultaneously accomplish the three common retrieval functionalities: dense retrieval, multi-vector retrieval, and sparse retrieval. Besides, it is also capable of processing inputs of different granularities"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "we first use it to generate the embeddings of the corpus and then build the dense index for searching top-1000 candidates with Faiss. For the sparse method (denoted as Sparse), we first use it to generate the weights of the corpus and then build the sparse index for searching top-1000 candidates with Lucene.",
+      "verified": true,
+      "verification_score": 0.9191,
+      "verification_method": "fuzzy",
+      "matched_span": "| 73.3                      | 70.3                      | 57.3                      | 52.2                      | 52.1                      | 74.7                      | 55.2                      | 52.1                      | 52.7                      | 66.8                      | 61.8                      | 67.7                      | 68.4"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "It provides a uniform support for the semantic retrieval of more than 100 working languages.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "It provides a uniform support for the semantic retrieval of more than 100 working languages."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "given a query q in an arbitrary language x, it is able to retrieve document d in language y from the corpus D y: d y ← fn ∗ ( q x , D y )",
+      "verified": true,
+      "verification_score": 0.9343,
+      "verification_method": "fuzzy",
+      "matched_span": "ties of text embeddings. Formally, given a query q in an arbitrary language x , it is able to retrieve document d in language y from the corpus D y : d y ← fn ∗ ( q x , D y ) ."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:03:28.742160+00:00"
+  }
+}

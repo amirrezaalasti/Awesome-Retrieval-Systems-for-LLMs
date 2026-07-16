@@ -1,0 +1,15 @@
+{
+  "year": 2025,
+  "type": "software",
+  "source_url": "https://github.com/neo4j/neo4j-graphrag-python",
+  "slug": "github-com-neo4j-neo4j-graphrag-python",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:44.160930+00:00",
+  "owner": "neo4j",
+  "repo": "neo4j-graphrag-python",
+  "api_url": "https://api.github.com/repos/neo4j/neo4j-graphrag-python",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/neo4j/neo4j-graphrag-python/main/README.md",
+  "source_type": "github",
+  "content_chars": 16641
+}

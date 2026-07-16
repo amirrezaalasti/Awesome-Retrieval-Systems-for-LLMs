@@ -1,0 +1,90 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-truera-trulens",
+    "source_url": "https://github.com/truera/trulens"
+  },
+  "fields": {
+    "system_name": {
+      "value": "TruLens",
+      "reference": "# 🦑 Welcome to TruLens!",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "# 🦑 Welcome to TruLens!"
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "Systematically evaluate and track your LLM experiments with TruLens. As you develop your app including prompts, models, retrievers, knowledge sources and more, *TruLens* is the tool you need to understand its performance.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Systematically evaluate and track your LLM experiments with TruLens. As you develop your app including prompts, models, retrievers, knowledge sources and more, *TruLens* is the tool you need to understand its performance."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "As you develop your app including prompts, models, retrievers, knowledge sources and more, *TruLens* is the tool you need to understand its performance.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "As you develop your app including prompts, models, retrievers, knowledge sources and more, *TruLens* is the tool you need to understand its performance."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Agentic Retrieval",
+        "Tool Retrieval"
+      ],
+      "reference": "Every function call, LLM generation, retrieval, and tool invocation is captured as a structured OTEL span. This makes TruLens interoperable with existing observability infrastructure",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Every function call, LLM generation, retrieval, and tool invocation is captured as a structured OTEL span. This makes TruLens interoperable with existing observability infrastructure"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Enterprise Documents"
+      ],
+      "reference": "Walk through how to instrument and evaluate a RAG built from scratch with TruLens.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Walk through how to instrument and evaluate a RAG built from scratch with TruLens."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Fine-grained, stack-agnostic instrumentation and comprehensive evaluations help you to identify failure modes & systematically iterate to improve your application.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Fine-grained, stack-agnostic instrumentation and comprehensive evaluations help you to identify failure modes & systematically iterate to improve your application."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Agentic Planning",
+        "Tool Use",
+        "Reflection"
+      ],
+      "reference": "Seven purpose-built evaluators for agentic systems — each measuring a distinct aspect of agent behavior: LogicalConsistency, ExecutionEfficiency, PlanAdherence, PlanQuality, ToolSelection, ToolCalling, ToolQuality",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "Seven purpose-built evaluators for agentic systems — each measuring a distinct aspect of agent behavior: LogicalConsistency, ExecutionEfficiency, PlanAdherence, PlanQuality, ToolSelection, ToolCalling, ToolQuality"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:38:23.475050+00:00"
+  }
+}

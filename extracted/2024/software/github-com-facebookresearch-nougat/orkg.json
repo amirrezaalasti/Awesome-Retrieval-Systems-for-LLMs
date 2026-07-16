@@ -1,0 +1,91 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "software",
+    "slug": "github-com-facebookresearch-nougat",
+    "source_url": "https://github.com/facebookresearch/nougat"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Nougat",
+      "reference": "Nougat: Neural Optical Understanding for Academic Documents",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Nougat: Neural Optical Understanding for Academic Documents"
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "This is the official repository for Nougat, the academic document PDF parser that understands LaTeX math and tables.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This is the official repository for Nougat, the academic document PDF parser that understands LaTeX math and tables."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "Tables",
+        "Multimodal Documents"
+      ],
+      "reference": "This is the official repository for Nougat, the academic document PDF parser that understands LaTeX math and tables.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This is the official repository for Nougat, the academic document PDF parser that understands LaTeX math and tables."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "Nougat was trained on scientific papers found on arXiv and PMC. Is the document you're processing similar to that?",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Nougat was trained on scientific papers found on arXiv and PMC. Is the document you're processing similar to that?"
+    },
+    "knowledge_source": {
+      "value": [
+        "Scientific Literature",
+        "Multimodal Corpora"
+      ],
+      "reference": "Nougat was trained on scientific papers found on arXiv and PMC. Is the document you're processing similar to that?",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Nougat was trained on scientific papers found on arXiv and PMC. Is the document you're processing similar to that?"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Tables",
+        "Images"
+      ],
+      "reference": "A directory containing the `.html` files (processed `.tex` files by [LaTeXML](https://math.nist.gov/~BMiller/LaTeXML/)) with the same folder structure",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "A directory containing the `.html` files (processed `.tex` files by [LaTeXML](https://math.nist.gov/~BMiller/LaTeXML/)) with the same folder structure"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "The response is a string with the markdown text of the document.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The response is a string with the markdown text of the document."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:05:39.169597+00:00"
+  }
+}

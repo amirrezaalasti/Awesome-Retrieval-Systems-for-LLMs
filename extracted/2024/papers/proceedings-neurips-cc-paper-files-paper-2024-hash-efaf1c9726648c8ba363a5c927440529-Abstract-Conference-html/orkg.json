@@ -1,0 +1,87 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "paper",
+    "slug": "proceedings-neurips-cc-paper-files-paper-2024-hash-efaf1c9726648c8ba363a5c927440529-Abstract-Conference-html",
+    "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/efaf1c9726648c8ba363a5c927440529-Abstract-Conference.html"
+  },
+  "fields": {
+    "system_name": {
+      "value": "G-Retriever",
+      "reference": "Then, we propose our G-Retriever method, introducing the first retrievalaugmented generation (RAG) approach for general textual graphs, which can be fine-tuned to enhance graph understanding via soft prompting.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Then, we propose our G-Retriever method, introducing the first retrievalaugmented generation (RAG) approach for general textual graphs, which can be fine-tuned to enhance graph understanding via soft prompting."
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "Then, we propose our G-Retriever method, introducing the first retrievalaugmented generation (RAG) approach for general textual graphs, which can be fine-tuned to enhance graph understanding via soft prompting.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Then, we propose our G-Retriever method, introducing the first retrievalaugmented generation (RAG) approach for general textual graphs, which can be fine-tuned to enhance graph understanding via soft prompting."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Knowledge Graphs",
+        "Text Chunks"
+      ],
+      "reference": "A textual graph is a graph where nodes and edges possess textual attributes. Formally, it can be defined as G = ( V, E, { x n } n ∈ V , { x e } e ∈ E )",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "A textual graph is a graph where nodes and edges possess textual attributes. Formally, it can be defined as G = ( V, E, { x n } n ∈ V , { x e } e ∈ E )"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Graph Retrieval"
+      ],
+      "reference": "we use a k-nearest neighbors retrieval approach. This method yields a set of 'relevant nodes/edges' based on the similarity between the query and each node or edge.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we use a k-nearest neighbors retrieval approach. This method yields a set of 'relevant nodes/edges' based on the similarity between the query and each node or edge."
+    },
+    "knowledge_source": {
+      "value": [
+        "Knowledge Graph"
+      ],
+      "reference": "Given a graph with textual attributes, we enable users to 'chat with their graph': that is, to ask questions about the graph using a conversational interface.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Given a graph with textual attributes, we enable users to 'chat with their graph': that is, to ask questions about the graph using a conversational interface."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "To leverage the text-reasoning capabilities of LLMs, we transform the retrieved subgraph S ∗ into a textual format. This transformation involves flattening the textual attributes of the nodes and edges",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "To leverage the text-reasoning capabilities of LLMs, we transform the retrieved subgraph S ∗ into a textual format. This transformation involves flattening the textual attributes of the nodes and edges"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Logical Retrieval"
+      ],
+      "reference": "Answers, residing within the attributes of nodes or edges, often require multi-hop reasoning for accurate identification.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Answers, residing within the attributes of nodes or edges, often require multi-hop reasoning for accurate identification."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:06:40.842007+00:00"
+  }
+}

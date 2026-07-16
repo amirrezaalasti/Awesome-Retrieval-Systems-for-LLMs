@@ -1,0 +1,84 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2019,
+    "type": "paper",
+    "slug": "arxiv-org-abs-1906-00300",
+    "source_url": "https://arxiv.org/abs/1906.00300"
+  },
+  "fields": {
+    "system_name": {
+      "value": "ORQA",
+      "reference": "we introduce the first Open-Retrieval Question Answering system (ORQA). ORQA learns to retrieve evidence from an open corpus, and is supervised only by question-answer string pairs.",
+      "verified": true,
+      "verification_score": 0.9448,
+      "verification_method": "fuzzy",
+      "matched_span": "data.\n\nIn this work, we introduce the first OpenRetrieval Question Answering system (ORQA). ORQA learns to retrieve evidence from an open corpus, and is supervised only by questionanswer string pairs. While recent work o"
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "ORQA learns to retrieve evidence from an open corpus, and is supervised only by question-answer string pairs.",
+      "verified": true,
+      "verification_score": 0.9633,
+      "verification_method": "fuzzy",
+      "matched_span": "n Answering system (ORQA). ORQA learns to retrieve evidence from an open corpus, and is supervised only by questionanswer string pairs. While recent"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks"
+      ],
+      "reference": "The corpus is greedily split into chunks of at most 288 wordpieces based on BERT's tokenizer, while preserving sentence boundaries. This results in just over 13 million evidence blocks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The corpus is greedily split into chunks of at most 288 wordpieces based on BERT's tokenizer, while preserving sentence boundaries. This results in just over 13 million evidence blocks."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "we define the retrieval score as the inner product of dense vector representations of the question q and the evidence block b.",
+      "verified": true,
+      "verification_score": 0.9921,
+      "verification_method": "fuzzy",
+      "matched_span": "ng recent advances in transfer learning, all scoring components are derived from BERT (Devlin et al., 2018), a bidirectional transformer that has been pre-trained on"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database"
+      ],
+      "reference": "we can precompute all block encodings in the evidence corpus. As a result, the enormous set of evidence blocks does not need to be re-encoded while fine-tuning, and it can be pre-compiled into an index for fast maximum inner product search",
+      "verified": true,
+      "verification_score": 0.8703,
+      "verification_method": "fuzzy",
+      "matched_span": "ture for retrieval. Therefore, we only remove the sentence from its context in 90% of the examples, encouraging the model to learn both abstract representations when needed and low-level word matching features when available.\n\nICT pre-training accomplishes two main goals:\n\n1. De"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "We use the English Wikipedia snapshot from December 20, 2018 as the evidence corpus.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We use the English Wikipedia snapshot from December 20, 2018 as the evidence corpus."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "We retrieve the topk evidence blocks and only compute the expensive reader scores for those k blocks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We retrieve the topk evidence blocks and only compute the expensive reader scores for those k blocks."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:45:09.725217+00:00"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2502-09891",
+    "source_url": "https://arxiv.org/abs/2502.09891"
+  },
+  "fields": {
+    "system_name": {
+      "value": "ArchRAG",
+      "reference": "To address these issues, we introduce a novel graph-based RAG approach, called Attributed Community-based Hierarchical RAG (ArchRAG), by augmenting the question using attributed communities, and also introducing a novel LLM-based hierarchical clustering method.",
+      "verified": true,
+      "verification_score": 0.954,
+      "verification_method": "fuzzy",
+      "matched_span": "ieval process. To address these issues, we introduce a novel graph-based RAG approach, called Attributed Community-based Hierarchical RAG (ArchRAG), by augmenting the question using attributed communities, and also introducing a novel LLMbased hierarchical clustering method. To retrieve the most rele"
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "The state-of-the-art RAG approaches often use the graph data as the external data since they capture the rich semantic information and link relationships between entities.",
+      "verified": true,
+      "verification_score": 0.9825,
+      "verification_method": "fuzzy",
+      "matched_span": "question-answer (QA) tasks. The stateof-the-art RAG approaches often use the graph data as the external data since they capture the rich semantic information and link relationships between entities. However, ex"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Knowledge Graphs"
+      ],
+      "reference": "ArchRAG builds a KG by prompting the LLM to extract entities and relations from each chunk of the text corpus D. Specifically, all text contexts are segmented into chunks based on specified chunk length, enabling the LLM to extract entities and relations from each chunk using in-context learning",
+      "verified": true,
+      "verification_score": 0.9527,
+      "verification_method": "fuzzy",
+      "matched_span": "## Offline Indexing\n\nKG construction. ArchRAG builds a KG by prompting the LLM to extract entities and relations from each chunk of the text corpus D . Specifically, all text contexts are segmented into chunks based on specified chunk length, enabling the LLM to extract entities and relations from each chunk using in-context learning"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Graph Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "We propose an efficient and fast retrieval algorithm, hierarchical search, to retrieve nodes from each layer of the C-HNSW structure. Intuitively, retrieving nodes from a given layer in C-HNSW requires starting from the top layer and searching downward through two types of links",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We propose an efficient and fast retrieval algorithm, hierarchical search, to retrieve nodes from each layer of the C-HNSW structure. Intuitively, retrieving nodes from a given layer in C-HNSW requires starting from the top layer and searching downward through two types of links"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Knowledge Graph"
+      ],
+      "reference": "a naive method is to build a vector database for the ACs in each layer, which is costly in both time and space. To tackle this issue, we propose to build a single hierarchical index for all the communities.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "a naive method is to build a vector database for the ACs in each layer, which is costly in both time and space. To tackle this issue, we propose to build a single hierarchical index for all the communities."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "all text contexts are segmented into chunks based on specified chunk length, enabling the LLM to extract entities and relations from each chunk using in-context learning",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "all text contexts are segmented into chunks based on specified chunk length, enabling the LLM to extract entities and relations from each chunk using in-context learning"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Reflection"
+      ],
+      "reference": "Entities offer fine-grained details, while LLM-generated AC summaries capture relational structures and provide high-level condensed overviews, making them suitable for both multi-hop reasoning and abstract insight extraction.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "Entities offer fine-grained details, while LLM-generated AC summaries capture relational structures and provide high-level condensed overviews, making them suitable for both multi-hop reasoning and abstract insight extraction."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:10:52.550488+00:00"
+  }
+}

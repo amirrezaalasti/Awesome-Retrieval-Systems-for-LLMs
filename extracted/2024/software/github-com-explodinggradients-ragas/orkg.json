@@ -1,0 +1,84 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "software",
+    "slug": "github-com-explodinggradients-ragas",
+    "source_url": "https://github.com/explodinggradients/ragas"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Ragas",
+      "reference": "Ragas is your ultimate toolkit for evaluating and optimizing Large Language Model (LLM) applications.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Ragas is your ultimate toolkit for evaluating and optimizing Large Language Model (LLM) applications."
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "rag_eval - Evaluate RAG systems",
+      "verified": true,
+      "verification_score": 0.871,
+      "verification_method": "fuzzy",
+      "matched_span": "mand:\n\n```bash\n# List available templates\nragas quickstart\n\n# Create a"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents"
+      ],
+      "reference": "Leverage production data to continually improve your LLM applications.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Leverage production data to continually improve your LLM applications."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "rag_eval - Evaluate RAG systems",
+      "verified": true,
+      "verification_score": 0.871,
+      "verification_method": "fuzzy",
+      "matched_span": "mand:\n\n```bash\n# List available templates\nragas quickstart\n\n# Create a"
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents"
+      ],
+      "reference": "Leverage production data to continually improve your LLM applications.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Leverage production data to continually improve your LLM applications."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Objective metrics, intelligent test generation, and data-driven insights for LLM apps",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Objective metrics, intelligent test generation, and data-driven insights for LLM apps"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "rag_eval - Evaluate RAG systems",
+      "verified": true,
+      "verification_score": 0.871,
+      "verification_method": "fuzzy",
+      "matched_span": "mand:\n\n```bash\n# List available templates\nragas quickstart\n\n# Create a"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 3,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:05:21.476232+00:00"
+  }
+}

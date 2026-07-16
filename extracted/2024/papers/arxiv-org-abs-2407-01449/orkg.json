@@ -1,0 +1,89 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2407-01449",
+    "source_url": "https://arxiv.org/abs/2407.01449"
+  },
+  "fields": {
+    "system_name": {
+      "value": "ColPali",
+      "reference": "We release ColPali , a Vision Language Model trained to produce high-quality multi-vector embeddings from images of document pages.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We release ColPali , a Vision Language Model trained to produce high-quality multi-vector embeddings from images of document pages."
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "To benchmark current systems on visually rich document retrieval, we introduce the Visual Document Retrieval Benchmark ViDoRe , composed of various page-level retrieval tasks spanning multiple domains, languages, and practical settings.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "To benchmark current systems on visually rich document retrieval, we introduce the Visual Document Retrieval Benchmark ViDoRe , composed of various page-level retrieval tasks spanning multiple domains, languages, and practical settings."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Multimodal Documents",
+        "Documents"
+      ],
+      "reference": "Documents are visually rich structures that convey information through text, but also figures, page layouts, tables, or even fonts.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Documents are visually rich structures that convey information through text, but also figures, page layouts, tables, or even fonts."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "Combined with a late interaction matching mechanism, ColPali largely outperforms modern document retrieval pipelines while being drastically simpler, faster and end-to-end trainable.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Combined with a late interaction matching mechanism, ColPali largely outperforms modern document retrieval pipelines while being drastically simpler, faster and end-to-end trainable."
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents",
+        "Vector Database"
+      ],
+      "reference": "Indexing a standard PDF document involves several steps. First, PDF parsers or Optical Character Recognition (OCR) systems are used to extract words from the pages.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Indexing a standard PDF document involves several steps. First, PDF parsers or Optical Character Recognition (OCR) systems are used to extract words from the pages."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "Images",
+        "Tables"
+      ],
+      "reference": "Documents are visually rich structures that convey information through text, but also figures, page layouts, tables, or even fonts.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Documents are visually rich structures that convey information through text, but also figures, page layouts, tables, or even fonts."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "In our setting, a retrieval system scores how relevant a document d from corpus D is with respect to a query q .",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "In our setting, a retrieval system scores how relevant a document d from corpus D is with respect to a query q ."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:05:31.021903+00:00"
+  }
+}

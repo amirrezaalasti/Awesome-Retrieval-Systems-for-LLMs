@@ -1,0 +1,15 @@
+{
+  "year": 2023,
+  "type": "software",
+  "source_url": "https://github.com/apache/tika",
+  "slug": "github-com-apache-tika",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:08.512435+00:00",
+  "owner": "apache",
+  "repo": "tika",
+  "api_url": "https://api.github.com/repos/apache/tika",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/apache/tika/main/README.md",
+  "source_type": "github",
+  "content_chars": 8832
+}

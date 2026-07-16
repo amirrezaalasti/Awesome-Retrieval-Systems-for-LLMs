@@ -1,0 +1,85 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-langchain-ai-langgraph",
+    "source_url": "https://github.com/langchain-ai/langgraph"
+  },
+  "fields": {
+    "system_name": {
+      "value": "LangGraph",
+      "reference": "LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents."
+    },
+    "system_category": {
+      "value": "Agentic & Reasoning-Centric Retrieval",
+      "reference": "Trusted by companies shaping the future of agents – including Klarna, Replit, Elastic, and more – LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Trusted by companies shaping the future of agents – including Klarna, Replit, Elastic, and more – LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents"
+      ],
+      "reference": "Build agents that can plan, use subagents, and leverage file systems for complex tasks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Build agents that can plan, use subagents, and leverage file systems for complex tasks."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Agentic Retrieval"
+      ],
+      "reference": "Deploy sophisticated agent systems confidently with scalable infrastructure designed to handle the unique challenges of stateful, long-running workflows.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Deploy sophisticated agent systems confidently with scalable infrastructure designed to handle the unique challenges of stateful, long-running workflows."
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents"
+      ],
+      "reference": "a higher-level package built on LangGraph for agents that can plan, use subagents, and leverage file systems for complex tasks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "a higher-level package built on LangGraph for agents that can plan, use subagents, and leverage file systems for complex tasks."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "**Discussions**: Visit the [LangChain Forum](https://forum.langchain.com) to connect with the community and share all of your technical questions, ideas, and feedback.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "**Discussions**: Visit the [LangChain Forum](https://forum.langchain.com) to connect with the community and share all of your technical questions, ideas, and feedback."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Agentic Planning",
+        "Tool Use"
+      ],
+      "reference": "Comprehensive memory — Create truly stateful agents with both short-term working memory for ongoing reasoning and long-term persistent memory across sessions.",
+      "verified": true,
+      "verification_score": 0.9241,
+      "verification_method": "fuzzy",
+      "matched_span": "- **[Comprehensive memory](https://docs.langchain.com/oss/python/langgraph/memory)** — Create truly stateful agents with both short-term working memory for ongoing reasoning and long-term persisten"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 2,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:45:27.930038+00:00"
+  }
+}

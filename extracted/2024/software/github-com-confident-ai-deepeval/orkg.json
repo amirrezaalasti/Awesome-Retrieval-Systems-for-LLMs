@@ -1,0 +1,87 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "software",
+    "slug": "github-com-confident-ai-deepeval",
+    "source_url": "https://github.com/confident-ai/deepeval"
+  },
+  "fields": {
+    "system_name": {
+      "value": "DeepEval",
+      "reference": "**DeepEval** is a simple-to-use, open-source LLM evaluation framework, for evaluating large-language model systems.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "**DeepEval** is a simple-to-use, open-source LLM evaluation framework, for evaluating large-language model systems."
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "DeepEval incorporates the latest research to run evals via metrics such as G-Eval, task completion, answer relevancy, hallucination, etc., which uses LLM-as-a-judge and other NLP models that run **locally on your machine**.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "DeepEval incorporates the latest research to run evals via metrics such as G-Eval, task completion, answer relevancy, hallucination, etc., which uses LLM-as-a-judge and other NLP models that run **locally on your machine**."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Multimodal Documents"
+      ],
+      "reference": "retrieval_context=[\"All customers are eligible for a 30 day full refund at no extra costs.\"]",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "retrieval_context=[\"All customers are eligible for a 30 day full refund at no extra costs.\"]"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "Contextual Precision — evaluate whether relevant nodes in the RAG pipeline's retrieval context are ranked higher",
+      "verified": true,
+      "verification_score": 0.9821,
+      "verification_method": "fuzzy",
+      "matched_span": "hfulness) — evaluate whether the RAG pipeline's output factually aligns with the retrieval context\n    - [Contextual Recall](https://deepeval.com/docs/m"
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents"
+      ],
+      "reference": "Let's pretend your LLM application is a RAG based customer support chatbot; here's how DeepEval can help test what you've built.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Let's pretend your LLM application is a RAG based customer support chatbot; here's how DeepEval can help test what you've built."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Images"
+      ],
+      "reference": "Text to Image — evaluate image generation quality based on semantic consistency and perceptual quality",
+      "verified": true,
+      "verification_score": 0.902,
+      "verification_method": "fuzzy",
+      "matched_span": "hes a task\n    - [MCP Use](https://deepeval.com/docs/metrics-mcp-use) — measure how effectively an agent uses its available MCP servers\n    -"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Tool Use",
+        "Agentic Planning"
+      ],
+      "reference": "Tool Correctness — check if the right tools were called with the right arguments. Goal Accuracy — measure how accurately the agent achieved the intended goal. Step Efficiency — evaluate whether the agent took unnecessary steps. Plan Adherence — check if the agent followed the expected plan",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "Tool Correctness — check if the right tools were called with the right arguments. Goal Accuracy — measure how accurately the agent achieved the intended goal. Step Efficiency — evaluate whether the agent took unnecessary steps. Plan Adherence — check if the agent followed the expected plan"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 2,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:04:07.684742+00:00"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "software",
+    "slug": "www-llamaindex-ai-llamaparse",
+    "source_url": "https://www.llamaindex.ai/llamaparse"
+  },
+  "fields": {
+    "system_name": {
+      "value": "LlamaParse",
+      "reference": "Turn even the most complex layouts, tables, charts, handwriting, checkboxes, and images into clean markdown",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Turn even the most complex layouts, tables, charts, handwriting, checkboxes, and images into clean markdown"
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "Go beyond text to process context from charts, tables, and images",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Go beyond text to process context from charts, tables, and images"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "Tables",
+        "Multimodal Documents"
+      ],
+      "reference": "Turn even the most complex layouts, tables, charts, handwriting, checkboxes, and images into clean markdown",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Turn even the most complex layouts, tables, charts, handwriting, checkboxes, and images into clean markdown"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Agentic Retrieval"
+      ],
+      "reference": "Build document agents that understand, reason, and act",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Build document agents that understand, reason, and act"
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents",
+        "Multimodal Corpora"
+      ],
+      "reference": "LlamaParse has been a game-changer for us. With its ability to accurately parse millions of pages and extract key data points, our clients can now easily identify valuable public sector opportunities that would have otherwise been buried in documents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LlamaParse has been a game-changer for us. With its ability to accurately parse millions of pages and extract key data points, our clients can now easily identify valuable public sector opportunities that would have otherwise been buried in documents."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Tables",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "Best-in-class accuracy with support for 90+ formats",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Best-in-class accuracy with support for 90+ formats"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Agentic Planning",
+        "Tool Use"
+      ],
+      "reference": "Build document agents that understand, reason, and act",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Build document agents that understand, reason, and act"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:22:47.052211+00:00"
+  }
+}

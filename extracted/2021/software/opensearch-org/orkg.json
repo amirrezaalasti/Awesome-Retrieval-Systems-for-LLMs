@@ -1,0 +1,89 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2021,
+    "type": "software",
+    "slug": "opensearch-org",
+    "source_url": "https://opensearch.org/"
+  },
+  "fields": {
+    "system_name": {
+      "value": "OpenSearch",
+      "reference": "OpenSearch is an open source, enterprise-grade search and observability suite that brings order to unstructured data at scale",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "OpenSearch is an open source, enterprise-grade search and observability suite that brings order to unstructured data at scale"
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "OpenSearch is an open source, enterprise-grade search and observability suite that brings order to unstructured data at scale",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "OpenSearch is an open source, enterprise-grade search and observability suite that brings order to unstructured data at scale"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "OpenSearch is an open source, enterprise-grade search and observability suite that brings order to unstructured data at scale",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "OpenSearch is an open source, enterprise-grade search and observability suite that brings order to unstructured data at scale"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "Use AI/ML tools to create cutting-edge applications. - Vector search - Anomaly detection",
+      "verified": true,
+      "verification_score": 0.8409,
+      "verification_method": "fuzzy",
+      "matched_span": "Tooling Icon\n\n<!-- image -->\n\nUse AI/ML tools to create cutting-edge applications.\n\n- [Vector search](/platform/vector-search)"
+    },
+    "knowledge_source": {
+      "value": [
+        "Search Engine",
+        "Vector Database"
+      ],
+      "reference": "OpenSearch Vector Engine Power machine learning and generative AI applications with a high-performance database designed for the way AI understands data.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "OpenSearch Vector Engine Power machine learning and generative AI applications with a high-performance database designed for the way AI understands data."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Mixed Documents"
+      ],
+      "reference": "OpenSearch is an open source, enterprise-grade search and observability suite that brings order to unstructured data at scale",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "OpenSearch is an open source, enterprise-grade search and observability suite that brings order to unstructured data at scale"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Build smarter, more efficient search solutions for your applications. - Enterprise search - Document search",
+      "verified": true,
+      "verification_score": 0.8785,
+      "verification_method": "fuzzy",
+      "matched_span": "Lexical Search Icon\n\n<!-- image -->\n\nBuild smarter, more efficient search solutions for your applications.\n\n- [Enterprise search](https://opensear"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:15:55.999078+00:00"
+  }
+}

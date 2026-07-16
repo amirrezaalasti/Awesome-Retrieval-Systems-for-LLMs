@@ -1,0 +1,93 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2021,
+    "type": "software",
+    "slug": "www-elastic-co-elasticsearch",
+    "source_url": "https://www.elastic.co/elasticsearch/"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Elasticsearch",
+      "reference": "Elasticsearch is an open source, distributed search and analytics engine built for speed, scale, and AI applications.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Elasticsearch is an open source, distributed search and analytics engine built for speed, scale, and AI applications."
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "As a retrieval platform, it stores structured, unstructured, and vector data in real time - delivering fast hybrid and vector search, powering observability and security analytics, and enabling AI-driven applications with high performance, accuracy, and relevance.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "As a retrieval platform, it stores structured, unstructured, and vector data in real time - delivering fast hybrid and vector search, powering observability and security analytics, and enabling AI-driven applications with high performance, accuracy, and relevance."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Tables",
+        "Multimodal Documents"
+      ],
+      "reference": "Store everything. Search anything. Structured, unstructured, and vectors - all under one roof with efficient columnar storage. For us, data is just data.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Store everything. Search anything. Structured, unstructured, and vectors - all under one roof with efficient columnar storage. For us, data is just data."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "Full-text search, semantic search with Jina models, and hybrid search with filters, ranking, and reranking for unmatched relevance.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "Full-text search, semantic search with Jina models, and hybrid search with filters, ranking, and reranking for unmatched relevance."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "Vector database Semantic meets syntax. Text, image, and multi-modal vectors - all in one API. Billions of embeddings, deployable anywhere you need.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Vector database Semantic meets syntax. Text, image, and multi-modal vectors - all in one API. Billions of embeddings, deployable anywhere you need."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Tables",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "Text, image, and multi-modal vectors - all in one API. Billions of embeddings, deployable anywhere you need.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Text, image, and multi-modal vectors - all in one API. Billions of embeddings, deployable anywhere you need."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Elasticsearch enables semantic search with dense and sparse vectors, hybrid retrieval, and advanced relevance tuning - powering AI-driven applications that understand intent and context for more accurate results.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Elasticsearch enables semantic search with dense and sparse vectors, hybrid retrieval, and advanced relevance tuning - powering AI-driven applications that understand intent and context for more accurate results."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:16:27.294489+00:00"
+  }
+}

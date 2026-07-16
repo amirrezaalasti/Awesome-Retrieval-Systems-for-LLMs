@@ -1,0 +1,92 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2310-03714",
+    "source_url": "https://arxiv.org/abs/2310.03714"
+  },
+  "fields": {
+    "system_name": {
+      "value": "DSPy",
+      "reference": "we introduce DSPy, a programming model that abstracts LM pipelines as text transformation graphs, i.e. imperative computation graphs where LMs are invoked through declarative modules.",
+      "verified": true,
+      "verification_score": 0.9836,
+      "verification_method": "fuzzy",
+      "matched_span": "g and optimizing LM pipelines, we introduce DSPy, a programming model that abstracts LM pipelines as text transformation graphs , i.e. imperative computation graphs where LMs are invoked through declarative modules. DSPy mo"
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "DSPy programs can express and optimize sophisticated LM pipelines that reason about math word problems, tackle multihop retrieval, answer complex questions, and control agent loops.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "DSPy programs can express and optimize sophisticated LM pipelines that reason about math word problems, tackle multihop retrieval, answer complex questions, and control agent loops."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "We support retrieval models through a dspy.Retrieve module. At the time of writing, DSPy has built-in support for ColBERTv2, Pyserini, and Pinecone retrievers",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We support retrieval models through a dspy.Retrieve module. At the time of writing, DSPy has built-in support for ColBERTv2, Pyserini, and Pinecone retrievers"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Multi-hop Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "DSPy has built-in support for ColBERTv2, Pyserini, and Pinecone retrievers, and we have explored experimental dspy.SQL for executing SQL queries and dspy.PythonInterpreter for executing Python code in a sandbox.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "DSPy has built-in support for ColBERTv2, Pyserini, and Pinecone retrievers, and we have explored experimental dspy.SQL for executing SQL queries and dspy.PythonInterpreter for executing Python code in a sandbox."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "DSPy has built-in support for ColBERTv2, Pyserini, and Pinecone retrievers, and we have explored experimental dspy.SQL for executing SQL queries",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "DSPy has built-in support for ColBERTv2, Pyserini, and Pinecone retrievers, and we have explored experimental dspy.SQL for executing SQL queries"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "DSPy, which treats LMs as abstract devices for text generation, and optimizes their usage in arbitrary computational graphs. DSPy programs are expressed in Python",
+      "verified": true,
+      "verification_score": 0.963,
+      "verification_method": "fuzzy",
+      "matched_span": "action.\n\n## 3 THE DSPY PROGRAMMING MODEL\n\nWe present DSPy, which treats LMs as abstract devices for text generation, 3 and optimizes their usage in arbitrary computational graphs. DSPy programs are expr"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Reflection",
+        "Tool Use",
+        "Agentic Planning"
+      ],
+      "reference": "we report new empirical findings from applying the DSPy compiler... with explorations of chain of thought, multi-chain reflection, multi-hop retrieval, retrieval-augmented question answering, and agent loops.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "we report new empirical findings from applying the DSPy compiler... with explorations of chain of thought, multi-chain reflection, multi-hop retrieval, retrieval-augmented question answering, and agent loops."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:07:44.461738+00:00"
+  }
+}

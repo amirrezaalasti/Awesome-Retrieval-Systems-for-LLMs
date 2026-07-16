@@ -1,0 +1,15 @@
+{
+  "year": 2024,
+  "type": "software",
+  "source_url": "https://github.com/nomic-ai/nomic",
+  "slug": "github-com-nomic-ai-nomic",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:38.271289+00:00",
+  "owner": "nomic-ai",
+  "repo": "nomic",
+  "api_url": "https://api.github.com/repos/nomic-ai/nomic",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/nomic-ai/nomic/main/README.md",
+  "source_type": "github",
+  "content_chars": 7556
+}

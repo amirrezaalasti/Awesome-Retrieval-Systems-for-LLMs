@@ -1,0 +1,88 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2021,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2004-12832",
+    "source_url": "https://arxiv.org/abs/2004.12832"
+  },
+  "fields": {
+    "system_name": {
+      "value": "ColBERT",
+      "reference": "we present ColBERT, a novel ranking model that adapts deep LMs (in particular, BERT) for efficient retrieval. ColBERT introduces a late interaction architecture that independently encodes the query and the document using BERT",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we present ColBERT, a novel ranking model that adapts deep LMs (in particular, BERT) for efficient retrieval. ColBERT introduces a late interaction architecture that independently encodes the query and the document using BERT"
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "ColBERT's pruning-friendly interaction mechanism enables leveraging vector-similarity indexes for end-to-end retrieval directly from a large document collection.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "ColBERT's pruning-friendly interaction mechanism enables leveraging vector-similarity indexes for end-to-end retrieval directly from a large document collection."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "ColBERT can serve queries in tens or few hundreds of milliseconds. For instance, when used for re-ranking as in 'ColBERT (re-rank)', it delivers over 170 speedup",
+      "verified": true,
+      "verification_score": 0.9752,
+      "verification_method": "fuzzy",
+      "matched_span": "are as follows.\n\nAs Figure 1 illustrates, ColBERT can serve queries in tens or few hundreds of milliseconds. For instance, when used for reranking as in 'ColBERT (re-rank)', it delivers over 170 speedu"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "ColBERT's pruning-friendly interaction mechanism enables leveraging vector-similarity indexes for end-to-end retrieval directly from a large document collection.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "ColBERT's pruning-friendly interaction mechanism enables leveraging vector-similarity indexes for end-to-end retrieval directly from a large document collection."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "we employ an off-the-shelf library for large-scale vector-similarity search, namely faiss from Facebook.",
+      "verified": true,
+      "verification_score": 0.9519,
+      "verification_method": "fuzzy",
+      "matched_span": "query embedding and all document embeddings across the full collection. For this, we employ an off-the-shelf library for large-scale vector-sim"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Given a textual query q, we tokenize it into its BERT-based WordPiece tokens q 1 q 2 ::: q l.",
+      "verified": true,
+      "verification_score": 0.9355,
+      "verification_method": "fuzzy",
+      "matched_span": "to queries and another token [D] to documents.\n\nQuery Encoder. Given a textual query q , we tokenize it into its BERT-based WordPiece"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "we find the maximum cosine similarity of each v 2 E q with vectors in E d, and combine the outputs via summation.",
+      "verified": true,
+      "verification_score": 0.9823,
+      "verification_method": "fuzzy",
+      "matched_span": "tion of maximum similarity (MaxSim) operators. In particular, we find the maximum cosine similarity of each v 2 E q with vectors in E d , and combine the"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:48:00.807312+00:00"
+  }
+}

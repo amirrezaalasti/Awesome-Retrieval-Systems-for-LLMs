@@ -1,0 +1,91 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2026,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2404-16130",
+    "source_url": "https://arxiv.org/abs/2404.16130"
+  },
+  "fields": {
+    "system_name": {
+      "value": "GraphRAG",
+      "reference": "we propose GraphRAG, a graph-based approach to question answering over private text corpora that scales with both the generality of user questions and the quantity of source text.",
+      "verified": true,
+      "verification_score": 0.9777,
+      "verification_method": "fuzzy",
+      "matched_span": "rengths of these contrasting methods, we propose GraphRAG , a graph-based approach to question answering over private text corpora that scales with both the generality of user questions and the quantity of source text."
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "GraphRAG first uses an LLM to construct a knowledge graph, where nodes correspond to key entities in the corpus and edges represent relationships between those entities. Next, it partitions the graph into a hierarchy of communities of closely related entities, before using an LLM to generate community-level summaries.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "GraphRAG first uses an LLM to construct a knowledge graph, where nodes correspond to key entities in the corpus and edges represent relationships between those entities. Next, it partitions the graph into a hierarchy of communities of closely related entities, before using an LLM to generate community-level summaries."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Knowledge Graphs"
+      ],
+      "reference": "To start, the documents in the corpus are split into text chunks. The LLM extracts information from each chunk for downstream processing. In the final step of the knowledge graph extraction process, these instances of entities and relationships become individual nodes and edges in the graph.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "To start, the documents in the corpus are split into text chunks. The LLM extracts information from each chunk for downstream processing. In the final step of the knowledge graph extraction process, these instances of entities and relationships become individual nodes and edges in the graph."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Graph Retrieval",
+        "KG Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "GraphRAG answers queries through map-reduce processing of community summaries; in the map step, the summaries are used to provide partial answers to the query independently and in parallel, then in the reduce step, the partial answers are combined and used to generate a final global answer.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "GraphRAG answers queries through map-reduce processing of community summaries; in the map step, the summaries are used to provide partial answers to the query independently and in parallel, then in the reduce step, the partial answers are combined and used to generate a final global answer."
+    },
+    "knowledge_source": {
+      "value": [
+        "Knowledge Graph",
+        "Enterprise Documents"
+      ],
+      "reference": "we propose GraphRAG, a graph-based approach to question answering over private text corpora that scales with both the generality of user questions and the quantity of source text.",
+      "verified": true,
+      "verification_score": 0.9777,
+      "verification_method": "fuzzy",
+      "matched_span": "rengths of these contrasting methods, we propose GraphRAG , a graph-based approach to question answering over private text corpora that scales with both the generality of user questions and the quantity of source text."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "The use of retrieval-augmented generation (RAG) to retrieve relevant information from an external knowledge source enables large language models (LLMs) to answer questions over private and/or previously unseen document collections.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The use of retrieval-augmented generation (RAG) to retrieve relevant information from an external knowledge source enables large language models (LLMs) to answer questions over private and/or previously unseen document collections."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval",
+        "Agentic Planning",
+        "Reflection"
+      ],
+      "reference": "These summaries are generated in a bottom-up manner following the hierarchical structure of extracted communities, with summaries at higher levels of the hierarchy recursively incorporating lower-level summaries. Together, these community summaries provide global descriptions and insights over the corpus.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "These summaries are generated in a bottom-up manner following the hierarchical structure of extracted communities, with summaries at higher levels of the hierarchy recursively incorporating lower-level summaries. Together, these community summaries provide global descriptions and insights over the corpus."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:11:21.736113+00:00"
+  }
+}

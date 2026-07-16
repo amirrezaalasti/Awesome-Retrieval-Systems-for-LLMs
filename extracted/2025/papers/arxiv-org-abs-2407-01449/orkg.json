@@ -1,0 +1,88 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2407-01449",
+    "source_url": "https://arxiv.org/abs/2407.01449"
+  },
+  "fields": {
+    "system_name": {
+      "value": "ColPali",
+      "reference": "We release ColPali, a Vision Language Model trained to produce high-quality multi-vector embeddings from images of document pages.",
+      "verified": true,
+      "verification_score": 0.9615,
+      "verification_method": "fuzzy",
+      "matched_span": "the images of the document pages. We release ColPali , a Vision Language Model trained to produce high-quality multi-vector embeddings from images of document pages. Com"
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "Documents are visually rich structures that convey information through text, but also figures, page layouts, tables, or even fonts. Since modern retrieval systems mainly rely on the textual information they extract from document pages to index documents",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Documents are visually rich structures that convey information through text, but also figures, page layouts, tables, or even fonts. Since modern retrieval systems mainly rely on the textual information they extract from document pages to index documents"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Multimodal Documents",
+        "Documents"
+      ],
+      "reference": "We propose a novel concept and model architecture based on Vision Language Models (VLMs) to efficiently index documents purely from their visual features, allowing for subsequent fast query matching with late interaction mechanisms",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We propose a novel concept and model architecture based on Vision Language Models (VLMs) to efficiently index documents purely from their visual features, allowing for subsequent fast query matching with late interaction mechanisms"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "we introduce ColPali, a Paligemma-3B extension that is capable of generating ColBERT-style multivector representations of text and images",
+      "verified": true,
+      "verification_score": 0.9489,
+      "verification_method": "fuzzy",
+      "matched_span": "e averaged per-page latencies. More details in subsection B.4\n\n<!-- image -->\n\n.\n\n[4 www.unstructured.io](www.unstructured.io)\n\n5 We empirically validated the max-pooling strate"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database"
+      ],
+      "reference": "Our method requires storing a vector per image patch, along with 6 extra text tokens 'Describe the image' concatenated to image patches.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Our method requires storing a vector per image patch, along with 6 extra text tokens 'Describe the image' concatenated to image patches."
+    },
+    "supported_modality": {
+      "value": [
+        "PDF",
+        "Text",
+        "Images",
+        "Tables"
+      ],
+      "reference": "This benchmark encompasses multiple orthogonal subtasks, with focuses on various modalities - text, figures, infographics, tables; thematic domains - medical, business, scientific, administrative",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This benchmark encompasses multiple orthogonal subtasks, with focuses on various modalities - text, figures, infographics, tables; thematic domains - medical, business, scientific, administrative"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "In our setting, a retrieval system scores how relevant a document d from corpus D is with respect to a query q. Computing the similarity score s(q, d) for each of the |D| documents in the corpus creates a ranking we can use to extract the most relevant documents.",
+      "verified": true,
+      "verification_score": 0.89,
+      "verification_method": "fuzzy",
+      "matched_span": "dore .\n\n## 2 PROBLEM FORMULATION &amp; RELATED WORK\n\nProblem Setting. In our setting, a retrieval system scores how relevant a document d from corpus D is with respect to a query q . Computing the similarity score s ( q, d ) ∈ R for each of the |D| documents in the corpus creates a ranking we can use to extract the most relevant documents. In this work, we focus on"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:09:45.778106+00:00"
+  }
+}

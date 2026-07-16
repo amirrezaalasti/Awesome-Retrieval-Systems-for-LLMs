@@ -1,0 +1,98 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "software",
+    "slug": "github-com-HKUDS-LightRAG",
+    "source_url": "https://github.com/HKUDS/LightRAG"
+  },
+  "fields": {
+    "system_name": {
+      "value": "LightRAG",
+      "reference": "# 🚀 LightRAG: Simple and Fast Retrieval-Augmented Generation",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "# 🚀 LightRAG: Simple and Fast Retrieval-Augmented Generation"
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "LightRAG is a lightweight knowledge-graph RAG framework and an efficient alternative to Microsoft GraphRAG. It adopts a dual-layer architecture to manage both knowledge graphs (KGs) and vector embeddings",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LightRAG is a lightweight knowledge-graph RAG framework and an efficient alternative to Microsoft GraphRAG. It adopts a dual-layer architecture to manage both knowledge graphs (KGs) and vector embeddings"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Knowledge Graphs",
+        "Multimodal Documents",
+        "Tables"
+      ],
+      "reference": "Its document processing pipeline supports parsing engines such as MinerU, Docling, and Native, enabling the highly efficient extraction of text, tables, formulas, and images from documents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Its document processing pipeline supports parsing engines such as MinerU, Docling, and Native, enabling the highly efficient extraction of text, tables, formulas, and images from documents."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Hybrid Retrieval",
+        "Graph Retrieval",
+        "KG Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "LightRAG's dual-level retrieval mechanism allows it to integrate detailed facts and abstract concepts concurrently. This enables the system to achieve remarkable performance in query result comprehensiveness and diversity, making it highly effective at handling complex, cross-document queries.",
+      "verified": true,
+      "verification_score": 0.9252,
+      "verification_method": "fuzzy",
+      "matched_span": "entities, overcoming the fragmented context limitations typical of traditional chunk-based retrieval methods. Its generation quality and context awareness are particularly outstanding in vertical domains (e.g., legal, financial) that require global comprehension or logical reasoning.\n- **Exceptional Comprehensiveness & Diversity:**"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Knowledge Graph"
+      ],
+      "reference": "It adopts a dual-layer architecture to manage both knowledge graphs (KGs) and vector embeddings, effectively bridging the gap between traditional vector-based RAG and graph-based RAG approaches.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "It adopts a dual-layer architecture to manage both knowledge graphs (KGs) and vector embeddings, effectively bridging the gap between traditional vector-based RAG and graph-based RAG approaches."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "Tables",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "LightRAG now supports comprehensive multimodal data handling through RAG-Anything integration, enabling seamless document parsing and RAG capabilities across diverse formats including PDFs, images, Office documents, tables, and formulas.",
+      "verified": true,
+      "verification_score": 0.8893,
+      "verification_method": "fuzzy",
+      "matched_span": "KG regeneration to ensure optimal query performance.\n- [2025.06]🎯[New Release] Our team has released [RAG-Anything](https://github.com/HKUDS/RAG-Anything) — an **All-in-One Multimodal RAG** system for seamless processing of text, images, tables, and equations.\n- [2025.06]🎯[New Feature] LightRAG now supports comprehensive multimodal d"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval",
+        "Logical Retrieval"
+      ],
+      "reference": "global: Focuses on macro themes, cross-document reasoning, and deep relationships between entities. It retrieves relationship chains covering broad themes and concepts. This mode is suitable for queries that require summarization across multiple contexts, trend analysis, or understanding complex semantic dependencies.",
+      "verified": true,
+      "verification_score": 0.9498,
+      "verification_method": "fuzzy",
+      "matched_span": "modes:\n\n- **local**: Focuses on precise matching of local contexts and specific entities. It retrieves candidate entities and their directly associated attributes from the knowledge graph. This mode is suitable for Q&A targeting specific objects, concrete concepts, or detailed facts, providing highly relevant and detailed local context support.\n- **global**"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:58:26.366520+00:00"
+  }
+}

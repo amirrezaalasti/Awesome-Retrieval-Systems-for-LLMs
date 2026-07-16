@@ -1,0 +1,91 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2022,
+    "type": "software",
+    "slug": "github-com-weaviate-weaviate",
+    "source_url": "https://github.com/weaviate/weaviate"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Weaviate",
+      "reference": "Weaviate is an open-source, cloud-native vector database that stores both objects and vectors, enabling semantic search at scale.",
+      "verified": true,
+      "verification_score": 0.9845,
+      "verification_method": "fuzzy",
+      "matched_span": "eaviate/weaviate)\n\n**Weaviate** is an open-source, cloud-native vector database that stores both objects and vectors, enabling semantic search at scale. It combines vect"
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "Weaviate is an open-source, cloud-native vector database that stores both objects and vectors, enabling semantic search at scale.",
+      "verified": true,
+      "verification_score": 0.9845,
+      "verification_method": "fuzzy",
+      "matched_span": "eaviate/weaviate)\n\n**Weaviate** is an open-source, cloud-native vector database that stores both objects and vectors, enabling semantic search at scale. It combines vect"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "Multimodal Documents"
+      ],
+      "reference": "Weaviate is an open-source, cloud-native vector database that stores both objects and vectors, enabling semantic search at scale. It combines vector similarity search with keyword filtering, retrieval-augmented generation (RAG), and reranking in a single query interface.",
+      "verified": true,
+      "verification_score": 0.9373,
+      "verification_method": "fuzzy",
+      "matched_span": "**Weaviate** is an open-source, cloud-native vector database that stores both objects and vectors, enabling semantic search at scale. It combines vector similarity search with keyword filtering, retrieval-augmented generation (RAG), and reranking in a single query interface. Common use cases include RAG syste"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "Combine the power of semantic search with traditional keyword (BM25) search, image search and advanced filtering to get the best results with a single API call.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "Combine the power of semantic search with traditional keyword (BM25) search, image search and advanced filtering to get the best results with a single API call."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "Weaviate is an open-source, cloud-native vector database that stores both objects and vectors, enabling semantic search at scale. It combines vector similarity search with keyword filtering, retrieval-augmented generation (RAG), and reranking in a single query interface.",
+      "verified": true,
+      "verification_score": 0.9373,
+      "verification_method": "fuzzy",
+      "matched_span": "**Weaviate** is an open-source, cloud-native vector database that stores both objects and vectors, enabling semantic search at scale. It combines vector similarity search with keyword filtering, retrieval-augmented generation (RAG), and reranking in a single query interface. Common use cases include RAG syste"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "Common use cases include RAG systems, semantic and image search, recommendation engines, chatbots, and content classification.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Common use cases include RAG systems, semantic and image search, recommendation engines, chatbots, and content classification."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Tool Use"
+      ],
+      "reference": "Go beyond simple retrieval with built-in generative search (RAG) and reranking capabilities. Power sophisticated Q&A systems, chatbots, and summarizers directly from your database without additional tooling.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "Go beyond simple retrieval with built-in generative search (RAG) and reranking capabilities. Power sophisticated Q&A systems, chatbots, and summarizers directly from your database without additional tooling."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:27:02.740408+00:00"
+  }
+}

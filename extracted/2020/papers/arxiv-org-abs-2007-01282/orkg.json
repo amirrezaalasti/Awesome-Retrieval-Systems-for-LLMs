@@ -1,0 +1,88 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2020,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2007-01282",
+    "source_url": "https://arxiv.org/abs/2007.01282"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Fusion-in-Decoder",
+      "reference": "The model thus performs evidence fusion in the decoder only, and we refer to it as Fusion-in-Decoder.",
+      "verified": true,
+      "verification_score": 0.9901,
+      "verification_method": "fuzzy",
+      "matched_span": "query and passage representations. Retrieval is performed using approximate nearest neighbors with the FAISS library. 3\n\nReading. Our generat"
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "In this paper, we explore a simple approach having the best of both worlds, by building on the exciting developments in generative modeling and retrieval for open domain question answering.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "In this paper, we explore a simple approach having the best of both worlds, by building on the exciting developments in generative modeling and retrieval for open domain question answering."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "This method proceeds in two steps, by first retrieving supporting passages using either sparse or dense representations. Then, a sequence-to-sequence model generates the answer, taking as input the retrieved passages in addition to the question.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This method proceeds in two steps, by first retrieving supporting passages using either sparse or dense representations. Then, a sequence-to-sequence model generates the answer, taking as input the retrieved passages in addition to the question."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "For the retrieval of support passages, we consider two methods: BM25 (Robertson et al., 1995) and DPR (Karpukhin et al., 2020).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "For the retrieval of support passages, we consider two methods: BM25 (Robertson et al., 1995) and DPR (Karpukhin et al., 2020)."
+    },
+    "knowledge_source": {
+      "value": [
+        "Search Engine",
+        "Vector Database"
+      ],
+      "reference": "In BM25, passages are represented as bag of words, and the ranking function is based on term and inverse document frequencies. We use the implementation from Apache Lucene with default parameters... In DPR, passages and questions are represented as dense vector representations... Retrieval is performed using approximate nearest neighbors with the FAISS library.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "In BM25, passages are represented as bag of words, and the ranking function is based on term and inverse document frequencies. We use the implementation from Apache Lucene with default parameters... In DPR, passages and questions are represented as dense vector representations... Retrieval is performed using approximate nearest neighbors with the FAISS library."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "We apply the same preprocessing as Chen et al. (2017); Karpukhin et al. (2020), leading to passages of 100 words, which do not overlap.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We apply the same preprocessing as Chen et al. (2017); Karpukhin et al. (2020), leading to passages of 100 words, which do not overlap."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "This method proceeds in two steps, by first retrieving supporting passages using either sparse or dense representations. Then, a sequence-to-sequence model generates the answer, taking as input the retrieved passages in addition to the question.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "This method proceeds in two steps, by first retrieving supporting passages using either sparse or dense representations. Then, a sequence-to-sequence model generates the answer, taking as input the retrieved passages in addition to the question."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:46:56.080164+00:00"
+  }
+}

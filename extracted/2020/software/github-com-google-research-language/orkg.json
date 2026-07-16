@@ -1,0 +1,17 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2020,
+    "type": "software",
+    "slug": "github-com-google-research-language",
+    "source_url": "https://github.com/google-research/language"
+  },
+  "fields": {},
+  "extraction_metadata": {
+    "status": "insufficient_content",
+    "reason": "too_short",
+    "content_chars": 196,
+    "content_preview": "# Google Research: Language\n\nShared repository for open-sourced projects from the [Google Research Language](https://res",
+    "marked_at": "2026-07-05T16:14:31.368959+00:00"
+  }
+}

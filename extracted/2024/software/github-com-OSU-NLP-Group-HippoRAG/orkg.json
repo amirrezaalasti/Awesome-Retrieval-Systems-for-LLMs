@@ -1,0 +1,88 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "software",
+    "slug": "github-com-OSU-NLP-Group-HippoRAG",
+    "source_url": "https://github.com/OSU-NLP-Group/HippoRAG"
+  },
+  "fields": {
+    "system_name": {
+      "value": "HippoRAG 2",
+      "reference": "HippoRAG 2: From RAG to Memory",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "HippoRAG 2: From RAG to Memory"
+    },
+    "system_category": {
+      "value": "GraphRAG / Knowledge Graph Systems",
+      "reference": "HippoRAG 2 remains cost and latency efficient in online processes, while using significantly fewer resources for offline indexing compared to other graph-based solutions such as GraphRAG, RAPTOR, and LightRAG.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "HippoRAG 2 remains cost and latency efficient in online processes, while using significantly fewer resources for offline indexing compared to other graph-based solutions such as GraphRAG, RAPTOR, and LightRAG."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Knowledge Graphs"
+      ],
+      "reference": "If you want to rerun a particular experiment, remember to clear the saved files, including OpenIE results and knowledge graph, e.g.,",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "If you want to rerun a particular experiment, remember to clear the saved files, including OpenIE results and knowledge graph, e.g.,"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Graph Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "Our experiments show that HippoRAG 2 improves associativity (multi-hop retrieval) and sense-making (the process of integrating large and complex contexts) in even the most advanced RAG systems",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Our experiments show that HippoRAG 2 improves associativity (multi-hop retrieval) and sense-making (the process of integrating large and complex contexts) in even the most advanced RAG systems"
+    },
+    "knowledge_source": {
+      "value": [
+        "Knowledge Graph",
+        "Vector Database"
+      ],
+      "reference": "embedding_store.py   # Storage database to load, manage and save embeddings for passages, entities and facts.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "embedding_store.py   # Storage database to load, manage and save embeddings for passages, entities and facts."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "docs = [ \"Oliver Badman is a politician.\", \"George Rankin is a politician.\", \"Thomas Marwick is a politician.\"",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "docs = [ \"Oliver Badman is a politician.\", \"George Rankin is a politician.\", \"Thomas Marwick is a politician.\""
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Multi-hop Retrieval"
+      ],
+      "reference": "Our experiments show that HippoRAG 2 improves associativity (multi-hop retrieval) and sense-making (the process of integrating large and complex contexts) in even the most advanced RAG systems",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Our experiments show that HippoRAG 2 improves associativity (multi-hop retrieval) and sense-making (the process of integrating large and complex contexts) in even the most advanced RAG systems"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:58:44.316527+00:00"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2212-03533",
+    "source_url": "https://arxiv.org/abs/2212.03533"
+  },
+  "fields": {
+    "system_name": {
+      "value": "E5",
+      "reference": "This paper presents E5, a family of state-of-the-art text embeddings that transfer well to a wide range of tasks.",
+      "verified": true,
+      "verification_score": 0.9115,
+      "verification_method": "fuzzy",
+      "matched_span": "## Abstract\n\nThis paper presents E5 1 , a family of state-of-the-art text embeddings that transfer well to a wide range of tasks. The model is trained i"
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "E5 can be readily used as a general-purpose embedding model for any tasks requiring a single-vector representation of texts such as retrieval, clustering, and classification, achieving strong performance in both zero-shot and fine-tuned settings.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "E5 can be readily used as a general-purpose embedding model for any tasks requiring a single-vector representation of texts such as retrieval, clustering, and classification, achieving strong performance in both zero-shot and fine-tuned settings."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "Here we use 'passage' to denote word sequences of arbitrary length, which can be a short sentence, a paragraph, or a long document.",
+      "verified": true,
+      "verification_score": 0.9389,
+      "verification_method": "fuzzy",
+      "matched_span": "ng of a query q and a passage p . Here we use ' passage ' to denote word sequences of arbitrary length, which can be a short sentence, a paragraph, or a long document. Our"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "E5 is the first model that outperforms the strong BM25 baseline on the BEIR retrieval benchmark without using any labeled data.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "E5 is the first model that outperforms the strong BM25 baseline on the BEIR retrieval benchmark without using any labeled data."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "Combined with techniques like approximate nearest neighbor search, embeddings provide a scalable and efficient solution for applications like web search.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Combined with techniques like approximate nearest neighbor search, embeddings provide a scalable and efficient solution for applications like web search."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Text embeddings are low-dimensional vector representations for arbitrary-length texts and play key roles in many NLP tasks such as large-scale retrieval.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Text embeddings are low-dimensional vector representations for arbitrary-length texts and play key roles in many NLP tasks such as large-scale retrieval."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "First, the passage embeddings for the target corpus are computed and indexed offline. Then for each query, we compute its query embedding and return the topk ranked lists from the corpus based on cosine similarity.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "First, the passage embeddings for the target corpus are computed and indexed offline. Then for each query, we compute its query embedding and return the topk ranked lists from the corpus based on cosine similarity."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:50:20.031583+00:00"
+  }
+}

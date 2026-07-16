@@ -1,0 +1,90 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "software",
+    "slug": "github-com-nomic-ai-nomic",
+    "source_url": "https://github.com/nomic-ai/nomic"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Nomic Atlas",
+      "reference": "This repository contains Python bindings for working with Nomic Atlas, the world's most powerful unstructured data interaction platform.",
+      "verified": true,
+      "verification_score": 0.8431,
+      "verification_method": "fuzzy",
+      "matched_span": "wser.</h3>\n<p>This repository contains Python bindings for working with <a href=\"https://atlas.nomic.ai/\">Nomic Atlas</a>, the world’s most powerful unstructured data interaction platform. Atlas supports datase"
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "Generate, store and retrieve embeddings for your unstructured data.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Generate, store and retrieve embeddings for your unstructured data."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Multimodal Documents"
+      ],
+      "reference": "Atlas supports datasets from hundreds to tens of millions of points, and supports data modalities ranging from text to image to audio to video.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Atlas supports datasets from hundreds to tens of millions of points, and supports data modalities ranging from text to image to audio to video."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "Use Atlas to automatically find nearest neighbors in your vector database.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Use Atlas to automatically find nearest neighbors in your vector database."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database"
+      ],
+      "reference": "Use Atlas to automatically find nearest neighbors in your vector database.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Use Atlas to automatically find nearest neighbors in your vector database."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Images",
+        "Video",
+        "Audio",
+        "Mixed Documents"
+      ],
+      "reference": "supports data modalities ranging from text to image to audio to video.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "supports data modalities ranging from text to image to audio to video."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Load map and perform vector search for the five nearest neighbors of datum with id \"my_query_point\"",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Load map and perform vector search for the five nearest neighbors of datum with id \"my_query_point\""
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:09:43.933802+00:00"
+  }
+}

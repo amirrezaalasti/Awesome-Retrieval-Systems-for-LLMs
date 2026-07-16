@@ -1,0 +1,87 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-apache-tika",
+    "source_url": "https://github.com/apache/tika"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Apache Tika",
+      "reference": "Welcome to Apache Tika",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Welcome to Apache Tika"
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "Apache Tika(TM) is a toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Apache Tika(TM) is a toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "Multimodal Documents"
+      ],
+      "reference": "Apache Tika(TM) is a toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Apache Tika(TM) is a toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Tool Retrieval"
+      ],
+      "reference": "Apache Tika(TM) is a toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Apache Tika(TM) is a toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries."
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents"
+      ],
+      "reference": "Apache Tika(TM) is a toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Apache Tika(TM) is a toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "Mixed Documents"
+      ],
+      "reference": "Apache Tika uses the Bouncy Castle generic encryption libraries for extracting text content and metadata from encrypted PDF files.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Apache Tika uses the Bouncy Castle generic encryption libraries for extracting text content and metadata from encrypted PDF files."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Tool Use"
+      ],
+      "reference": "Apache Tika(TM) is a toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Apache Tika(TM) is a toolkit for detecting and extracting metadata and structured text content from various documents using existing parser libraries."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 2,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:29:46.396163+00:00"
+  }
+}

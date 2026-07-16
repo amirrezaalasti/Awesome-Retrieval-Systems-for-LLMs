@@ -1,0 +1,17 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "smith-langchain-com",
+    "source_url": "https://smith.langchain.com"
+  },
+  "fields": {},
+  "extraction_metadata": {
+    "status": "insufficient_content",
+    "reason": "too_short",
+    "content_chars": 0,
+    "content_preview": null,
+    "marked_at": "2026-07-05T18:03:10.476540+00:00"
+  }
+}

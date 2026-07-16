@@ -1,0 +1,87 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-chroma-core-chroma",
+    "source_url": "https://github.com/chroma-core/chroma"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Chroma",
+      "reference": "Chroma - the open-source data infrastructure for AI",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Chroma - the open-source data infrastructure for AI"
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "Chroma - the open-source data infrastructure for AI",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Chroma - the open-source data infrastructure for AI"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "Text Chunks"
+      ],
+      "reference": "Add docs to the collection. Can also update and delete. Row-based API coming soon! collection.add( documents=[\"This is document1\", \"This is document2\"], # we handle tokenization, embedding, and indexing automatically.",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Add docs to the collection. Can also update and delete. Row-based API coming soon! collection.add( documents=[\"This is document1\", \"This is document2\"], # we handle tokenization, embedding, and indexing automatically."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "Our hosted service, Chroma Cloud, powers serverless vector, hybrid, and full-text search. It's extremely fast, cost-effective, scalable and painless.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Our hosted service, Chroma Cloud, powers serverless vector, hybrid, and full-text search. It's extremely fast, cost-effective, scalable and painless."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database"
+      ],
+      "reference": "Our hosted service, Chroma Cloud, powers serverless vector, hybrid, and full-text search. It's extremely fast, cost-effective, scalable and painless.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Our hosted service, Chroma Cloud, powers serverless vector, hybrid, and full-text search. It's extremely fast, cost-effective, scalable and painless."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "collection.add( documents=[\"This is document1\", \"This is document2\"], # we handle tokenization, embedding, and indexing automatically. You can skip that and add your own embeddings as well",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "collection.add( documents=[\"This is document1\", \"This is document2\"], # we handle tokenization, embedding, and indexing automatically. You can skip that and add your own embeddings as well"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Query/search 2 most similar results. You can also .get by id results = collection.query( query_texts=[\"This is a query document\"], n_results=2,",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Query/search 2 most similar results. You can also .get by id results = collection.query( query_texts=[\"This is a query document\"], n_results=2,"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:30:16.332300+00:00"
+  }
+}

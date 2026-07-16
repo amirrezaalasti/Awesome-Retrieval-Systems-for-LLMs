@@ -1,0 +1,15 @@
+{
+  "year": 2025,
+  "type": "software",
+  "source_url": "https://github.com/deepset-ai/haystack",
+  "slug": "github-com-deepset-ai-haystack",
+  "status": "success",
+  "extracted_at": "2026-07-05T12:25:48.262095+00:00",
+  "owner": "deepset-ai",
+  "repo": "haystack",
+  "api_url": "https://api.github.com/repos/deepset-ai/haystack",
+  "api_rate_limited": true,
+  "readme_url": "https://raw.githubusercontent.com/deepset-ai/haystack/main/README.md",
+  "source_type": "github",
+  "content_chars": 9190
+}

@@ -1,0 +1,86 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2020,
+    "type": "software",
+    "slug": "github-com-PaddlePaddle-RocketQA",
+    "source_url": "https://github.com/PaddlePaddle/RocketQA"
+  },
+  "fields": {
+    "system_name": {
+      "value": "RocketQA",
+      "reference": "this repository provides an easy-to-use toolkit for running and fine-tuning the state-of-the-art dense retrievers, namely **🚀RocketQA**.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "this repository provides an easy-to-use toolkit for running and fine-tuning the state-of-the-art dense retrievers, namely **🚀RocketQA**."
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "By integrating this toolkit with [JINA](https://jina.ai/), 🚀RocketQA can help developers build an end-to-end retrieval system and question answering system with several lines of code.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "By integrating this toolkit with [JINA](https://jina.ai/), 🚀RocketQA can help developers build an end-to-end retrieval system and question answering system with several lines of code."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "Given a list of paragraphs and their corresponding titles (optional), returns their representations vectors encoded by model.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Given a list of paragraphs and their corresponding titles (optional), returns their representations vectors encoded by model."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "In recent years, the dense retrievers based on pre-trained language models have achieved remarkable progress. To facilitate more developers using cutting edge technologies, this repository provides an easy-to-use toolkit for running and fine-tuning the state-of-the-art dense retrievers",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "In recent years, the dense retrievers based on pre-trained language models have achieved remarkable progress. To facilitate more developers using cutting edge technologies, this repository provides an easy-to-use toolkit for running and fine-tuning the state-of-the-art dense retrievers"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "We also provide a simple example built on [Faiss](https://github.com/facebookresearch/faiss).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We also provide a simple example built on [Faiss](https://github.com/facebookresearch/faiss)."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Given a list of queries, returns their representation vectors encoded by model.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Given a list of queries, returns their representation vectors encoded by model."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Given a list of queries and paragraphs (and titles), returns their matching scores (probability that the paragraph is the query's right answer).",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Given a list of queries and paragraphs (and titles), returns their matching scores (probability that the paragraph is the query's right answer)."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:14:03.938191+00:00"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2021,
+    "type": "software",
+    "slug": "github-com-facebookresearch-contriever",
+    "source_url": "https://github.com/facebookresearch/contriever"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Contriever",
+      "reference": "Contriever: Unsupervised Dense Information Retrieval with Contrastive Learning",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Contriever: Unsupervised Dense Information Retrieval with Contrastive Learning"
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "We use a simple contrastive learning framework to pre-train models for information retrieval. Contriever, trained without supervision, is competitive with BM25 for R@100 on the BEIR benchmark.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We use a simple contrastive learning framework to pre-train models for information retrieval. Contriever, trained without supervision, is competitive with BM25 for R@100 on the BEIR benchmark."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "Retrieval is performed on the set of Wikipeda passages used in DPR. Download passages: wget https://dl.fbaipublicfiles.com/dpr/wikipedia_split/psgs_w100.tsv.gz",
+      "verified": true,
+      "verification_score": 0.8852,
+      "verification_method": "fuzzy",
+      "matched_span": "ffects the tokenization of words.\n\n<details>\n<summary>\nRetrieval is performed on the set of Wikipeda passages used in DPR. Download passages:\n</summary>\n\n```bash\nwget https://dl.fbaipublicfiles.com/dpr/wikipedia_split/psgs_w100.tsv.gz\n```"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "We use a simple contrastive learning framework to pre-train models for information retrieval. Contriever, trained without supervision, is competitive with BM25 for R@100 on the BEIR benchmark.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We use a simple contrastive learning framework to pre-train models for information retrieval. Contriever, trained without supervision, is competitive with BM25 for R@100 on the BEIR benchmark."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "Alternatively, download passage embeddings pre-computed with Contriever or Contriever-msmarco: wget https://dl.fbaipublicfiles.com/contriever/embeddings/contriever/wikipedia_embeddings.tar",
+      "verified": true,
+      "verification_score": 0.8989,
+      "verification_method": "fuzzy",
+      "matched_span": "--shard_id 0 --num_shards 1 \\\n```\n</details>\n\n<details>\n<summary>\nAlternatively, download passage embeddings pre-computed with Contriever or Contriever-msmarco:\n</summary>\n    \n```bash\nwget https://dl.fbaipublicfiles.com/contrie"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Then embeddings for different sentences can be obtained by doing the following: inputs = tokenizer(sentences, padding=True, truncation=True, return_tensors=\"pt\") embeddings = model(**inputs)",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "Then embeddings for different sentences can be obtained by doing the following: inputs = tokenizer(sentences, padding=True, truncation=True, return_tensors=\"pt\") embeddings = model(**inputs)"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "Retrieve top-100 passages: python passage_retrieval.py --model_name_or_path facebook/contriever --passages psgs_w100.tsv --passages_embeddings \"contriever_embeddings/*\" --data nq_dir/test.json --output_dir contriever_nq",
+      "verified": true,
+      "verification_score": 0.8902,
+      "verification_method": "fuzzy",
+      "matched_span": "r/embeddings/contriever-msmarco/wikipedia_embeddings.tar\n```\n</details>\n\n<details>\n<summary>\nRetrieve top-100 passages:\n</summary>\n    \n```python\npython passage_retrieval.py \\\n    --model_name_or_path facebook/contriever \\\n    --passages psgs_w100.tsv \\\n    --passages_embeddings \"contriever_embeddings/*\" \\\n    -"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:15:09.912429+00:00"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-FlagOpen-FlagEmbedding",
+    "source_url": "https://github.com/FlagOpen/FlagEmbedding"
+  },
+  "fields": {
+    "system_name": {
+      "value": "BGE",
+      "reference": "⚡️BGE: One-Stop Retrieval Toolkit For Search and RAG",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "⚡️BGE: One-Stop Retrieval Toolkit For Search and RAG"
+    },
+    "system_category": {
+      "value": "Vector Databases & Retrieval Infrastructure",
+      "reference": "BGE (BAAI General Embedding) focuses on retrieval-augmented LLMs, consisting of the following projects currently:",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "BGE (BAAI General Embedding) focuses on retrieval-augmented LLMs, consisting of the following projects currently:"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Multimodal Documents"
+      ],
+      "reference": "BGE (BAAI General Embedding) focuses on retrieval-augmented LLMs, consisting of the following projects currently:",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "BGE (BAAI General Embedding) focuses on retrieval-augmented LLMs, consisting of the following projects currently:"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval"
+      ],
+      "reference": "Multi-Functionality (unification of dense, lexical, multi-vec/colbert retrieval).",
+      "verified": true,
+      "verification_score": 0.9383,
+      "verification_method": "fuzzy",
+      "matched_span": "ge-text data. :fire:\n- 1/30/2024: Release **BGE-M3**, a new member to BGE model series! M3 stands for **M**ulti-lingualit"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "⚡️BGE: One-Stop Retrieval Toolkit For Search and RAG",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "⚡️BGE: One-Stop Retrieval Toolkit For Search and RAG"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "Visualized-BGE can be utilized to generate embeddings for hybrid image-text data.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Visualized-BGE can be utilized to generate embeddings for hybrid image-text data."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "BGE (BAAI General Embedding) focuses on retrieval-augmented LLMs, consisting of the following projects currently:",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "BGE (BAAI General Embedding) focuses on retrieval-augmented LLMs, consisting of the following projects currently:"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:28:22.268337+00:00"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2024,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2405-13576",
+    "source_url": "https://arxiv.org/abs/2405.13576"
+  },
+  "fields": {
+    "system_name": {
+      "value": "FlashRAG",
+      "reference": "we develop FlashRAG, an efficient and modular open-source toolkit designed to assist researchers in reproducing and comparing existing RAG methods and developing their own algorithms within a unified framework.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we develop FlashRAG, an efficient and modular open-source toolkit designed to assist researchers in reproducing and comparing existing RAG methods and developing their own algorithms within a unified framework."
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "FlashRAG, an efficient and modular open-source toolkit designed to assist researchers in reproducing and comparing existing RAG methods and developing their own algorithms within a unified framework.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "FlashRAG, an efficient and modular open-source toolkit designed to assist researchers in reproducing and comparing existing RAG methods and developing their own algorithms within a unified framework."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Multimodal Documents"
+      ],
+      "reference": "FlashRAG supports comprehensive multi-modal RAG deployments by integrating mainstream multi-modal large language models (MLLMs) like Qwen, InternVL and LLaVA, along with various CLIP-based retrievers.",
+      "verified": true,
+      "verification_score": 0.86,
+      "verification_method": "fuzzy",
+      "matched_span": "downloading and chunking Wikipedia for corpus construction, building retrieval indexes, and preparing retrieval results, resulting in an efficient and user-friendly end-to-end RAG framework.\n\nPre-implemented advanced RAG algorithms. To our"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval",
+        "Multi-hop Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "For sparse retrieval, we integrate the Pyserini library to support the use of BM25. For dense retrieval, we consider various BERT-based embedding models such as DPR, E5, and BGE, along with T5-based models such as ANCE.",
+      "verified": true,
+      "verification_score": 0.8374,
+      "verification_method": "fuzzy",
+      "matched_span": "ine module integrates these components into a complete RAG process. In this paper, we will introduce the component and pipeline modules. Additional details are available in the documentation of our library.\n\n## 3.1 Component Module\n\nFlashRAG is organized into five main components, each designed to function auton"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine",
+        "Web Search",
+        "Enterprise Documents",
+        "Scientific Literature",
+        "Multimodal Corpora"
+      ],
+      "reference": "We employ FAISS for efficient vector database operations and utilize the HuggingFace datasets library to enhance corpus loading speed. Additionally, FlashRAG includes a 'retrieval cache' feature, allowing for the reuse of retrieval results.",
+      "verified": true,
+      "verification_score": 0.8815,
+      "verification_method": "fuzzy",
+      "matched_span": "nto five main components, each designed to function autonomously or within a combined application, enhancing both flexibility and specificity in the RAG process.\n\nJudger functions as a preliminary component that determines whether a query needs retrieval [37, 38, 39]. Given the limited studies in this domain, we implement a judger based o"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Tables",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "The framework provides researchers with extensive technical support across both text-only and multi-modal scenarios, equipped with multiple widely-used MRAG benchmark datasets for systematic evaluation.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The framework provides researchers with extensive technical support across both text-only and multi-modal scenarios, equipped with multiple widely-used MRAG benchmark datasets for systematic evaluation."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval",
+        "Agentic Planning",
+        "Reflection",
+        "Tool Use"
+      ],
+      "reference": "FlashRAG currently supports four typical methods, including Iterative, Self-Ask, Self-RAG, and FLARE. Loop Pipeline involves complex interactions between retrieval and generation processes, often containing multiple cycles of retrieval and generation.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "FlashRAG currently supports four typical methods, including Iterative, Self-Ask, Self-RAG, and FLARE. Loop Pipeline involves complex interactions between retrieval and generation processes, often containing multiple cycles of retrieval and generation."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:04:34.982571+00:00"
+  }
+}

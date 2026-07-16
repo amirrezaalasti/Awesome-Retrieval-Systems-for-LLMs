@@ -1,0 +1,85 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "software",
+    "slug": "github-com-explodinggradients-ragas",
+    "source_url": "https://github.com/explodinggradients/ragas"
+  },
+  "fields": {
+    "system_name": {
+      "value": "Ragas",
+      "reference": "Ragas is your ultimate toolkit for evaluating and optimizing Large Language Model (LLM) applications.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Ragas is your ultimate toolkit for evaluating and optimizing Large Language Model (LLM) applications."
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "Objective metrics, intelligent test generation, and data-driven insights for LLM apps",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Objective metrics, intelligent test generation, and data-driven insights for LLM apps"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents"
+      ],
+      "reference": "rag_eval - Evaluate RAG systems",
+      "verified": true,
+      "verification_score": 0.871,
+      "verification_method": "fuzzy",
+      "matched_span": "mand:\n\n```bash\n# List available templates\nragas quickstart\n\n# Create a"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "Available templates:\n- `rag_eval` - Evaluate RAG systems\n\nComing Soon:\n- `agent_evals` - Evaluate AI agents\n- `benchmark_llm` - Benchmark and compare LLMs\n- `prompt_evals` - Evaluate prompt variations\n- `workflow_eval` - Evaluate complex workflows",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Available templates:\n- `rag_eval` - Evaluate RAG systems\n\nComing Soon:\n- `agent_evals` - Evaluate AI agents\n- `benchmark_llm` - Benchmark and compare LLMs\n- `prompt_evals` - Evaluate prompt variations\n- `workflow_eval` - Evaluate complex workflows"
+    },
+    "knowledge_source": {
+      "value": [
+        "Enterprise Documents"
+      ],
+      "reference": "Ragas is your ultimate toolkit for evaluating and optimizing Large Language Model (LLM) applications. Say goodbye to time-consuming, subjective assessments and hello to data-driven, efficient evaluation workflows.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Ragas is your ultimate toolkit for evaluating and optimizing Large Language Model (LLM) applications. Say goodbye to time-consuming, subjective assessments and hello to data-driven, efficient evaluation workflows."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Evaluate your LLM App `ragas` comes with pre-built metrics for common evaluation tasks. For example, Aspect Critique evaluates any aspect of your output using `DiscreteMetric`:",
+      "verified": true,
+      "verification_score": 0.99,
+      "verification_method": "normalized_exact",
+      "matched_span": "Evaluate your LLM App `ragas` comes with pre-built metrics for common evaluation tasks. For example, Aspect Critique evaluates any aspect of your output using `DiscreteMetric`:"
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "If you want to get more involved with Ragas, check out our discord server. It's a fun community where we geek out about LLM, Retrieval, Production issues, and more.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "If you want to get more involved with Ragas, check out our discord server. It's a fun community where we geek out about LLM, Retrieval, Production issues, and more."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 2,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:34:48.757628+00:00"
+  }
+}

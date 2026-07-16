@@ -1,0 +1,93 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2022,
+    "type": "software",
+    "slug": "github-com-langchain-ai-langchain",
+    "source_url": "https://github.com/langchain-ai/langchain"
+  },
+  "fields": {
+    "system_name": {
+      "value": "LangChain",
+      "reference": "LangChain is a framework for building agents and LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LangChain is a framework for building agents and LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development"
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "LangChain helps developers build applications powered by LLMs through a standard interface for models, embeddings, vector stores, and more.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LangChain helps developers build applications powered by LLMs through a standard interface for models, embeddings, vector stores, and more."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "APIs"
+      ],
+      "reference": "Easily connect LLMs to diverse data sources and external/internal systems, drawing from LangChain's vast library of integrations with model providers, tools, vector stores, retrievers, and more",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Easily connect LLMs to diverse data sources and external/internal systems, drawing from LangChain's vast library of integrations with model providers, tools, vector stores, retrievers, and more"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Agentic Retrieval",
+        "Tool Retrieval"
+      ],
+      "reference": "Easily connect LLMs to diverse data sources and external/internal systems, drawing from LangChain's vast library of integrations with model providers, tools, vector stores, retrievers, and more",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Easily connect LLMs to diverse data sources and external/internal systems, drawing from LangChain's vast library of integrations with model providers, tools, vector stores, retrievers, and more"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Enterprise Documents"
+      ],
+      "reference": "LangChain helps developers build applications powered by LLMs through a standard interface for models, embeddings, vector stores, and more.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LangChain helps developers build applications powered by LLMs through a standard interface for models, embeddings, vector stores, and more."
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML"
+      ],
+      "reference": "LangChain helps developers build applications powered by LLMs through a standard interface for models, embeddings, vector stores, and more.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LangChain helps developers build applications powered by LLMs through a standard interface for models, embeddings, vector stores, and more."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Agentic Planning",
+        "Multi-hop Retrieval",
+        "Tool Use"
+      ],
+      "reference": "Build agents that can plan, use subagents, and leverage file systems for complex tasks",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Build agents that can plan, use subagents, and leverage file systems for complex tasks"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T16:21:57.187346+00:00"
+  }
+}

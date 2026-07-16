@@ -1,0 +1,88 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-illuin-tech-colpali",
+    "source_url": "https://github.com/illuin-tech/colpali"
+  },
+  "fields": {
+    "system_name": {
+      "value": "ColPali",
+      "reference": "ColPali: Efficient Document Retrieval with Vision Language Models",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "ColPali: Efficient Document Retrieval with Vision Language Models"
+    },
+    "system_category": {
+      "value": "Multimodal & Document Analysis RAG",
+      "reference": "we propose to leverage VLMs to construct efficient multi-vector embeddings in the visual space for document retrieval. By feeding the ViT output patches from PaliGemma-3B to a linear projection, we create a multi-vector representation of documents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we propose to leverage VLMs to construct efficient multi-vector embeddings in the visual space for document retrieval. By feeding the ViT output patches from PaliGemma-3B to a linear projection, we create a multi-vector representation of documents."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "Multimodal Documents"
+      ],
+      "reference": "Using ColPali removes the need for potentially complex and brittle layout recognition and OCR pipelines with a single model that can take into account both the textual and visual content (layout, charts, ...) of a document.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Using ColPali removes the need for potentially complex and brittle layout recognition and OCR pipelines with a single model that can take into account both the textual and visual content (layout, charts, ...) of a document."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval"
+      ],
+      "reference": "we propose to leverage VLMs to construct efficient multi-vector embeddings in the visual space for document retrieval. By feeding the ViT output patches from PaliGemma-3B to a linear projection, we create a multi-vector representation of documents.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we propose to leverage VLMs to construct efficient multi-vector embeddings in the visual space for document retrieval. By feeding the ViT output patches from PaliGemma-3B to a linear projection, we create a multi-vector representation of documents."
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database"
+      ],
+      "reference": "PyVespa allows interaction with Vespa, a production-grade vector database, with detailed ColPali support. Qdrant Tutorial about using ColQwen2 with the Qdrant vector database.",
+      "verified": true,
+      "verification_score": 0.8229,
+      "verification_method": "fuzzy",
+      "matched_span": "dencies to use the training script for ColPali. You can do this using the following command:\n\n```bash\npip install \"colpali-engine[train]\"\n```\n\nAll the model configs used can be found in `scripts/configs/` and rely o"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "Images",
+        "Tables"
+      ],
+      "reference": "Using ColPali removes the need for potentially complex and brittle layout recognition and OCR pipelines with a single model that can take into account both the textual and visual content (layout, charts, ...) of a document.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Using ColPali removes the need for potentially complex and brittle layout recognition and OCR pipelines with a single model that can take into account both the textual and visual content (layout, charts, ...) of a document."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval"
+      ],
+      "reference": "We train the model to maximize the similarity between these document embeddings and the query embeddings, following the ColBERT method.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We train the model to maximize the similarity between these document embeddings and the query embeddings, following the ColBERT method."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:30:03.051965+00:00"
+  }
+}

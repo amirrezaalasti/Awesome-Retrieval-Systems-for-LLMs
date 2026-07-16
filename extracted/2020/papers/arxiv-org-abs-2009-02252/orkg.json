@@ -1,0 +1,90 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2020,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2009-02252",
+    "source_url": "https://arxiv.org/abs/2009.02252"
+  },
+  "fields": {
+    "system_name": {
+      "value": "KILT",
+      "reference": "we present a benchmark for knowledge-intensive language tasks (KILT). All tasks in KILT are grounded in the same snapshot of Wikipedia, reducing engineering turnaround through the reuse of components, as well as accelerating research into task-agnostic memory architectures.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we present a benchmark for knowledge-intensive language tasks (KILT). All tasks in KILT are grounded in the same snapshot of Wikipedia, reducing engineering turnaround through the reuse of components, as well as accelerating research into task-agnostic memory architectures."
+    },
+    "system_category": {
+      "value": "Evaluation & Benchmarks",
+      "reference": "we present a benchmark for knowledge-intensive language tasks (KILT). All tasks in KILT are grounded in the same snapshot of Wikipedia, reducing engineering turnaround through the reuse of components",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "we present a benchmark for knowledge-intensive language tasks (KILT). All tasks in KILT are grounded in the same snapshot of Wikipedia, reducing engineering turnaround through the reuse of components"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Documents",
+        "Text Chunks"
+      ],
+      "reference": "The provenance can be a span of any size, from a single token to a paragraph to an entire document.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The provenance can be a span of any size, from a single token to a paragraph to an entire document."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval",
+        "Multi-hop Retrieval"
+      ],
+      "reference": "We provide various state-of-the-art information retrieval systems (both neural and non-neural) coupled with different models that read text in the knowledge source and make predictions for different tasks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We provide various state-of-the-art information retrieval systems (both neural and non-neural) coupled with different models that read text in the knowledge source and make predictions for different tasks."
+    },
+    "knowledge_source": {
+      "value": [
+        "Search Engine"
+      ],
+      "reference": "We find that a shared dense vector index coupled with a seq2seq model is a strong baseline, outperforming more tailor-made approaches for fact checking, open-domain question answering and dialogue",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We find that a shared dense vector index coupled with a seq2seq model is a strong baseline, outperforming more tailor-made approaches for fact checking, open-domain question answering and dialogue"
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "The format of the KILT benchmark is model-agnostic, so any system capable of producing a textual output given a textual input is eligible to participate.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "The format of the KILT benchmark is model-agnostic, so any system capable of producing a textual output given a textual input is eligible to participate."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval",
+        "Logical Retrieval"
+      ],
+      "reference": "HotpotQA (Yang et al., 2018) requires multihop reasoning over multiple Wikipedia pages to answer each question. For each question-answer pair, a set of supporting sentences are provided, and we consider these as provenance.",
+      "verified": true,
+      "verification_score": 0.9596,
+      "verification_method": "fuzzy",
+      "matched_span": "stions issued to the Google search engine. Each question comes with an accompanied Wikipedia page with an annotated long answer (a paragraph) and a short answer (one or more entities). We consider the open-version of the dataset and use both long and short answer"
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:47:13.374244+00:00"
+  }
+}

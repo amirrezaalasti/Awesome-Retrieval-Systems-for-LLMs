@@ -1,0 +1,90 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2023,
+    "type": "paper",
+    "slug": "arxiv-org-abs-2310-07554",
+    "source_url": "https://arxiv.org/abs/2310.07554"
+  },
+  "fields": {
+    "system_name": {
+      "value": "LLM-Embedder",
+      "reference": "In this work, we propose LLM-Embedder for the unified support of diverse retrieval augmentation scenarios.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "In this work, we propose LLM-Embedder for the unified support of diverse retrieval augmentation scenarios."
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "LLM-Embedder presents a unified embedding model for the diverse retrieval augmentation scenarios.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "LLM-Embedder presents a unified embedding model for the diverse retrieval augmentation scenarios."
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "APIs"
+      ],
+      "reference": "LLM-Embedder targets on the unified support for the major retrieval augmentation needs of the LLMs, including knowledge retrieval, memory retrieval, example retrieval, and tool retrieval.",
+      "verified": true,
+      "verification_score": 0.9893,
+      "verification_method": "fuzzy",
+      "matched_span": "gy ( § 3.2).\n\n## 3.1 Retrieval Augmentation\n\nLLM-Embedder targets on the unified support for the major retrieval augmentation needs of the LLMs, including knowledge retrieval, memory re- trieval, example retrieval, and tool ret"
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Query Rewriting",
+        "Tool Retrieval"
+      ],
+      "reference": "It transforms each retrieval candidate C i ∈ C into its embedding C i ∈ R D and stores all embeddings in a vector DB. It also embeds the user input U into U ∈ R D , then retrieves the topK relevant candidates based on cosine similarity",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "It transforms each retrieval candidate C i ∈ C into its embedding C i ∈ R D and stores all embeddings in a vector DB. It also embeds the user input U into U ∈ R D , then retrieves the topK relevant candidates based on cosine similarity"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine"
+      ],
+      "reference": "It transforms each retrieval candidate C i ∈ C into its embedding C i ∈ R D and stores all embeddings in a vector DB.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "It transforms each retrieval candidate C i ∈ C into its embedding C i ∈ R D and stores all embeddings in a vector DB."
+    },
+    "supported_modality": {
+      "value": [
+        "Text"
+      ],
+      "reference": "Each retrieval candidate is a passage from an external knowledge corpus. The user input is usually an explicit question.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Each retrieval candidate is a passage from an external knowledge corpus. The user input is usually an explicit question."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Tool Use"
+      ],
+      "reference": "The LLM leverages tools to execute complex real-world tasks. Tool retrieval efficiently provides useful tools for the LLM.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "The LLM leverages tools to execute complex real-world tasks. Tool retrieval efficiently provides useful tools for the LLM."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T15:58:59.375542+00:00"
+  }
+}

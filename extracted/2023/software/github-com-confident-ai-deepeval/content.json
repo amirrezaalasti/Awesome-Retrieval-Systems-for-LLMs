@@ -1,0 +1,7769 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "confident-ai-deepeval",
+  "origin": {
+    "mimetype": "text/html",
+    "binary_hash": 4112053743642129204,
+    "filename": "confident-ai-deepeval.md"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/163"
+      },
+      {
+        "$ref": "#/texts/203"
+      },
+      {
+        "$ref": "#/texts/204"
+      },
+      {
+        "$ref": "#/texts/210"
+      },
+      {
+        "$ref": "#/texts/331"
+      },
+      {
+        "$ref": "#/texts/341"
+      },
+      {
+        "$ref": "#/texts/345"
+      },
+      {
+        "$ref": "#/texts/349"
+      },
+      {
+        "$ref": "#/texts/359"
+      },
+      {
+        "$ref": "#/texts/361"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/1"
+        }
+      ],
+      "content_layer": "body",
+      "name": "header-2",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "header-3",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/texts/5"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/texts/5"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/texts/5"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/texts/5"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/texts/36"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/149"
+        },
+        {
+          "$ref": "#/texts/150"
+        },
+        {
+          "$ref": "#/texts/151"
+        },
+        {
+          "$ref": "#/texts/152"
+        },
+        {
+          "$ref": "#/texts/156"
+        },
+        {
+          "$ref": "#/texts/157"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/texts/37"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/texts/37"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/43"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/texts/43"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/texts/44"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/texts/47"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/texts/43"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/71"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/texts/50"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/texts/53"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/texts/56"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/texts/59"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "$ref": "#/texts/62"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "$ref": "#/texts/65"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/19",
+      "parent": {
+        "$ref": "#/texts/68"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/20",
+      "parent": {
+        "$ref": "#/texts/71"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/21",
+      "parent": {
+        "$ref": "#/texts/43"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/89"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/22",
+      "parent": {
+        "$ref": "#/texts/74"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/23",
+      "parent": {
+        "$ref": "#/texts/77"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/24",
+      "parent": {
+        "$ref": "#/texts/80"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/25",
+      "parent": {
+        "$ref": "#/texts/83"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/26",
+      "parent": {
+        "$ref": "#/texts/86"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/27",
+      "parent": {
+        "$ref": "#/texts/89"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/28",
+      "parent": {
+        "$ref": "#/texts/43"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/104"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/29",
+      "parent": {
+        "$ref": "#/texts/92"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/30",
+      "parent": {
+        "$ref": "#/texts/95"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/31",
+      "parent": {
+        "$ref": "#/texts/98"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/32",
+      "parent": {
+        "$ref": "#/texts/101"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/33",
+      "parent": {
+        "$ref": "#/texts/104"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/34",
+      "parent": {
+        "$ref": "#/texts/43"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/113"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/35",
+      "parent": {
+        "$ref": "#/texts/107"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/36",
+      "parent": {
+        "$ref": "#/texts/110"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/37",
+      "parent": {
+        "$ref": "#/texts/113"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/114"
+        },
+        {
+          "$ref": "#/texts/115"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/38",
+      "parent": {
+        "$ref": "#/texts/43"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/119"
+        },
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/125"
+        },
+        {
+          "$ref": "#/texts/128"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/39",
+      "parent": {
+        "$ref": "#/texts/116"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/117"
+        },
+        {
+          "$ref": "#/texts/118"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/40",
+      "parent": {
+        "$ref": "#/texts/119"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/120"
+        },
+        {
+          "$ref": "#/texts/121"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/41",
+      "parent": {
+        "$ref": "#/texts/122"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/124"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/42",
+      "parent": {
+        "$ref": "#/texts/125"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/126"
+        },
+        {
+          "$ref": "#/texts/127"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/43",
+      "parent": {
+        "$ref": "#/texts/128"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/130"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/44",
+      "parent": {
+        "$ref": "#/texts/43"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/131"
+        },
+        {
+          "$ref": "#/texts/134"
+        },
+        {
+          "$ref": "#/texts/137"
+        },
+        {
+          "$ref": "#/texts/140"
+        },
+        {
+          "$ref": "#/texts/143"
+        },
+        {
+          "$ref": "#/texts/146"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/45",
+      "parent": {
+        "$ref": "#/texts/131"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/133"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/46",
+      "parent": {
+        "$ref": "#/texts/134"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/135"
+        },
+        {
+          "$ref": "#/texts/136"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/47",
+      "parent": {
+        "$ref": "#/texts/137"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/139"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/48",
+      "parent": {
+        "$ref": "#/texts/140"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/141"
+        },
+        {
+          "$ref": "#/texts/142"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/49",
+      "parent": {
+        "$ref": "#/texts/143"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/144"
+        },
+        {
+          "$ref": "#/texts/145"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/50",
+      "parent": {
+        "$ref": "#/texts/146"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/147"
+        },
+        {
+          "$ref": "#/texts/148"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/51",
+      "parent": {
+        "$ref": "#/texts/152"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/153"
+        },
+        {
+          "$ref": "#/texts/154"
+        },
+        {
+          "$ref": "#/texts/155"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/52",
+      "parent": {
+        "$ref": "#/texts/157"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/158"
+        },
+        {
+          "$ref": "#/texts/159"
+        },
+        {
+          "$ref": "#/texts/160"
+        },
+        {
+          "$ref": "#/texts/161"
+        },
+        {
+          "$ref": "#/texts/162"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/53",
+      "parent": {
+        "$ref": "#/texts/163"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/164"
+        },
+        {
+          "$ref": "#/texts/165"
+        },
+        {
+          "$ref": "#/texts/166"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/54",
+      "parent": {
+        "$ref": "#/texts/167"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/168"
+        },
+        {
+          "$ref": "#/texts/171"
+        },
+        {
+          "$ref": "#/texts/174"
+        },
+        {
+          "$ref": "#/texts/177"
+        },
+        {
+          "$ref": "#/texts/180"
+        },
+        {
+          "$ref": "#/texts/183"
+        },
+        {
+          "$ref": "#/texts/186"
+        },
+        {
+          "$ref": "#/texts/189"
+        },
+        {
+          "$ref": "#/texts/192"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/55",
+      "parent": {
+        "$ref": "#/texts/168"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/169"
+        },
+        {
+          "$ref": "#/texts/170"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/56",
+      "parent": {
+        "$ref": "#/texts/171"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/172"
+        },
+        {
+          "$ref": "#/texts/173"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/57",
+      "parent": {
+        "$ref": "#/texts/174"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/175"
+        },
+        {
+          "$ref": "#/texts/176"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/58",
+      "parent": {
+        "$ref": "#/texts/177"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/178"
+        },
+        {
+          "$ref": "#/texts/179"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/59",
+      "parent": {
+        "$ref": "#/texts/180"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/181"
+        },
+        {
+          "$ref": "#/texts/182"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/60",
+      "parent": {
+        "$ref": "#/texts/183"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/184"
+        },
+        {
+          "$ref": "#/texts/185"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/61",
+      "parent": {
+        "$ref": "#/texts/186"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/187"
+        },
+        {
+          "$ref": "#/texts/188"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/62",
+      "parent": {
+        "$ref": "#/texts/189"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/190"
+        },
+        {
+          "$ref": "#/texts/191"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/63",
+      "parent": {
+        "$ref": "#/texts/192"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/193"
+        },
+        {
+          "$ref": "#/texts/194"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/64",
+      "parent": {
+        "$ref": "#/texts/195"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/196"
+        },
+        {
+          "$ref": "#/texts/197"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/65",
+      "parent": {
+        "$ref": "#/texts/195"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/198"
+        },
+        {
+          "$ref": "#/texts/199"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/66",
+      "parent": {
+        "$ref": "#/texts/199"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/200"
+        },
+        {
+          "$ref": "#/texts/201"
+        },
+        {
+          "$ref": "#/texts/202"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/67",
+      "parent": {
+        "$ref": "#/texts/204"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/205"
+        },
+        {
+          "$ref": "#/texts/206"
+        },
+        {
+          "$ref": "#/texts/207"
+        },
+        {
+          "$ref": "#/texts/208"
+        },
+        {
+          "$ref": "#/texts/209"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/68",
+      "parent": {
+        "$ref": "#/texts/212"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/213"
+        },
+        {
+          "$ref": "#/texts/214"
+        },
+        {
+          "$ref": "#/texts/215"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/69",
+      "parent": {
+        "$ref": "#/texts/217"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/218"
+        },
+        {
+          "$ref": "#/texts/219"
+        },
+        {
+          "$ref": "#/texts/220"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/70",
+      "parent": {
+        "$ref": "#/texts/217"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/223"
+        },
+        {
+          "$ref": "#/texts/224"
+        },
+        {
+          "$ref": "#/texts/225"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/71",
+      "parent": {
+        "$ref": "#/texts/226"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/229"
+        },
+        {
+          "$ref": "#/texts/230"
+        },
+        {
+          "$ref": "#/texts/231"
+        },
+        {
+          "$ref": "#/texts/232"
+        },
+        {
+          "$ref": "#/texts/233"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/72",
+      "parent": {
+        "$ref": "#/texts/226"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/235"
+        },
+        {
+          "$ref": "#/texts/236"
+        },
+        {
+          "$ref": "#/texts/237"
+        },
+        {
+          "$ref": "#/texts/238"
+        },
+        {
+          "$ref": "#/texts/239"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/73",
+      "parent": {
+        "$ref": "#/texts/226"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/241"
+        },
+        {
+          "$ref": "#/texts/242"
+        },
+        {
+          "$ref": "#/texts/243"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/74",
+      "parent": {
+        "$ref": "#/texts/226"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/245"
+        },
+        {
+          "$ref": "#/texts/246"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/75",
+      "parent": {
+        "$ref": "#/texts/226"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/247"
+        },
+        {
+          "$ref": "#/texts/253"
+        },
+        {
+          "$ref": "#/texts/263"
+        },
+        {
+          "$ref": "#/texts/271"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/76",
+      "parent": {
+        "$ref": "#/texts/247"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/248"
+        },
+        {
+          "$ref": "#/texts/249"
+        },
+        {
+          "$ref": "#/texts/250"
+        },
+        {
+          "$ref": "#/texts/251"
+        },
+        {
+          "$ref": "#/texts/252"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/77",
+      "parent": {
+        "$ref": "#/texts/253"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/254"
+        },
+        {
+          "$ref": "#/texts/255"
+        },
+        {
+          "$ref": "#/texts/256"
+        },
+        {
+          "$ref": "#/texts/257"
+        },
+        {
+          "$ref": "#/texts/258"
+        },
+        {
+          "$ref": "#/texts/259"
+        },
+        {
+          "$ref": "#/texts/260"
+        },
+        {
+          "$ref": "#/texts/261"
+        },
+        {
+          "$ref": "#/texts/262"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/78",
+      "parent": {
+        "$ref": "#/texts/263"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/264"
+        },
+        {
+          "$ref": "#/texts/265"
+        },
+        {
+          "$ref": "#/texts/266"
+        },
+        {
+          "$ref": "#/texts/267"
+        },
+        {
+          "$ref": "#/texts/268"
+        },
+        {
+          "$ref": "#/texts/269"
+        },
+        {
+          "$ref": "#/texts/270"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/79",
+      "parent": {
+        "$ref": "#/texts/271"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/272"
+        },
+        {
+          "$ref": "#/texts/273"
+        },
+        {
+          "$ref": "#/texts/274"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/80",
+      "parent": {
+        "$ref": "#/texts/226"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/275"
+        },
+        {
+          "$ref": "#/texts/276"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/81",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/278"
+        },
+        {
+          "$ref": "#/texts/279"
+        },
+        {
+          "$ref": "#/texts/280"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/82",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/283"
+        },
+        {
+          "$ref": "#/texts/284"
+        }
+      ],
+      "content_layer": "body",
+      "name": "details",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/83",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/285"
+        },
+        {
+          "$ref": "#/texts/286"
+        }
+      ],
+      "content_layer": "body",
+      "name": "details",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/84",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/287"
+        },
+        {
+          "$ref": "#/texts/288"
+        }
+      ],
+      "content_layer": "body",
+      "name": "details",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/85",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/289"
+        },
+        {
+          "$ref": "#/texts/290"
+        }
+      ],
+      "content_layer": "body",
+      "name": "details",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/86",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/291"
+        },
+        {
+          "$ref": "#/texts/292"
+        }
+      ],
+      "content_layer": "body",
+      "name": "details",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/87",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/293"
+        },
+        {
+          "$ref": "#/texts/294"
+        }
+      ],
+      "content_layer": "body",
+      "name": "details",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/88",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/295"
+        },
+        {
+          "$ref": "#/texts/296"
+        }
+      ],
+      "content_layer": "body",
+      "name": "details",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/89",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/297"
+        },
+        {
+          "$ref": "#/texts/298"
+        }
+      ],
+      "content_layer": "body",
+      "name": "details",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/90",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/299"
+        },
+        {
+          "$ref": "#/texts/300"
+        }
+      ],
+      "content_layer": "body",
+      "name": "details",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/91",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/301"
+        },
+        {
+          "$ref": "#/texts/302"
+        }
+      ],
+      "content_layer": "body",
+      "name": "details",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/92",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/303"
+        },
+        {
+          "$ref": "#/texts/304"
+        }
+      ],
+      "content_layer": "body",
+      "name": "details",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/93",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/305"
+        },
+        {
+          "$ref": "#/texts/306"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/94",
+      "parent": {
+        "$ref": "#/texts/314"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/315"
+        },
+        {
+          "$ref": "#/texts/316"
+        },
+        {
+          "$ref": "#/texts/317"
+        },
+        {
+          "$ref": "#/texts/318"
+        },
+        {
+          "$ref": "#/texts/319"
+        },
+        {
+          "$ref": "#/texts/320"
+        },
+        {
+          "$ref": "#/texts/321"
+        },
+        {
+          "$ref": "#/texts/322"
+        },
+        {
+          "$ref": "#/texts/323"
+        },
+        {
+          "$ref": "#/texts/324"
+        },
+        {
+          "$ref": "#/texts/325"
+        },
+        {
+          "$ref": "#/texts/326"
+        },
+        {
+          "$ref": "#/texts/327"
+        },
+        {
+          "$ref": "#/texts/328"
+        },
+        {
+          "$ref": "#/texts/329"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/95",
+      "parent": {
+        "$ref": "#/texts/331"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/332"
+        },
+        {
+          "$ref": "#/texts/333"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/96",
+      "parent": {
+        "$ref": "#/texts/331"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/338"
+        },
+        {
+          "$ref": "#/texts/339"
+        },
+        {
+          "$ref": "#/texts/340"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/97",
+      "parent": {
+        "$ref": "#/texts/331"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/342"
+        },
+        {
+          "$ref": "#/texts/343"
+        },
+        {
+          "$ref": "#/texts/344"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/98",
+      "parent": {
+        "$ref": "#/texts/345"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/346"
+        },
+        {
+          "$ref": "#/texts/347"
+        },
+        {
+          "$ref": "#/texts/348"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/99",
+      "parent": {
+        "$ref": "#/texts/349"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/351"
+        },
+        {
+          "$ref": "#/texts/352"
+        },
+        {
+          "$ref": "#/texts/353"
+        },
+        {
+          "$ref": "#/texts/354"
+        },
+        {
+          "$ref": "#/texts/355"
+        },
+        {
+          "$ref": "#/texts/356"
+        },
+        {
+          "$ref": "#/texts/357"
+        },
+        {
+          "$ref": "#/texts/358"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/100",
+      "parent": {
+        "$ref": "#/texts/361"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/362"
+        },
+        {
+          "$ref": "#/texts/363"
+        },
+        {
+          "$ref": "#/texts/364"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [],
+      "orig": "DeepEval.",
+      "text": "DeepEval."
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/pictures/1"
+        },
+        {
+          "$ref": "#/pictures/2"
+        },
+        {
+          "$ref": "#/pictures/3"
+        },
+        {
+          "$ref": "#/groups/0"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "The LLM Evaluation Framework",
+      "text": "The LLM Evaluation Framework"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [],
+      "orig": "confident-ai%2Fdeepeval | Trendshift",
+      "text": "confident-ai%2Fdeepeval | Trendshift",
+      "hyperlink": "https://trendshift.io/repositories/5917"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [],
+      "orig": "discord-invite",
+      "text": "discord-invite",
+      "hyperlink": "https://discord.gg/3SEyvpgu2f"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [],
+      "orig": "reddit-community",
+      "text": "reddit-community",
+      "hyperlink": "https://www.reddit.com/r/deepeval/"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [
+        {
+          "$ref": "#/pictures/4"
+        },
+        {
+          "$ref": "#/pictures/5"
+        },
+        {
+          "$ref": "#/pictures/6"
+        },
+        {
+          "$ref": "#/pictures/7"
+        },
+        {
+          "$ref": "#/groups/2"
+        },
+        {
+          "$ref": "#/groups/3"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/groups/4"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/groups/5"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Documentation | Metrics and Features | Getting Started | Integrations | Confident AI",
+      "text": "Documentation | Metrics and Features | Getting Started | Integrations | Confident AI",
+      "hyperlink": "https://deepeval.com/docs/getting-started?utm_source=GitHub",
+      "level": 3
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [],
+      "orig": "GitHub release",
+      "text": "GitHub release",
+      "hyperlink": "https://github.com/confident-ai/deepeval/releases"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [],
+      "orig": "Try Quickstart in Colab",
+      "text": "Try Quickstart in Colab",
+      "hyperlink": "https://colab.research.google.com/drive/1PPxYEBa6eu__LquGoFFJZkhYgWVYE6kh?usp=sharing"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [],
+      "orig": "License",
+      "text": "License",
+      "hyperlink": "https://github.com/confident-ai/deepeval/blob/master/LICENSE.md"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [],
+      "orig": "Twitter Follow",
+      "text": "Twitter Follow",
+      "hyperlink": "https://x.com/deepeval"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Deutsch",
+      "text": "Deutsch",
+      "hyperlink": "https://www.readme-i18n.com/confident-ai/deepeval?lang=de"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "|",
+      "text": "|"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Español",
+      "text": "Español",
+      "hyperlink": "https://www.readme-i18n.com/confident-ai/deepeval?lang=es"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "|",
+      "text": "|"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "français",
+      "text": "français",
+      "hyperlink": "https://www.readme-i18n.com/confident-ai/deepeval?lang=fr"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "|",
+      "text": "|"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "日本語",
+      "text": "日本語",
+      "hyperlink": "https://www.readme-i18n.com/confident-ai/deepeval?lang=ja"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "|",
+      "text": "|"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "한국어",
+      "text": "한국어",
+      "hyperlink": "https://www.readme-i18n.com/confident-ai/deepeval?lang=ko"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "|",
+      "text": "|"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Português",
+      "text": "Português",
+      "hyperlink": "https://www.readme-i18n.com/confident-ai/deepeval?lang=pt"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "|",
+      "text": "|"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Русский",
+      "text": "Русский",
+      "hyperlink": "https://www.readme-i18n.com/confident-ai/deepeval?lang=ru"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "|",
+      "text": "|"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "中文",
+      "text": "中文",
+      "hyperlink": "https://www.readme-i18n.com/confident-ai/deepeval?lang=zh"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "DeepEval",
+      "text": "DeepEval",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "is a simple-to-use, open-source LLM evaluation framework, for evaluating large-language model systems. It is similar to Pytest but specialized for unit testing LLM apps. DeepEval incorporates the latest research to run evals via metrics such as G-Eval, task completion, answer relevancy, hallucination, etc., which uses LLM-as-a-judge and other NLP models that run",
+      "text": "is a simple-to-use, open-source LLM evaluation framework, for evaluating large-language model systems. It is similar to Pytest but specialized for unit testing LLM apps. DeepEval incorporates the latest research to run evals via metrics such as G-Eval, task completion, answer relevancy, hallucination, etc., which uses LLM-as-a-judge and other NLP models that run"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "locally on your machine",
+      "text": "locally on your machine",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/texts/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Whether you're building AI agents, RAG pipelines, or chatbots, implemented via LangChain or OpenAI, DeepEval has you covered. With it, you can easily determine the optimal models, prompts, and architecture to improve your AI quality, prevent prompt drifting, or even transition from OpenAI to Claude with confidence.",
+      "text": "Whether you're building AI agents, RAG pipelines, or chatbots, implemented via LangChain or OpenAI, DeepEval has you covered. With it, you can easily determine the optimal models, prompts, and architecture to improve your AI quality, prevent prompt drifting, or even transition from OpenAI to Claude with confidence."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "[!IMPORTANT] Need a place for your DeepEval testing data to live 🏡❤️?",
+      "text": "[!IMPORTANT] Need a place for your DeepEval testing data to live 🏡❤️?"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Sign up to Confident AI",
+      "text": "Sign up to Confident AI",
+      "hyperlink": "https://www.confident-ai.com/?utm_source=deepeval&utm_medium=github&utm_content=signup_callout"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "to compare iterations of your LLM app, generate & share testing reports, and more.",
+      "text": "to compare iterations of your LLM app, generate & share testing reports, and more."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/texts/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Demo GIF",
+      "text": "Demo GIF"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Want to talk LLM evaluation, need help picking metrics, or just to say hi?",
+      "text": "Want to talk LLM evaluation, need help picking metrics, or just to say hi?"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Come join our discord.",
+      "text": "Come join our discord.",
+      "hyperlink": "https://discord.com/invite/3SEyvpgu2f"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/6"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "🔥 Metrics and Features",
+      "text": "🔥 Metrics and Features"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/7"
+        },
+        {
+          "$ref": "#/groups/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "📐 Large variety of ready-to-use LLM eval metrics (all with explanations) powered by",
+      "text": "📐 Large variety of ready-to-use LLM eval metrics (all with explanations) powered by"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ANY",
+      "text": "ANY",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "LLM of your choice, statistical methods, or NLP models that run",
+      "text": "LLM of your choice, statistical methods, or NLP models that run"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "locally on your machine",
+      "text": "locally on your machine",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "covering all use cases:",
+      "text": "covering all use cases:"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/9"
+        },
+        {
+          "$ref": "#/groups/12"
+        },
+        {
+          "$ref": "#/groups/21"
+        },
+        {
+          "$ref": "#/groups/28"
+        },
+        {
+          "$ref": "#/groups/34"
+        },
+        {
+          "$ref": "#/groups/38"
+        },
+        {
+          "$ref": "#/groups/44"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Custom, All-Purpose Metrics:",
+      "text": "Custom, All-Purpose Metrics:",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/10"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "G-Eval",
+      "text": "G-Eval",
+      "hyperlink": "https://deepeval.com/docs/metrics-llm-evals"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- a research-backed LLM-as-a-judge metric for evaluating on any custom criteria with human-like accuracy",
+      "text": "- a research-backed LLM-as-a-judge metric for evaluating on any custom criteria with human-like accuracy"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/11"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "DAG",
+      "text": "DAG",
+      "hyperlink": "https://deepeval.com/docs/metrics-dag"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- DeepEval's graph-based deterministic LLM-as-a-judge metric builder",
+      "text": "- DeepEval's graph-based deterministic LLM-as-a-judge metric builder"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/13"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Task Completion",
+      "text": "Task Completion",
+      "hyperlink": "https://deepeval.com/docs/metrics-task-completion"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate whether an agent accomplished its goal",
+      "text": "- evaluate whether an agent accomplished its goal"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/14"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Tool Correctness",
+      "text": "Tool Correctness",
+      "hyperlink": "https://deepeval.com/docs/metrics-tool-correctness"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- check if the right tools were called with the right arguments",
+      "text": "- check if the right tools were called with the right arguments"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/15"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Goal Accuracy",
+      "text": "Goal Accuracy",
+      "hyperlink": "https://deepeval.com/docs/metrics-goal-accuracy"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- measure how accurately the agent achieved the intended goal",
+      "text": "- measure how accurately the agent achieved the intended goal"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/16"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Step Efficiency",
+      "text": "Step Efficiency",
+      "hyperlink": "https://deepeval.com/docs/metrics-step-efficiency"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate whether the agent took unnecessary steps",
+      "text": "- evaluate whether the agent took unnecessary steps"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/17"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Plan Adherence",
+      "text": "Plan Adherence",
+      "hyperlink": "https://deepeval.com/docs/metrics-plan-adherence"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- check if the agent followed the expected plan",
+      "text": "- check if the agent followed the expected plan"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/18"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Plan Quality",
+      "text": "Plan Quality",
+      "hyperlink": "https://deepeval.com/docs/metrics-plan-quality"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate the quality of the agent's plan",
+      "text": "- evaluate the quality of the agent's plan"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/19"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Tool Use",
+      "text": "Tool Use",
+      "hyperlink": "https://deepeval.com/docs/metrics-tool-use"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- measure quality of tool usage",
+      "text": "- measure quality of tool usage"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/20"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Argument Correctness",
+      "text": "Argument Correctness",
+      "hyperlink": "https://deepeval.com/docs/metrics-argument-correctness"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- validate tool call arguments",
+      "text": "- validate tool call arguments"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/22"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Answer Relevancy",
+      "text": "Answer Relevancy",
+      "hyperlink": "https://deepeval.com/docs/metrics-answer-relevancy"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- measure how relevant the RAG pipeline's output is to the input",
+      "text": "- measure how relevant the RAG pipeline's output is to the input"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/23"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Faithfulness",
+      "text": "Faithfulness",
+      "hyperlink": "https://deepeval.com/docs/metrics-faithfulness"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate whether the RAG pipeline's output factually aligns with the retrieval context",
+      "text": "- evaluate whether the RAG pipeline's output factually aligns with the retrieval context"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/24"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Contextual Recall",
+      "text": "Contextual Recall",
+      "hyperlink": "https://deepeval.com/docs/metrics-contextual-recall"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- measure how well the RAG pipeline's retrieval context aligns with the expected output",
+      "text": "- measure how well the RAG pipeline's retrieval context aligns with the expected output"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/25"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Contextual Precision",
+      "text": "Contextual Precision",
+      "hyperlink": "https://deepeval.com/docs/metrics-contextual-precision"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate whether relevant nodes in the RAG pipeline's retrieval context are ranked higher",
+      "text": "- evaluate whether relevant nodes in the RAG pipeline's retrieval context are ranked higher"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/26"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Contextual Relevancy",
+      "text": "Contextual Relevancy",
+      "hyperlink": "https://deepeval.com/docs/metrics-contextual-relevancy"
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- measure the overall relevance of the RAG pipeline's retrieval context to the input",
+      "text": "- measure the overall relevance of the RAG pipeline's retrieval context to the input"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/27"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "RAGAS",
+      "text": "RAGAS",
+      "hyperlink": "https://deepeval.com/docs/metrics-ragas"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- average of answer relevancy, faithfulness, contextual precision, and contextual recall",
+      "text": "- average of answer relevancy, faithfulness, contextual precision, and contextual recall"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/29"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Knowledge Retention",
+      "text": "Knowledge Retention",
+      "hyperlink": "https://deepeval.com/docs/metrics-knowledge-retention"
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate whether the chatbot retains factual information throughout a conversation",
+      "text": "- evaluate whether the chatbot retains factual information throughout a conversation"
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/30"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Conversation Completeness",
+      "text": "Conversation Completeness",
+      "hyperlink": "https://deepeval.com/docs/metrics-conversation-completeness"
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- measure whether the chatbot satisfies user needs throughout a conversation",
+      "text": "- measure whether the chatbot satisfies user needs throughout a conversation"
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/31"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Turn Relevancy",
+      "text": "Turn Relevancy",
+      "hyperlink": "https://deepeval.com/docs/metrics-turn-relevancy"
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate whether the chatbot generates consistently relevant responses throughout a conversation",
+      "text": "- evaluate whether the chatbot generates consistently relevant responses throughout a conversation"
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/32"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Turn Faithfulness",
+      "text": "Turn Faithfulness",
+      "hyperlink": "https://deepeval.com/docs/metrics-turn-faithfulness"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- check if the chatbot's responses are factually grounded in retrieval context across turns",
+      "text": "- check if the chatbot's responses are factually grounded in retrieval context across turns"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/33"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Role Adherence",
+      "text": "Role Adherence",
+      "hyperlink": "https://deepeval.com/docs/metrics-role-adherence"
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate whether the chatbot adheres to its assigned role throughout a conversation",
+      "text": "- evaluate whether the chatbot adheres to its assigned role throughout a conversation"
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/35"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "MCP Task Completion",
+      "text": "MCP Task Completion",
+      "hyperlink": "https://deepeval.com/docs/metrics-mcp-task-completion"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate how effectively an MCP-based agent accomplishes a task",
+      "text": "- evaluate how effectively an MCP-based agent accomplishes a task"
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/36"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "MCP Use",
+      "text": "MCP Use",
+      "hyperlink": "https://deepeval.com/docs/metrics-mcp-use"
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- measure how effectively an agent uses its available MCP servers",
+      "text": "- measure how effectively an agent uses its available MCP servers"
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/37"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Multi-Turn MCP Use",
+      "text": "Multi-Turn MCP Use",
+      "hyperlink": "https://deepeval.com/docs/metrics-multi-turn-mcp-use"
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate MCP server usage across conversation turns",
+      "text": "- evaluate MCP server usage across conversation turns"
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/39"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Text to Image",
+      "text": "Text to Image",
+      "hyperlink": "https://deepeval.com/docs/multimodal-metrics-text-to-image"
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate image generation quality based on semantic consistency and perceptual quality",
+      "text": "- evaluate image generation quality based on semantic consistency and perceptual quality"
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/40"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/groups/40"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Image Editing",
+      "text": "Image Editing",
+      "hyperlink": "https://deepeval.com/docs/multimodal-metrics-image-editing"
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/groups/40"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate image editing quality based on semantic consistency and perceptual quality",
+      "text": "- evaluate image editing quality based on semantic consistency and perceptual quality"
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/41"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Image Coherence",
+      "text": "Image Coherence",
+      "hyperlink": "https://deepeval.com/docs/multimodal-metrics-image-coherence"
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- measure how well images align with their accompanying text",
+      "text": "- measure how well images align with their accompanying text"
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/42"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Image Helpfulness",
+      "text": "Image Helpfulness",
+      "hyperlink": "https://deepeval.com/docs/multimodal-metrics-image-helpfulness"
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate how effectively images contribute to user comprehension of the text",
+      "text": "- evaluate how effectively images contribute to user comprehension of the text"
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/43"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/groups/43"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Image Reference",
+      "text": "Image Reference",
+      "hyperlink": "https://deepeval.com/docs/multimodal-metrics-image-reference"
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/groups/43"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate how accurately images are referred to or explained by accompanying text",
+      "text": "- evaluate how accurately images are referred to or explained by accompanying text"
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/groups/44"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/45"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/groups/45"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Hallucination",
+      "text": "Hallucination",
+      "hyperlink": "https://deepeval.com/docs/metrics-hallucination"
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/groups/45"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- check whether the LLM generates factually correct information against provided context",
+      "text": "- check whether the LLM generates factually correct information against provided context"
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/groups/44"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/46"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/groups/46"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Summarization",
+      "text": "Summarization",
+      "hyperlink": "https://deepeval.com/docs/metrics-summarization"
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/groups/46"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate whether summaries are factually correct and include necessary details",
+      "text": "- evaluate whether summaries are factually correct and include necessary details"
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "$ref": "#/groups/44"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/47"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/groups/47"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Bias",
+      "text": "Bias",
+      "hyperlink": "https://deepeval.com/docs/metrics-bias"
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "$ref": "#/groups/47"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- detect gender, racial, or political bias in LLM outputs",
+      "text": "- detect gender, racial, or political bias in LLM outputs"
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/groups/44"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/48"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "$ref": "#/groups/48"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Toxicity",
+      "text": "Toxicity",
+      "hyperlink": "https://deepeval.com/docs/metrics-toxicity"
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "$ref": "#/groups/48"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate toxicity in LLM outputs",
+      "text": "- evaluate toxicity in LLM outputs"
+    },
+    {
+      "self_ref": "#/texts/143",
+      "parent": {
+        "$ref": "#/groups/44"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/49"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/144",
+      "parent": {
+        "$ref": "#/groups/49"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "JSON Correctness",
+      "text": "JSON Correctness",
+      "hyperlink": "https://deepeval.com/docs/metrics-json-correctness"
+    },
+    {
+      "self_ref": "#/texts/145",
+      "parent": {
+        "$ref": "#/groups/49"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- check whether the output matches an expected JSON schema",
+      "text": "- check whether the output matches an expected JSON schema"
+    },
+    {
+      "self_ref": "#/texts/146",
+      "parent": {
+        "$ref": "#/groups/44"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/50"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/147",
+      "parent": {
+        "$ref": "#/groups/50"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Prompt Alignment",
+      "text": "Prompt Alignment",
+      "hyperlink": "https://deepeval.com/docs/metrics-prompt-alignment"
+    },
+    {
+      "self_ref": "#/texts/148",
+      "parent": {
+        "$ref": "#/groups/50"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- measure whether the output aligns with instructions in the prompt template",
+      "text": "- measure whether the output aligns with instructions in the prompt template"
+    },
+    {
+      "self_ref": "#/texts/149",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "🎯 Supports both end-to-end and component-level LLM evaluation.",
+      "text": "🎯 Supports both end-to-end and component-level LLM evaluation.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/150",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "🧩 Build your own custom metrics that are automatically integrated with DeepEval's ecosystem.",
+      "text": "🧩 Build your own custom metrics that are automatically integrated with DeepEval's ecosystem.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/151",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "🔮 Generate both single and multi-turn synthetic datasets for evaluation.",
+      "text": "🔮 Generate both single and multi-turn synthetic datasets for evaluation.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/152",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/51"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/153",
+      "parent": {
+        "$ref": "#/groups/51"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "🔗 Integrates seamlessly with",
+      "text": "🔗 Integrates seamlessly with"
+    },
+    {
+      "self_ref": "#/texts/154",
+      "parent": {
+        "$ref": "#/groups/51"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ANY",
+      "text": "ANY",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/155",
+      "parent": {
+        "$ref": "#/groups/51"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "CI/CD environment.",
+      "text": "CI/CD environment."
+    },
+    {
+      "self_ref": "#/texts/156",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "🧬 Optimize prompts automatically based on evaluation results.",
+      "text": "🧬 Optimize prompts automatically based on evaluation results.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/157",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/52"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/158",
+      "parent": {
+        "$ref": "#/groups/52"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "🏆 Easily benchmark",
+      "text": "🏆 Easily benchmark"
+    },
+    {
+      "self_ref": "#/texts/159",
+      "parent": {
+        "$ref": "#/groups/52"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "ANY",
+      "text": "ANY",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/160",
+      "parent": {
+        "$ref": "#/groups/52"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "LLM on popular LLM benchmarks in",
+      "text": "LLM on popular LLM benchmarks in"
+    },
+    {
+      "self_ref": "#/texts/161",
+      "parent": {
+        "$ref": "#/groups/52"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "under 10 lines of code.",
+      "text": "under 10 lines of code.",
+      "hyperlink": "https://deepeval.com/docs/benchmarks-introduction?utm_source=GitHub"
+    },
+    {
+      "self_ref": "#/texts/162",
+      "parent": {
+        "$ref": "#/groups/52"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", including MMLU, HellaSwag, DROP, BIG-Bench Hard, TruthfulQA, HumanEval, GSM8K.",
+      "text": ", including MMLU, HellaSwag, DROP, BIG-Bench Hard, TruthfulQA, HumanEval, GSM8K."
+    },
+    {
+      "self_ref": "#/texts/163",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/53"
+        },
+        {
+          "$ref": "#/texts/167"
+        },
+        {
+          "$ref": "#/texts/195"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "🔌 Integrations",
+      "text": "🔌 Integrations"
+    },
+    {
+      "self_ref": "#/texts/164",
+      "parent": {
+        "$ref": "#/groups/53"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "DeepEval plugs into any LLM framework - OpenAI Agents, LangChain, CrewAI, and more. To scale evals across your team - or let anyone run them without writing code -",
+      "text": "DeepEval plugs into any LLM framework - OpenAI Agents, LangChain, CrewAI, and more. To scale evals across your team - or let anyone run them without writing code -"
+    },
+    {
+      "self_ref": "#/texts/165",
+      "parent": {
+        "$ref": "#/groups/53"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Confident AI",
+      "text": "Confident AI",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/166",
+      "parent": {
+        "$ref": "#/groups/53"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "gives you a native platform integration.",
+      "text": "gives you a native platform integration."
+    },
+    {
+      "self_ref": "#/texts/167",
+      "parent": {
+        "$ref": "#/texts/163"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/54"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Frameworks",
+      "text": "Frameworks",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/168",
+      "parent": {
+        "$ref": "#/groups/54"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/55"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/169",
+      "parent": {
+        "$ref": "#/groups/55"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "OpenAI",
+      "text": "OpenAI",
+      "hyperlink": "https://www.deepeval.com/integrations/frameworks/openai?utm_source=GitHub"
+    },
+    {
+      "self_ref": "#/texts/170",
+      "parent": {
+        "$ref": "#/groups/55"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate and trace OpenAI applications via a client wrapper",
+      "text": "- evaluate and trace OpenAI applications via a client wrapper"
+    },
+    {
+      "self_ref": "#/texts/171",
+      "parent": {
+        "$ref": "#/groups/54"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/56"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/172",
+      "parent": {
+        "$ref": "#/groups/56"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "OpenAI Agents",
+      "text": "OpenAI Agents",
+      "hyperlink": "https://www.deepeval.com/integrations/frameworks/openai-agents?utm_source=GitHub"
+    },
+    {
+      "self_ref": "#/texts/173",
+      "parent": {
+        "$ref": "#/groups/56"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate OpenAI Agents end-to-end in under a minute",
+      "text": "- evaluate OpenAI Agents end-to-end in under a minute"
+    },
+    {
+      "self_ref": "#/texts/174",
+      "parent": {
+        "$ref": "#/groups/54"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/57"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/175",
+      "parent": {
+        "$ref": "#/groups/57"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "LangChain",
+      "text": "LangChain",
+      "hyperlink": "https://www.deepeval.com/integrations/frameworks/langchain?utm_source=GitHub"
+    },
+    {
+      "self_ref": "#/texts/176",
+      "parent": {
+        "$ref": "#/groups/57"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate LangChain applications with a callback handler",
+      "text": "- evaluate LangChain applications with a callback handler"
+    },
+    {
+      "self_ref": "#/texts/177",
+      "parent": {
+        "$ref": "#/groups/54"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/58"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/178",
+      "parent": {
+        "$ref": "#/groups/58"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "LangGraph",
+      "text": "LangGraph",
+      "hyperlink": "https://www.deepeval.com/integrations/frameworks/langgraph?utm_source=GitHub"
+    },
+    {
+      "self_ref": "#/texts/179",
+      "parent": {
+        "$ref": "#/groups/58"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate LangGraph agents with a callback handler",
+      "text": "- evaluate LangGraph agents with a callback handler"
+    },
+    {
+      "self_ref": "#/texts/180",
+      "parent": {
+        "$ref": "#/groups/54"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/59"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/181",
+      "parent": {
+        "$ref": "#/groups/59"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pydantic AI",
+      "text": "Pydantic AI",
+      "hyperlink": "https://www.deepeval.com/integrations/frameworks/pydanticai?utm_source=GitHub"
+    },
+    {
+      "self_ref": "#/texts/182",
+      "parent": {
+        "$ref": "#/groups/59"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate Pydantic AI agents with type-safe validation",
+      "text": "- evaluate Pydantic AI agents with type-safe validation"
+    },
+    {
+      "self_ref": "#/texts/183",
+      "parent": {
+        "$ref": "#/groups/54"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/60"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/184",
+      "parent": {
+        "$ref": "#/groups/60"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "CrewAI",
+      "text": "CrewAI",
+      "hyperlink": "https://www.deepeval.com/integrations/frameworks/crewai?utm_source=GitHub"
+    },
+    {
+      "self_ref": "#/texts/185",
+      "parent": {
+        "$ref": "#/groups/60"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate CrewAI multi-agent systems",
+      "text": "- evaluate CrewAI multi-agent systems"
+    },
+    {
+      "self_ref": "#/texts/186",
+      "parent": {
+        "$ref": "#/groups/54"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/61"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/187",
+      "parent": {
+        "$ref": "#/groups/61"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Anthropic",
+      "text": "Anthropic",
+      "hyperlink": "https://www.deepeval.com/integrations/frameworks/anthropic?utm_source=GitHub"
+    },
+    {
+      "self_ref": "#/texts/188",
+      "parent": {
+        "$ref": "#/groups/61"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate and trace Claude applications via a client wrapper",
+      "text": "- evaluate and trace Claude applications via a client wrapper"
+    },
+    {
+      "self_ref": "#/texts/189",
+      "parent": {
+        "$ref": "#/groups/54"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/62"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/190",
+      "parent": {
+        "$ref": "#/groups/62"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "AWS AgentCore",
+      "text": "AWS AgentCore",
+      "hyperlink": "https://www.deepeval.com/integrations/frameworks/agentcore?utm_source=GitHub"
+    },
+    {
+      "self_ref": "#/texts/191",
+      "parent": {
+        "$ref": "#/groups/62"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate agents deployed on Amazon AgentCore",
+      "text": "- evaluate agents deployed on Amazon AgentCore"
+    },
+    {
+      "self_ref": "#/texts/192",
+      "parent": {
+        "$ref": "#/groups/54"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/63"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/193",
+      "parent": {
+        "$ref": "#/groups/63"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "LlamaIndex",
+      "text": "LlamaIndex",
+      "hyperlink": "https://www.deepeval.com/integrations/frameworks/llamaindex?utm_source=GitHub"
+    },
+    {
+      "self_ref": "#/texts/194",
+      "parent": {
+        "$ref": "#/groups/63"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "- evaluate RAG applications built with LlamaIndex",
+      "text": "- evaluate RAG applications built with LlamaIndex"
+    },
+    {
+      "self_ref": "#/texts/195",
+      "parent": {
+        "$ref": "#/texts/163"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/64"
+        },
+        {
+          "$ref": "#/groups/65"
+        },
+        {
+          "$ref": "#/pictures/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "☁️ Platform + Ecosystem",
+      "text": "☁️ Platform + Ecosystem",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/196",
+      "parent": {
+        "$ref": "#/groups/64"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Confident AI",
+      "text": "Confident AI",
+      "hyperlink": "https://www.confident-ai.com/?utm_source=deepeval&utm_medium=github&utm_content=platform_section"
+    },
+    {
+      "self_ref": "#/texts/197",
+      "parent": {
+        "$ref": "#/groups/64"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "is an all-in-one platform that integrates natively with DeepEval.",
+      "text": "is an all-in-one platform that integrates natively with DeepEval."
+    },
+    {
+      "self_ref": "#/texts/198",
+      "parent": {
+        "$ref": "#/groups/65"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "Manage datasets, trace LLM applications, run evaluations, and monitor responses in production — all from one platform.",
+      "text": "Manage datasets, trace LLM applications, run evaluations, and monitor responses in production - all from one platform.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/199",
+      "parent": {
+        "$ref": "#/groups/65"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/66"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/200",
+      "parent": {
+        "$ref": "#/groups/66"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Don't need a UI? Confident AI can also be your data persistent layer - run evals, pull datasets, and inspect traces straight from claude code, cursor, via Confident AI's",
+      "text": "Don't need a UI? Confident AI can also be your data persistent layer - run evals, pull datasets, and inspect traces straight from claude code, cursor, via Confident AI's"
+    },
+    {
+      "self_ref": "#/texts/201",
+      "parent": {
+        "$ref": "#/groups/66"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "MCP server",
+      "text": "MCP server",
+      "hyperlink": "https://github.com/confident-ai/confident-mcp-server"
+    },
+    {
+      "self_ref": "#/texts/202",
+      "parent": {
+        "$ref": "#/groups/66"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/203",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [],
+      "orig": "Confident AI MCP Architecture",
+      "text": "Confident AI MCP Architecture"
+    },
+    {
+      "self_ref": "#/texts/204",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/67"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "🤖 Vibe-Coder QuickStart",
+      "text": "🤖 Vibe-Coder QuickStart"
+    },
+    {
+      "self_ref": "#/texts/205",
+      "parent": {
+        "$ref": "#/groups/67"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Want your coding agent to add evals and fix failures for you? Install the DeepEval skill, point it at your agent, RAG pipeline, or chatbot, and ask it to generate a dataset, write the eval suite, run",
+      "text": "Want your coding agent to add evals and fix failures for you? Install the DeepEval skill, point it at your agent, RAG pipeline, or chatbot, and ask it to generate a dataset, write the eval suite, run"
+    },
+    {
+      "self_ref": "#/texts/206",
+      "parent": {
+        "$ref": "#/groups/67"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "deepeval test run",
+      "text": "deepeval test run",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/207",
+      "parent": {
+        "$ref": "#/groups/67"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", and iterate on the failing metrics.",
+      "text": ", and iterate on the failing metrics."
+    },
+    {
+      "self_ref": "#/texts/208",
+      "parent": {
+        "$ref": "#/groups/67"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Start with the 5-minute vibe-coder guide",
+      "text": "Start with the 5-minute vibe-coder guide",
+      "hyperlink": "https://deepeval.com/docs/vibe-coder-quickstart?utm_source=GitHub"
+    },
+    {
+      "self_ref": "#/texts/209",
+      "parent": {
+        "$ref": "#/groups/67"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/210",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/211"
+        },
+        {
+          "$ref": "#/texts/212"
+        },
+        {
+          "$ref": "#/texts/217"
+        },
+        {
+          "$ref": "#/texts/226"
+        },
+        {
+          "$ref": "#/texts/277"
+        },
+        {
+          "$ref": "#/texts/307"
+        },
+        {
+          "$ref": "#/texts/310"
+        },
+        {
+          "$ref": "#/texts/314"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "🚀 Human QuickStart",
+      "text": "🚀 Human QuickStart"
+    },
+    {
+      "self_ref": "#/texts/211",
+      "parent": {
+        "$ref": "#/texts/210"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Let's pretend your LLM application is a RAG based customer support chatbot; here's how DeepEval can help test what you've built.",
+      "text": "Let's pretend your LLM application is a RAG based customer support chatbot; here's how DeepEval can help test what you've built."
+    },
+    {
+      "self_ref": "#/texts/212",
+      "parent": {
+        "$ref": "#/texts/210"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/68"
+        },
+        {
+          "$ref": "#/texts/216"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Installation",
+      "text": "Installation",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/213",
+      "parent": {
+        "$ref": "#/groups/68"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Deepeval works with",
+      "text": "Deepeval works with"
+    },
+    {
+      "self_ref": "#/texts/214",
+      "parent": {
+        "$ref": "#/groups/68"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Python>=3.9+",
+      "text": "Python>=3.9+",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/215",
+      "parent": {
+        "$ref": "#/groups/68"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/216",
+      "parent": {
+        "$ref": "#/texts/212"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "pip install -U deepeval",
+      "text": "pip install -U deepeval",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/217",
+      "parent": {
+        "$ref": "#/texts/210"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/69"
+        },
+        {
+          "$ref": "#/texts/221"
+        },
+        {
+          "$ref": "#/texts/222"
+        },
+        {
+          "$ref": "#/groups/70"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Create an account (highly recommended)",
+      "text": "Create an account (highly recommended)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/218",
+      "parent": {
+        "$ref": "#/groups/69"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Using the",
+      "text": "Using the"
+    },
+    {
+      "self_ref": "#/texts/219",
+      "parent": {
+        "$ref": "#/groups/69"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "deepeval",
+      "text": "deepeval",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/220",
+      "parent": {
+        "$ref": "#/groups/69"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "platform will allow you to generate sharable testing reports on the cloud. It is free, takes no additional code to setup, and we highly recommend giving it a try.",
+      "text": "platform will allow you to generate sharable testing reports on the cloud. It is free, takes no additional code to setup, and we highly recommend giving it a try."
+    },
+    {
+      "self_ref": "#/texts/221",
+      "parent": {
+        "$ref": "#/texts/217"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "To login, run:",
+      "text": "To login, run:"
+    },
+    {
+      "self_ref": "#/texts/222",
+      "parent": {
+        "$ref": "#/texts/217"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "deepeval login",
+      "text": "deepeval login",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/223",
+      "parent": {
+        "$ref": "#/groups/70"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Follow the instructions in the CLI to create an account, copy your API key, and paste it into the CLI. All test cases will automatically be logged (find more information on data privacy",
+      "text": "Follow the instructions in the CLI to create an account, copy your API key, and paste it into the CLI. All test cases will automatically be logged (find more information on data privacy"
+    },
+    {
+      "self_ref": "#/texts/224",
+      "parent": {
+        "$ref": "#/groups/70"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "here",
+      "text": "here",
+      "hyperlink": "https://deepeval.com/docs/data-privacy?utm_source=GitHub"
+    },
+    {
+      "self_ref": "#/texts/225",
+      "parent": {
+        "$ref": "#/groups/70"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ").",
+      "text": ")."
+    },
+    {
+      "self_ref": "#/texts/226",
+      "parent": {
+        "$ref": "#/texts/210"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/227"
+        },
+        {
+          "$ref": "#/texts/228"
+        },
+        {
+          "$ref": "#/groups/71"
+        },
+        {
+          "$ref": "#/texts/234"
+        },
+        {
+          "$ref": "#/groups/72"
+        },
+        {
+          "$ref": "#/texts/240"
+        },
+        {
+          "$ref": "#/groups/73"
+        },
+        {
+          "$ref": "#/texts/244"
+        },
+        {
+          "$ref": "#/groups/74"
+        },
+        {
+          "$ref": "#/groups/75"
+        },
+        {
+          "$ref": "#/groups/80"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Write your first test case",
+      "text": "Write your first test case",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/227",
+      "parent": {
+        "$ref": "#/texts/226"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Create a test file:",
+      "text": "Create a test file:"
+    },
+    {
+      "self_ref": "#/texts/228",
+      "parent": {
+        "$ref": "#/texts/226"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "touch test_chatbot.py",
+      "text": "touch test_chatbot.py",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/229",
+      "parent": {
+        "$ref": "#/groups/71"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Open",
+      "text": "Open"
+    },
+    {
+      "self_ref": "#/texts/230",
+      "parent": {
+        "$ref": "#/groups/71"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "test_chatbot.py",
+      "text": "test_chatbot.py",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/231",
+      "parent": {
+        "$ref": "#/groups/71"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "and write your first test case to run an",
+      "text": "and write your first test case to run an"
+    },
+    {
+      "self_ref": "#/texts/232",
+      "parent": {
+        "$ref": "#/groups/71"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "end-to-end",
+      "text": "end-to-end",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/233",
+      "parent": {
+        "$ref": "#/groups/71"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "evaluation using DeepEval, which treats your LLM app as a black-box:",
+      "text": "evaluation using DeepEval, which treats your LLM app as a black-box:"
+    },
+    {
+      "self_ref": "#/texts/234",
+      "parent": {
+        "$ref": "#/texts/226"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "import pytest\nfrom deepeval import assert_test\nfrom deepeval.metrics import GEval\nfrom deepeval.test_case import LLMTestCase, SingleTurnParams\n\ndef test_case():\n    correctness_metric = GEval(\n        name=\"Correctness\",\n        criteria=\"Determine if the 'actual output' is correct based on the 'expected output'.\",\n        evaluation_params=[SingleTurnParams.ACTUAL_OUTPUT, SingleTurnParams.EXPECTED_OUTPUT],\n        threshold=0.5\n    )\n    test_case = LLMTestCase(\n        input=\"What if these shoes don't fit?\",\n        # Replace this with the actual output from your LLM application\n        actual_output=\"You have 30 days to get a full refund at no extra cost.\",\n        expected_output=\"We offer a 30-day full refund at no extra costs.\",\n        retrieval_context=[\"All customers are eligible for a 30 day full refund at no extra costs.\"]\n    )\n    assert_test(test_case, [correctness_metric])",
+      "text": "import pytest\nfrom deepeval import assert_test\nfrom deepeval.metrics import GEval\nfrom deepeval.test_case import LLMTestCase, SingleTurnParams\n\ndef test_case():\n    correctness_metric = GEval(\n        name=\"Correctness\",\n        criteria=\"Determine if the 'actual output' is correct based on the 'expected output'.\",\n        evaluation_params=[SingleTurnParams.ACTUAL_OUTPUT, SingleTurnParams.EXPECTED_OUTPUT],\n        threshold=0.5\n    )\n    test_case = LLMTestCase(\n        input=\"What if these shoes don't fit?\",\n        # Replace this with the actual output from your LLM application\n        actual_output=\"You have 30 days to get a full refund at no extra cost.\",\n        expected_output=\"We offer a 30-day full refund at no extra costs.\",\n        retrieval_context=[\"All customers are eligible for a 30 day full refund at no extra costs.\"]\n    )\n    assert_test(test_case, [correctness_metric])",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/235",
+      "parent": {
+        "$ref": "#/groups/72"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Set your",
+      "text": "Set your"
+    },
+    {
+      "self_ref": "#/texts/236",
+      "parent": {
+        "$ref": "#/groups/72"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "OPENAI_API_KEY",
+      "text": "OPENAI_API_KEY",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/237",
+      "parent": {
+        "$ref": "#/groups/72"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "as an environment variable (you can also evaluate using your own custom model, for more details visit",
+      "text": "as an environment variable (you can also evaluate using your own custom model, for more details visit"
+    },
+    {
+      "self_ref": "#/texts/238",
+      "parent": {
+        "$ref": "#/groups/72"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "this part of our docs",
+      "text": "this part of our docs",
+      "hyperlink": "https://deepeval.com/docs/metrics-introduction#using-a-custom-llm?utm_source=GitHub"
+    },
+    {
+      "self_ref": "#/texts/239",
+      "parent": {
+        "$ref": "#/groups/72"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "):",
+      "text": "):"
+    },
+    {
+      "self_ref": "#/texts/240",
+      "parent": {
+        "$ref": "#/texts/226"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "export OPENAI_API_KEY=\"...\"",
+      "text": "export OPENAI_API_KEY=\"...\"",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/241",
+      "parent": {
+        "$ref": "#/groups/73"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "And finally, run",
+      "text": "And finally, run"
+    },
+    {
+      "self_ref": "#/texts/242",
+      "parent": {
+        "$ref": "#/groups/73"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "test_chatbot.py",
+      "text": "test_chatbot.py",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/243",
+      "parent": {
+        "$ref": "#/groups/73"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "in the CLI:",
+      "text": "in the CLI:"
+    },
+    {
+      "self_ref": "#/texts/244",
+      "parent": {
+        "$ref": "#/texts/226"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "deepeval test run test_chatbot.py",
+      "text": "deepeval test run test_chatbot.py",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/245",
+      "parent": {
+        "$ref": "#/groups/74"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Congratulations! Your test case should have passed ✅",
+      "text": "Congratulations! Your test case should have passed ✅",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/246",
+      "parent": {
+        "$ref": "#/groups/74"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Let's break down what happened.",
+      "text": "Let's break down what happened."
+    },
+    {
+      "self_ref": "#/texts/247",
+      "parent": {
+        "$ref": "#/groups/75"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/76"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/248",
+      "parent": {
+        "$ref": "#/groups/76"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The variable",
+      "text": "The variable"
+    },
+    {
+      "self_ref": "#/texts/249",
+      "parent": {
+        "$ref": "#/groups/76"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "input",
+      "text": "input",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/250",
+      "parent": {
+        "$ref": "#/groups/76"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "mimics a user input, and",
+      "text": "mimics a user input, and"
+    },
+    {
+      "self_ref": "#/texts/251",
+      "parent": {
+        "$ref": "#/groups/76"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "actual_output",
+      "text": "actual_output",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/252",
+      "parent": {
+        "$ref": "#/groups/76"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "is a placeholder for what your application's supposed to output based on this input.",
+      "text": "is a placeholder for what your application's supposed to output based on this input."
+    },
+    {
+      "self_ref": "#/texts/253",
+      "parent": {
+        "$ref": "#/groups/75"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/77"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/254",
+      "parent": {
+        "$ref": "#/groups/77"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "The variable",
+      "text": "The variable"
+    },
+    {
+      "self_ref": "#/texts/255",
+      "parent": {
+        "$ref": "#/groups/77"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "expected_output",
+      "text": "expected_output",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/256",
+      "parent": {
+        "$ref": "#/groups/77"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "represents the ideal answer for a given",
+      "text": "represents the ideal answer for a given"
+    },
+    {
+      "self_ref": "#/texts/257",
+      "parent": {
+        "$ref": "#/groups/77"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "input",
+      "text": "input",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/258",
+      "parent": {
+        "$ref": "#/groups/77"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ", and",
+      "text": ", and"
+    },
+    {
+      "self_ref": "#/texts/259",
+      "parent": {
+        "$ref": "#/groups/77"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "GEval",
+      "text": "GEval",
+      "hyperlink": "https://deepeval.com/docs/metrics-llm-evals",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/260",
+      "parent": {
+        "$ref": "#/groups/77"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "is a research-backed metric provided by",
+      "text": "is a research-backed metric provided by"
+    },
+    {
+      "self_ref": "#/texts/261",
+      "parent": {
+        "$ref": "#/groups/77"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "deepeval",
+      "text": "deepeval",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/262",
+      "parent": {
+        "$ref": "#/groups/77"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "for you to evaluate your LLM outputs on any custom with human-like accuracy.",
+      "text": "for you to evaluate your LLM outputs on any custom with human-like accuracy."
+    },
+    {
+      "self_ref": "#/texts/263",
+      "parent": {
+        "$ref": "#/groups/75"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/78"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/264",
+      "parent": {
+        "$ref": "#/groups/78"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "In this example, the metric",
+      "text": "In this example, the metric"
+    },
+    {
+      "self_ref": "#/texts/265",
+      "parent": {
+        "$ref": "#/groups/78"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "criteria",
+      "text": "criteria",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/266",
+      "parent": {
+        "$ref": "#/groups/78"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "is correctness of the",
+      "text": "is correctness of the"
+    },
+    {
+      "self_ref": "#/texts/267",
+      "parent": {
+        "$ref": "#/groups/78"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "actual_output",
+      "text": "actual_output",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/268",
+      "parent": {
+        "$ref": "#/groups/78"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "based on the provided",
+      "text": "based on the provided"
+    },
+    {
+      "self_ref": "#/texts/269",
+      "parent": {
+        "$ref": "#/groups/78"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "expected_output",
+      "text": "expected_output",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/270",
+      "parent": {
+        "$ref": "#/groups/78"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/271",
+      "parent": {
+        "$ref": "#/groups/75"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/79"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/272",
+      "parent": {
+        "$ref": "#/groups/79"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "All metric scores range from 0 - 1, which the",
+      "text": "All metric scores range from 0 - 1, which the"
+    },
+    {
+      "self_ref": "#/texts/273",
+      "parent": {
+        "$ref": "#/groups/79"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "threshold=0.5",
+      "text": "threshold=0.5",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/274",
+      "parent": {
+        "$ref": "#/groups/79"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "threshold ultimately determines if your test has passed or not.",
+      "text": "threshold ultimately determines if your test has passed or not."
+    },
+    {
+      "self_ref": "#/texts/275",
+      "parent": {
+        "$ref": "#/groups/80"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Read our documentation",
+      "text": "Read our documentation",
+      "hyperlink": "https://deepeval.com/docs/getting-started?utm_source=GitHub"
+    },
+    {
+      "self_ref": "#/texts/276",
+      "parent": {
+        "$ref": "#/groups/80"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "for more information!",
+      "text": "for more information!"
+    },
+    {
+      "self_ref": "#/texts/277",
+      "parent": {
+        "$ref": "#/texts/210"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/81"
+        },
+        {
+          "$ref": "#/texts/281"
+        },
+        {
+          "$ref": "#/texts/282"
+        },
+        {
+          "$ref": "#/groups/82"
+        },
+        {
+          "$ref": "#/groups/83"
+        },
+        {
+          "$ref": "#/groups/84"
+        },
+        {
+          "$ref": "#/groups/85"
+        },
+        {
+          "$ref": "#/groups/86"
+        },
+        {
+          "$ref": "#/groups/87"
+        },
+        {
+          "$ref": "#/groups/88"
+        },
+        {
+          "$ref": "#/groups/89"
+        },
+        {
+          "$ref": "#/groups/90"
+        },
+        {
+          "$ref": "#/groups/91"
+        },
+        {
+          "$ref": "#/groups/92"
+        },
+        {
+          "$ref": "#/groups/93"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Evals With Full Traceability",
+      "text": "Evals With Full Traceability",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/278",
+      "parent": {
+        "$ref": "#/groups/81"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Use",
+      "text": "Use"
+    },
+    {
+      "self_ref": "#/texts/279",
+      "parent": {
+        "$ref": "#/groups/81"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "evals_iterator()",
+      "text": "evals_iterator()",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/280",
+      "parent": {
+        "$ref": "#/groups/81"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "to run the same dataset through your app, whether you instrument it manually or through one of DeepEval's framework integrations.",
+      "text": "to run the same dataset through your app, whether you instrument it manually or through one of DeepEval's framework integrations."
+    },
+    {
+      "self_ref": "#/texts/281",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Here's an example of manual instrumentation:",
+      "text": "Here's an example of manual instrumentation:"
+    },
+    {
+      "self_ref": "#/texts/282",
+      "parent": {
+        "$ref": "#/texts/277"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "from deepeval.tracing import observe, update_current_span\nfrom deepeval.test_case import LLMTestCase\nfrom deepeval.metrics import TaskCompletionMetric\n\n@observe()\ndef inner_component(input: str):\n    output = \"result\"\n    update_current_span(test_case=LLMTestCase(input=input, actual_output=output))\n    return output\n\n@observe()\ndef app(input: str):\n    return inner_component(input)\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(metrics=[TaskCompletionMetric()]):\n    app(golden.input)",
+      "text": "from deepeval.tracing import observe, update_current_span\nfrom deepeval.test_case import LLMTestCase\nfrom deepeval.metrics import TaskCompletionMetric\n\n@observe()\ndef inner_component(input: str):\n    output = \"result\"\n    update_current_span(test_case=LLMTestCase(input=input, actual_output=output))\n    return output\n\n@observe()\ndef app(input: str):\n    return inner_component(input)\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(metrics=[TaskCompletionMetric()]):\n    app(golden.input)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/283",
+      "parent": {
+        "$ref": "#/groups/82"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "OpenAI",
+      "text": "OpenAI",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/284",
+      "parent": {
+        "$ref": "#/groups/82"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "from deepeval.openai import OpenAI\nfrom deepeval.tracing import trace\nfrom deepeval.metrics import TaskCompletionMetric\n\nclient = OpenAI()\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator():\n    with trace(metrics=[TaskCompletionMetric()]):\n        client.chat.completions.create(\n            model=\"gpt-4o\",\n            messages=[{\"role\": \"user\", \"content\": golden.input}],\n        )",
+      "text": "from deepeval.openai import OpenAI\nfrom deepeval.tracing import trace\nfrom deepeval.metrics import TaskCompletionMetric\n\nclient = OpenAI()\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator():\n    with trace(metrics=[TaskCompletionMetric()]):\n        client.chat.completions.create(\n            model=\"gpt-4o\",\n            messages=[{\"role\": \"user\", \"content\": golden.input}],\n        )",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/285",
+      "parent": {
+        "$ref": "#/groups/83"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "OpenAI Agents",
+      "text": "OpenAI Agents",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/286",
+      "parent": {
+        "$ref": "#/groups/83"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "from agents import Runner\nfrom deepeval.metrics import TaskCompletionMetric\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(metrics=[TaskCompletionMetric()]):\n    Runner.run_sync(agent, golden.input)",
+      "text": "from agents import Runner\nfrom deepeval.metrics import TaskCompletionMetric\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(metrics=[TaskCompletionMetric()]):\n    Runner.run_sync(agent, golden.input)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/287",
+      "parent": {
+        "$ref": "#/groups/84"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Anthropic",
+      "text": "Anthropic",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/288",
+      "parent": {
+        "$ref": "#/groups/84"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "from deepeval.anthropic import Anthropic\nfrom deepeval.tracing import trace\nfrom deepeval.metrics import TaskCompletionMetric\n\nclient = Anthropic()\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator():\n    with trace(metrics=[TaskCompletionMetric()]):\n        client.messages.create(\n            model=\"claude-sonnet-4-5\",\n            max_tokens=1024,\n            messages=[{\"role\": \"user\", \"content\": golden.input}],\n        )",
+      "text": "from deepeval.anthropic import Anthropic\nfrom deepeval.tracing import trace\nfrom deepeval.metrics import TaskCompletionMetric\n\nclient = Anthropic()\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator():\n    with trace(metrics=[TaskCompletionMetric()]):\n        client.messages.create(\n            model=\"claude-sonnet-4-5\",\n            max_tokens=1024,\n            messages=[{\"role\": \"user\", \"content\": golden.input}],\n        )",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/289",
+      "parent": {
+        "$ref": "#/groups/85"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "LangChain",
+      "text": "LangChain",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/290",
+      "parent": {
+        "$ref": "#/groups/85"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "from deepeval.integrations.langchain import CallbackHandler\nfrom deepeval.metrics import TaskCompletionMetric\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator():\n    llm.invoke(\n        golden.input,\n        config={\"callbacks\": [CallbackHandler(metrics=[TaskCompletionMetric()])]},\n    )",
+      "text": "from deepeval.integrations.langchain import CallbackHandler\nfrom deepeval.metrics import TaskCompletionMetric\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator():\n    llm.invoke(\n        golden.input,\n        config={\"callbacks\": [CallbackHandler(metrics=[TaskCompletionMetric()])]},\n    )",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/291",
+      "parent": {
+        "$ref": "#/groups/86"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "LangGraph",
+      "text": "LangGraph",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/292",
+      "parent": {
+        "$ref": "#/groups/86"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "from deepeval.integrations.langchain import CallbackHandler\nfrom deepeval.metrics import TaskCompletionMetric\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator():\n    agent.invoke(\n        {\"messages\": [{\"role\": \"user\", \"content\": golden.input}]},\n        config={\"callbacks\": [CallbackHandler(metrics=[TaskCompletionMetric()])]},\n    )",
+      "text": "from deepeval.integrations.langchain import CallbackHandler\nfrom deepeval.metrics import TaskCompletionMetric\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator():\n    agent.invoke(\n        {\"messages\": [{\"role\": \"user\", \"content\": golden.input}]},\n        config={\"callbacks\": [CallbackHandler(metrics=[TaskCompletionMetric()])]},\n    )",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/293",
+      "parent": {
+        "$ref": "#/groups/87"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Pydantic AI",
+      "text": "Pydantic AI",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/294",
+      "parent": {
+        "$ref": "#/groups/87"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "from deepeval.metrics import TaskCompletionMetric\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(metrics=[TaskCompletionMetric()]):\n    agent.run_sync(golden.input)",
+      "text": "from deepeval.metrics import TaskCompletionMetric\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(metrics=[TaskCompletionMetric()]):\n    agent.run_sync(golden.input)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/295",
+      "parent": {
+        "$ref": "#/groups/88"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "CrewAI",
+      "text": "CrewAI",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/296",
+      "parent": {
+        "$ref": "#/groups/88"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "from deepeval.integrations.crewai import instrument_crewai\nfrom deepeval.metrics import TaskCompletionMetric\n\ninstrument_crewai()\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(metrics=[TaskCompletionMetric()]):\n    crew.kickoff({\"input\": golden.input})",
+      "text": "from deepeval.integrations.crewai import instrument_crewai\nfrom deepeval.metrics import TaskCompletionMetric\n\ninstrument_crewai()\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(metrics=[TaskCompletionMetric()]):\n    crew.kickoff({\"input\": golden.input})",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/297",
+      "parent": {
+        "$ref": "#/groups/89"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "AWS AgentCore",
+      "text": "AWS AgentCore",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/298",
+      "parent": {
+        "$ref": "#/groups/89"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "from deepeval.integrations.agentcore import instrument_agentcore\nfrom deepeval.metrics import TaskCompletionMetric\n\ninstrument_agentcore()\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(metrics=[TaskCompletionMetric()]):\n    invoke({\"prompt\": golden.input})",
+      "text": "from deepeval.integrations.agentcore import instrument_agentcore\nfrom deepeval.metrics import TaskCompletionMetric\n\ninstrument_agentcore()\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(metrics=[TaskCompletionMetric()]):\n    invoke({\"prompt\": golden.input})",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/299",
+      "parent": {
+        "$ref": "#/groups/90"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "LlamaIndex",
+      "text": "LlamaIndex",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/300",
+      "parent": {
+        "$ref": "#/groups/90"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "import asyncio\nfrom deepeval.evaluate.configs import AsyncConfig\nfrom deepeval.metrics import TaskCompletionMetric\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(\n    async_config=AsyncConfig(run_async=True),\n    metrics=[TaskCompletionMetric()],\n):\n    task = asyncio.create_task(agent.run(golden.input))\n    dataset.evaluate(task)",
+      "text": "import asyncio\nfrom deepeval.evaluate.configs import AsyncConfig\nfrom deepeval.metrics import TaskCompletionMetric\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(\n    async_config=AsyncConfig(run_async=True),\n    metrics=[TaskCompletionMetric()],\n):\n    task = asyncio.create_task(agent.run(golden.input))\n    dataset.evaluate(task)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/301",
+      "parent": {
+        "$ref": "#/groups/91"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Google ADK",
+      "text": "Google ADK",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/302",
+      "parent": {
+        "$ref": "#/groups/91"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "import asyncio\nfrom deepeval.evaluate.configs import AsyncConfig\nfrom deepeval.integrations.google_adk import instrument_google_adk\nfrom deepeval.metrics import TaskCompletionMetric\n\ninstrument_google_adk()\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(\n    async_config=AsyncConfig(run_async=True),\n    metrics=[TaskCompletionMetric()],\n):\n    task = asyncio.create_task(run_agent(golden.input))\n    dataset.evaluate(task)",
+      "text": "import asyncio\nfrom deepeval.evaluate.configs import AsyncConfig\nfrom deepeval.integrations.google_adk import instrument_google_adk\nfrom deepeval.metrics import TaskCompletionMetric\n\ninstrument_google_adk()\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(\n    async_config=AsyncConfig(run_async=True),\n    metrics=[TaskCompletionMetric()],\n):\n    task = asyncio.create_task(run_agent(golden.input))\n    dataset.evaluate(task)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/303",
+      "parent": {
+        "$ref": "#/groups/92"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Strands",
+      "text": "Strands",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/304",
+      "parent": {
+        "$ref": "#/groups/92"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "from deepeval.integrations.strands import instrument_strands\nfrom deepeval.metrics import TaskCompletionMetric\n\ninstrument_strands()\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(metrics=[TaskCompletionMetric()]):\n    agent(golden.input)",
+      "text": "from deepeval.integrations.strands import instrument_strands\nfrom deepeval.metrics import TaskCompletionMetric\n\ninstrument_strands()\n\n# This metric will be run on your trace end to end.\nfor golden in dataset.evals_iterator(metrics=[TaskCompletionMetric()]):\n    agent(golden.input)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/305",
+      "parent": {
+        "$ref": "#/groups/93"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Learn more about component-level evaluations",
+      "text": "Learn more about component-level evaluations"
+    },
+    {
+      "self_ref": "#/texts/306",
+      "parent": {
+        "$ref": "#/groups/93"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "here.",
+      "text": "here.",
+      "hyperlink": "https://www.deepeval.com/docs/evaluation-component-level-llm-evals"
+    },
+    {
+      "self_ref": "#/texts/307",
+      "parent": {
+        "$ref": "#/texts/210"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/308"
+        },
+        {
+          "$ref": "#/texts/309"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Evaluate Without Pytest Integration",
+      "text": "Evaluate Without Pytest Integration",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/308",
+      "parent": {
+        "$ref": "#/texts/307"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Alternatively, you can evaluate without Pytest, which is more suited for a notebook environment.",
+      "text": "Alternatively, you can evaluate without Pytest, which is more suited for a notebook environment."
+    },
+    {
+      "self_ref": "#/texts/309",
+      "parent": {
+        "$ref": "#/texts/307"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "from deepeval import evaluate\nfrom deepeval.metrics import AnswerRelevancyMetric\nfrom deepeval.test_case import LLMTestCase\n\nanswer_relevancy_metric = AnswerRelevancyMetric(threshold=0.7)\ntest_case = LLMTestCase(\n    input=\"What if these shoes don't fit?\",\n    # Replace this with the actual output from your LLM application\n    actual_output=\"We offer a 30-day full refund at no extra costs.\",\n    retrieval_context=[\"All customers are eligible for a 30 day full refund at no extra costs.\"]\n)\nevaluate([test_case], [answer_relevancy_metric])",
+      "text": "from deepeval import evaluate\nfrom deepeval.metrics import AnswerRelevancyMetric\nfrom deepeval.test_case import LLMTestCase\n\nanswer_relevancy_metric = AnswerRelevancyMetric(threshold=0.7)\ntest_case = LLMTestCase(\n    input=\"What if these shoes don't fit?\",\n    # Replace this with the actual output from your LLM application\n    actual_output=\"We offer a 30-day full refund at no extra costs.\",\n    retrieval_context=[\"All customers are eligible for a 30 day full refund at no extra costs.\"]\n)\nevaluate([test_case], [answer_relevancy_metric])",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/310",
+      "parent": {
+        "$ref": "#/texts/210"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/311"
+        },
+        {
+          "$ref": "#/texts/312"
+        },
+        {
+          "$ref": "#/texts/313"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "Using Standalone Metrics",
+      "text": "Using Standalone Metrics",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/311",
+      "parent": {
+        "$ref": "#/texts/310"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "DeepEval is extremely modular, making it easy for anyone to use any of our metrics. Continuing from the previous example:",
+      "text": "DeepEval is extremely modular, making it easy for anyone to use any of our metrics. Continuing from the previous example:"
+    },
+    {
+      "self_ref": "#/texts/312",
+      "parent": {
+        "$ref": "#/texts/310"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "from deepeval.metrics import AnswerRelevancyMetric\nfrom deepeval.test_case import LLMTestCase\n\nanswer_relevancy_metric = AnswerRelevancyMetric(threshold=0.7)\ntest_case = LLMTestCase(\n    input=\"What if these shoes don't fit?\",\n    # Replace this with the actual output from your LLM application\n    actual_output=\"We offer a 30-day full refund at no extra costs.\",\n    retrieval_context=[\"All customers are eligible for a 30 day full refund at no extra costs.\"]\n)\n\nanswer_relevancy_metric.measure(test_case)\nprint(answer_relevancy_metric.score)\n# All metrics also offer an explanation\nprint(answer_relevancy_metric.reason)",
+      "text": "from deepeval.metrics import AnswerRelevancyMetric\nfrom deepeval.test_case import LLMTestCase\n\nanswer_relevancy_metric = AnswerRelevancyMetric(threshold=0.7)\ntest_case = LLMTestCase(\n    input=\"What if these shoes don't fit?\",\n    # Replace this with the actual output from your LLM application\n    actual_output=\"We offer a 30-day full refund at no extra costs.\",\n    retrieval_context=[\"All customers are eligible for a 30 day full refund at no extra costs.\"]\n)\n\nanswer_relevancy_metric.measure(test_case)\nprint(answer_relevancy_metric.score)\n# All metrics also offer an explanation\nprint(answer_relevancy_metric.reason)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "Python"
+    },
+    {
+      "self_ref": "#/texts/313",
+      "parent": {
+        "$ref": "#/texts/310"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Note that some metrics are for RAG pipelines, while others are for fine-tuning. Make sure to use our docs to pick the right one for your use case.",
+      "text": "Note that some metrics are for RAG pipelines, while others are for fine-tuning. Make sure to use our docs to pick the right one for your use case."
+    },
+    {
+      "self_ref": "#/texts/314",
+      "parent": {
+        "$ref": "#/texts/210"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/94"
+        },
+        {
+          "$ref": "#/texts/330"
+        }
+      ],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [],
+      "orig": "A Note on Env Variables (.env / .env.local)",
+      "text": "A Note on Env Variables (.env / .env.local)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/315",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "DeepEval auto-loads",
+      "text": "DeepEval auto-loads"
+    },
+    {
+      "self_ref": "#/texts/316",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": ".env.local",
+      "text": ".env.local",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/317",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "then",
+      "text": "then"
+    },
+    {
+      "self_ref": "#/texts/318",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": ".env",
+      "text": ".env",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/319",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "from the current working directory",
+      "text": "from the current working directory"
+    },
+    {
+      "self_ref": "#/texts/320",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "at import time",
+      "text": "at import time",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/321",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/322",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Precedence:",
+      "text": "Precedence:",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      }
+    },
+    {
+      "self_ref": "#/texts/323",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "process env ->",
+      "text": "process env ->"
+    },
+    {
+      "self_ref": "#/texts/324",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": ".env.local",
+      "text": ".env.local",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/325",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "->",
+      "text": "->"
+    },
+    {
+      "self_ref": "#/texts/326",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": ".env",
+      "text": ".env",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/327",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ". Opt out with",
+      "text": ". Opt out with"
+    },
+    {
+      "self_ref": "#/texts/328",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "DEEPEVAL_DISABLE_DOTENV=1",
+      "text": "DEEPEVAL_DISABLE_DOTENV=1",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/329",
+      "parent": {
+        "$ref": "#/groups/94"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/330",
+      "parent": {
+        "$ref": "#/texts/314"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "cp .env.example .env.local\n# then edit .env.local (ignored by git)",
+      "text": "cp .env.example .env.local\n# then edit .env.local (ignored by git)",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/331",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/95"
+        },
+        {
+          "$ref": "#/texts/334"
+        },
+        {
+          "$ref": "#/texts/335"
+        },
+        {
+          "$ref": "#/texts/336"
+        },
+        {
+          "$ref": "#/texts/337"
+        },
+        {
+          "$ref": "#/groups/96"
+        },
+        {
+          "$ref": "#/pictures/9"
+        },
+        {
+          "$ref": "#/groups/97"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "DeepEval With Confident AI",
+      "text": "DeepEval With Confident AI"
+    },
+    {
+      "self_ref": "#/texts/332",
+      "parent": {
+        "$ref": "#/groups/95"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Confident AI",
+      "text": "Confident AI",
+      "hyperlink": "https://www.confident-ai.com/?utm_source=deepeval&utm_medium=github&utm_content=cli_login_section"
+    },
+    {
+      "self_ref": "#/texts/333",
+      "parent": {
+        "$ref": "#/groups/95"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "is an all-in-one platform to manage datasets, trace LLM applications, and run evaluations in production. Log in from the CLI to get started:",
+      "text": "is an all-in-one platform to manage datasets, trace LLM applications, and run evaluations in production. Log in from the CLI to get started:"
+    },
+    {
+      "self_ref": "#/texts/334",
+      "parent": {
+        "$ref": "#/texts/331"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "deepeval login",
+      "text": "deepeval login",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/335",
+      "parent": {
+        "$ref": "#/texts/331"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Then run your tests as usual - results are automatically synced to the platform:",
+      "text": "Then run your tests as usual - results are automatically synced to the platform:"
+    },
+    {
+      "self_ref": "#/texts/336",
+      "parent": {
+        "$ref": "#/texts/331"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "code",
+      "prov": [],
+      "orig": "deepeval test run test_chatbot.py",
+      "text": "deepeval test run test_chatbot.py",
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "code_language": "unknown"
+    },
+    {
+      "self_ref": "#/texts/337",
+      "parent": {
+        "$ref": "#/texts/331"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Demo GIF",
+      "text": "Demo GIF"
+    },
+    {
+      "self_ref": "#/texts/338",
+      "parent": {
+        "$ref": "#/groups/96"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Prefer to stay in your IDE? Use DeepEval via",
+      "text": "Prefer to stay in your IDE? Use DeepEval via"
+    },
+    {
+      "self_ref": "#/texts/339",
+      "parent": {
+        "$ref": "#/groups/96"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Confident AI's MCP server",
+      "text": "Confident AI's MCP server",
+      "hyperlink": "https://github.com/confident-ai/confident-mcp-server"
+    },
+    {
+      "self_ref": "#/texts/340",
+      "parent": {
+        "$ref": "#/groups/96"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "as the persistent layer to run evals, pull datasets, and inspect traces without leaving your editor.",
+      "text": "as the persistent layer to run evals, pull datasets, and inspect traces without leaving your editor."
+    },
+    {
+      "self_ref": "#/texts/341",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [],
+      "orig": "Confident AI MCP Architecture",
+      "text": "Confident AI MCP Architecture"
+    },
+    {
+      "self_ref": "#/texts/342",
+      "parent": {
+        "$ref": "#/groups/97"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Everything on Confident AI is available",
+      "text": "Everything on Confident AI is available"
+    },
+    {
+      "self_ref": "#/texts/343",
+      "parent": {
+        "$ref": "#/groups/97"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "here",
+      "text": "here",
+      "hyperlink": "https://www.confident-ai.com/docs?utm_source=deepeval&utm_medium=github&utm_content=cloud_docs"
+    },
+    {
+      "self_ref": "#/texts/344",
+      "parent": {
+        "$ref": "#/groups/97"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/345",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/98"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Contributing",
+      "text": "Contributing"
+    },
+    {
+      "self_ref": "#/texts/346",
+      "parent": {
+        "$ref": "#/groups/98"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Please read",
+      "text": "Please read"
+    },
+    {
+      "self_ref": "#/texts/347",
+      "parent": {
+        "$ref": "#/groups/98"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "CONTRIBUTING.md",
+      "text": "CONTRIBUTING.md",
+      "hyperlink": "https://github.com/confident-ai/deepeval/blob/main/CONTRIBUTING.md"
+    },
+    {
+      "self_ref": "#/texts/348",
+      "parent": {
+        "$ref": "#/groups/98"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "for details on our code of conduct, and the process for submitting pull requests to us.",
+      "text": "for details on our code of conduct, and the process for submitting pull requests to us."
+    },
+    {
+      "self_ref": "#/texts/349",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/350"
+        },
+        {
+          "$ref": "#/groups/99"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Roadmap",
+      "text": "Roadmap"
+    },
+    {
+      "self_ref": "#/texts/350",
+      "parent": {
+        "$ref": "#/texts/349"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Features:",
+      "text": "Features:"
+    },
+    {
+      "self_ref": "#/texts/351",
+      "parent": {
+        "$ref": "#/groups/99"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[x] Integration with Confident AI",
+      "text": "[x] Integration with Confident AI",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/352",
+      "parent": {
+        "$ref": "#/groups/99"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[x] Implement G-Eval",
+      "text": "[x] Implement G-Eval",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/353",
+      "parent": {
+        "$ref": "#/groups/99"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[x] Implement RAG metrics",
+      "text": "[x] Implement RAG metrics",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/354",
+      "parent": {
+        "$ref": "#/groups/99"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[x] Implement Conversational metrics",
+      "text": "[x] Implement Conversational metrics",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/355",
+      "parent": {
+        "$ref": "#/groups/99"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[x] Evaluation Dataset Creation",
+      "text": "[x] Evaluation Dataset Creation",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/356",
+      "parent": {
+        "$ref": "#/groups/99"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[x] Red-Teaming",
+      "text": "[x] Red-Teaming",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/357",
+      "parent": {
+        "$ref": "#/groups/99"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[ ] DAG custom metrics",
+      "text": "[ ] DAG custom metrics",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/358",
+      "parent": {
+        "$ref": "#/groups/99"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [],
+      "orig": "[ ] Guardrails",
+      "text": "[ ] Guardrails",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/359",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/360"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "Authors",
+      "text": "Authors"
+    },
+    {
+      "self_ref": "#/texts/360",
+      "parent": {
+        "$ref": "#/texts/359"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "Built by the founders of Confident AI. Contact jeffreyip@confident-ai.com for all enquiries.",
+      "text": "Built by the founders of Confident AI. Contact jeffreyip@confident-ai.com for all enquiries."
+    },
+    {
+      "self_ref": "#/texts/361",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/100"
+        }
+      ],
+      "content_layer": "body",
+      "label": "title",
+      "prov": [],
+      "orig": "License",
+      "text": "License"
+    },
+    {
+      "self_ref": "#/texts/362",
+      "parent": {
+        "$ref": "#/groups/100"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "DeepEval is licensed under Apache 2.0 - see the",
+      "text": "DeepEval is licensed under Apache 2.0 - see the"
+    },
+    {
+      "self_ref": "#/texts/363",
+      "parent": {
+        "$ref": "#/groups/100"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "LICENSE.md",
+      "text": "LICENSE.md",
+      "hyperlink": "https://github.com/confident-ai/deepeval/blob/main/LICENSE.md"
+    },
+    {
+      "self_ref": "#/texts/364",
+      "parent": {
+        "$ref": "#/groups/100"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [],
+      "orig": "file for details.",
+      "text": "file for details."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [
+        {
+          "$ref": "#/texts/0"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/texts/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/5",
+      "parent": {
+        "$ref": "#/texts/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "$ref": "#/texts/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/7",
+      "parent": {
+        "$ref": "#/texts/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/8",
+      "parent": {
+        "$ref": "#/texts/195"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [
+        {
+          "$ref": "#/texts/203"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/9",
+      "parent": {
+        "$ref": "#/texts/331"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [],
+      "captions": [
+        {
+          "$ref": "#/texts/341"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}

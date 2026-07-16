@@ -1,0 +1,103 @@
+{
+  "template_name": "Retrieval_Systems_LLMs_ORKG",
+  "source": {
+    "year": 2025,
+    "type": "software",
+    "slug": "github-com-RUC-NLPIR-FlashRAG",
+    "source_url": "https://github.com/RUC-NLPIR/FlashRAG"
+  },
+  "fields": {
+    "system_name": {
+      "value": "FlashRAG",
+      "reference": "FlashRAG is a Python toolkit for the reproduction and development of Retrieval Augmented Generation (RAG) research.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "FlashRAG is a Python toolkit for the reproduction and development of Retrieval Augmented Generation (RAG) research."
+    },
+    "system_category": {
+      "value": "RAG Frameworks",
+      "reference": "FlashRAG is a Python toolkit for the reproduction and development of Retrieval Augmented Generation (RAG) research. Our toolkit includes 36 pre-processed benchmark RAG datasets and **23 state-of-the-art RAG algorithms**",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "FlashRAG is a Python toolkit for the reproduction and development of Retrieval Augmented Generation (RAG) research. Our toolkit includes 36 pre-processed benchmark RAG datasets and **23 state-of-the-art RAG algorithms**"
+    },
+    "knowledge_representation": {
+      "value": [
+        "Text Chunks",
+        "Documents",
+        "Knowledge Graphs"
+      ],
+      "reference": "Includes essential components for RAG scenarios such as retrievers, rerankers, generators, and compressors, allowing for flexible assembly of complex pipelines.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "Includes essential components for RAG scenarios such as retrievers, rerankers, generators, and compressors, allowing for flexible assembly of complex pipelines."
+    },
+    "retrieval_mechanism": {
+      "value": [
+        "Dense Retrieval",
+        "Sparse Retrieval",
+        "Hybrid Retrieval",
+        "Multi-hop Retrieval",
+        "Query Rewriting"
+      ],
+      "reference": "For **dense retrieval methods**, especially popular embedding models, we use `faiss` to build the index. For **sparse retrieval methods (BM25)**, we use `Pyserini` or `bm25s` to build the corpus into a Lucene inverted index.",
+      "verified": true,
+      "verification_score": 0.8889,
+      "verification_method": "fuzzy",
+      "matched_span": "xable format.\n\n### Index Construction\n\nYou can use the following code to build your own index.\n\n* For **dense retrieval methods**, especially popular embedding models, we use `faiss` to build the index.\n\n* For **sparse retrieval methods (BM25)**, we use `Pyserini` or `bm25s` to build the corpus into a Lucene inverted i"
+    },
+    "knowledge_source": {
+      "value": [
+        "Vector Database",
+        "Search Engine",
+        "Web Search",
+        "Enterprise Documents",
+        "Scientific Literature"
+      ],
+      "reference": "We have integrated a Web Search Engine-based Retriever, which seamlessly integrates with existing methods and can be enabled quickly with just a Serper API key!",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We have integrated a Web Search Engine-based Retriever, which seamlessly integrates with existing methods and can be enabled quickly with just a Serper API key!"
+    },
+    "supported_modality": {
+      "value": [
+        "Text",
+        "PDF",
+        "HTML",
+        "Tables",
+        "Images",
+        "Mixed Documents"
+      ],
+      "reference": "We have added support for **multimodal RAG**, including [**MLLMs like Llava, Qwen, InternVL**], and various [**multimodal retrievers with Clip architecture**].",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "token_overlap",
+      "matched_span": "We have added support for **multimodal RAG**, including [**MLLMs like Llava, Qwen, InternVL**], and various [**multimodal retrievers with Clip architecture**]."
+    },
+    "reasoning_strategy": {
+      "value": [
+        "Single-hop Retrieval",
+        "Multi-hop Retrieval",
+        "Agentic Planning",
+        "Reflection",
+        "Tool Use"
+      ],
+      "reference": "We now support **7 reasoning-based methods** that combine reasoning ability with retrieval, achieving superior performance on complex multi-hop tasks.",
+      "verified": true,
+      "verification_score": 1.0,
+      "verification_method": "exact",
+      "matched_span": "We now support **7 reasoning-based methods** that combine reasoning ability with retrieval, achieving superior performance on complex multi-hop tasks."
+    }
+  },
+  "extraction_metadata": {
+    "model": "z-ai/glm-5.2",
+    "attempts": 1,
+    "all_references_verified": true,
+    "failed_fields": [],
+    "extracted_at": "2026-07-05T17:25:44.367413+00:00"
+  }
+}
