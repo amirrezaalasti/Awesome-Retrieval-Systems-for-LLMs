@@ -1,0 +1,149 @@
+name: Validate Contribution Issue
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  validate:
+    name: Validate paper/resource issue
+    runs-on: ubuntu-latest
+    if: |
+      contains(join(github.event.issue.labels.*.name, ','), 'contribution: paper') ||
+      contains(join(github.event.issue.labels.*.name, ','), 'contribution: resource')
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Write issue body
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          printf '%s\n' "$ISSUE_BODY" > /tmp/issue_body.md
+
+      - name: Run contribution validator
+        id: validate
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
+        run: |
+          set +e
+          python scripts/validate_contribution.py \
+            --body-file /tmp/issue_body.md \
+            --title "$ISSUE_TITLE" \
+            --labels "$ISSUE_LABELS" \
+            --readme Readme.md \
+            --json-out /tmp/validation.json \
+            --markdown-out /tmp/validation.md
+          status=$?
+          set -e
+          echo "exit_code=$status" >> "$GITHUB_OUTPUT"
+          if [ -f /tmp/validation.json ]; then
+            python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          data = json.load(open("/tmp/validation.json", encoding="utf-8"))
+          print(f"ok={'true' if data.get('ok') else 'false'}")
+          print(f"kind={data.get('kind', 'unknown')}")
+          has_dup = any(f.get("code") == "duplicate" for f in data.get("findings", []))
+          print(f"duplicate={'true' if has_dup else 'false'}")
+          PY
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            echo "kind=unknown" >> "$GITHUB_OUTPUT"
+            echo "duplicate=false" >> "$GITHUB_OUTPUT"
+            echo "Validator failed to produce JSON output." > /tmp/validation.md
+          fi
+
+      - name: Find previous validation comment
+        uses: peter-evans/find-comment@v3
+        id: find_comment
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment-author: "github-actions[bot]"
+          body-includes: "## Contribution validation"
+
+      - name: Upsert validation comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment-id: ${{ steps.find_comment.outputs.comment-id }}
+          edit-mode: replace
+          body-path: /tmp/validation.md
+
+      - name: Update issue labels
+        uses: actions/github-script@v7
+        env:
+          VALIDATION_OK: ${{ steps.validate.outputs.ok }}
+          IS_DUPLICATE: ${{ steps.validate.outputs.duplicate }}
+        with:
+          script: |
+            const issue_number = context.issue.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const ok = process.env.VALIDATION_OK === 'true';
+            const duplicate = process.env.IS_DUPLICATE === 'true';
+
+            const remove = [
+              'validation: passed',
+              'validation: failed',
+              'validation: duplicate',
+            ];
+            for (const name of remove) {
+              try {
+                await github.rest.issues.removeLabel({ owner, repo, issue_number, name });
+              } catch (error) {
+                if (error.status !== 404) throw error;
+              }
+            }
+
+            const ensureLabel = async (name, color, description) => {
+              try {
+                await github.rest.issues.getLabel({ owner, repo, name });
+              } catch (error) {
+                if (error.status !== 404) throw error;
+                await github.rest.issues.createLabel({
+                  owner,
+                  repo,
+                  name,
+                  color,
+                  description,
+                });
+              }
+            };
+
+            await ensureLabel('validation: passed', '0E8A16', 'Contribution issue passed automatic checks');
+            await ensureLabel('validation: failed', 'D93F0B', 'Contribution issue failed automatic checks');
+            await ensureLabel('validation: duplicate', 'FBCA04', 'Contribution appears to already exist in Readme.md');
+            await ensureLabel('contribution: paper', '1D76DB', 'Paper submission via issue form');
+            await ensureLabel('contribution: resource', '5319E7', 'Resource submission via issue form');
+
+            const toAdd = [];
+            if (ok) {
+              toAdd.push('validation: passed');
+            } else {
+              toAdd.push('validation: failed');
+              if (duplicate) toAdd.push('validation: duplicate');
+            }
+
+            await github.rest.issues.addLabels({
+              owner,
+              repo,
+              issue_number,
+              labels: toAdd,
+            });
+
+      - name: Fail job when validation fails
+        if: steps.validate.outputs.ok != 'true'
+        run: |
+          echo "Contribution validation failed. See the issue comment for details."
+          exit 1

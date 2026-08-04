@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📖 Contribution Guide
+    url: https://github.com/amirrezaalasti/Awesome-Retrieval-Systems-for-LLMs/blob/main/CONTRIBUTING.md
+    about: Read formatting rules and inclusion criteria before submitting a paper or resource.

@@ -1,0 +1,120 @@
+name: 📄 Add a Paper
+description: Propose a research paper or survey for the curated list.
+title: "[paper] "
+labels: ["contribution: paper"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Fill out every required field.
+        A GitHub Action will automatically check formatting and look for duplicates in `Readme.md`.
+
+        Prefer an arXiv abs URL when available (e.g. `https://arxiv.org/abs/2312.10997`).
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Paper or project title as it should appear in the README.
+      placeholder: "Retrieval-Augmented Generation for Large Language Models: A Survey"
+    validations:
+      required: true
+
+  - type: input
+    id: paper_url
+    attributes:
+      label: Paper URL
+      description: Link to the paper (arXiv preferred).
+      placeholder: https://arxiv.org/abs/xxxx.xxxxx
+    validations:
+      required: true
+
+  - type: input
+    id: code_url
+    attributes:
+      label: Code URL
+      description: Optional GitHub (or other) repository for accompanying code.
+      placeholder: https://github.com/org/repo
+
+  - type: input
+    id: project_url
+    attributes:
+      label: Project URL
+      description: Optional project or demo page.
+      placeholder: https://example.com/project
+
+  - type: dropdown
+    id: year
+    attributes:
+      label: Year
+      description: Year section where this entry belongs (usually publication or release year).
+      options:
+        - "2019"
+        - "2020"
+        - "2021"
+        - "2022"
+        - "2023"
+        - "2024"
+        - "2025"
+        - "2026"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Closest matching README category for that year.
+      options:
+        - Surveys
+        - RAG Systems & Frameworks
+        - RAG Frameworks
+        - Retrieval Frameworks
+        - Advanced Retrieval
+        - Retrieval Models
+        - Dense Retrieval Foundations
+        - Knowledge Retrieval
+        - Document Retrieval
+        - Document & Enterprise RAG
+        - Multimodal Retrieval
+        - Agentic Retrieval
+        - Vector Databases
+        - Search Infrastructure
+        - Embedding Models
+        - Evaluation
+        - Evaluation & Benchmarks
+        - Benchmarks
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One or two sentences explaining what the paper contributes and why it belongs here.
+      placeholder: A comprehensive survey covering RAG architectures, indexing, retrieval strategies, and generation methods.
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Space-separated tags in backticks (e.g. `Survey` `RAG`).
+      placeholder: "`Survey` `RAG`"
+      value: "`Survey`"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched `Readme.md` and believe this paper is not already listed.
+          required: true
+        - label: The paper is retrieval-centric and relevant to LLMs.
+          required: true
+        - label: Links are public and work in a private/incognito window.
+          required: true

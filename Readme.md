@@ -61,12 +61,28 @@ Since the introduction of **Retrieval-Augmented Generation (RAG)** in 2020, retr
 
 This repository aims to provide a comprehensive, continuously updated resource for researchers and practitioners interested in retrieval-centric systems for LLMs.
 
+### RAG vs. GraphRAG vs. KAG — What's the Difference?
+
+These three terms are often used loosely and interchangeably, but they describe distinct architectural choices:
+
+| Dimension | Classic RAG | GraphRAG | KAG (Knowledge-Augmented Generation) |
+|-----------|-------------|----------|----------------------------------------|
+| Knowledge unit | Text chunks / passages | Entities, relations, communities | Entities + logical/ontological schema |
+| Index structure | Flat vector index | Knowledge graph (+ optional vector index) | Knowledge graph + ontology + rules |
+| Retrieval mechanism | Nearest-neighbor similarity search | Graph traversal, community summaries, multi-hop expansion | Logical-form queries, symbolic reasoning, hybrid graph + vector retrieval |
+| Best suited for | Fact lookup, single-hop QA, semantic search | Multi-hop reasoning, "global" questions over a whole corpus, entity-centric queries | Domain-specific reasoning requiring precision, auditability, and rule compliance |
+| Representative systems | DPR, ColBERT, RAGAS-evaluated pipelines | Microsoft GraphRAG, LightRAG, HippoRAG | OpenSPG/KAG, Neo4j GraphRAG |
+| Trade-off | Cheap to build, weak at multi-hop reasoning | Expensive indexing (LLM-driven extraction), strong at "connect-the-dots" questions | Highest precision and explainability, highest engineering/schema-design cost |
+
+In practice, production systems increasingly blend all three: dense/sparse retrieval for recall, graph structure for multi-hop reasoning, and symbolic/ontological constraints where correctness and auditability matter (e.g., legal, medical, financial domains).
+
 ---
 
 # 📑 Table of Contents
 
 - [🔍 Awesome Retrieval Systems for LLMs](#-awesome-retrieval-systems-for-llms)
   - [💡 Motivation](#-motivation)
+    - [RAG vs. GraphRAG vs. KAG — What's the Difference?](#rag-vs-graphrag-vs-kag--whats-the-difference)
 - [📑 Table of Contents](#-table-of-contents)
 - [🎯 Repository Scope](#-repository-scope)
   - [🔗 Retrieval-Augmented Generation (RAG)](#-retrieval-augmented-generation-rag)
@@ -126,6 +142,10 @@ This repository aims to provide a comprehensive, continuously updated resource f
     - [Unstructured](#unstructured)
   - [Knowledge Retrieval](#knowledge-retrieval-2)
     - [HyDE](#hyde)
+  - [Retrieval-Augmented Reasoning \& Agents](#retrieval-augmented-reasoning--agents)
+    - [Atlas](#atlas)
+    - [ReAct](#react)
+    - [IRCoT](#ircot)
   - [Evaluation](#evaluation-1)
     - [MTEB](#mteb)
   - [Notable 2022 Trends](#notable-2022-trends)
@@ -140,10 +160,17 @@ This repository aims to provide a comprehensive, continuously updated resource f
     - [Self-RAG](#self-rag)
     - [Rewrite-Retrieve-Read](#rewrite-retrieve-read)
     - [HyDE](#hyde-1)
+    - [REPLUG](#replug)
+    - [FLARE (Forward-Looking Active Retrieval)](#flare-forward-looking-active-retrieval)
+    - [StructGPT](#structgpt)
+    - [Think-on-Graph (ToG)](#think-on-graph-tog)
+    - [Chain-of-Note](#chain-of-note)
+    - [MemGPT](#memgpt)
   - [Document \& Enterprise RAG](#document--enterprise-rag)
     - [Unstructured](#unstructured-1)
     - [LlamaParse](#llamaparse)
     - [Apache Tika](#apache-tika)
+    - [Onyx (formerly Danswer)](#onyx-formerly-danswer)
   - [Multimodal Retrieval](#multimodal-retrieval)
     - [CLIP](#clip)
     - [BLIP-2](#blip-2)
@@ -152,6 +179,7 @@ This repository aims to provide a comprehensive, continuously updated resource f
     - [AutoGen](#autogen)
     - [CrewAI](#crewai)
     - [MetaGPT](#metagpt)
+    - [Microsoft Semantic Kernel](#microsoft-semantic-kernel)
   - [Vector Databases](#vector-databases-1)
     - [Milvus](#milvus-1)
     - [Weaviate](#weaviate-1)
@@ -159,45 +187,80 @@ This repository aims to provide a comprehensive, continuously updated resource f
     - [Pinecone](#pinecone-1)
     - [Chroma](#chroma-1)
     - [LanceDB](#lancedb)
+    - [pgvector](#pgvector)
+    - [Redis (Vector Search)](#redis-vector-search)
+    - [MongoDB Atlas Vector Search](#mongodb-atlas-vector-search)
+    - [txtai](#txtai)
   - [📊 Evaluation \& Benchmarks](#-evaluation--benchmarks)
     - [RAGAS](#ragas)
     - [TruLens](#trulens)
     - [DeepEval](#deepeval)
     - [BEIR](#beir-1)
     - [MTEB](#mteb-1)
+    - [RGB (Retrieval-Augmented Generation Benchmark)](#rgb-retrieval-augmented-generation-benchmark)
+    - [LongBench](#longbench)
+    - [Giskard](#giskard)
+    - [Arize Phoenix](#arize-phoenix)
+    - [Langfuse](#langfuse)
   - [🔢 Embedding Models](#-embedding-models)
     - [BGE](#bge)
     - [E5](#e5)
     - [Instructor](#instructor)
+    - [Voyage AI Embeddings](#voyage-ai-embeddings)
   - [Major Trends in 2023](#major-trends-in-2023)
 - [🗓️ 2024](#️-2024)
   - [📚 Surveys](#-surveys-5)
-  - [🧠 RAG Systems \& Frameworks](#-rag-systems--frameworks)
+- [🧠 RAG Systems \& Frameworks](#-rag-systems--frameworks)
     - [GraphRAG (Microsoft)](#graphrag-microsoft)
     - [LightRAG](#lightrag)
     - [RAPTOR](#raptor)
     - [FlashRAG](#flashrag)
     - [FastRAG](#fastrag)
     - [Pathway](#pathway)
-  - [🌐 GraphRAG \& Knowledge Graph Systems](#-graphrag--knowledge-graph-systems)
+    - [R2R](#r2r)
+    - [RAGFlow](#ragflow)
+  - [Advanced Retrieval \& RAG Papers](#advanced-retrieval--rag-papers)
+    - [Corrective RAG (CRAG)](#corrective-rag-crag)
+    - [Adaptive-RAG](#adaptive-rag)
+    - [RQ-RAG](#rq-rag)
+    - [RAFT (Retrieval-Augmented Fine-Tuning)](#raft-retrieval-augmented-fine-tuning)
+    - [RankRAG](#rankrag)
+    - [Speculative RAG](#speculative-rag)
+    - [RAGTruth](#ragtruth)
+    - [CRUD-RAG](#crud-rag)
+    - [MultiHop-RAG](#multihop-rag)
+    - [RULER](#ruler)
+    - [RAGChecker](#ragchecker)
+- [🌐 GraphRAG \& Knowledge Graph Systems](#-graphrag--knowledge-graph-systems)
     - [OpenSPG / KAG](#openspg--kag)
     - [HippoRAG](#hipporag)
     - [KG-RAG](#kg-rag)
     - [G-Retriever](#g-retriever)
-  - [📄 Multimodal \& Document Analysis RAG](#-multimodal--document-analysis-rag)
+    - [nano-graphrag](#nano-graphrag)
+    - [GraphRAG-SDK (FalkorDB)](#graphrag-sdk-falkordb)
+    - [Cognee](#cognee)
+    - [Neo4j LLM Graph Builder](#neo4j-llm-graph-builder)
+    - [Kuzu](#kuzu)
+- [📄 Multimodal \& Document Analysis RAG](#-multimodal--document-analysis-rag)
     - [Docling](#docling)
     - [MinerU](#mineru)
     - [ColPali](#colpali)
     - [Nougat](#nougat)
     - [LlamaParse](#llamaparse-1)
     - [Unstructured](#unstructured-2)
-  - [🤖 Agentic \& Reasoning-Centric Retrieval](#-agentic--reasoning-centric-retrieval)
+    - [Marker](#marker)
+    - [PyMuPDF4LLM](#pymupdf4llm)
+    - [Firecrawl](#firecrawl)
+    - [Reducto](#reducto)
+- [🤖 Agentic \& Reasoning-Centric Retrieval](#-agentic--reasoning-centric-retrieval)
     - [AutoGen](#autogen-1)
     - [CrewAI](#crewai-1)
     - [LangGraph](#langgraph)
     - [OpenDevin](#opendevin)
     - [CAMEL-AI](#camel-ai)
-  - [🗄️ Vector Databases \& Retrieval Infrastructure](#️-vector-databases--retrieval-infrastructure)
+    - [AG2 (AutoGen community fork)](#ag2-autogen-community-fork)
+    - [OpenAI Swarm](#openai-swarm)
+- [🗄️ Vector Databases \& Retrieval Infrastructure](#️-vector-databases--retrieval-infrastructure)
     - [Milvus](#milvus-2)
     - [Weaviate](#weaviate-2)
     - [Qdrant](#qdrant-2)
@@ -205,62 +268,73 @@ This repository aims to provide a comprehensive, continuously updated resource f
     - [LanceDB](#lancedb-1)
     - [Chroma](#chroma-2)
     - [Vespa](#vespa)
-  - [📊 Evaluation \& Benchmarks](#-evaluation--benchmarks-1)
+    - [turbopuffer](#turbopuffer)
+    - [DuckDB VSS](#duckdb-vss)
+- [📊 Evaluation \& Benchmarks](#-evaluation--benchmarks-1)
     - [RAGAS](#ragas-1)
     - [TruLens](#trulens-1)
     - [DeepEval](#deepeval-1)
     - [ARES](#ares)
-  - [🔢 Embedding Models](#-embedding-models-1)
+    - [Comet Opik](#comet-opik)
+- [🔢 Embedding Models](#-embedding-models-1)
     - [BGE-M3](#bge-m3)
     - [Nomic Embed](#nomic-embed)
-  - [📈 Major Trends in 2024](#-major-trends-in-2024)
+    - [Jina Embeddings v3](#jina-embeddings-v3)
+    - [Snowflake Arctic Embed](#snowflake-arctic-embed)
+- [📈 Major Trends in 2024](#-major-trends-in-2024)
 - [🗓️ 2025](#️-2025)
-  - [📚 Surveys](#-surveys-6)
+- [📚 Surveys](#-surveys-6)
     - [RAG vs. GraphRAG](#rag-vs-graphrag)
-    - [Agentic Retrieval Surveys](#agentic-retrieval-surveys)
-    - [Knowledge-Augmented Generation Surveys](#knowledge-augmented-generation-surveys)
-  - [🔬 Agentic Retrieval \& Deep Research](#-agentic-retrieval--deep-research)
+    - [Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG](#agentic-retrieval-augmented-generation-a-survey-on-agentic-rag)
+    - [A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models](#a-survey-of-graph-retrieval-augmented-generation-for-customized-large-language-models)
+- [🔬 Agentic Retrieval \& Deep Research](#-agentic-retrieval--deep-research)
     - [OpenAI Deep Research](#openai-deep-research)
     - [AutoGen](#autogen-2)
     - [CrewAI](#crewai-2)
     - [LangGraph](#langgraph-1)
     - [OpenHands (formerly OpenDevin)](#openhands-formerly-opendevin)
     - [CAMEL-AI](#camel-ai-1)
-  - [🧠 GraphRAG \& Graph Memory](#-graphrag--graph-memory)
+    - [smolagents](#smolagents)
+    - [Agno (formerly Phidata)](#agno-formerly-phidata)
+    - [PydanticAI](#pydanticai)
+- [🧠 GraphRAG \& Graph Memory](#-graphrag--graph-memory)
     - [Microsoft GraphRAG](#microsoft-graphrag)
     - [LightRAG](#lightrag-1)
     - [HippoRAG](#hipporag-1)
     - [Graphiti](#graphiti)
     - [ArchRAG](#archrag)
-  - [🧩 Knowledge-Augmented Generation (KAG)](#-knowledge-augmented-generation-kag-1)
+    - [Zep](#zep)
+    - [Mem0](#mem0)
+    - [Letta (formerly MemGPT)](#letta-formerly-memgpt)
+- [🧩 Knowledge-Augmented Generation (KAG)](#-knowledge-augmented-generation-kag-1)
     - [OpenSPG/KAG](#openspgkag)
     - [Neo4j GraphRAG](#neo4j-graphrag)
     - [Memgraph GraphRAG](#memgraph-graphrag)
-  - [🏢 Multimodal \& Enterprise Retrieval](#-multimodal--enterprise-retrieval)
+- [🏢 Multimodal \& Enterprise Retrieval](#-multimodal--enterprise-retrieval)
     - [Docling](#docling-1)
     - [MinerU](#mineru-1)
     - [ColPali](#colpali-1)
     - [LlamaParse](#llamaparse-2)
-  - [🛠️ Retrieval Frameworks](#️-retrieval-frameworks-1)
+- [🛠️ Retrieval Frameworks](#️-retrieval-frameworks-1)
     - [LlamaIndex](#llamaindex-1)
     - [LangChain](#langchain-2)
     - [Haystack](#haystack-1)
     - [DSPy](#dspy-1)
     - [FlashRAG](#flashrag-1)
-  - [📡 Evaluation \& Observability](#-evaluation--observability)
+- [📡 Evaluation \& Observability](#-evaluation--observability)
     - [RAGAS](#ragas-2)
     - [ARES](#ares-1)
     - [TruLens](#trulens-2)
     - [DeepEval](#deepeval-2)
     - [LangSmith](#langsmith)
-  - [🗄️ Vector Databases \& Retrieval Infrastructure](#️-vector-databases--retrieval-infrastructure-1)
+- [🗄️ Vector Databases \& Retrieval Infrastructure](#️-vector-databases--retrieval-infrastructure-1)
     - [Qdrant](#qdrant-3)
     - [Weaviate](#weaviate-3)
     - [Milvus](#milvus-3)
     - [Pinecone](#pinecone-3)
     - [LanceDB](#lancedb-2)
     - [Vespa](#vespa-1)
-  - [📈 Major Trends in 2025](#-major-trends-in-2025)
+- [📈 Major Trends in 2025](#-major-trends-in-2025)
 - [🔮 2026](#-2026)
   - [Emerging Directions](#emerging-directions)
     - [Persistent Agent Memory](#persistent-agent-memory)
@@ -410,13 +484,14 @@ This repository categorizes systems across several orthogonal dimensions.
 |-----------|----------|
 | Dense Retrieval | DPR, Contriever |
 | Sparse Retrieval | BM25 |
-| Hybrid Retrieval | BM25 + Vector Search |
-| Graph Retrieval | GraphRAG |
-| KG Retrieval | KAG |
-| Multi-hop Retrieval | HotpotQA systems |
-| Agentic Retrieval | Planner-based retrieval |
-| Query Rewriting | Rewrite-Retrieve-Read |
-| Tool Retrieval | Search agents |
+| Hybrid Retrieval | BM25 + Vector Search, Redis Vector Search |
+| Graph Retrieval | GraphRAG, nano-graphrag |
+| KG Retrieval | KAG, Think-on-Graph |
+| Multi-hop Retrieval | HotpotQA systems, MultiHop-RAG, IRCoT |
+| Self-Corrective Retrieval | Corrective RAG (CRAG), Adaptive-RAG |
+| Agentic Retrieval | Planner-based retrieval, smolagents |
+| Query Rewriting | Rewrite-Retrieve-Read, RQ-RAG |
+| Tool Retrieval | Search agents, ReAct |
 
 ---
 
@@ -424,14 +499,15 @@ This repository categorizes systems across several orthogonal dimensions.
 
 | Source | Typical Systems |
 |---------|----------------|
-| Vector Database | Milvus, Pinecone, Weaviate |
+| Vector Database | Milvus, Pinecone, Weaviate, pgvector |
 | Search Engine | Elasticsearch, OpenSearch |
-| Knowledge Graph | Neo4j, OpenSPG |
+| Knowledge Graph | Neo4j, OpenSPG, Kuzu |
 | SQL Database | Text-to-SQL systems |
-| Web Search | Search APIs |
-| Enterprise Documents | Internal knowledge bases |
+| Web Search | Search APIs, Firecrawl |
+| Enterprise Documents | Internal knowledge bases, Onyx |
 | Scientific Literature | Semantic Scholar, arXiv |
 | Multimodal Corpora | PDFs, images, charts |
+| Agent Memory | Zep, Mem0, Letta, Cognee |
 
 ---
 
@@ -493,13 +569,13 @@ Each entry includes:
 
 | Year | Surveys | Systems / Frameworks | GraphRAG / KAG | Multimodal | Evaluation | Notable Names |
 |------|----------|----------------------|----------------|------------|------------|----------------|
-| 2019 | Dense Retrieval Foundations | DPR, REALM (precursors) | — | — | BEIR groundwork | DPR, REALM |
-| 2020 | RAG Survey Foundations | RAG | — | — | Natural Questions | RAG |
-| 2021 | Open-Domain QA Surveys | Haystack, LangChain (early ecosystem), BEIR | KGQA systems | Doc Retrieval | BEIR | Haystack, BEIR |
-| 2022 | Retrieval Surveys | LlamaIndex, DSP | Early Graph Retrieval | PDF QA | RAG Evaluation | LlamaIndex, DSP |
-| 2023 | RAG Explosion | LangChain, LlamaIndex, Haystack, Self-RAG | GraphRAG research | Unstructured, Docling precursors | RAGAS | Self-RAG, RAGAS |
-| 2024 | Comprehensive Surveys | GraphRAG, LightRAG, RAPTOR, FlashRAG | OpenSPG/KAG, Microsoft's GraphRAG | MinerU, Docling, ColPali | CRUD-RAG, RGB | GraphRAG, LightRAG, KAG |
-| 2025 | Agentic Retrieval Surveys | DeepResearch agents, Agentic RAG frameworks | KG Agents | Multimodal Enterprise RAG | LiveBench-RAG | Agentic RAG |
+| 2019 | Dense Retrieval Foundations | DPR, REALM (precursors) | — | — | BEIR groundwork | DPR, REALM, ORQA |
+| 2020 | RAG Survey Foundations | RAG, FiD | — | — | Natural Questions, KILT | RAG, FiD |
+| 2021 | Open-Domain QA Surveys | Haystack, LangChain (early ecosystem), BEIR | KGQA systems | Doc Retrieval | BEIR | Haystack, ColBERT, BEIR |
+| 2022 | Retrieval Surveys | LlamaIndex, DSP | Early Graph Retrieval | PDF QA | RAG Evaluation | LlamaIndex, ReAct, Atlas |
+| 2023 | RAG Explosion | LangChain, LlamaIndex, Haystack, Self-RAG, Semantic Kernel | GraphRAG research, ToG | Unstructured, Docling precursors | RAGAS, Langfuse, Arize Phoenix | Self-RAG, RAGAS, MemGPT |
+| 2024 | Comprehensive Surveys | GraphRAG, LightRAG, RAPTOR, FlashRAG, R2R, RAGFlow | OpenSPG/KAG, Microsoft's GraphRAG, nano-graphrag, Cognee | MinerU, Docling, ColPali, Marker | CRUD-RAG, RGB, RAGChecker | GraphRAG, LightRAG, KAG, CRAG |
+| 2025 | Agentic RAG Survey, RAG vs. GraphRAG | DeepResearch agents, Agentic RAG frameworks, smolagents, Agno | Zep, Mem0, Letta, ArchRAG | Multimodal Enterprise RAG | Comet Opik | Agentic RAG, Zep, Mem0 |
 | 2026 | Emerging Trends | Continually Updated | Emerging Graph Memory | Long-context Retrieval | Ongoing | TBD |
 
 ---
@@ -846,6 +922,41 @@ Hypothetical Document Embeddings improve retrieval by generating synthetic docum
 
 ---
 
+## Retrieval-Augmented Reasoning & Agents
+
+### Atlas
+
+- 📄 Paper: https://arxiv.org/abs/2208.03299
+- 💻 Code: https://github.com/facebookresearch/atlas
+
+Meta's retrieval-augmented seq2seq model that jointly pretrains a dense retriever and an encoder-decoder LM, reaching strong few-shot performance on knowledge-intensive tasks with far fewer parameters than comparable LLMs.
+
+`Retrieval LM` `Few-Shot`
+
+---
+
+### ReAct
+
+- 📄 Paper: https://arxiv.org/abs/2210.03629
+- 💻 Code: https://github.com/ysymyth/ReAct
+
+Interleaves reasoning traces with actions (including retrieval/search calls), becoming a foundational pattern for tool-using and retrieval agents.
+
+`Agentic Retrieval` `Tool Use`
+
+---
+
+### IRCoT
+
+- 📄 Paper: https://arxiv.org/abs/2212.10509
+- 💻 Code: https://github.com/StonyBrookNLP/ircot
+
+Interleaves Chain-of-Thought reasoning with retrieval for multi-step, knowledge-intensive QA, alternating between generating reasoning steps and retrieving supporting paragraphs.
+
+`Multi-hop Retrieval` `Chain-of-Thought`
+
+---
+
 ## Evaluation
 
 ### MTEB
@@ -866,6 +977,7 @@ Massive benchmark evaluating embedding models across retrieval, clustering, rera
 - Improved document parsing.
 - Embedding benchmarks became standardized.
 - Transition from retrieval research toward production-ready retrieval ecosystems.
+- Early interleaving of reasoning and retrieval/tool-use (ReAct, IRCoT) foreshadowed the agentic retrieval systems that matured in 2023–2025.
 
 ---
 
@@ -963,6 +1075,70 @@ Continued gaining popularity as an effective retrieval enhancement strategy thro
 
 ---
 
+### REPLUG
+
+- 📄 Paper: https://arxiv.org/abs/2301.12652
+
+Treats the LM as a frozen black box and prepends retrieved documents to the input, using LM feedback to tune the retriever — enabling retrieval augmentation without modifying the underlying model.
+
+`Dense Retrieval` `Black-Box LM`
+
+---
+
+### FLARE (Forward-Looking Active Retrieval)
+
+- 📄 Paper: https://arxiv.org/abs/2305.06983
+- 💻 Code: https://github.com/jzbjyb/FLARE
+
+Actively decides when and what to retrieve during long-form generation by using a low-confidence prediction of the next sentence as a retrieval query.
+
+`Active Retrieval`
+
+---
+
+### StructGPT
+
+- 📄 Paper: https://arxiv.org/abs/2305.09645
+- 💻 Code: https://github.com/RUCAIBox/StructGPT
+
+General Iterative Reading-then-Reasoning framework letting LLMs invoke specialized interfaces to reason over structured data (knowledge graphs, tables, databases).
+
+`Structured Retrieval`
+
+---
+
+### Think-on-Graph (ToG)
+
+- 📄 Paper: https://arxiv.org/abs/2307.07697
+- 💻 Code: https://github.com/GasolSun36/ToG
+
+LLM agent that performs beam search directly over a knowledge graph, iteratively exploring entities/relations to build responsible, explainable multi-hop reasoning paths.
+
+`Knowledge Graph` `Multi-hop Retrieval`
+
+---
+
+### Chain-of-Note
+
+- 📄 Paper: https://arxiv.org/abs/2311.09210
+
+Generates sequential reading notes for each retrieved document before answering, improving robustness to noisy/irrelevant retrieved context.
+
+`Robustness`
+
+---
+
+### MemGPT
+
+- 📄 Paper: https://arxiv.org/abs/2310.08560
+- 💻 Code: https://github.com/letta-ai/letta
+
+Manages tiered memory (in-context + external storage) for LLM agents, borrowing virtual memory paging concepts from operating systems; later evolved into the Letta framework.
+
+`Agent Memory`
+
+---
+
 ## Document & Enterprise RAG
 
 ### Unstructured
@@ -988,6 +1164,16 @@ Document parsing service optimized for PDFs, tables, forms, and enterprise docum
 - 💻 https://github.com/apache/tika
 
 Widely used document extraction framework integrated into numerous enterprise retrieval pipelines.
+
+---
+
+### Onyx (formerly Danswer)
+
+- 💻 https://github.com/onyx-dot-app/onyx
+
+Open-source enterprise search and AI assistant connecting to 40+ data sources (Slack, Confluence, Google Drive, etc.) with hybrid search, reranking, and knowledge-graph-backed Q&A.
+
+`Enterprise RAG`
 
 ---
 
@@ -1053,6 +1239,16 @@ Agent framework emphasizing collaborative software engineering and tool-augmente
 
 ---
 
+### Microsoft Semantic Kernel
+
+- 💻 https://github.com/microsoft/semantic-kernel
+
+Model-agnostic SDK (C#/Python/Java) for integrating LLMs with conventional code via plugins, planners, and memory — Microsoft's alternative to LangChain-style orchestration.
+
+`Framework` `Agent`
+
+---
+
 ## Vector Databases
 
 ### Milvus
@@ -1103,6 +1299,46 @@ Modern vector database built on Apache Arrow with efficient local storage.
 
 ---
 
+### pgvector
+
+- 💻 https://github.com/pgvector/pgvector
+
+Open-source PostgreSQL extension adding vector similarity search (exact and HNSW/IVFFlat approximate) directly inside Postgres — widely used to add RAG retrieval to existing relational stacks.
+
+`Vector Database` `Postgres`
+
+---
+
+### Redis (Vector Search)
+
+- 🌐 https://redis.io/docs/latest/develop/interact/search-and-query/advanced-concepts/vectors/
+
+Redis Stack's vector search adds HNSW/flat vector indexing and hybrid queries on top of Redis's in-memory data structures, commonly used for low-latency RAG caching + retrieval.
+
+`Vector Database` `Hybrid Search`
+
+---
+
+### MongoDB Atlas Vector Search
+
+- 🌐 https://www.mongodb.com/products/platform/atlas-vector-search
+
+Native vector search integrated into MongoDB Atlas, allowing vector and operational/document data to be queried together in a single database.
+
+`Vector Database`
+
+---
+
+### txtai
+
+- 💻 https://github.com/neuml/txtai
+
+All-in-one embeddings database unifying vector indexes, graph networks, and relational storage for semantic search and LLM orchestration workflows.
+
+`Framework` `Vector Database`
+
+---
+
 ## 📊 Evaluation & Benchmarks
 
 ### RAGAS
@@ -1149,15 +1385,65 @@ Standard benchmark for evaluating retrieval embeddings across diverse tasks.
 
 ---
 
+### RGB (Retrieval-Augmented Generation Benchmark)
+
+- 📄 Paper: https://arxiv.org/abs/2309.01431
+
+Evaluates LLMs on four core RAG abilities — noise robustness, negative rejection, information integration, and counterfactual robustness — in English and Chinese.
+
+`Benchmark`
+
+---
+
+### LongBench
+
+- 📄 Paper: https://arxiv.org/abs/2308.14508
+- 💻 Code: https://github.com/THUDM/LongBench
+
+First bilingual, multi-task benchmark for long-context understanding (21 datasets across 6 task categories), widely used to evaluate long-context retrieval and RAG pipelines.
+
+`Benchmark` `Long-Context`
+
+---
+
+### Giskard
+
+- 💻 https://github.com/Giskard-AI/giskard-oss
+
+Open-source scanning/testing library for LLM agents and RAG pipelines that automatically detects vulnerabilities such as hallucination, prompt injection, and bias.
+
+`Evaluation` `Red Teaming`
+
+---
+
+### Arize Phoenix
+
+- 💻 https://github.com/Arize-ai/phoenix
+
+Open-source LLM observability platform providing OpenTelemetry-based tracing, RAG-specific evaluations, and dataset/experiment management, runnable locally or at scale.
+
+`Observability` `Evaluation`
+
+---
+
+### Langfuse
+
+- 💻 https://github.com/langfuse/langfuse
+
+Open-source LLM engineering platform combining tracing, evaluation, prompt management, and datasets — commonly used to observe and debug production RAG/agent pipelines.
+
+`Observability`
+
+---
+
 ## 🔢 Embedding Models
 
 ### BGE
 
-- 📄 https://arxiv.org/abs/2310.07554
+- 📄 Paper: https://arxiv.org/abs/2309.07597 ("C-Pack: Packed Resources For General Chinese Embeddings")
+- 💻 Code: https://github.com/FlagOpen/FlagEmbedding
 
-- 💻 https://github.com/FlagOpen/FlagEmbedding
-
-High-performing embedding models that quickly became the default choice for many RAG systems.
+High-performing embedding models (BAAI General Embedding) that quickly became the default choice for many RAG systems.
 
 ---
 
@@ -1174,6 +1460,16 @@ Embedding family optimized for retrieval tasks through weakly supervised contras
 - 📄 https://arxiv.org/abs/2212.09741
 
 Instruction-tuned embeddings designed for retrieval and semantic search.
+
+---
+
+### Voyage AI Embeddings
+
+- 🌐 https://docs.voyageai.com/docs/embeddings
+
+Commercial embedding and reranking API with models tuned for retrieval quality (query/document-aware `input_type`) and multimodal (text + image) embeddings.
+
+`Embedding Model` `Commercial`
 
 ---
 
@@ -1200,9 +1496,9 @@ The year **2024** marked a major shift from conventional vector-based Retrieval-
 
 - **[Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)** – One of the most comprehensive surveys covering RAG architectures, indexing, retrieval strategies, generation, and evaluation. `Survey` `RAG`
 
-- **[Graph Retrieval-Augmented Generation: A Survey](https://arxiv.org/search/?query=Graph+Retrieval-Augmented+Generation&searchtype=all)** – Emerging survey literature reviewing graph-enhanced retrieval, knowledge graphs, and multi-hop reasoning. `GraphRAG`
+- **[Graph Retrieval-Augmented Generation: A Survey](https://arxiv.org/abs/2408.08921)** – Systematic review of GraphRAG methods, covering graph-based indexing, retrieval, and generation techniques and their advantages over purely vector-based RAG. `GraphRAG` `Survey`
 
-- **[A Survey of Retrieval-Augmented Generation for Large Language Models](https://arxiv.org/search/?query=Retrieval-Augmented+Generation+Survey&searchtype=all)** – Reviews modern retrieval pipelines, benchmarks, and future research directions. `Survey`
+- **[A Survey on Retrieval-Augmented Text Generation for Large Language Models](https://arxiv.org/abs/2404.10981)** – Reviews the evolution from Naive RAG to Advanced and Modular RAG, covering retrieval, generation, and augmentation techniques. `Survey`
 
 ---
 
@@ -1272,6 +1568,146 @@ Streaming data processing framework supporting continuously updated retrieval in
 
 ---
 
+### R2R
+
+- 💻 https://github.com/SciPhi-AI/R2R
+
+Production-ready, agentic RAG engine with a RESTful API bundling hybrid search, knowledge-graph extraction, multimodal ingestion, and app/user management.
+
+`Framework` `Agentic`
+
+---
+
+### RAGFlow
+
+- 💻 https://github.com/infiniflow/ragflow
+
+Open-source RAG engine built around deep document understanding, with visualized chunking, traceable citations, and configurable retrieval/reranking pipelines.
+
+`Framework` `Document Analysis`
+
+---
+
+## Advanced Retrieval & RAG Papers
+
+### Corrective RAG (CRAG)
+
+- 📄 Paper: https://arxiv.org/abs/2401.15884
+- 💻 Code: https://github.com/HuskyInSalt/CRAG
+
+Adds a lightweight retrieval evaluator that grades retrieved documents and triggers corrective actions (web search fallback, knowledge refinement) when retrieval confidence is low.
+
+`Self-Correction`
+
+---
+
+### Adaptive-RAG
+
+- 📄 Paper: https://arxiv.org/abs/2403.14403
+- 💻 Code: https://github.com/starsuzi/Adaptive-RAG
+
+Trains a lightweight query-complexity classifier to dynamically route queries between no-retrieval, single-step, and multi-step retrieval strategies.
+
+`Query Routing`
+
+---
+
+### RQ-RAG
+
+- 📄 Paper: https://arxiv.org/abs/2404.00610
+- 💻 Code: https://github.com/chanchimin/RQ-RAG
+
+Trains LLMs to explicitly rewrite, decompose, and disambiguate queries before retrieval, improving performance on ambiguous and multi-hop questions.
+
+`Query Rewriting`
+
+---
+
+### RAFT (Retrieval-Augmented Fine-Tuning)
+
+- 📄 Paper: https://arxiv.org/abs/2403.10131
+
+Fine-tunes models to answer from retrieved context while learning to ignore irrelevant "distractor" documents, improving domain-specific open-book QA.
+
+`Fine-Tuning`
+
+---
+
+### RankRAG
+
+- 📄 Paper: https://arxiv.org/abs/2407.02485
+
+Instruction-tunes a single LLM for both context ranking and answer generation, outperforming pipelines that use a separate expert reranker.
+
+`Reranking`
+
+---
+
+### Speculative RAG
+
+- 📄 Paper: https://arxiv.org/abs/2407.08223
+
+Uses a smaller specialist LM to draft multiple answers from retrieved document subsets in parallel, which a larger generalist LM then verifies — reducing latency and hallucination.
+
+`Efficiency`
+
+---
+
+### RAGTruth
+
+- 📄 Paper: https://arxiv.org/abs/2401.00396
+- 💻 Code: https://github.com/ParticleMedia/RAGTruth
+
+Word-level hallucination corpus (~18K annotated LLM responses) for training and benchmarking hallucination-detection models in RAG settings.
+
+`Benchmark` `Hallucination`
+
+---
+
+### CRUD-RAG
+
+- 📄 Paper: https://arxiv.org/abs/2401.17043
+- 💻 Code: https://github.com/IAAR-Shanghai/CRUD_RAG
+
+Comprehensive Chinese RAG benchmark organized around Create/Read/Update/Delete task categories, evaluating retrieval and generation jointly.
+
+`Benchmark`
+
+---
+
+### MultiHop-RAG
+
+- 📄 Paper: https://arxiv.org/abs/2401.15391
+- 💻 Code: https://github.com/yixuantt/MultiHop-RAG
+
+Dataset and benchmark purpose-built for evaluating RAG systems on queries that require retrieving and reasoning over multiple supporting documents.
+
+`Benchmark` `Multi-hop Retrieval`
+
+---
+
+### RULER
+
+- 📄 Paper: https://arxiv.org/abs/2404.06654
+- 💻 Code: https://github.com/NVIDIA/RULER
+
+Synthetic long-context benchmark extending needle-in-a-haystack testing with multi-hop tracing and aggregation tasks, widely used to stress-test long-context retrieval claims.
+
+`Benchmark` `Long-Context`
+
+---
+
+### RAGChecker
+
+- 📄 Paper: https://arxiv.org/abs/2408.08067
+- 💻 Code: https://github.com/amazon-science/RAGChecker
+
+Claim-level, fine-grained diagnostic framework scoring both retrieval and generation modules separately, correlating better with human judgment than response-level metrics.
+
+`Evaluation`
+
+---
+
 # 🌐 GraphRAG & Knowledge Graph Systems
 
 ### OpenSPG / KAG
@@ -1300,7 +1736,7 @@ Constructs long-term graph memories that enable more reliable multi-hop reasonin
 
 - 📄 Paper: https://arxiv.org/abs/2405.12035
 
-Combines vector retrieval with structured knowledge graph reasoning to improve factual grounding.
+Uses a knowledge graph as external structured memory to ground LLM generation, bridging factual retrieval with creative/long-form text generation.
 
 `Knowledge Graph`
 
@@ -1308,11 +1744,63 @@ Combines vector retrieval with structured knowledge graph reasoning to improve f
 
 ### G-Retriever
 
-- 📄 Paper: https://proceedings.neurips.cc/paper_files/paper/2024/hash/efaf1c9726648c8ba363a5c927440529-Abstract-Conference.html
+- 📄 Paper: https://arxiv.org/abs/2402.07630
+- 💻 Code: https://github.com/XiaoxinHe/G-Retriever
+- 🌐 Proceedings: https://proceedings.neurips.cc/paper_files/paper/2024/hash/efaf1c9726648c8ba363a5c927440529-Abstract-Conference.html
 
-Graph neural retrieval framework enabling LLMs to retrieve graph-structured knowledge.
+Graph neural retrieval framework (NeurIPS 2024) combining GNNs, LLMs, and RAG to enable question answering over general textual graphs via soft prompting.
 
 `Graph Retrieval`
+
+---
+
+### nano-graphrag
+
+- 💻 https://github.com/gusye1234/nano-graphrag
+
+A simple, easy-to-hack ~1,100-line reimplementation of GraphRAG's core functionality, designed for readability and rapid experimentation.
+
+`GraphRAG` `Lightweight`
+
+---
+
+### GraphRAG-SDK (FalkorDB)
+
+- 💻 https://github.com/FalkorDB/GraphRAG-SDK
+
+Toolkit for building GraphRAG systems on FalkorDB with ontology management and multi-path retrieval (vector, full-text, Cypher, relationship expansion) combined via reranking.
+
+`GraphRAG` `Framework`
+
+---
+
+### Cognee
+
+- 💻 https://github.com/topoteretes/cognee
+
+Open-source AI memory platform that continuously builds a self-hosted knowledge graph from ingested data, combining vector embeddings and graph reasoning for persistent agent memory.
+
+`Graph Memory`
+
+---
+
+### Neo4j LLM Graph Builder
+
+- 💻 https://github.com/neo4j-labs/llm-graph-builder
+
+Turns unstructured text, PDFs, and web pages into a Neo4j knowledge graph (lexical + entity graph) using LLM-based extraction, then supports GraphRAG, vector, and Text2Cypher retrieval.
+
+`Knowledge Graph` `Tooling`
+
+---
+
+### Kuzu
+
+- 💻 https://github.com/kuzudb/kuzu
+
+Embedded, in-process property graph database implementing Cypher with built-in vector and full-text indexes — used as a lightweight backend for GraphRAG pipelines.
+
+`Graph Database`
 
 ---
 
@@ -1374,6 +1862,46 @@ Continued expansion into enterprise-scale document ingestion with improved layou
 
 ---
 
+### Marker
+
+- 💻 https://github.com/datalab-to/marker
+
+Converts PDFs (and Office/EPUB/HTML formats) to Markdown/JSON quickly and accurately, handling tables, forms, equations, and inline math with low hallucination risk.
+
+`PDF` `Document Parsing`
+
+---
+
+### PyMuPDF4LLM
+
+- 💻 https://github.com/pymupdf/pymupdf4llm
+
+Lightweight PyMuPDF extension converting PDFs to structured Markdown/JSON optimized for RAG ingestion, preserving multi-column reading order and tables.
+
+`PDF` `Document Parsing`
+
+---
+
+### Firecrawl
+
+- 💻 https://github.com/firecrawl/firecrawl
+
+API for turning entire websites into clean, LLM-ready Markdown or structured data — scrape, crawl, and search in one call, commonly used for web-RAG ingestion.
+
+`Web RAG` `Crawling`
+
+---
+
+### Reducto
+
+- 🌐 https://reducto.ai
+
+Commercial agentic document platform performing layout-aware OCR and parsing on complex real-world files (tables, handwritten forms, mixed languages) for RAG pipelines.
+
+`Document Parsing` `Commercial`
+
+---
+
 # 🤖 Agentic & Reasoning-Centric Retrieval
 
 ### AutoGen
@@ -1418,6 +1946,26 @@ Open-source autonomous software engineering agent utilizing retrieval for coding
 - 💻 https://github.com/camel-ai/camel
 
 Framework for cooperative autonomous agents frequently used in retrieval-enhanced workflows.
+
+---
+
+### AG2 (AutoGen community fork)
+
+- 💻 https://github.com/ag2ai/ag2
+
+Community-governed continuation of AutoGen's v0.2 API line, maintained by AutoGen's original creators under open governance after Microsoft's v0.4 rewrite.
+
+`Agent` `Multi-Agent`
+
+---
+
+### OpenAI Swarm
+
+- 💻 https://github.com/openai/swarm
+
+Educational, lightweight multi-agent orchestration framework introducing "routines" and "handoffs" as minimal abstractions for agent coordination.
+
+`Agent` `Multi-Agent`
 
 ---
 
@@ -1479,6 +2027,26 @@ Large-scale serving engine supporting hybrid search, ranking, and recommendation
 
 ---
 
+### turbopuffer
+
+- 🌐 https://turbopuffer.com
+
+Serverless vector + full-text search database built directly on object storage (S3/GCS), offering BM25 + vector hybrid search with tiered NVMe/memory caching.
+
+`Vector Database` `Serverless`
+
+---
+
+### DuckDB VSS
+
+- 💻 https://github.com/duckdb/duckdb-vss
+
+Vector Similarity Search extension for DuckDB, adding HNSW-indexed nearest-neighbor search to the embedded analytical database for local/offline RAG pipelines.
+
+`Vector Database` `Embedded`
+
+---
+
 # 📊 Evaluation & Benchmarks
 
 ### RAGAS
@@ -1517,6 +2085,16 @@ Automatic evaluation framework for retrieval systems using LLM judges.
 
 ---
 
+### Comet Opik
+
+- 💻 https://github.com/comet-ml/opik
+
+Open-source LLM observability and evaluation platform (Apache-2.0) offering distributed tracing, LLM-as-judge metrics, prompt management, and CI/CD evaluation for RAG/agent pipelines.
+
+`Observability` `Evaluation`
+
+---
+
 # 🔢 Embedding Models
 
 ### BGE-M3
@@ -1536,6 +2114,27 @@ Open embedding models supporting retrieval across long documents.
 
 ---
 
+### Jina Embeddings v3
+
+- 📄 Paper: https://arxiv.org/abs/2409.10173
+- 🌐 https://jina.ai/models/jina-embeddings-v3/
+
+570M-parameter multilingual, multi-task embedding model with task-specific LoRA adapters and Matryoshka representation learning for flexible-dimension retrieval.
+
+`Embedding Model` `Multilingual`
+
+---
+
+### Snowflake Arctic Embed
+
+- 💻 https://github.com/Snowflake-Labs/arctic-embed
+
+Suite of retrieval-optimized text embedding models (22M–large parameter sizes) achieving state-of-the-art MTEB/BEIR results for their size class.
+
+`Embedding Model`
+
+---
+
 # 📈 Major Trends in 2024
 
 - Microsoft popularized **GraphRAG** as a practical architecture for enterprise knowledge retrieval.
@@ -1546,6 +2145,8 @@ Open embedding models supporting retrieval across long documents.
 - Evaluation frameworks matured with RAGAS, ARES, CRUD-RAG, and RGB.
 - Hybrid retrieval (dense + sparse + graph) became the dominant architecture for production RAG systems.
 - Long-context embeddings and structured retrieval pipelines significantly improved enterprise search.
+- A wave of RAG failure-mode papers (CRAG, Adaptive-RAG, RAFT, Speculative RAG) targeted robustness, latency, and hallucination rather than raw retrieval accuracy.
+- Purpose-built RAG observability/evaluation platforms (Comet Opik, Arize Phoenix, Langfuse) became standard alongside RAGAS/ARES.
 
 ---
 
@@ -1569,23 +2170,23 @@ Systematic evaluation comparing traditional retrieval pipelines against graph-ba
 
 ---
 
-### Agentic Retrieval Surveys
+### Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG
 
-- 📄 https://arxiv.org/search/?query=Agentic+Retrieval+Survey&searchtype=all
+- 📄 https://arxiv.org/abs/2501.09136
 
-Emerging survey literature covering planning agents, retrieval agents, memory systems, and tool-augmented reasoning.
+Comprehensive survey of Agentic RAG, taxonomizing architectures that embed autonomous agents (reflection, planning, tool use, multi-agent collaboration) into the retrieval pipeline.
 
 `Agentic`
 
 ---
 
-### Knowledge-Augmented Generation Surveys
+### A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models
 
-- 📄 https://arxiv.org/search/?query=Knowledge+Augmented+Generation+Survey&searchtype=all
+- 📄 https://arxiv.org/abs/2501.13958
 
-Reviews symbolic retrieval, knowledge graphs, logical reasoning, and graph-native generation.
+Reviews knowledge-graph-augmented generation approaches, covering graph construction, retrieval, and customization strategies for domain-specific LLMs.
 
-`KAG`
+`KAG` `GraphRAG`
 
 ---
 
@@ -1650,6 +2251,36 @@ Multi-agent ecosystem supporting collaborative retrieval and reasoning.
 
 ---
 
+### smolagents
+
+- 💻 https://github.com/huggingface/smolagents
+
+Hugging Face's barebones (~1,000 LOC) agent library where agents write actions in code rather than JSON tool calls, with sandboxed execution and model-agnostic LLM support.
+
+`Agent` `Lightweight`
+
+---
+
+### Agno (formerly Phidata)
+
+- 💻 https://github.com/agno-agi/agno
+
+High-performance agent runtime for building, running, and managing agent platforms, emphasizing fast agent instantiation and low memory overhead over graph/chain abstractions.
+
+`Agent` `Framework`
+
+---
+
+### PydanticAI
+
+- 💻 https://github.com/pydantic/pydantic-ai
+
+Type-safe, model-agnostic Python agent framework from the Pydantic team, combining structured response validation with dependency injection for retrieval tools and data sources.
+
+`Agent` `Framework`
+
+---
+
 # 🧠 GraphRAG & Graph Memory
 
 ### Microsoft GraphRAG
@@ -1702,6 +2333,38 @@ Temporal knowledge graph memory framework designed for continuously evolving inf
 Attributed community-based hierarchical GraphRAG architecture extending Microsoft's GraphRAG design.
 
 `GraphRAG`
+
+---
+
+### Zep
+
+- 📄 Paper: https://arxiv.org/abs/2501.13956
+- 🌐 https://www.getzep.com
+
+Context engineering / agent-memory platform built on a bi-temporal knowledge graph (powered by the open-source Graphiti engine) that tracks when facts were true and when they were learned.
+
+`Graph Memory` `Agent Memory`
+
+---
+
+### Mem0
+
+- 📄 Paper: https://arxiv.org/abs/2504.19413
+- 💻 Code: https://github.com/mem0ai/mem0
+
+Universal, scalable memory layer for AI agents that extracts, consolidates, and retrieves key conversational facts; includes a graph-based variant (Mem0g) modeling entity relationships.
+
+`Agent Memory`
+
+---
+
+### Letta (formerly MemGPT)
+
+- 💻 https://github.com/letta-ai/letta
+
+Platform for building stateful agents with transparent, tiered long-term memory that persists and improves across sessions; the production evolution of the MemGPT research project.
+
+`Agent Memory` `Framework`
 
 ---
 
@@ -1837,7 +2500,7 @@ Industry-standard evaluation framework for RAG systems.
 
 ### ARES
 
-- 📄 https://arxiv.org/abs/2406.06643
+- 📄 https://arxiv.org/abs/2311.09476
 - 💻 https://github.com/stanford-futuredata/ARES
 
 Automatic retrieval evaluation using LLM judges.
@@ -1911,12 +2574,13 @@ Observability platform supporting tracing and debugging of retrieval workflows.
 - Agentic retrieval became mainstream.
 - Retrieval planning replaced single-shot retrieval.
 - Deep Research systems demonstrated long-horizon retrieval workflows.
-- GraphRAG matured into production deployments.
+- GraphRAG matured into production deployments; **LazyGraphRAG** showed that graph-quality answers are achievable at near-vector-RAG indexing cost by deferring graph summarization to query time.
 - Knowledge graph retrieval experienced renewed adoption.
 - Retrieval observability and evaluation became mandatory in enterprise environments.
 - Multimodal retrieval increasingly supported PDFs, tables, images, and scientific documents.
-- Memory-centric architectures emerged as a major research direction.
+- Memory-centric architectures emerged as a major research direction, with dedicated agent-memory products (Zep, Mem0, Letta, Cognee) competing alongside DIY graph-memory stacks.
 - Graph memory systems such as HippoRAG and Graphiti expanded retrieval beyond vector search alone.
+- Lightweight, code-first agent frameworks (smolagents, PydanticAI, Agno) gained adoption as leaner alternatives to heavier orchestration graphs for retrieval agents.
 
 ---
 
@@ -2034,6 +2698,11 @@ Document-centric Retrieval-Augmented Generation focuses on extracting, indexing,
 | **LlamaParse** | https://www.llamaindex.ai/llamaparse | High-quality document parsing service |
 | **Apache Tika** | https://github.com/apache/tika | Metadata and content extraction |
 | **Nougat** | https://github.com/facebookresearch/nougat | OCR-free scientific document parsing |
+| **Marker** | https://github.com/datalab-to/marker | Fast, accurate PDF → Markdown/JSON conversion |
+| **PyMuPDF4LLM** | https://github.com/pymupdf/pymupdf4llm | PDF → structured Markdown for RAG ingestion |
+| **Firecrawl** | https://github.com/firecrawl/firecrawl | Website → LLM-ready Markdown scraping/crawling |
+| **Reducto** | https://reducto.ai | Commercial layout-aware document parsing API |
+| **RAGFlow** | https://github.com/infiniflow/ragflow | Deep-document-understanding RAG engine |
 
 Typical pipeline:
 
@@ -2075,6 +2744,12 @@ Graph-based retrieval enriches traditional vector search by explicitly modeling 
 | HippoRAG | https://github.com/OSU-NLP-Group/HippoRAG |
 | Neo4j GraphRAG | https://github.com/neo4j/neo4j-graphrag-python |
 | Graphiti | https://github.com/getzep/graphiti |
+| nano-graphrag | https://github.com/gusye1234/nano-graphrag |
+| GraphRAG-SDK | https://github.com/FalkorDB/GraphRAG-SDK |
+| Cognee | https://github.com/topoteretes/cognee |
+| Neo4j LLM Graph Builder | https://github.com/neo4j-labs/llm-graph-builder |
+| Zep | https://www.getzep.com |
+| Kuzu | https://github.com/kuzudb/kuzu |
 
 ### Typical GraphRAG Workflow
 
@@ -2112,9 +2787,16 @@ Unlike conventional RAG pipelines, agentic retrieval systems can autonomously pl
 |-----------|------------|
 | LangGraph | https://github.com/langchain-ai/langgraph |
 | AutoGen | https://github.com/microsoft/autogen |
+| AG2 (AutoGen fork) | https://github.com/ag2ai/ag2 |
 | CrewAI | https://github.com/crewAIInc/crewAI |
 | CAMEL | https://github.com/camel-ai/camel |
 | OpenHands | https://github.com/All-Hands-AI/OpenHands |
+| smolagents | https://github.com/huggingface/smolagents |
+| Agno (formerly Phidata) | https://github.com/agno-agi/agno |
+| PydanticAI | https://github.com/pydantic/pydantic-ai |
+| OpenAI Swarm | https://github.com/openai/swarm |
+| Letta (formerly MemGPT) | https://github.com/letta-ai/letta |
+| Mem0 | https://github.com/mem0ai/mem0 |
 
 Typical reasoning loop:
 
@@ -2155,6 +2837,12 @@ Vector databases provide scalable similarity search for dense embeddings and ser
 | LanceDB | https://github.com/lancedb/lancedb |
 | Pinecone | https://www.pinecone.io |
 | Vespa | https://github.com/vespa-engine/vespa |
+| pgvector | https://github.com/pgvector/pgvector |
+| Redis Vector Search | https://redis.io/docs/latest/develop/interact/search-and-query/advanced-concepts/vectors/ |
+| MongoDB Atlas Vector Search | https://www.mongodb.com/products/platform/atlas-vector-search |
+| turbopuffer | https://turbopuffer.com |
+| DuckDB VSS | https://github.com/duckdb/duckdb-vss |
+| txtai | https://github.com/neuml/txtai |
 
 ---
 
@@ -2171,6 +2859,11 @@ Evaluation is essential for understanding retrieval quality, groundedness, and a
 | DeepEval | https://github.com/confident-ai/deepeval |
 | ARES | https://github.com/stanford-futuredata/ARES |
 | LangSmith | https://smith.langchain.com |
+| RAGChecker | https://github.com/amazon-science/RAGChecker |
+| Langfuse | https://github.com/langfuse/langfuse |
+| Arize Phoenix | https://github.com/Arize-ai/phoenix |
+| Comet Opik | https://github.com/comet-ml/opik |
+| Giskard | https://github.com/Giskard-AI/giskard-oss |
 
 Common metrics include:
 
@@ -2191,7 +2884,7 @@ Common metrics include:
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for full details.
 
-> 💡 **Tip:** Fork the repo, add your entry under the correct year and category, and open a pull request.
+> 💡 **Tip:** Prefer the **[Add a Paper](https://github.com/amirrezaalasti/Awesome-Retrieval-Systems-for-LLMs/issues/new?template=add-paper.yml)** or **[Add a Resource](https://github.com/amirrezaalasti/Awesome-Retrieval-Systems-for-LLMs/issues/new?template=add-resource.yml)** issue forms — a workflow checks formatting and duplicates automatically. You can also fork the repo, edit `Readme.md`, and open a pull request.
 
 ## Adding a New Entry
 

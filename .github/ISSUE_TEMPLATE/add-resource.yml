@@ -1,0 +1,132 @@
+name: 🛠️ Add a Resource
+description: Propose software, a framework, benchmark, dataset, or other retrieval resource.
+title: "[resource] "
+labels: ["contribution: resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Fill out every required field.
+        A GitHub Action will automatically check formatting and look for duplicates in `Readme.md`.
+
+        At least one of **Code URL** or **Project URL** is required.
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Project or resource name as it should appear in the README.
+      placeholder: LlamaIndex
+    validations:
+      required: true
+
+  - type: dropdown
+    id: resource_type
+    attributes:
+      label: Resource Type
+      options:
+        - Framework / Library
+        - Vector Database
+        - Benchmark / Dataset
+        - Evaluation Toolkit
+        - Embedding Model
+        - Infrastructure / Tooling
+        - Enterprise / Product
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: code_url
+    attributes:
+      label: Code URL
+      description: Preferred for open-source projects (GitHub URL when available).
+      placeholder: https://github.com/org/repo
+
+  - type: input
+    id: paper_url
+    attributes:
+      label: Paper URL
+      description: Optional related paper (arXiv preferred).
+      placeholder: https://arxiv.org/abs/xxxx.xxxxx
+
+  - type: input
+    id: project_url
+    attributes:
+      label: Project URL
+      description: Docs, homepage, or product page.
+      placeholder: https://example.com
+
+  - type: dropdown
+    id: year
+    attributes:
+      label: Year
+      description: Year section where this entry belongs (usually first public release relevant to RAG/LLMs).
+      options:
+        - "2019"
+        - "2020"
+        - "2021"
+        - "2022"
+        - "2023"
+        - "2024"
+        - "2025"
+        - "2026"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Closest matching README category for that year.
+      options:
+        - RAG Systems & Frameworks
+        - RAG Frameworks
+        - Retrieval Frameworks
+        - Advanced Retrieval
+        - Document Retrieval
+        - Document & Enterprise RAG
+        - Multimodal Retrieval
+        - Agentic Retrieval
+        - Vector Databases
+        - Search Infrastructure
+        - Embedding Models
+        - Evaluation
+        - Evaluation & Benchmarks
+        - Benchmarks
+        - Knowledge Retrieval
+        - Surveys
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One or two sentences explaining what the resource does and why it belongs here.
+      placeholder: A data framework for connecting LLMs with external data sources for RAG applications.
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Space-separated tags in backticks (e.g. `RAG` `Framework`).
+      placeholder: "`RAG` `Framework`"
+      value: "`RAG`"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched `Readme.md` and believe this resource is not already listed.
+          required: true
+        - label: The resource is retrieval-centric and relevant to LLMs.
+          required: true
+        - label: Links are public and work in a private/incognito window.
+          required: true

@@ -2,6 +2,38 @@
 
 Thank you for helping keep this list comprehensive, accurate, and up to date!
 
+## 🚀 Recommended: Open an Issue Form
+
+The easiest way to propose a new entry is to open a structured GitHub issue. A workflow then checks formatting and looks for duplicates in `Readme.md`.
+
+1. Open **[New Issue](https://github.com/amirrezaalasti/Awesome-Retrieval-Systems-for-LLMs/issues/new/choose)**.
+2. Choose one of:
+   - **📄 Add a Paper** — research papers and surveys
+   - **🛠️ Add a Resource** — frameworks, vector DBs, benchmarks, tools, etc.
+3. Fill in every required field and submit.
+4. Wait for the **Validate Contribution Issue** check. It will comment with:
+   - syntax / field errors
+   - possible duplicates (name, arXiv ID, GitHub repo, URL)
+   - a suggested README snippet if checks pass
+
+| Label | Meaning |
+| --- | --- |
+| `contribution: paper` / `contribution: resource` | Submission type from the issue form |
+| `validation: passed` | Automatic checks succeeded |
+| `validation: failed` | Fix the reported field/syntax problems |
+| `validation: duplicate` | Entry appears to already exist in `Readme.md` |
+
+After validation passes, maintainers (or you via PR) can add the suggested snippet under the correct year and category.
+
+You can also run the same checks locally:
+
+```bash
+python scripts/validate_contribution.py \
+  --body-file /path/to/issue_body.md \
+  --title "[paper] Example" \
+  --labels "contribution: paper"
+```
+
 ## 📋 Before You Submit
 
 1. Search existing entries to avoid duplicates.
@@ -50,7 +82,9 @@ We welcome:
 - 🏢 Enterprise retrieval tools
 - 🤖 Agentic retrieval frameworks
 
-## 🚀 How to Contribute
+## 🔧 Alternative: Pull Request
+
+If you prefer to edit the README yourself:
 
 1. Fork the repository.
 2. Create a branch for your changes.
@@ -62,6 +96,7 @@ We welcome:
 - Keep PRs focused on a single topic or year when possible.
 - Use conventional commit messages (e.g., `docs: add LightRAG to 2024 section`).
 - Double-check all links before submitting.
+- Prefer opening an issue form first so automatic validation can run.
 
 ## 🐛 Reporting Issues
 
@@ -71,6 +106,8 @@ Open a GitHub issue for:
 - Missing widely-used projects
 - Categorization corrections
 - Typos or formatting problems
+
+For new papers/resources, prefer the dedicated issue forms above.
 
 ## 📜 License
 
